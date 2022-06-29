@@ -13,8 +13,7 @@ const config = {
     adapter: adapter(),
     paths: {
       base: isDev ? '' : '/static-poke-dex'
-    },
-    appDir: 'internal'
+    }
   }
 };
 
