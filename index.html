@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang='zh-hans'>
-<head>
-  <meta charset='utf-8' />
-  <link rel='icon' href='/static-poke-dex/favicon.png' />
-  <meta name='viewport' content='width=device-width, initial-scale=1' />
-  <meta http-equiv="content-security-policy" content="">
-	<link rel="modulepreload" href="/static-poke-dex/_app/immutable/start-6f77c5ce.js">
-	<link rel="modulepreload" href="/static-poke-dex/_app/immutable/chunks/index-9e95d91f.js">
-  <style>
-    h1, h2, h3, h4, h5, h6, p {
-      margin: 0;
-      padding: 0;
-    }
-  </style>
-</head>
-<body>
-<div id='app' style='padding: 10px'>
+<html lang="zh-hans">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/static-poke-dex/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/smui.css" />
+    <meta http-equiv="content-security-policy" content="">
+	<link rel="modulepreload" href="/static-poke-dex/_app/immutable/start-e9345eff.js">
+	<link rel="modulepreload" href="/static-poke-dex/_app/immutable/chunks/index-e3a4cd06.js">
+	<link rel="modulepreload" href="/static-poke-dex/_app/immutable/chunks/index-d4e7b82a.js">
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" style="padding: 10px">
 		<script type="module" data-sveltekit-hydrate="45h">
-		import { start } from "/static-poke-dex/_app/immutable/start-6f77c5ce.js";
+		import { start } from "/static-poke-dex/_app/immutable/start-e9345eff.js";
 		start({
 			target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
 			paths: {"base":"/static-poke-dex","assets":"/static-poke-dex"},
@@ -28,5 +36,5 @@
 			hydrate: null
 		});
 	</script></div>
-</body>
+  </body>
 </html>
