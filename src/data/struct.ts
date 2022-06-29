@@ -1,5 +1,5 @@
 import POKEMON_LIST from 'pokesprite-images/data/pokemon.json';
-import { padStart } from 'lodash';
+import padStart from 'lodash/padStart.js';
 import type { TPokemonInfo } from '../types/base';
 
 export function getPokemonInfo(no: string | number): TPokemonInfo {
