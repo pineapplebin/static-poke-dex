@@ -1,9 +1,12 @@
 <script lang="ts">
+  import { createEventDispatcher } from 'svelte';
   import { checkIsSolid } from './utils';
 
   export let generation: string = '';
   export let game: string = '';
   export let available: string = '';
+
+  const dispatcher = createEventDispatcher<{ check: string }>();
 
   interface TComputedAvailable {
     gen: string;
@@ -30,11 +33,15 @@
       };
     }
   }
+
+  function handleCheck() {
+    dispatcher('check', available);
+  }
 </script>
 
 {#if cAvailable}
   {@const clz = `${cAvailable.gen}-${cAvailable.game}${cAvailable.solid ? '-solid' : ''}`}
-  <td class={clz}>
+  <td class={clz} on:click={handleCheck}>
     {available}
   </td>
 {:else}

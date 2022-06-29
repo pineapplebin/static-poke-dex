@@ -63,6 +63,7 @@
                   {available}
                   game={genData.games[gameIndex]}
                   generation={genData.name}
+                  on:check
                 />
               {/each}
             {/each}

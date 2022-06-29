@@ -6,11 +6,15 @@
   import G8Data from '../data/gen-8.json';
 
   import PokeTable from '../components/PokeTable.svelte';
+  import AvailableDescDialog from '../components/AvailableDescDialog/index.svelte';
 
   const genData = [
     { title: 'Generation 7', data: [G7Data, G72Data] },
     { title: 'Generation 8', data: [G8Data] }
   ];
+
+  let openDialog = false;
+  let currentAvailable: string = '';
 </script>
 
 <h2>List of Pokemon by availability</h2>
@@ -20,13 +24,22 @@
     <h3 id={gen.title.replace(/\s/g, '_')}>{gen.title}</h3>
   {/if}
   {#each gen.data as table}
-    <PokeTable head={table.head} data={table.body} />
+    <PokeTable
+      head={table.head}
+      data={table.body}
+      on:check={(e) => {
+        openDialog = true;
+        currentAvailable = e.detail;
+      }}
+    />
   {/each}
 {/each}
 
+<AvailableDescDialog bind:open={openDialog} {currentAvailable} />
+
 <style>
   h3 {
-    z-index: 10;
+    z-index: 2;
     position: sticky;
     top: 0;
     margin: 10px 0;
