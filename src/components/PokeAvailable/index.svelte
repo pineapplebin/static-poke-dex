@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { checkIsSolid } from './utils';
+
   export let generation: string = '';
   export let game: string = '';
   export let available: string = '';
@@ -17,10 +19,6 @@
   // gen 6: x / y / or / as
   // gen 7: s / m / us / um / lp / le
   // gen 8: sw / sh / bd / sp / la
-
-  function checkIsSolid(available: string): boolean {
-    return ['—'].indexOf(available) === -1;
-  }
 
   let cAvailable: TComputedAvailable | null = null;
   $: {
@@ -57,12 +55,20 @@
   @mixin gen($gen, $game, $color) {
     .#{$gen}-#{$game} {
       color: $color;
-      background: transparent;
+      background: white;
     }
     .#{$gen}-#{$game}-solid {
-      background: $color;
+      background: $color !important;
     }
   }
+
+  /* gen 7 */
+  @include gen('VII', 's', #f1912b);
+  @include gen('VII', 'm', #5599ca);
+  @include gen('VII', 'us', #e95b2b);
+  @include gen('VII', 'um', #226db5);
+  @include gen('VII', 'lp', #f5da26);
+  @include gen('VII', 'le', #d4924b);
 
   /* gen 8 */
   @include gen('VIII', 'sw', #00a1e9);

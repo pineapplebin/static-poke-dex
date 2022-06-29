@@ -11,5 +11,6 @@ export type TGenData = string[];
 export interface TTableRowData {
   no: string;
   name: string;
+  form?: string;
   data: TGenData[];
 }

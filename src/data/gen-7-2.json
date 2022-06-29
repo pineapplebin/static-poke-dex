@@ -1,0 +1,36 @@
+{
+  "head": [
+    {
+      "span": 2,
+      "name": "VII",
+      "start": 0,
+      "end": 2,
+      "games": ["lp", "le"]
+    },
+    {
+      "span": 2,
+      "name": "VIII",
+      "start": 2,
+      "end": 4,
+      "games": ["sw", "sh"]
+    }
+  ],
+  "body": [
+    {
+      "no": "808",
+      "name": "Meltan",
+      "data": [
+        ["T", "T"],
+        ["T", "T"]
+      ]
+    },
+    {
+      "no": "809",
+      "name": "Melmetal",
+      "data": [
+        ["T", "T"],
+        ["T", "T"]
+      ]
+    }
+  ]
+}
