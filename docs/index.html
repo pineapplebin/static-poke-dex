@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='zh-hans'>
+<head>
+  <meta charset='utf-8' />
+  <link rel='icon' href='/static-poke-dex/favicon.png' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta http-equiv="content-security-policy" content="">
+	<link rel="modulepreload" href="/static-poke-dex/_app/immutable/start-6c84a9ef.js">
+	<link rel="modulepreload" href="/static-poke-dex/_app/immutable/chunks/index-8df1e5ed.js">
+  <style>
+    h1, h2, h3, h4, h5, h6, p {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+<div id='app' style='padding: 10px'>
+		<script type="module" data-sveltekit-hydrate="45h">
+		import { start } from "/static-poke-dex/_app/immutable/start-6c84a9ef.js";
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
+			paths: {"base":"/static-poke-dex","assets":"/static-poke-dex"},
+			session: {},
+			route: true,
+			spa: true,
+			trailing_slash: "never",
+			hydrate: null
+		});
+	</script></div>
+</body>
+</html>
