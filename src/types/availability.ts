@@ -3,12 +3,13 @@ export interface TTableHead {
   span: number;
   start: number;
   end: number;
+  games: string[];
 }
 
-export type TGenData = string[]
+export type TGenData = string[];
 
 export interface TTableRowData {
-  no: number;
+  no: string;
   name: string;
   data: TGenData[];
 }

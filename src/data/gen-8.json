@@ -4,1065 +4,490 @@
       "span": 3,
       "name": "VIII",
       "start": 0,
-      "end": 3
+      "end": 3,
+      "games": ["sw", "sh", "la"]
     }
   ],
   "body": [
     {
       "no": "810",
       "name": "Grookey",
-      "data": [
-        [
-          "R",
-          "R",
-          "—"
-        ]
-      ]
+      "data": [["R", "R", "—"]]
     },
     {
       "no": "811",
       "name": "Thwackey",
-      "data": [
-        [
-          "E",
-          "E",
-          "—"
-        ]
-      ]
+      "data": [["E", "E", "—"]]
     },
     {
       "no": "812",
       "name": "Rillaboom",
-      "data": [
-        [
-          "E",
-          "E",
-          "—"
-        ]
-      ]
+      "data": [["E", "E", "—"]]
     },
     {
       "no": "813",
       "name": "Scorbunny",
-      "data": [
-        [
-          "R",
-          "R",
-          "—"
-        ]
-      ]
+      "data": [["R", "R", "—"]]
     },
     {
       "no": "814",
       "name": "Raboot",
-      "data": [
-        [
-          "E",
-          "E",
-          "—"
-        ]
-      ]
+      "data": [["E", "E", "—"]]
     },
     {
       "no": "815",
       "name": "Cinderace",
-      "data": [
-        [
-          "E",
-          "E",
-          "—"
-        ]
-      ]
+      "data": [["E", "E", "—"]]
     },
     {
       "no": "816",
       "name": "Sobble",
-      "data": [
-        [
-          "R",
-          "R",
-          "—"
-        ]
-      ]
+      "data": [["R", "R", "—"]]
     },
     {
       "no": "817",
       "name": "Drizzile",
-      "data": [
-        [
-          "E",
-          "E",
-          "—"
-        ]
-      ]
+      "data": [["E", "E", "—"]]
     },
     {
       "no": "818",
       "name": "Inteleon",
-      "data": [
-        [
-          "E",
-          "E",
-          "—"
-        ]
-      ]
+      "data": [["E", "E", "—"]]
     },
     {
       "no": "819",
       "name": "Skwovet",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "820",
       "name": "Greedent",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "821",
       "name": "Rookidee",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "822",
       "name": "Corvisquire",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "823",
       "name": "Corviknight",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "824",
       "name": "Blipbug",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "825",
       "name": "Dottler",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "826",
       "name": "Orbeetle",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "827",
       "name": "Nickit",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "828",
       "name": "Thievul",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "829",
       "name": "Gossifleur",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "830",
       "name": "Eldegoss",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "831",
       "name": "Wooloo",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "832",
       "name": "Dubwool",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "833",
       "name": "Chewtle",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "834",
       "name": "Drednaw",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "835",
       "name": "Yamper",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "836",
       "name": "Boltund",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "837",
       "name": "Rolycoly",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "838",
       "name": "Carkol",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "839",
       "name": "Coalossal",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "840",
       "name": "Applin",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "841",
       "name": "Flapple",
-      "data": [
-        [
-          "D",
-          "T",
-          "—"
-        ]
-      ]
+      "data": [["D", "T", "—"]]
     },
     {
       "no": "842",
       "name": "Appletun",
-      "data": [
-        [
-          "T",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["T", "D", "—"]]
     },
     {
       "no": "843",
       "name": "Silicobra",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "844",
       "name": "Sandaconda",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "845",
       "name": "Cramorant",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "846",
       "name": "Arrokuda",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "847",
       "name": "Barraskewda",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "848",
       "name": "Toxel",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "849",
       "name": "Toxtricity",
-      "data": [
-        [
-          "D",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["D", "D", "—"]]
     },
     {
       "no": "850",
       "name": "Sizzlipede",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "851",
       "name": "Centiskorch",
-      "data": [
-        [
-          "D",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["D", "D", "—"]]
     },
     {
       "no": "852",
       "name": "Clobbopus",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "853",
       "name": "Grapploct",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "854",
       "name": "Sinistea",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "855",
       "name": "Polteageist",
-      "data": [
-        [
-          "D",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["D", "D", "—"]]
     },
     {
       "no": "856",
       "name": "Hatenna",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "857",
       "name": "Hattrem",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "858",
       "name": "Hatterene",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "859",
       "name": "Impidimp",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "860",
       "name": "Morgrem",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "861",
       "name": "Grimmsnarl",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "862",
       "name": "Obstagoon",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "863",
       "name": "Perrserker",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "864",
       "name": "Cursola",
-      "data": [
-        [
-          "T",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["T", "D", "—"]]
     },
     {
       "no": "865",
       "name": "Sirfetch'd",
-      "data": [
-        [
-          "D",
-          "T",
-          "—"
-        ]
-      ]
+      "data": [["D", "T", "—"]]
     },
     {
       "no": "866",
       "name": "Mr. Rime",
-      "data": [
-        [
-          "D",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["D", "D", "—"]]
     },
     {
       "no": "867",
       "name": "Runerigus",
-      "data": [
-        [
-          "D",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["D", "D", "—"]]
     },
     {
       "no": "868",
       "name": "Milcery",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "869",
       "name": "Alcremie",
-      "data": [
-        [
-          "D",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["D", "D", "—"]]
     },
     {
       "no": "870",
       "name": "Falinks",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "871",
       "name": "Pincurchin",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "872",
       "name": "Snom",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "873",
       "name": "Frosmoth",
-      "data": [
-        [
-          "D",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["D", "D", "—"]]
     },
     {
       "no": "874",
       "name": "Stonjourner",
-      "data": [
-        [
-          "C",
-          "T",
-          "—"
-        ]
-      ]
+      "data": [["C", "T", "—"]]
     },
     {
       "no": "875",
       "name": "Eiscue",
-      "data": [
-        [
-          "T",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["T", "C", "—"]]
     },
     {
       "no": "876",
       "name": "Indeedee",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "877",
       "name": "Morpeko",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "878",
       "name": "Cufant",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "879",
       "name": "Copperajah",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "880",
       "name": "Dracozolt",
-      "data": [
-        [
-          "R",
-          "R",
-          "—"
-        ]
-      ]
+      "data": [["R", "R", "—"]]
     },
     {
       "no": "881",
       "name": "Arctozolt",
-      "data": [
-        [
-          "R",
-          "R",
-          "—"
-        ]
-      ]
+      "data": [["R", "R", "—"]]
     },
     {
       "no": "882",
       "name": "Dracovish",
-      "data": [
-        [
-          "R",
-          "R",
-          "—"
-        ]
-      ]
+      "data": [["R", "R", "—"]]
     },
     {
       "no": "883",
       "name": "Arctovish",
-      "data": [
-        [
-          "R",
-          "R",
-          "—"
-        ]
-      ]
+      "data": [["R", "R", "—"]]
     },
     {
       "no": "884",
       "name": "Duraludon",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "885",
       "name": "Dreepy",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "886",
       "name": "Drakloak",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "887",
       "name": "Dragapult",
-      "data": [
-        [
-          "D",
-          "D",
-          "—"
-        ]
-      ]
+      "data": [["D", "D", "—"]]
     },
     {
       "no": "888",
       "name": "Zacian",
-      "data": [
-        [
-          "C",
-          "T",
-          "—"
-        ]
-      ]
+      "data": [["C", "T", "—"]]
     },
     {
       "no": "889",
       "name": "Zamazenta",
-      "data": [
-        [
-          "T",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["T", "C", "—"]]
     },
     {
       "no": "890",
       "name": "Eternatus",
-      "data": [
-        [
-          "C",
-          "C",
-          "—"
-        ]
-      ]
+      "data": [["C", "C", "—"]]
     },
     {
       "no": "891",
       "name": "Kubfu",
-      "data": [
-        [
-          "RD",
-          "RD",
-          "—"
-        ]
-      ]
+      "data": [["RD", "RD", "—"]]
     },
     {
       "no": "892",
       "name": "Urshifu",
-      "data": [
-        [
-          "ED",
-          "ED",
-          "—"
-        ]
-      ]
+      "data": [["ED", "ED", "—"]]
     },
     {
       "no": "893",
       "name": "Zarude",
-      "data": [
-        [
-          "Ev",
-          "Ev",
-          "—"
-        ]
-      ]
+      "data": [["Ev", "Ev", "—"]]
     },
     {
       "no": "894",
       "name": "Regieleki",
-      "data": [
-        [
-          "CD",
-          "CD",
-          "—"
-        ]
-      ]
+      "data": [["CD", "CD", "—"]]
     },
     {
       "no": "895",
       "name": "Regidrago",
-      "data": [
-        [
-          "CD",
-          "CD",
-          "—"
-        ]
-      ]
+      "data": [["CD", "CD", "—"]]
     },
     {
       "no": "896",
       "name": "Glastrier",
-      "data": [
-        [
-          "CD",
-          "CD",
-          "—"
-        ]
-      ]
+      "data": [["CD", "CD", "—"]]
     },
     {
       "no": "897",
       "name": "Spectrier",
-      "data": [
-        [
-          "CD",
-          "CD",
-          "—"
-        ]
-      ]
+      "data": [["CD", "CD", "—"]]
     },
     {
       "no": "898",
       "name": "Calyrex",
-      "data": [
-        [
-          "CD",
-          "CD",
-          "—"
-        ]
-      ]
+      "data": [["CD", "CD", "—"]]
     },
     {
       "no": "899",
       "name": "Wyrdeer",
-      "data": [
-        [
-          "—",
-          "—",
-          "C"
-        ]
-      ]
+      "data": [["—", "—", "C"]]
     },
     {
       "no": "900",
       "name": "Kleavor",
-      "data": [
-        [
-          "—",
-          "—",
-          "C"
-        ]
-      ]
+      "data": [["—", "—", "C"]]
     },
     {
       "no": "901",
       "name": "Ursaluna",
-      "data": [
-        [
-          "—",
-          "—",
-          "C"
-        ]
-      ]
+      "data": [["—", "—", "C"]]
     },
     {
       "no": "902",
       "name": "Basculegion",
-      "data": [
-        [
-          "—",
-          "—",
-          "C"
-        ]
-      ]
+      "data": [["—", "—", "C"]]
     },
     {
       "no": "903",
       "name": "Sneasler",
-      "data": [
-        [
-          "—",
-          "—",
-          "C"
-        ]
-      ]
+      "data": [["—", "—", "C"]]
     },
     {
       "no": "904",
       "name": "Overqwil",
-      "data": [
-        [
-          "—",
-          "—",
-          "C"
-        ]
-      ]
+      "data": [["—", "—", "C"]]
     },
     {
       "no": "905",
       "name": "Enamorus",
-      "data": [
-        [
-          "—",
-          "—",
-          "C"
-        ]
-      ]
+      "data": [["—", "—", "C"]]
     }
   ]
 }

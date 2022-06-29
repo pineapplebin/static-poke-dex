@@ -1,0 +1,6 @@
+[submodule "spritesheet"]
+	path = spritesheet
+	url = https://github.com/koenigderluegner/pokesprite-spritesheet.git
+[submodule "src/spritesheet"]
+	path = src/spritesheet
+	url = https://github.com/koenigderluegner/pokesprite-spritesheet.git

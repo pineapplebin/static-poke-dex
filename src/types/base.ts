@@ -1,16 +1,17 @@
 export interface TPokemonInfo {
   idx: string;
   name: {
-    chs: string
-    jpn: string
+    eng: string;
+    chs: string;
+    jpn: string;
   };
   slug: {
-    eng: string
+    eng: string;
   };
   'gen-8': {
     forms: {
-      $: any
-      [p: string]: any
-    }
+      $: any;
+      [p: string]: any;
+    };
   };
 }
