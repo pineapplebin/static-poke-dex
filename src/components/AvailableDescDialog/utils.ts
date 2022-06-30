@@ -100,7 +100,7 @@ function explainType(char: string, pos: ExplainItem['pos']) {
 }
 
 const REG = new RegExp(
-  `^(${PREFIX_LIST.join('|')})?(${NORMAL_LIST.join('|')})(${SUFFIX_LIST.join('|')})?$`
+  `^(${PREFIX_LIST.join('|')})?(${NORMAL_LIST.join('|')})((?:${SUFFIX_LIST.join('|')})*)$`
 );
 
 export interface ExplainItem {
@@ -118,13 +118,14 @@ export function explainAvailable(available: string): ExplainItem[] {
   if (!matched) {
     return [];
   }
-  const [, prefix, normal, suffix] = matched;
+  const [, prefix, normal, _suffix] = matched;
+  const suffix = _suffix === 'ET' ? [_suffix] : _suffix.split('');
 
   return (
     [
       { char: prefix, pos: 'prefix' },
       { char: normal, pos: 'normal' },
-      { char: suffix, pos: 'suffix' }
+      ...suffix.map((suf) => ({ char: suf, pos: 'suffix' } as const))
     ] as const
   )
     .filter((item) => item.char)
