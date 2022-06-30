@@ -14,7 +14,6 @@
   ];
 
   let openDialog = false;
-  let currentAvailable: string = '';
 </script>
 
 <h2>List of Pokemon by availability</h2>
@@ -24,18 +23,11 @@
     <h3 id={gen.title.replace(/\s/g, '_')}>{gen.title}</h3>
   {/if}
   {#each gen.data as table}
-    <PokeTable
-      head={table.head}
-      data={table.body}
-      on:check={(e) => {
-        openDialog = true;
-        currentAvailable = e.detail;
-      }}
-    />
+    <PokeTable head={table.head} data={table.body} on:check={() => (openDialog = true)} />
   {/each}
 {/each}
 
-<AvailableDescDialog bind:open={openDialog} {currentAvailable} />
+<AvailableDescDialog bind:open={openDialog} />
 
 <style>
   h3 {

@@ -1,12 +1,15 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import { checkIsSolid } from './utils';
+  import { availableDialogData } from '../../shared/availableDialogData';
+  import type { IAvailableDialogData } from '../../shared/availableDialogData';
 
+  const dispatcher = createEventDispatcher<{ check: IAvailableDialogData }>();
+
+  export let no: string = '';
   export let generation: string = '';
   export let game: string = '';
   export let available: string = '';
-
-  const dispatcher = createEventDispatcher<{ check: string }>();
 
   interface TComputedAvailable {
     gen: string;
@@ -35,7 +38,10 @@
   }
 
   function handleCheck() {
-    dispatcher('check', available);
+    if (available && no) {
+      availableDialogData.update((d) => ({ ...d, no, available }));
+      dispatcher('check', { no, available });
+    }
   }
 </script>
 
