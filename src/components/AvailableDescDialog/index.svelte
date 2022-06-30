@@ -4,6 +4,10 @@
   import { explainAvailable } from './utils';
   import type { ExplainItem } from './utils';
   import { availableDialogData } from '../../shared/availableDialogData';
+  import { getPokemonInfo } from '../../data/struct';
+  import type { TPokemonInfo } from '../../types/base';
+
+  import PokeIcon from '../PokeIcon.svelte';
 
   export let open: boolean = false;
 
@@ -14,13 +18,31 @@
     }
   }
 
+  let info: TPokemonInfo | null = null;
+  $: {
+    if ($availableDialogData.pokeInfo.no) {
+      info = getPokemonInfo($availableDialogData.pokeInfo.no);
+    }
+  }
+
   function handleClickJump() {
-    console.log($availableDialogData.no);
+    if (info) {
+      window.open(
+        `https://wiki.52poke.com/wiki/${info.name.eng}#.E8.8E.B7.E5.BE.97.E6.96.B9.E5.BC.8F`
+      );
+    }
   }
 </script>
 
 <Dialog bind:open>
-  <Title>获取分析：{$availableDialogData.available}</Title>
+  <Title>
+    <span>获取分析：{$availableDialogData.available}</span>
+    <PokeIcon
+      no={$availableDialogData.pokeInfo.no}
+      form={$availableDialogData.pokeInfo.form}
+      game={$availableDialogData.game}
+    />
+  </Title>
   <Content>
     {#each explain as line}
       <p>{line.char}：{line.desc}</p>

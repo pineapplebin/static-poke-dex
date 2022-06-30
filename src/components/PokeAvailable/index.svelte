@@ -2,11 +2,12 @@
   import { createEventDispatcher } from 'svelte';
   import { checkIsSolid } from './utils';
   import { availableDialogData } from '../../shared/availableDialogData';
-  import type { IAvailableDialogData } from '../../shared/availableDialogData';
+  import type { TAvailableDialogData } from '../../shared/availableDialogData';
 
-  const dispatcher = createEventDispatcher<{ check: IAvailableDialogData }>();
+  const dispatcher = createEventDispatcher<{ check: TAvailableDialogData }>();
 
   export let no: string = '';
+  export let form: string | undefined = undefined;
   export let generation: string = '';
   export let game: string = '';
   export let available: string = '';
@@ -39,8 +40,9 @@
 
   function handleCheck() {
     if (available && no) {
-      availableDialogData.update((d) => ({ ...d, no, available }));
-      dispatcher('check', { no, available });
+      const data = { pokeInfo: { no, form }, available, game: `${generation}-${game}` };
+      $availableDialogData = data;
+      dispatcher('check', data);
     }
   }
 </script>
@@ -54,7 +56,7 @@
   <td class="invalid">△</td>
 {/if}
 
-<style lang="scss">
+<style>
   td {
     padding: 0 4px;
     text-align: center;
@@ -64,29 +66,4 @@
   .invalid {
     color: #ff8f8f;
   }
-
-  @mixin gen($gen, $game, $color) {
-    .#{$gen}-#{$game} {
-      color: $color;
-      background: white;
-    }
-    .#{$gen}-#{$game}-solid {
-      background: $color !important;
-    }
-  }
-
-  /* gen 7 */
-  @include gen('VII', 's', #f1912b);
-  @include gen('VII', 'm', #5599ca);
-  @include gen('VII', 'us', #e95b2b);
-  @include gen('VII', 'um', #226db5);
-  @include gen('VII', 'lp', #f5da26);
-  @include gen('VII', 'le', #d4924b);
-
-  /* gen 8 */
-  @include gen('VIII', 'sw', #00a1e9);
-  @include gen('VIII', 'sh', #bf004f);
-  @include gen('VIII', 'bd', #44bae5);
-  @include gen('VIII', 'sp', #da7d99);
-  @include gen('VIII', 'la', #36597b);
 </style>

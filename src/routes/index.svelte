@@ -1,6 +1,8 @@
 <script lang="ts">
   import 'normalize.css';
 
+  import G5Data from '../data/gen-5.json';
+  import G6Data from '../data/gen-6.json';
   import G7Data from '../data/gen-7.json';
   import G72Data from '../data/gen-7-2.json';
   import G8Data from '../data/gen-8.json';
@@ -9,6 +11,8 @@
   import AvailableDescDialog from '../components/AvailableDescDialog/index.svelte';
 
   const genData = [
+    { title: 'Generation 5', data: [G5Data] },
+    { title: 'Generation 6', data: [G6Data] },
     { title: 'Generation 7', data: [G7Data, G72Data] },
     { title: 'Generation 8', data: [G8Data] }
   ];

@@ -12,6 +12,7 @@ const NORMAL_LIST = [
   'S',
   'D',
   'R',
+  'B',
   'E',
   'Ev',
   'T'
@@ -19,7 +20,7 @@ const NORMAL_LIST = [
 
 const PREFIX_LIST = ['CC'];
 
-const SUFFIX_LIST = ['E', 'B', 'D', 'T'];
+const SUFFIX_LIST = ['ET', 'E', 'B', 'D', 'T'];
 
 function explainType(char: string, pos: ExplainItem['pos']) {
   if (char === 'C') {
@@ -80,7 +81,11 @@ function explainType(char: string, pos: ExplainItem['pos']) {
     return '该宝可梦可以在宝可梦梦境世界中获得，然后可以在服务关闭前传送到 B/W/B2/W2 中';
   }
   if (char === 'ET') {
-    return '该宝可梦无法直接在游戏中捕获，但是可以获得进化前阶段的宝可梦，然后通过连接交换后进化获得';
+    if (pos === 'suffix') {
+      return '该宝可梦需要通过上述方式获得进化前阶段的宝可梦，然后通过连接交换后进化获得';
+    } else {
+      return '该宝可梦无法直接在游戏中捕获，但是可以获得进化前阶段的宝可梦，然后通过连接交换后进化获得';
+    }
   }
   if (char === 'T' && pos === 'suffix') {
     return '该宝可梦需要通过上述方式获得进化前阶段的宝可梦，然后通过连接交换后进化获得';

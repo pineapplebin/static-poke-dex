@@ -1,8 +1,16 @@
 import { writable } from 'svelte/store';
 
-export interface IAvailableDialogData {
-  no: string;
+export interface TAvailableDialogData {
+  pokeInfo: {
+    no: string;
+    form?: string;
+  };
+  game: string;
   available: string;
 }
 
-export const availableDialogData = writable<IAvailableDialogData>({ no: '', available: '' });
+export const availableDialogData = writable<TAvailableDialogData>({
+  pokeInfo: { no: '' },
+  game: '',
+  available: ''
+});

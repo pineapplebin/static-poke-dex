@@ -61,6 +61,7 @@
               {#each b.data[genIdx] as available, gameIndex}
                 <PokeAvailable
                   no={b.no}
+                  form={b.form}
                   {available}
                   game={genData.games[gameIndex]}
                   generation={genData.name}
