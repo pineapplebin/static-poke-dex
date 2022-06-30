@@ -18,15 +18,6 @@
     solid: boolean;
   }
 
-  // gen 1: r / g / b / y
-  // gen 2: g / s / c
-  // gen 3: r / s / fr / lg / e
-  // gen 4: d / p / pt / hg / ss
-  // gen 5: b / w / b2 / w2
-  // gen 6: x / y / or / as
-  // gen 7: s / m / us / um / lp / le
-  // gen 8: sw / sh / bd / sp / la
-
   let cAvailable: TComputedAvailable | null = null;
   $: {
     if (generation && available && game) {

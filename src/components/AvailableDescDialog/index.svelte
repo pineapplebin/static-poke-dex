@@ -1,6 +1,7 @@
 <script lang="ts">
   import Dialog, { Title, Content, Actions } from '@smui/dialog';
   import Button, { Label } from '@smui/button';
+
   import { explainAvailable } from './utils';
   import type { ExplainItem } from './utils';
   import { availableDialogData } from '../../shared/availableDialogData';
@@ -45,7 +46,7 @@
   </Title>
   <Content>
     {#each explain as line}
-      <p>{line.char}：{line.desc}</p>
+      <p><strong>{line.char}</strong>：{line.desc}</p>
     {/each}
   </Content>
   <Actions>
@@ -54,3 +55,9 @@
     </Button>
   </Actions>
 </Dialog>
+
+<style>
+  p {
+    margin-top: 10px;
+  }
+</style>

@@ -21,7 +21,41 @@
     }
   }
 
-  /* gen 6 */
+  // gen 1: r / g / b / y
+  // gen 2: g / s / c
+  // gen 3: r / s / fr / lg / e
+  // gen 4: d / p / pt / hg / ss
+  // gen 5: b / w / b2 / w2
+  // gen 6: x / y / or / as
+  // gen 7: s / m / us / um / lp / le
+  // gen 8: sw / sh / bd / sp / la
+
+  /* gen 1 */
+  @include gen('I', 'r', #ff1111);
+  @include gen('I', 'g', #11bb11);
+  @include gen('I', 'b', #1111ff);
+  @include gen('I', 'y', #ffd733);
+
+  /* gen 2 */
+  @include gen('II', 'g', #daa520);
+  @include gen('II', 's', #c0c0c0);
+  @include gen('II', 'c', #4fd9ff);
+
+  /* gen 3 */
+  @include gen('III', 'r', #a00000);
+  @include gen('III', 's', #0000a0);
+  @include gen('III', 'fr', #ff7327);
+  @include gen('III', 'lg', #00dd00);
+  @include gen('III', 'e', #00a000);
+
+  /* gen 4 */
+  @include gen('IV', 'd', #aaaaff);
+  @include gen('IV', 'p', #ffaaaa);
+  @include gen('IV', 'pt', #999999);
+  @include gen('IV', 'hg', #b69e00);
+  @include gen('IV', 'ss', #c0c0e1);
+
+  /* gen 5 */
   @include gen('V', 'b', #444444);
   @include gen('V', 'w', #e1e1e1);
   @include gen('V', 'b2', #424b50);
