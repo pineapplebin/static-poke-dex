@@ -60,9 +60,9 @@ function explainType(char: string, pos: ExplainItem['pos']) {
   }
   if (char === 'CC') {
     if (pos === 'prefix') {
-      return '该宝可梦需要与其他游戏进行一些通信后，才能通过下述方式获得';
+      return '该宝可梦需要与其他游戏进行联系并满足特定条件后，才能通过下述方式获得';
     } else {
-      return '该宝可梦可以在游戏中获得，但是需要与其他游戏进行一些通信才能获得';
+      return '该宝可梦可以在游戏中获得，但是需要与其他游戏进行联系并满足特定条件后才能获得';
     }
   }
   if (char === 'FS') {
