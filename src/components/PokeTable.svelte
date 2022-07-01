@@ -81,12 +81,14 @@
     position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    border-radius: 4px;
     box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
       0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    margin-bottom: 8px;
   }
 
   table {
+    min-width: 100%;
     table-layout: fixed;
     margin: auto;
     background: #dcdce7;
