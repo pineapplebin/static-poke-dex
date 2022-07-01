@@ -133,6 +133,24 @@
     "@material/theme" "^13.0.0"
     tslib "^2.1.0"
 
+"@material/fab@^13.0.0":
+  version "13.0.0"
+  resolved "https://mirrors.tencent.com/npm/@material%2ffab/-/fab-13.0.0.tgz#fa8cf548b7c90a592760569385aff3a816c59d2d"
+  integrity sha512-qOi+XWEZWUR5T961UjSorgqm5VaanuZtRN3nsrKqHH1p0L8fYRc3qkGIChlaY9p7BcOYMCynXJzT+MfELVrcwA==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/dom" "^13.0.0"
+    "@material/elevation" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/ripple" "^13.0.0"
+    "@material/rtl" "^13.0.0"
+    "@material/shape" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    "@material/tokens" "^13.0.0"
+    "@material/touch-target" "^13.0.0"
+    "@material/typography" "^13.0.0"
+    tslib "^2.1.0"
+
 "@material/feature-targeting@^13.0.0":
   version "13.0.0"
   resolved "https://mirrors.tencent.com/npm/@material%2ffeature-targeting/-/feature-targeting-13.0.0.tgz#7bc7840b40930b6831101a22882acdd0329591c0"
@@ -368,6 +386,17 @@
     "@material/dialog" "^13.0.0"
     "@material/dom" "^13.0.0"
     "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
+
+"@smui/fab@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://mirrors.tencent.com/npm/@smui%2ffab/-/fab-6.0.0-beta.16.tgz#eab6560dae32a49be65c79c74e4d641d8d150a91"
+  integrity sha512-bv71H/EgQh8VbWokQuhio5I5mvygofJZnBRZvVdMX1YTrvDafJzbLf4A2zLycVMJmOX124at86G9t8hAAQQ4KQ==
+  dependencies:
+    "@material/fab" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.16"
+    "@smui/ripple" "^6.0.0-beta.16"
     svelte2tsx "^0.5.5"
 
 "@smui/list@^6.0.0-beta.16":

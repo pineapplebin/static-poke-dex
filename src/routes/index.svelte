@@ -5,6 +5,7 @@
   import Tab, { Label } from '@smui/tab';
   import AvailableDescDialog from '../components/AvailableDescDialog/index.svelte';
   import IndexTable from './components/IndexTable/index.svelte';
+  import IndexMagicButton from './components/IndexMagicButton/index.svelte';
 
   import { memoryData } from '../shared/memoryData';
 
@@ -26,6 +27,8 @@
 
 <AvailableDescDialog bind:open={openDialog} />
 
+<IndexMagicButton />
+
 <style>
   .tabs {
     position: sticky;
@@ -37,5 +40,6 @@
 
   .container {
     padding: 10px;
+    margin-top: 10px;
   }
 </style>

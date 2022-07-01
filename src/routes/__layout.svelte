@@ -81,4 +81,8 @@
   @include gen('VIII', 'bd', #44bae5);
   @include gen('VIII', 'sp', #da7d99);
   @include gen('VIII', 'la', #36597b);
+
+  body.mask {
+    overflow: hidden;
+  }
 </style>
