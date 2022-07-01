@@ -26,7 +26,7 @@
     </colgroup>
     <thead>
       <tr>
-        <th rowspan="2" class="left-border" style="position: sticky; left: 0;">#</th>
+        <th rowspan="2" style="position: sticky; left: 0;">#</th>
         <th rowspan="2" style="position: sticky; left: 30px;">Icon</th>
         <th rowspan="2" style="position: sticky; left: 100px;">Name</th>
         {#each head as h}
@@ -48,7 +48,7 @@
         {@const info = getPokemonInfo(b.no)}
         {#if info}
           <tr>
-            <td class="left-border" style="position: sticky; left: 0;">{info.idx}</td>
+            <td style="position: sticky; left: 0;">{info.idx}</td>
             <td style="position: sticky; left: 30px;">
               <PokeIcon no={info.idx} form={b.form} />
             </td>
@@ -81,6 +81,9 @@
     position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+      0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
   }
 
   table {
@@ -92,26 +95,22 @@
     font-size: 14px;
     border-collapse: separate;
     border-spacing: 0;
-    border-top: 3px solid #88a;
-    border-right: 3px solid #88a;
-    border-bottom: 3px solid #88a;
-  }
-
-  .left-border {
-    border-left: 3px solid #88a;
+    border-color: gray;
   }
 
   th {
-    background: #ccf;
-    border: 1px solid #dcdce7;
+    background: #eeeeee;
+    border-right: 1px solid rgba(224, 224, 224, 1);
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
     color: #3f3f3f;
+    padding: 4px 0;
   }
 
   tbody > tr {
     > :global(td) {
       box-sizing: border-box;
       background: white;
-      border: 1px solid #dcdce7;
+      border-bottom: 1px solid rgba(224, 224, 224, 1);
     }
   }
 

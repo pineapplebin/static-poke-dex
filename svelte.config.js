@@ -15,6 +15,7 @@ const config = {
       assets: 'build',
       fallback: 'index.html'
     }),
+
     paths: {
       base: isDev ? '' : '/static-poke-dex'
     }
