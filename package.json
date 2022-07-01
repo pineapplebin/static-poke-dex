@@ -32,8 +32,11 @@
   "type": "module",
   "dependencies": {
     "@smui/button": "^6.0.0-beta.16",
+    "@smui/circular-progress": "^6.0.0-beta.16",
     "@smui/dialog": "^6.0.0-beta.16",
     "@smui/list": "^6.0.0-beta.16",
+    "@smui/tab": "^6.0.0-beta.16",
+    "@smui/tab-bar": "^6.0.0-beta.16",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1",
     "pokesprite-images": "^2.6.0",

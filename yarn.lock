@@ -72,6 +72,19 @@
     "@material/typography" "^13.0.0"
     tslib "^2.1.0"
 
+"@material/circular-progress@^13.0.0":
+  version "13.0.0"
+  resolved "https://mirrors.tencent.com/npm/@material%2fcircular-progress/-/circular-progress-13.0.0.tgz#ad90b88d1e88d522f7492ded4eaaac56376ce2aa"
+  integrity sha512-jSbr0ywY2N6s05tyqTXl/cG339C+qU3ck3FwXUq5SJup8CWT0AoJ8EG/CD10CEhNH8nH9Iwstve95oNgIt8G4g==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/base" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/progress-indicator" "^13.0.0"
+    "@material/rtl" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    tslib "^2.1.0"
+
 "@material/density@^13.0.0":
   version "13.0.0"
   resolved "https://mirrors.tencent.com/npm/@material%2fdensity/-/density-13.0.0.tgz#5ae2fdec0418775014fed24e7ccdd5ba5d005d54"
@@ -158,6 +171,13 @@
     "@material/typography" "^13.0.0"
     tslib "^2.1.0"
 
+"@material/progress-indicator@^13.0.0":
+  version "13.0.0"
+  resolved "https://mirrors.tencent.com/npm/@material%2fprogress-indicator/-/progress-indicator-13.0.0.tgz#8097208c5fa3dd6753d8b7bf141c28beb0938c23"
+  integrity sha512-IfhAMn03gWg/Rl0Bg26Q1g+DrMnaULllz+ZJeIY7BXZC5qFYq1fLq4+RiQmfPGlJfURUjrWNLcI1VDVyXUHHzg==
+  dependencies:
+    tslib "^2.1.0"
+
 "@material/ripple@^13.0.0":
   version "13.0.0"
   resolved "https://mirrors.tencent.com/npm/@material%2fripple/-/ripple-13.0.0.tgz#fc6a56ccd33c1edf3f049d9e79294f496c2d72df"
@@ -187,6 +207,61 @@
     "@material/feature-targeting" "^13.0.0"
     "@material/rtl" "^13.0.0"
     "@material/theme" "^13.0.0"
+    tslib "^2.1.0"
+
+"@material/tab-bar@^13.0.0":
+  version "13.0.0"
+  resolved "https://mirrors.tencent.com/npm/@material%2ftab-bar/-/tab-bar-13.0.0.tgz#e0ba597b507a5b62aac91837d96458dd250cee14"
+  integrity sha512-GLODDvwKiN867weT+WiSR/4Oum2hw0Ipl1vcJxtZeE6C3PmGWBE316j8a5DLYvf9bjIPLYLNLUzLU3QnJB6T5w==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/base" "^13.0.0"
+    "@material/density" "^13.0.0"
+    "@material/elevation" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/tab" "^13.0.0"
+    "@material/tab-indicator" "^13.0.0"
+    "@material/tab-scroller" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    "@material/typography" "^13.0.0"
+    tslib "^2.1.0"
+
+"@material/tab-indicator@^13.0.0":
+  version "13.0.0"
+  resolved "https://mirrors.tencent.com/npm/@material%2ftab-indicator/-/tab-indicator-13.0.0.tgz#e79d06b888ac8c625dabc6c9288eb3ced70adaa5"
+  integrity sha512-T6Q4zCdl374rQgNLrAIc8+sy8ax6fbNTZRb+oJgShzjVz4wH9OLk6LX1RREHEeWiZt69nTqeR4yU6/6xFX+Kjw==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/base" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    tslib "^2.1.0"
+
+"@material/tab-scroller@^13.0.0":
+  version "13.0.0"
+  resolved "https://mirrors.tencent.com/npm/@material%2ftab-scroller/-/tab-scroller-13.0.0.tgz#0bbe9e77cebb3a0d6607e86216de69df2e7fddc7"
+  integrity sha512-SHdNXTLrNA47RbTNOQa67DbQjw0qrf1h0OuoESXHMU/B7QQvhAOqnHpU32/LdCP+gvc7EdZjolVQgk3WphDcQA==
+  dependencies:
+    "@material/animation" "^13.0.0"
+    "@material/base" "^13.0.0"
+    "@material/dom" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/tab" "^13.0.0"
+    tslib "^2.1.0"
+
+"@material/tab@^13.0.0":
+  version "13.0.0"
+  resolved "https://mirrors.tencent.com/npm/@material%2ftab/-/tab-13.0.0.tgz#3b616e1f1679977a943f8aba81c02746299a6028"
+  integrity sha512-7tziMFiyiFZner39h6ue6A6rfJhz8LDyeVPYfdAMe8ZO8GT+PczDr5yuectamR8fNBE7Fk9Bj/KvIOx+LjKgDg==
+  dependencies:
+    "@material/base" "^13.0.0"
+    "@material/elevation" "^13.0.0"
+    "@material/feature-targeting" "^13.0.0"
+    "@material/ripple" "^13.0.0"
+    "@material/rtl" "^13.0.0"
+    "@material/tab-indicator" "^13.0.0"
+    "@material/theme" "^13.0.0"
+    "@material/typography" "^13.0.0"
     tslib "^2.1.0"
 
 "@material/theme@^13.0.0":
@@ -266,6 +341,15 @@
     "@smui/ripple" "^6.0.0-beta.16"
     svelte2tsx "^0.5.5"
 
+"@smui/circular-progress@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://mirrors.tencent.com/npm/@smui%2fcircular-progress/-/circular-progress-6.0.0-beta.16.tgz#063f97d24ea349f32536c02b21b436272f45447e"
+  integrity sha512-d4iLP6pZFB2hbXA04ykBI8fAOHRd8kdvEZnPbFDbyV97BqXVuuQP+TMlqL0a/NppDD9gaC09ZWnGaijlpEAfHg==
+  dependencies:
+    "@material/circular-progress" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
+
 "@smui/common@^6.0.0-beta.16":
   version "6.0.0-beta.16"
   resolved "https://mirrors.tencent.com/npm/@smui%2fcommon/-/common-6.0.0-beta.16.tgz#ec761c295a1e503df0c7e4b7cb5b33847dc22055"
@@ -306,6 +390,47 @@
     "@material/dom" "^13.0.0"
     "@material/ripple" "^13.0.0"
     "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
+
+"@smui/tab-bar@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://mirrors.tencent.com/npm/@smui%2ftab-bar/-/tab-bar-6.0.0-beta.16.tgz#51eb54c6aaf9f677fbc901efbb752fd1dc83cf39"
+  integrity sha512-YCOJxlGIX8sRrvZsljy0KUowb0e0ED7XtbUVIJUldHmY6hFeFSDt6MI1QoNpNfns+7rptYbVIfx7xzSF7PVyYQ==
+  dependencies:
+    "@material/tab-bar" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.16"
+    "@smui/tab" "^6.0.0-beta.16"
+    "@smui/tab-scroller" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
+
+"@smui/tab-indicator@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://mirrors.tencent.com/npm/@smui%2ftab-indicator/-/tab-indicator-6.0.0-beta.16.tgz#44950c51239d66a99efb5129d28c5da616398ce7"
+  integrity sha512-VQZQwcVItljBMUtMZCOOKCQ4FibK2MynkUVsWA0ZibvKAb4MXBZHbAnrxhVnQ2rM100HOoog6eXzHJNWrm9U+Q==
+  dependencies:
+    "@material/tab-indicator" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
+
+"@smui/tab-scroller@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://mirrors.tencent.com/npm/@smui%2ftab-scroller/-/tab-scroller-6.0.0-beta.16.tgz#96e49139ff63a265b7e5baf55b4064131f1d5881"
+  integrity sha512-ilf4zeiIELyZcFwxBPbqckxOnoSjRk1VxHbrZJekehwiOwVkzALLdogtx6LwSdw9bg/DDzlG0nrfc/oUYF2VRA==
+  dependencies:
+    "@material/dom" "^13.0.0"
+    "@material/tab-scroller" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.16"
+    svelte2tsx "^0.5.5"
+
+"@smui/tab@^6.0.0-beta.16":
+  version "6.0.0-beta.16"
+  resolved "https://mirrors.tencent.com/npm/@smui%2ftab/-/tab-6.0.0-beta.16.tgz#f309ffea9ce39fb264fa0d2977992959633c4a91"
+  integrity sha512-eizOqQcjLOOMq1bvrrF6b8QPrOYJHz9fQ2hhozk9d7HsX4fw5G4RyJ6psowd/qkG+SYaWj2EuBAs16ZAmxFHOg==
+  dependencies:
+    "@material/tab" "^13.0.0"
+    "@smui/common" "^6.0.0-beta.16"
+    "@smui/ripple" "^6.0.0-beta.16"
+    "@smui/tab-indicator" "^6.0.0-beta.16"
     svelte2tsx "^0.5.5"
 
 "@sveltejs/adapter-auto@next":

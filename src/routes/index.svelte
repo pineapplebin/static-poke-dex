@@ -1,52 +1,40 @@
 <script lang="ts">
   import 'normalize.css';
 
-  import G1Data from '../data/gen-1.json';
-  import G2Data from '../data/gen-2.json';
-  import G3Data from '../data/gen-3.json';
-  import G4Data from '../data/gen-4.json';
-  import G5Data from '../data/gen-5.json';
-  import G6Data from '../data/gen-6.json';
-  import G7Data from '../data/gen-7.json';
-  import G72Data from '../data/gen-7-2.json';
-  import G8Data from '../data/gen-8.json';
-
-  import PokeTable from '../components/PokeTable.svelte';
+  import TabBar from '@smui/tab-bar';
+  import Tab, { Label } from '@smui/tab';
   import AvailableDescDialog from '../components/AvailableDescDialog/index.svelte';
+  import IndexTable from './components/IndexTable/index.svelte';
 
-  const genData = [
-    { title: 'Generation 1', data: [G1Data] },
-    { title: 'Generation 2', data: [G2Data] },
-    { title: 'Generation 3', data: [G3Data] },
-    { title: 'Generation 4', data: [G4Data] },
-    { title: 'Generation 5', data: [G5Data] },
-    { title: 'Generation 6', data: [G6Data] },
-    { title: 'Generation 7', data: [G7Data, G72Data] },
-    { title: 'Generation 8', data: [G8Data] }
-  ];
-
+  let tabs = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
+  let currentTab = 'I';
   let openDialog = false;
 </script>
 
-<h2>List of Pokemon by availability</h2>
+<div class="tabs">
+  <TabBar {tabs} let:tab bind:active={currentTab}>
+    <Tab {tab}>
+      <Label>Gen {tab}</Label>
+    </Tab>
+  </TabBar>
+</div>
 
-{#each genData as gen}
-  {#if gen.title}
-    <h3 id={gen.title.replace(/\s/g, '_')}>{gen.title}</h3>
-  {/if}
-  {#each gen.data as table}
-    <PokeTable head={table.head} data={table.body} on:check={() => (openDialog = true)} />
-  {/each}
-{/each}
+<div class="container">
+  <IndexTable generation={currentTab} />
+</div>
 
 <AvailableDescDialog bind:open={openDialog} />
 
 <style>
-  h3 {
-    z-index: 2;
+  .tabs {
     position: sticky;
     top: 0;
-    padding: 10px 0;
+    z-index: 2;
     background: white;
+    box-shadow: 5px 0 5px 5px #ccc;
+  }
+
+  .container {
+    padding: 10px;
   }
 </style>
