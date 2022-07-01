@@ -1,79 +1,120 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-47f32f01.js",
+    "file": "start-ee146984.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-c5b4e08c.js",
-      "_preload-helper-3ff03966.js"
+      "_index-f7ffb9e3.js",
+      "_index-94ae5a96.js",
+      "_preload-helper-936e422d.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
-      "_index-f607236c.js",
+      "_index-6221a2b0.js",
+      "_index-12636ede.js",
       "src/routes/index.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-236b4c03.js",
+    "file": "pages/__layout.svelte-67d03659.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5b4e08c.js"
+      "_index-f7ffb9e3.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-6e22921e.css"
+      "assets/pages/__layout.svelte-d4adf26a.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-2d252f99.js",
+    "file": "error.svelte-c954c727.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5b4e08c.js"
+      "_index-f7ffb9e3.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-4fd1dbc5.js",
+    "file": "pages/index.svelte-0111dc38.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5b4e08c.js",
-      "_index-f607236c.js",
-      "_preload-helper-3ff03966.js"
+      "_index-f7ffb9e3.js",
+      "_foundation-1cf01f01.js",
+      "_index-6221a2b0.js",
+      "_index-12636ede.js",
+      "_index-94ae5a96.js",
+      "_preload-helper-936e422d.js"
     ],
     "css": [
-      "assets/pages/index.svelte-900d6a61.css"
+      "assets/pages/index.svelte-716bad59.css"
+    ]
+  },
+  "src/routes/components/IndexMagicButton/index.svelte": {
+    "file": "pages/components/IndexMagicButton/index.svelte-be205bfc.js",
+    "src": "src/routes/components/IndexMagicButton/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-f7ffb9e3.js",
+      "_index-6221a2b0.js",
+      "_index-94ae5a96.js",
+      "_foundation-1cf01f01.js"
     ]
   },
   "src/routes/components/IndexTable/index.svelte": {
-    "file": "pages/components/IndexTable/index.svelte-852e9dbf.js",
+    "file": "pages/components/IndexTable/index.svelte-77b0288b.js",
     "src": "src/routes/components/IndexTable/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-c5b4e08c.js",
-      "_index-f607236c.js",
-      "_preload-helper-3ff03966.js"
+      "_index-f7ffb9e3.js",
+      "_index-12636ede.js",
+      "_preload-helper-936e422d.js",
+      "_foundation-1cf01f01.js",
+      "_index-94ae5a96.js"
     ]
   },
-  "_index-c5b4e08c.js": {
-    "file": "chunks/index-c5b4e08c.js"
+  "_index-f7ffb9e3.js": {
+    "file": "chunks/index-f7ffb9e3.js"
   },
-  "_preload-helper-3ff03966.js": {
-    "file": "chunks/preload-helper-3ff03966.js",
+  "_index-94ae5a96.js": {
+    "file": "chunks/index-94ae5a96.js",
     "imports": [
-      "_index-c5b4e08c.js"
+      "_index-f7ffb9e3.js"
     ]
   },
-  "_index-f607236c.js": {
-    "file": "chunks/index-f607236c.js",
+  "_preload-helper-936e422d.js": {
+    "file": "chunks/preload-helper-936e422d.js"
+  },
+  "_index-6221a2b0.js": {
+    "file": "chunks/index-6221a2b0.js",
     "isDynamicEntry": true,
     "imports": [
-      "_index-c5b4e08c.js",
-      "_preload-helper-3ff03966.js"
+      "_index-f7ffb9e3.js",
+      "_index-94ae5a96.js",
+      "_foundation-1cf01f01.js"
+    ],
+    "css": [
+      "assets/index-c30e5099.css"
+    ]
+  },
+  "_foundation-1cf01f01.js": {
+    "file": "chunks/foundation-1cf01f01.js",
+    "imports": [
+      "_index-f7ffb9e3.js"
+    ]
+  },
+  "_index-12636ede.js": {
+    "file": "chunks/index-12636ede.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-f7ffb9e3.js",
+      "_preload-helper-936e422d.js",
+      "_foundation-1cf01f01.js",
+      "_index-94ae5a96.js"
     ],
     "dynamicImports": [
       "src/data/gen-1.json",
