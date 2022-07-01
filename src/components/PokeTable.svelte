@@ -2,7 +2,7 @@
   import type { TTableHead, TTableRowData } from '../types/availability';
   import { getPokemonInfo } from '../data/struct';
 
-  import PokeIcon from './PokeIcon.svelte';
+  import PokeIcon from './PokeIcon/index.svelte';
   import PokeAvailable from './PokeAvailable/index.svelte';
 
   export let head: TTableHead[] = [];

@@ -8,7 +8,7 @@
   import { getPokemonInfo } from '../../data/struct';
   import type { TPokemonInfo } from '../../types/base';
 
-  import PokeIcon from '../PokeIcon.svelte';
+  import PokeIcon from '../PokeIcon/index.svelte';
 
   export let open: boolean = false;
 
