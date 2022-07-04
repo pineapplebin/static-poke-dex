@@ -1,0 +1,64 @@
+.type-logos {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+
+  background-image: url('type-logos.png');
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}
+
+.type-logos.bug {
+  background-position: -0px -0px;
+}
+.type-logos.dark {
+  background-position: -64px -0px;
+}
+.type-logos.dragon {
+  background-position: -0px -64px;
+}
+.type-logos.electric {
+  background-position: -64px -64px;
+}
+.type-logos.fairy {
+  background-position: -128px -0px;
+}
+.type-logos.fighting {
+  background-position: -128px -64px;
+}
+.type-logos.fire {
+  background-position: -0px -128px;
+}
+.type-logos.flying {
+  background-position: -64px -128px;
+}
+.type-logos.ghost {
+  background-position: -128px -128px;
+}
+.type-logos.grass {
+  background-position: -192px -0px;
+}
+.type-logos.ground {
+  background-position: -192px -64px;
+}
+.type-logos.ice {
+  background-position: -192px -128px;
+}
+.type-logos.normal {
+  background-position: -0px -192px;
+}
+.type-logos.poison {
+  background-position: -64px -192px;
+}
+.type-logos.psychic {
+  background-position: -128px -192px;
+}
+.type-logos.rock {
+  background-position: -192px -192px;
+}
+.type-logos.steel {
+  background-position: -256px -0px;
+}
+.type-logos.water {
+  background-position: -256px -64px;
+}

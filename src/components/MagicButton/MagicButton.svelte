@@ -1,12 +1,17 @@
 <script lang="ts">
   import { browser } from '$app/env';
-  import { setContext } from 'svelte';
+  import { setContext, onMount } from 'svelte';
   import { writable } from 'svelte/store';
   import { fade } from 'svelte/transition';
   import Fab, { Icon } from '@smui/fab';
 
+  import { draggable } from '../../utils/actions/draggable';
+  import type { TPosition } from '../../utils/actions/draggable';
+
+  import { memoryData } from '../../shared/memoryData';
   import { CONTEXT_KEY } from './constants';
   import type { TContext } from './constants';
+  import { normalizeStyle } from '../../utils/styles';
 
   let isActive = writable(false);
   $: {
@@ -19,6 +24,27 @@
     }
   }
 
+  onMount(() => {
+    handleFlowToEdge();
+  });
+
+  function handleUpdatePos(e: { detail: TPosition }) {
+    $memoryData.magicButtonPos = {
+      x: +(e.detail.x - 56 / 2).toFixed(2),
+      y: +(e.detail.y - 56 / 2).toFixed(2)
+    };
+  }
+
+  function handleFlowToEdge() {
+    const width = window.document.body.clientWidth;
+    const middleLine = width / 2;
+    if ($memoryData.magicButtonPos.x < middleLine) {
+      $memoryData.magicButtonPos.x = 0;
+    } else {
+      $memoryData.magicButtonPos.x = width - 56;
+    }
+  }
+
   setContext<TContext>(CONTEXT_KEY, isActive);
 </script>
 
@@ -26,7 +52,17 @@
   <div transition:fade={{ duration: 100 }} class="mask" on:click={() => ($isActive = false)} />
 {/if}
 
-<div class="magic-button" class:active={$isActive}>
+<div
+  class="magic-button"
+  style={normalizeStyle({
+    transform: `translate(${$memoryData.magicButtonPos.x + ($isActive ? 0 : 40)}px, ${
+      $memoryData.magicButtonPos.y
+    }px)`
+  })}
+  use:draggable={{ disabled: !$isActive }}
+  on:draggable={handleUpdatePos}
+  on:draggableend={handleFlowToEdge}
+>
   <div class="sub-buttons">
     <slot />
   </div>
@@ -39,19 +75,16 @@
 <style>
   .magic-button {
     position: fixed;
-    bottom: 12px;
-    right: 12px;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(50px);
+    top: 0;
+    left: 0;
+    width: 56px;
+    height: 56px;
+    transition: transform 100ms ease-out;
     z-index: 11;
 
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-  }
-
-  .active {
-    transform: translateX(0);
   }
 
   .mask {
@@ -71,5 +104,11 @@
     align-items: flex-end;
     margin-bottom: 14px;
     margin-right: 8px;
+
+    width: 120px;
+    position: absolute;
+    top: -14px;
+    right: 0;
+    transform: translateY(-100%);
   }
 </style>

@@ -1,8 +1,11 @@
 import { browser } from '$app/env';
 import { writable } from 'svelte/store';
+import debounce from 'lodash/debounce.js';
+import type { TPosition } from '../utils/actions/draggable';
 
 export interface TMemoryData {
   currentTab: string;
+  magicButtonPos: TPosition;
 }
 
 const KEY = '$_memoryData';
@@ -19,10 +22,19 @@ function loadFromStorage(): Partial<TMemoryData> {
   return {};
 }
 
-export const memoryData = writable<TMemoryData>({ currentTab: 'I', ...loadFromStorage() });
+export const memoryData = writable<TMemoryData>({
+  currentTab: 'I',
+  magicButtonPos: {
+    x: 10000,
+    y: 600
+  },
+  ...loadFromStorage()
+});
 
 if (browser) {
-  memoryData.subscribe((value) => {
-    localStorage.setItem(KEY, JSON.stringify(value));
-  });
+  memoryData.subscribe(
+    debounce((value) => {
+      localStorage.setItem(KEY, JSON.stringify(value));
+    }, 300)
+  );
 }
