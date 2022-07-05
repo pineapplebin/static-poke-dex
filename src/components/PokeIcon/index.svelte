@@ -2,7 +2,7 @@
   import './pokesprite-pokemon-gen8.css';
   import { getPokemonInfo } from '../../data/struct';
 
-  export let no: number | string | undefined = undefined;
+  export let no: number | string | null | undefined = undefined;
   export let form: string | undefined = undefined;
   export let game: string | undefined = undefined;
 

@@ -83,6 +83,11 @@
   @include gen('VIII', 'la', #36597b);
 
   body.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     overflow: hidden;
   }
 </style>
