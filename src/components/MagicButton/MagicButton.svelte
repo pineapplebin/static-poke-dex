@@ -28,10 +28,10 @@
     handleFlowToEdge();
   });
 
-  function handleUpdatePos(e: { detail: TPosition }) {
+  function handleUpdatePos({ detail }: { detail: TPosition }) {
     $memoryData.magicButtonPos = {
-      x: +(e.detail.x - 56 / 2).toFixed(2),
-      y: +(e.detail.y - 56 / 2).toFixed(2)
+      x: +(detail.x - 56 / 2).toFixed(2),
+      y: +(detail.y - 56 / 2).toFixed(2)
     };
   }
 

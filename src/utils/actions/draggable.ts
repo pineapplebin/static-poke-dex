@@ -15,16 +15,16 @@ export const draggable: Action<HTMLElement, { disabled: boolean }> = (node, para
     isMoving = true;
     const target = e.targetTouches[0];
     node.dispatchEvent(
-      new CustomEvent('draggablestart', { detail: { x: target.pageX, y: target.pageY } })
+      new CustomEvent('draggablestart', { detail: { x: target.clientX, y: target.clientY } })
     );
   }
 
   function handleTouchMove(e: TouchEvent) {
     if (isMoving && !disabled) {
       const target = e.targetTouches[0];
-      currX = target.clientX;
-      currY = target.clientY;
-      node.dispatchEvent(new CustomEvent('draggable', { detail: { x: currX, y: currY } }));
+      node.dispatchEvent(
+        new CustomEvent('draggable', { detail: { x: target.clientX, y: target.clientY } })
+      );
     }
   }
 

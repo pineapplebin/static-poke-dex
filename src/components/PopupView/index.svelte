@@ -53,9 +53,11 @@
   }
 
   function handleCheckDragEnd() {
-    console.log(startTimestamp, Date.now() - startTimestamp, deltaPosition);
     // 如果时间比阈值短；或者大于预设距离 则关闭弹窗
-    if (Date.now() - startTimestamp < threshold || deltaPosition > distance) {
+    if (
+      deltaPosition > 0 &&
+      (Date.now() - startTimestamp < threshold || deltaPosition > distance)
+    ) {
       open = false;
     }
     deltaPosition = 0;

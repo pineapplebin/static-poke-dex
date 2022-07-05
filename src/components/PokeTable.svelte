@@ -64,7 +64,7 @@
               <!-- <a href="https://wiki.52poke.com/wiki/{info.name.eng}" target="_blank">
                 {info.name.chs}
               </a> -->
-              <a on:click={() => handleCheckDetail(info.idx)}>{info.name.chs}</a>
+              <span class="link" on:click={() => handleCheckDetail(info.idx)}>{info.name.chs}</span>
             </td>
             {#each head as genData, genIdx}
               {#each b.data[genIdx] as available, gameIndex}
@@ -125,7 +125,7 @@
     }
   }
 
-  a {
+  .link {
     text-decoration: none;
     color: #0645ad;
     background: none;
