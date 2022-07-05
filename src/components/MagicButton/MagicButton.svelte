@@ -36,13 +36,24 @@
   }
 
   function handleFlowToEdge() {
-    const width = window.document.body.clientWidth;
+    const width = window.innerWidth;
     const middleLine = width / 2;
-    if ($memoryData.magicButtonPos.x < middleLine) {
-      $memoryData.magicButtonPos.x = 0;
+
+    const pos = { ...$memoryData.magicButtonPos };
+
+    if (pos.x < middleLine) {
+      pos.x = 0;
     } else {
-      $memoryData.magicButtonPos.x = width - 56;
+      pos.x = width - 56;
     }
+
+    if (pos.y > window.innerHeight) {
+      pos.y = 600;
+    } else if (pos.y < 0) {
+      pos.y = 600;
+    }
+
+    $memoryData.magicButtonPos = pos;
   }
 
   setContext<TContext>(CONTEXT_KEY, isActive);

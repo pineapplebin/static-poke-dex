@@ -18,8 +18,8 @@ export const draggable: Action<HTMLElement, { disabled: boolean }> = (node, para
   function handleTouchMove(e: TouchEvent) {
     if (isMoving && !disabled) {
       const target = e.targetTouches[0];
-      currX = target.pageX;
-      currY = target.pageY;
+      currX = target.clientX;
+      currY = target.clientY;
       node.dispatchEvent(new CustomEvent('draggable', { detail: { x: currX, y: currY } }));
     }
   }
