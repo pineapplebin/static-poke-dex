@@ -70,7 +70,7 @@
 
 <div class="holder">
   <div
-    class="content"
+    class="animation"
     class:fly-in={flyIn}
     class:fly-out={!open}
     use:draggable={{ disabled }}
@@ -78,10 +78,12 @@
     on:draggable={handleDrag}
     on:draggableend={handleCheckDragEnd}
     style={normalizeStyle({
-      transform: disabled ? undefined : `translateY(${deltaPosition}px)`
+      transform: disabled ? undefined : `translateY(${deltaPosition + 50}px)`
     })}
   >
-    <slot />
+    <div class="content">
+      <slot />
+    </div>
   </div>
 </div>
 
@@ -100,17 +102,20 @@
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 0;
+    top: 0;
     z-index: 101;
   }
 
-  .content {
+  .animation {
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 0;
     width: 100%;
-    height: 95vh;
+    height: 100vh;
+  }
 
+  .content {
+    height: 95%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0 0 5px 5px #aaa;
@@ -118,12 +123,12 @@
   }
 
   .fly-in {
-    transform: translateY(0);
+    transform: translateY(50px);
     transition: transform 0.2s ease-in-out;
   }
 
   .fly-out {
-    transform: translateY(100%);
+    transform: translateY(105%);
     transition: transform 0.2s ease-in-out;
   }
 </style>
