@@ -34,7 +34,7 @@
 <AvailableDescDialog bind:open={openDialog} />
 
 <IndexMagicButton />
-<DetailPopup no={detailNo} />
+<DetailPopup no={detailNo} on:close={() => (detailNo = null)} />
 
 <style>
   .tabs {

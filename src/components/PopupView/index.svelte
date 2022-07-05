@@ -1,14 +1,19 @@
 <script lang="ts">
+  import { createEventDispatcher } from 'svelte';
   import { browser } from '$app/env';
   import { fade } from 'svelte/transition';
   import { draggable } from '../../utils/actions/draggable';
   import type { TPosition } from '../../utils/actions/draggable';
   import { normalizeStyle } from '../../utils/styles';
 
+  const dispatch = createEventDispatcher<{ close: never }>();
+
   export let threshold = 300;
+  export let distance = 300;
   export let open = false;
 
   let disabled = false;
+  let startTimestamp = 0;
   let touchStartPosition = 0;
   let deltaPosition = 0;
 
@@ -34,7 +39,13 @@
       if (browser) {
         document.body.classList.remove('mask');
       }
+      dispatch('close');
     }
+  }
+
+  function handleDragStart(startPos: number) {
+    touchStartPosition = startPos;
+    startTimestamp = Date.now();
   }
 
   function handleDrag({ detail }: { detail: TPosition }) {
@@ -42,12 +53,12 @@
   }
 
   function handleCheckDragEnd() {
-    if (deltaPosition < threshold) {
-      deltaPosition = 0;
-    } else {
+    console.log(startTimestamp, Date.now() - startTimestamp, deltaPosition);
+    // 如果时间比阈值短；或者大于预设距离 则关闭弹窗
+    if (Date.now() - startTimestamp < threshold || deltaPosition > distance) {
       open = false;
-      deltaPosition = 0;
     }
+    deltaPosition = 0;
   }
 </script>
 
@@ -61,7 +72,7 @@
     class:fly-in={flyIn}
     class:fly-out={!open}
     use:draggable={{ disabled }}
-    on:draggablestart={({ detail }) => (touchStartPosition = detail.y)}
+    on:draggablestart={({ detail }) => handleDragStart(detail.y)}
     on:draggable={handleDrag}
     on:draggableend={handleCheckDragEnd}
     style={normalizeStyle({

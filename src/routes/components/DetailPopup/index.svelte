@@ -12,6 +12,6 @@
   }
 </script>
 
-<PopupView bind:open threshold={200}>
+<PopupView bind:open on:close>
   <div>{no}</div>
 </PopupView>
