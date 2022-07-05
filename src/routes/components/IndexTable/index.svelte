@@ -17,6 +17,6 @@
   <CircularProgress style="width: 36px; height: 36px;" indeterminate />
 {:then data}
   {#each data as table}
-    <PokeTable head={table.head} data={table.body} on:check />
+    <PokeTable head={table.head} data={table.body} on:check on:detail />
   {/each}
 {/await}

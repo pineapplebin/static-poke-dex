@@ -6,6 +6,7 @@ declare namespace svelte.JSX {
     // mycustomattribute?: any;
     // You can replace any with something more specific if you like
     ondraggable?: (event: { detail: { x: number; y: number } }) => any;
+    ondraggablestart?: (event: { detail: { x: number; y: number } }) => any;
     ondraggableend?: () => any;
   }
 }

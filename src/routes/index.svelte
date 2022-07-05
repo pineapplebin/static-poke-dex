@@ -6,11 +6,13 @@
   import AvailableDescDialog from '../components/AvailableDescDialog/index.svelte';
   import IndexTable from './components/IndexTable/index.svelte';
   import IndexMagicButton from './components/IndexMagicButton/index.svelte';
+  import DetailPopup from './components/DetailPopup/index.svelte';
 
   import { memoryData } from '../shared/memoryData';
 
   let tabs = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
   let openDialog = false;
+  let detailNo: string | null = null;
 </script>
 
 <div class="tabs">
@@ -22,12 +24,17 @@
 </div>
 
 <div class="container">
-  <IndexTable generation={$memoryData.currentTab} on:check={() => (openDialog = true)} />
+  <IndexTable
+    generation={$memoryData.currentTab}
+    on:check={() => (openDialog = true)}
+    on:detail={({ detail }) => (detailNo = detail)}
+  />
 </div>
 
 <AvailableDescDialog bind:open={openDialog} />
 
 <IndexMagicButton />
+<DetailPopup no={detailNo} />
 
 <style>
   .tabs {

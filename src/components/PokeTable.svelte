@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { createEventDispatcher } from 'svelte';
+
   import type { TTableHead, TTableRowData } from '../types/availability';
   import { getPokemonInfo } from '../data/struct';
 
@@ -8,12 +10,18 @@
   export let head: TTableHead[] = [];
   export let data: TTableRowData[] = [];
 
+  const dispatcher = createEventDispatcher<{ detail: string }>();
+
   let colList: number[] = [];
   let tableWidth: number = 0;
   $: {
     const length = head.reduce((acc, item) => (acc += item.span), 0);
     colList = [30, 70, 80, ...new Array(length).fill(0)];
     tableWidth = length * 50 + 180;
+  }
+
+  function handleCheckDetail(no: string) {
+    dispatcher('detail', no);
   }
 </script>
 
@@ -53,9 +61,10 @@
               <PokeIcon no={info.idx} form={b.form} />
             </td>
             <td style="position: sticky; left: 100px;">
-              <a href="https://wiki.52poke.com/wiki/{info.name.eng}" target="_blank">
+              <!-- <a href="https://wiki.52poke.com/wiki/{info.name.eng}" target="_blank">
                 {info.name.chs}
-              </a>
+              </a> -->
+              <a on:click={() => handleCheckDetail(info.idx)}>{info.name.chs}</a>
             </td>
             {#each head as genData, genIdx}
               {#each b.data[genIdx] as available, gameIndex}
