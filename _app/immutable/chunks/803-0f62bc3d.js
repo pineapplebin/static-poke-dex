@@ -1,0 +1,1 @@
+const a="803",l=803,e={jpn:"\u30D9\u30D9\u30CE\u30E0",chs:"\u6BD2\u8D1D\u6BD4"},n="",o="poipole",s=[{generation:"VII",games:["us","um"],available:["R","R"]},{generation:"VIII",games:["sw","sh"],available:["RD","RD"]}];var i={no:a,idx:803,name:e,form:n,slug:o,available:s};export{s as available,i as default,n as form,l as idx,e as name,a as no,o as slug};

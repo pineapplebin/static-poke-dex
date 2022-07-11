@@ -1,0 +1,1 @@
+const a="826",l=826,e={jpn:"\u30A4\u30AA\u30EB\u30D6",chs:"\u4EE5\u6B27\u8DEF\u666E"},n="",o="orbeetle",s=[{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var t={no:a,idx:826,name:e,form:n,slug:o,available:s};export{s as available,t as default,n as form,l as idx,e as name,a as no,o as slug};

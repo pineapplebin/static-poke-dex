@@ -1,0 +1,1 @@
+const a="825",t=825,n={jpn:"\u30EC\u30C9\u30FC\u30E0\u30B7",chs:"\u5929\u7F69\u866B"},o="",s="dottler",e=[{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var l={no:a,idx:825,name:n,form:o,slug:s,available:e};export{e as available,l as default,o as form,t as idx,n as name,a as no,s as slug};
