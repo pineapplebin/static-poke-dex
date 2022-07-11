@@ -1,0 +1,91 @@
+{
+  "no": "450",
+  "idx": 450,
+  "name": {
+    "jpn": "カバルドン",
+    "chs": "河马兽"
+  },
+  "form": "",
+  "slug": "hippowdon",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "E",
+        "E",
+        "S",
+        "S"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "761",
+  "idx": 761,
+  "name": {
+    "jpn": "アマカジ",
+    "chs": "甜竹竹"
+  },
+  "form": "",
+  "slug": "bounsweet",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

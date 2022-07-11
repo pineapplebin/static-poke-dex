@@ -1,0 +1,106 @@
+{
+  "no": "333",
+  "idx": 333,
+  "name": {
+    "jpn": "チルット",
+    "chs": "青绵鸟"
+  },
+  "form": "",
+  "slug": "swablu",
+  "available": [
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "C",
+        "C",
+        "Ev",
+        "Ev",
+        "C"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "S",
+        "S"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "B",
+        "B",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "CD",
+        "CD",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

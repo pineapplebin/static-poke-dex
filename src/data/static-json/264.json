@@ -1,0 +1,106 @@
+{
+  "no": "264",
+  "idx": 264,
+  "name": {
+    "jpn": "マッスグマ",
+    "chs": "直冲熊"
+  },
+  "form": "",
+  "slug": "linoone",
+  "available": [
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "C",
+        "C",
+        "EvE",
+        "EvE",
+        "C"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "DWE",
+        "DWE",
+        "DWE",
+        "DWE"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "ED",
+        "ED",
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

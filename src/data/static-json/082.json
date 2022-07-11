@@ -1,0 +1,140 @@
+{
+  "no": "082",
+  "idx": 82,
+  "name": {
+    "jpn": "レアコイル",
+    "chs": "三合一磁怪"
+  },
+  "form": "",
+  "slug": "magneton",
+  "available": [
+    {
+      "generation": "I",
+      "games": [
+        "r",
+        "g",
+        "b",
+        "y"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "E",
+        "E",
+        "R"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "DWE",
+        "E",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "CD",
+        "CD",
+        "E",
+        "E",
+        "C"
+      ]
+    }
+  ]
+}

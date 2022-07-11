@@ -1,0 +1,38 @@
+{
+  "no": "788",
+  "idx": 788,
+  "name": {
+    "jpn": "カプ・レヒレ",
+    "chs": "卡璞・鳍鳍"
+  },
+  "form": "",
+  "slug": "tapu-fini",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "no": "705",
+  "idx": 705,
+  "name": {
+    "jpn": "ヌメイル",
+    "chs": "黏美儿"
+  },
+  "form": "",
+  "slug": "sliggoo",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

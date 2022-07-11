@@ -1,0 +1,87 @@
+{
+  "no": "408",
+  "idx": 408,
+  "name": {
+    "jpn": "ズガイドス",
+    "chs": "头盖龙"
+  },
+  "form": "",
+  "slug": "cranidos",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "R",
+        "T",
+        "R",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "R",
+        "R",
+        "T",
+        "R"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "R",
+        "T",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "R",
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

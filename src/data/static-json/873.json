@@ -1,0 +1,23 @@
+{
+  "no": "873",
+  "idx": 873,
+  "name": {
+    "jpn": "モスノー",
+    "chs": "雪绒蛾"
+  },
+  "form": "",
+  "slug": "frosmoth",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

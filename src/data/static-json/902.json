@@ -1,0 +1,21 @@
+{
+  "no": "902",
+  "idx": 902,
+  "name": {
+    "jpn": "イダイトウ",
+    "chs": "幽尾玄魚"
+  },
+  "form": "",
+  "slug": "basculegion",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "838",
+  "idx": 838,
+  "name": {
+    "jpn": "トロッゴン",
+    "chs": "大炭车"
+  },
+  "form": "",
+  "slug": "carkol",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

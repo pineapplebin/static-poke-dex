@@ -1,0 +1,140 @@
+{
+  "no": "037",
+  "idx": 37,
+  "name": {
+    "jpn": "ロコン",
+    "chs": "六尾"
+  },
+  "form": "",
+  "slug": "vulpix",
+  "available": [
+    {
+      "generation": "I",
+      "games": [
+        "r",
+        "g",
+        "b",
+        "y"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "R"
+      ]
+    },
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "C",
+        "C",
+        "Ev",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "D",
+        "D",
+        "D",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSB",
+        "FSB",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "C",
+        "C",
+        "T",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

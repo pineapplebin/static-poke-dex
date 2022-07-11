@@ -1,0 +1,68 @@
+{
+  "no": "628",
+  "idx": 628,
+  "name": {
+    "jpn": "ウォーグル",
+    "chs": "勇士雄鹰"
+  },
+  "form": "",
+  "slug": "braviary",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSE",
+        "FSE",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

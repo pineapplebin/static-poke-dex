@@ -1,0 +1,91 @@
+{
+  "no": "446",
+  "idx": 446,
+  "name": {
+    "jpn": "ゴンベ",
+    "chs": "小卡比兽"
+  },
+  "form": "",
+  "slug": "munchlax",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "R",
+        "R",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "B",
+        "B",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "no": "262",
+  "idx": 262,
+  "name": {
+    "jpn": "グラエナ",
+    "chs": "大狼犬"
+  },
+  "form": "",
+  "slug": "mightyena",
+  "available": [
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "C",
+        "T",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "DWE",
+        "E",
+        "DWE",
+        "DWE"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "FS",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

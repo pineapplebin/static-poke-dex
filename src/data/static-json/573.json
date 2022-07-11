@@ -1,0 +1,68 @@
+{
+  "no": "573",
+  "idx": 573,
+  "name": {
+    "jpn": "チラチーノ",
+    "chs": "奇诺栗鼠"
+  },
+  "form": "",
+  "slug": "cinccino",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSE",
+        "FSE",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

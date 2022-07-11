@@ -1,0 +1,38 @@
+{
+  "no": "783",
+  "idx": 783,
+  "name": {
+    "jpn": "ジャランゴ",
+    "chs": "鳞甲龙"
+  },
+  "form": "",
+  "slug": "hakamo-o",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "EVE"
+      ]
+    }
+  ]
+}

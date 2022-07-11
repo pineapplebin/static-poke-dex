@@ -1,0 +1,68 @@
+{
+  "no": "508",
+  "idx": 508,
+  "name": {
+    "jpn": "ムーランド",
+    "chs": "长毛狗"
+  },
+  "form": "",
+  "slug": "stoutland",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSE",
+        "FSE",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

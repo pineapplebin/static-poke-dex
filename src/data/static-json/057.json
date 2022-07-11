@@ -1,0 +1,134 @@
+{
+  "no": "057",
+  "idx": 57,
+  "name": {
+    "jpn": "オコリザル",
+    "chs": "火暴猴"
+  },
+  "form": "",
+  "slug": "primeape",
+  "available": [
+    {
+      "generation": "I",
+      "games": [
+        "r",
+        "g",
+        "b",
+        "y"
+      ],
+      "available": [
+        "E",
+        "T",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSE",
+        "FSE",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "E",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

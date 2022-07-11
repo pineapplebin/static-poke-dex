@@ -1,0 +1,38 @@
+{
+  "no": "728",
+  "idx": 728,
+  "name": {
+    "jpn": "アシマリ",
+    "chs": "球球海狮"
+  },
+  "form": "",
+  "slug": "popplio",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "RD",
+        "RD"
+      ]
+    }
+  ]
+}

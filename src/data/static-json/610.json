@@ -1,0 +1,68 @@
+{
+  "no": "610",
+  "idx": 610,
+  "name": {
+    "jpn": "キバゴ",
+    "chs": "牙牙"
+  },
+  "form": "",
+  "slug": "axew",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "S",
+        "S",
+        "S",
+        "S"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

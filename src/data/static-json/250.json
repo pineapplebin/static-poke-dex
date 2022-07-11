@@ -1,0 +1,119 @@
+{
+  "no": "250",
+  "idx": 250,
+  "name": {
+    "jpn": "ホウオウ",
+    "chs": "凤王"
+  },
+  "form": "",
+  "slug": "ho-oh",
+  "available": [
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "EV",
+        "EV",
+        "EV"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "T",
+        "T",
+        "DR",
+        "DR"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "DA",
+        "CCDA",
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

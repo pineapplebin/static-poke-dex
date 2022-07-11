@@ -1,0 +1,27 @@
+{
+  "no": "740",
+  "idx": 740,
+  "name": {
+    "jpn": "ケケンカニ",
+    "chs": "好胜毛蟹"
+  },
+  "form": "",
+  "slug": "crabominable",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

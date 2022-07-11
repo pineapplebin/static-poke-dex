@@ -1,0 +1,23 @@
+{
+  "no": "855",
+  "idx": 855,
+  "name": {
+    "jpn": "ポットデス",
+    "chs": "怖思壶"
+  },
+  "form": "",
+  "slug": "polteageist",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

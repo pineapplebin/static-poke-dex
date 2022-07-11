@@ -1,0 +1,115 @@
+{
+  "no": "158",
+  "idx": 158,
+  "name": {
+    "jpn": "ワニノコ",
+    "chs": "小锯鳄"
+  },
+  "form": "",
+  "slug": "totodile",
+  "available": [
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev",
+        "CCR"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "S",
+        "S",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

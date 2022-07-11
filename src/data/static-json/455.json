@@ -1,0 +1,87 @@
+{
+  "no": "455",
+  "idx": 455,
+  "name": {
+    "jpn": "マスキッパ",
+    "chs": "尖牙笼"
+  },
+  "form": "",
+  "slug": "carnivine",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "S",
+        "S",
+        "S",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "DW",
+        "DW",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "S",
+        "S",
+        "C"
+      ]
+    }
+  ]
+}

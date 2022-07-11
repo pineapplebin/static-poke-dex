@@ -1,0 +1,21 @@
+{
+  "no": "059",
+  "idx": 59,
+  "name": {
+    "jpn": "ウインディ",
+    "chs": "风速狗"
+  },
+  "form": "hisui",
+  "slug": "arcanine",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

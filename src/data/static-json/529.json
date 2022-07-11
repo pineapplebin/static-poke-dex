@@ -1,0 +1,68 @@
+{
+  "no": "529",
+  "idx": 529,
+  "name": {
+    "jpn": "モグリュー",
+    "chs": "螺钉地鼠"
+  },
+  "form": "",
+  "slug": "drilbur",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSB",
+        "FSB",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

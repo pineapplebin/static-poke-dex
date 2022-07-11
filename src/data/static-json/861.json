@@ -1,0 +1,23 @@
+{
+  "no": "861",
+  "idx": 861,
+  "name": {
+    "jpn": "オーロンゲ",
+    "chs": "长毛巨魔"
+  },
+  "form": "",
+  "slug": "grimmsnarl",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "no": "335",
+  "idx": 335,
+  "name": {
+    "jpn": "ザングース",
+    "chs": "猫鼬斩"
+  },
+  "form": "",
+  "slug": "zangoose",
+  "available": [
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "C",
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "D",
+        "D",
+        "D",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

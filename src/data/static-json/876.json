@@ -1,0 +1,23 @@
+{
+  "no": "876",
+  "idx": 876,
+  "name": {
+    "jpn": "イエッサン",
+    "chs": "爱管侍"
+  },
+  "form": "",
+  "slug": "indeedee",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

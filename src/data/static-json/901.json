@@ -1,0 +1,21 @@
+{
+  "no": "901",
+  "idx": 901,
+  "name": {
+    "jpn": "ガチグマ",
+    "chs": "月月熊"
+  },
+  "form": "",
+  "slug": "ursaluna",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

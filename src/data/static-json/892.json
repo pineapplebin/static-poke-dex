@@ -1,0 +1,23 @@
+{
+  "no": "892",
+  "idx": 892,
+  "name": {
+    "jpn": "ウーラオス",
+    "chs": "武道熊師"
+  },
+  "form": "",
+  "slug": "urshifu",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "ED",
+        "ED"
+      ]
+    }
+  ]
+}

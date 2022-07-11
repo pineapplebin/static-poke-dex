@@ -1,0 +1,91 @@
+{
+  "no": "425",
+  "idx": 425,
+  "name": {
+    "jpn": "フワンテ",
+    "chs": "飘飘球"
+  },
+  "form": "",
+  "slug": "drifloon",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "B",
+        "B",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "885",
+  "idx": 885,
+  "name": {
+    "jpn": "ドラメシヤ",
+    "chs": "多龙梅西亚"
+  },
+  "form": "",
+  "slug": "dreepy",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

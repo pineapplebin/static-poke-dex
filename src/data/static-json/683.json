@@ -1,0 +1,53 @@
+{
+  "no": "683",
+  "idx": 683,
+  "name": {
+    "jpn": "フレフワン",
+    "chs": "芳香精"
+  },
+  "form": "",
+  "slug": "aromatisse",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSET",
+        "ET",
+        "Ev",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "D"
+      ]
+    }
+  ]
+}

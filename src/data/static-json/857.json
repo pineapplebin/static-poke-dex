@@ -1,0 +1,23 @@
+{
+  "no": "857",
+  "idx": 857,
+  "name": {
+    "jpn": "テブリム",
+    "chs": "提布莉姆"
+  },
+  "form": "",
+  "slug": "hattrem",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

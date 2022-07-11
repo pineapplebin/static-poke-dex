@@ -1,0 +1,53 @@
+{
+  "no": "694",
+  "idx": 694,
+  "name": {
+    "jpn": "エリキテル",
+    "chs": "伞电蜥"
+  },
+  "form": "",
+  "slug": "helioptile",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "757",
+  "idx": 757,
+  "name": {
+    "jpn": "ヤトウモリ",
+    "chs": "夜盗火蜥"
+  },
+  "form": "",
+  "slug": "salandit",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

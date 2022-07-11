@@ -1,0 +1,53 @@
+{
+  "no": "684",
+  "idx": 684,
+  "name": {
+    "jpn": "ペロッパフ",
+    "chs": "绵绵泡芙"
+  },
+  "form": "",
+  "slug": "swirlix",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "FS",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

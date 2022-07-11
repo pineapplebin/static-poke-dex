@@ -1,0 +1,138 @@
+{
+  "no": "001",
+  "idx": 1,
+  "name": {
+    "jpn": "フシギダネ",
+    "chs": "妙蛙种子"
+  },
+  "form": "",
+  "slug": "bulbasaur",
+  "available": [
+    {
+      "generation": "I",
+      "games": [
+        "r",
+        "g",
+        "b",
+        "y"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "R",
+        "R",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "R",
+        "R",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "T",
+        "T",
+        "S",
+        "S",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "RD",
+        "RD",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

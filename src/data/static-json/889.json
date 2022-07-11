@@ -1,0 +1,23 @@
+{
+  "no": "889",
+  "idx": 889,
+  "name": {
+    "jpn": "ザマゼンタ",
+    "chs": "藏玛然特"
+  },
+  "form": "",
+  "slug": "zamazenta",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

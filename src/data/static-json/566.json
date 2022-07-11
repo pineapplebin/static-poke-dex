@@ -1,0 +1,68 @@
+{
+  "no": "566",
+  "idx": 566,
+  "name": {
+    "jpn": "アーケン",
+    "chs": "始祖小鸟"
+  },
+  "form": "",
+  "slug": "archen",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

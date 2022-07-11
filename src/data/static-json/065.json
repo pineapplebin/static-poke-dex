@@ -1,0 +1,140 @@
+{
+  "no": "065",
+  "idx": 65,
+  "name": {
+    "jpn": "フーディン",
+    "chs": "胡地"
+  },
+  "form": "",
+  "slug": "alakazam",
+  "available": [
+    {
+      "generation": "I",
+      "games": [
+        "r",
+        "g",
+        "b",
+        "y"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "DWET",
+        "ET",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "CD",
+        "CD",
+        "ET",
+        "ET",
+        "C"
+      ]
+    }
+  ]
+}

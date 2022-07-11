@@ -1,0 +1,70 @@
+{
+  "no": "627",
+  "idx": 627,
+  "name": {
+    "jpn": "ワシボン",
+    "chs": "毛头小鹰"
+  },
+  "form": "",
+  "slug": "rufflet",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FS",
+        "FS",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "la"
+      ],
+      "available": [
+        "C",
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

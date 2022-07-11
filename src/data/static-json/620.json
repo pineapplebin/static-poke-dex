@@ -1,0 +1,68 @@
+{
+  "no": "620",
+  "idx": 620,
+  "name": {
+    "jpn": "コジョンド",
+    "chs": "师父鼬"
+  },
+  "form": "",
+  "slug": "mienshao",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

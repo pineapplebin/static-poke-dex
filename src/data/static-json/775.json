@@ -1,0 +1,27 @@
+{
+  "no": "775",
+  "idx": 775,
+  "name": {
+    "jpn": "ネッコアラ",
+    "chs": "树枕尾熊"
+  },
+  "form": "",
+  "slug": "komala",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

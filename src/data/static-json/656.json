@@ -1,0 +1,42 @@
+{
+  "no": "656",
+  "idx": 656,
+  "name": {
+    "jpn": "ケロマツ",
+    "chs": "呱呱泡蛙"
+  },
+  "form": "",
+  "slug": "froakie",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "R",
+        "R",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "B"
+      ]
+    }
+  ]
+}

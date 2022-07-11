@@ -1,0 +1,91 @@
+{
+  "no": "438",
+  "idx": 438,
+  "name": {
+    "jpn": "ウソハチ",
+    "chs": "盆才怪"
+  },
+  "form": "",
+  "slug": "bonsly",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "S",
+        "C",
+        "S",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "DWB",
+        "DWB",
+        "B",
+        "DWB"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "B",
+        "B",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "C",
+        "C",
+        "S",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

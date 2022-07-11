@@ -1,0 +1,42 @@
+{
+  "no": "676",
+  "idx": 676,
+  "name": {
+    "jpn": "トリミアン",
+    "chs": "多丽米亚"
+  },
+  "form": "",
+  "slug": "furfrou",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

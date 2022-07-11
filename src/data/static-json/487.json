@@ -1,0 +1,91 @@
+{
+  "no": "487",
+  "idx": 487,
+  "name": {
+    "jpn": "ギラティナ",
+    "chs": "骑拉帝纳"
+  },
+  "form": "",
+  "slug": "giratina",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "EV",
+        "EV"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "DR",
+        "DR"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "CC",
+        "CC"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "CC",
+        "CC"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "DA",
+        "DA",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

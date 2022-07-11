@@ -1,0 +1,27 @@
+{
+  "no": "735",
+  "idx": 735,
+  "name": {
+    "jpn": "デカグース",
+    "chs": "猫鼬探长"
+  },
+  "form": "",
+  "slug": "gumshoos",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "784",
+  "idx": 784,
+  "name": {
+    "jpn": "ジャラランガ",
+    "chs": "杖尾鳞甲龙"
+  },
+  "form": "",
+  "slug": "kommo-o",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "EVE"
+      ]
+    }
+  ]
+}

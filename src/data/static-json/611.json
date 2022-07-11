@@ -1,0 +1,68 @@
+{
+  "no": "611",
+  "idx": 611,
+  "name": {
+    "jpn": "オノンド",
+    "chs": "斧牙龙"
+  },
+  "form": "",
+  "slug": "fraxure",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

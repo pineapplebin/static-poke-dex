@@ -1,0 +1,117 @@
+{
+  "no": "156",
+  "idx": 156,
+  "name": {
+    "jpn": "マグマラシ",
+    "chs": "火岩鼠"
+  },
+  "form": "",
+  "slug": "quilava",
+  "available": [
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "EvE",
+        "EvE",
+        "EvE",
+        "EvE",
+        "CCE"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "EvE",
+        "EvE",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C"
+      ]
+    }
+  ]
+}

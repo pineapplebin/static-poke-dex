@@ -1,0 +1,38 @@
+{
+  "no": "776",
+  "idx": 776,
+  "name": {
+    "jpn": "バクガメス",
+    "chs": "爆焰龟兽"
+  },
+  "form": "",
+  "slug": "turtonator",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "Ev",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

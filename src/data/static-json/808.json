@@ -1,0 +1,34 @@
+{
+  "no": "808",
+  "idx": 808,
+  "name": {
+    "jpn": "メルタン",
+    "chs": "美录坦"
+  },
+  "form": "",
+  "slug": "meltan",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "lp",
+        "le"
+      ],
+      "available": [
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

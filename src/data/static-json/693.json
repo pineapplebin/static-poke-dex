@@ -1,0 +1,53 @@
+{
+  "no": "693",
+  "idx": 693,
+  "name": {
+    "jpn": "ブロスター",
+    "chs": "钢炮臂虾"
+  },
+  "form": "",
+  "slug": "clawitzer",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "T",
+        "T",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "T"
+      ]
+    }
+  ]
+}

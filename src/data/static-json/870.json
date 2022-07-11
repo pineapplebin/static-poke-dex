@@ -1,0 +1,23 @@
+{
+  "no": "870",
+  "idx": 870,
+  "name": {
+    "jpn": "タイレーツ",
+    "chs": "列阵兵"
+  },
+  "form": "",
+  "slug": "falinks",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

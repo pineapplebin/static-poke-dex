@@ -1,0 +1,57 @@
+{
+  "no": "540",
+  "idx": 540,
+  "name": {
+    "jpn": "クルミル",
+    "chs": "虫宝包"
+  },
+  "form": "",
+  "slug": "sewaddle",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSB",
+        "FSB",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "B",
+        "B",
+        "B",
+        "B"
+      ]
+    }
+  ]
+}

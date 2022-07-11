@@ -1,0 +1,23 @@
+{
+  "no": "083",
+  "idx": 83,
+  "name": {
+    "jpn": "カモネギ",
+    "chs": "大葱鸭"
+  },
+  "form": "galar",
+  "slug": "farfetchd",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

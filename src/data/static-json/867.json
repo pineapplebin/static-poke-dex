@@ -1,0 +1,23 @@
+{
+  "no": "867",
+  "idx": 867,
+  "name": {
+    "jpn": "デスバーン",
+    "chs": "死神板"
+  },
+  "form": "",
+  "slug": "runerigus",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

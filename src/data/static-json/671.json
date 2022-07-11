@@ -1,0 +1,42 @@
+{
+  "no": "671",
+  "idx": 671,
+  "name": {
+    "jpn": "フラージェス",
+    "chs": "花洁夫人"
+  },
+  "form": "",
+  "slug": "florges",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "no": "903",
+  "idx": 903,
+  "name": {
+    "jpn": "オオニューラ",
+    "chs": "大狃拉"
+  },
+  "form": "",
+  "slug": "sneasler",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "no": "386",
+  "idx": 386,
+  "name": {
+    "jpn": "デオキシス",
+    "chs": "代欧奇希斯"
+  },
+  "form": "",
+  "slug": "deoxys",
+  "available": [
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "EV",
+        "EV",
+        "EV"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

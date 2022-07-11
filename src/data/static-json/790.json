@@ -1,0 +1,38 @@
+{
+  "no": "790",
+  "idx": 790,
+  "name": {
+    "jpn": "コスモウム",
+    "chs": "科斯莫姆"
+  },
+  "form": "",
+  "slug": "cosmoem",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "ED",
+        "ED"
+      ]
+    }
+  ]
+}

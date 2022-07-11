@@ -1,0 +1,23 @@
+{
+  "no": "831",
+  "idx": 831,
+  "name": {
+    "jpn": "ウールー",
+    "chs": "毛辫羊"
+  },
+  "form": "",
+  "slug": "wooloo",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

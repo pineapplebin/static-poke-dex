@@ -1,0 +1,23 @@
+{
+  "no": "886",
+  "idx": 886,
+  "name": {
+    "jpn": "ドロンチ",
+    "chs": "多龙奇"
+  },
+  "form": "",
+  "slug": "drakloak",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

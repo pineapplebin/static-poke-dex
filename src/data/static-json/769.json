@@ -1,0 +1,38 @@
+{
+  "no": "769",
+  "idx": 769,
+  "name": {
+    "jpn": "スナバァ",
+    "chs": "沙丘娃"
+  },
+  "form": "",
+  "slug": "sandygast",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

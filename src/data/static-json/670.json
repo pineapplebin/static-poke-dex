@@ -1,0 +1,42 @@
+{
+  "no": "670",
+  "idx": 670,
+  "name": {
+    "jpn": "フラエッテ",
+    "chs": "花叶蒂"
+  },
+  "form": "",
+  "slug": "floette",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

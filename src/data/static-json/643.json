@@ -1,0 +1,68 @@
+{
+  "no": "643",
+  "idx": 643,
+  "name": {
+    "jpn": "レシラム",
+    "chs": "莱希拉姆"
+  },
+  "form": "",
+  "slug": "reshiram",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "Ev",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "Ev",
+        "C",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "CCDA"
+      ]
+    }
+  ]
+}

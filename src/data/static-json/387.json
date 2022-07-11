@@ -1,0 +1,87 @@
+{
+  "no": "387",
+  "idx": 387,
+  "name": {
+    "jpn": "ナエトル",
+    "chs": "草苗龟"
+  },
+  "form": "",
+  "slug": "turtwig",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "EvB",
+        "EvB"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "B"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

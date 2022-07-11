@@ -1,0 +1,31 @@
+{
+  "no": "020",
+  "idx": 20,
+  "name": {
+    "jpn": "ラッタ",
+    "chs": "拉达"
+  },
+  "form": "alola",
+  "slug": "raticate",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

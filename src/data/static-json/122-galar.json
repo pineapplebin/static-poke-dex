@@ -1,0 +1,23 @@
+{
+  "no": "122",
+  "idx": 122,
+  "name": {
+    "jpn": "バリヤード",
+    "chs": "魔墙人偶"
+  },
+  "form": "galar",
+  "slug": "mr-mime",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

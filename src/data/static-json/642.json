@@ -1,0 +1,70 @@
+{
+  "no": "642",
+  "idx": 642,
+  "name": {
+    "jpn": "ボルトロス",
+    "chs": "雷电云"
+  },
+  "form": "",
+  "slug": "thundurus",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "Ev",
+        "C",
+        "DR",
+        "DR"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "T",
+        "Ev",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "la"
+      ],
+      "available": [
+        "CCDA",
+        "DA",
+        "C"
+      ]
+    }
+  ]
+}

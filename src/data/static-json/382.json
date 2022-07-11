@@ -1,0 +1,106 @@
+{
+  "no": "382",
+  "idx": 382,
+  "name": {
+    "jpn": "カイオーガ",
+    "chs": "盖欧卡"
+  },
+  "form": "",
+  "slug": "kyogre",
+  "available": [
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "T",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "T",
+        "Ev",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "CCDA",
+        "DA",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

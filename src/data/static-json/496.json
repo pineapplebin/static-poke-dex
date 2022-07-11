@@ -1,0 +1,57 @@
+{
+  "no": "496",
+  "idx": 496,
+  "name": {
+    "jpn": "ジャノビー",
+    "chs": "青藤蛇"
+  },
+  "form": "",
+  "slug": "servine",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "B",
+        "B",
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

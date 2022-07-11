@@ -1,0 +1,23 @@
+{
+  "no": "854",
+  "idx": 854,
+  "name": {
+    "jpn": "ヤバチャ",
+    "chs": "来悲茶"
+  },
+  "form": "",
+  "slug": "sinistea",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

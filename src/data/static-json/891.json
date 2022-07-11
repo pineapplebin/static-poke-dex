@@ -1,0 +1,23 @@
+{
+  "no": "891",
+  "idx": 891,
+  "name": {
+    "jpn": "ダクマ",
+    "chs": "熊徒弟"
+  },
+  "form": "",
+  "slug": "kubfu",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "RD",
+        "RD"
+      ]
+    }
+  ]
+}

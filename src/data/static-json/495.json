@@ -1,0 +1,57 @@
+{
+  "no": "495",
+  "idx": 495,
+  "name": {
+    "jpn": "ツタージャ",
+    "chs": "藤藤蛇"
+  },
+  "form": "",
+  "slug": "snivy",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "B",
+        "B",
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

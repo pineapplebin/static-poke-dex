@@ -1,0 +1,38 @@
+{
+  "no": "799",
+  "idx": 799,
+  "name": {
+    "jpn": "アクジキング",
+    "chs": "恶食大王"
+  },
+  "form": "",
+  "slug": "guzzlord",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

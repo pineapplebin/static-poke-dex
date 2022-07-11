@@ -1,0 +1,38 @@
+{
+  "no": "770",
+  "idx": 770,
+  "name": {
+    "jpn": "シロデスナ",
+    "chs": "噬沙堡爷"
+  },
+  "form": "",
+  "slug": "palossand",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

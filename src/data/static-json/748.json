@@ -1,0 +1,38 @@
+{
+  "no": "748",
+  "idx": 748,
+  "name": {
+    "jpn": "ドヒドイデ",
+    "chs": "超坏星"
+  },
+  "form": "",
+  "slug": "toxapex",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "no": "088",
+  "idx": 88,
+  "name": {
+    "jpn": "ベトベター",
+    "chs": "臭泥"
+  },
+  "form": "alola",
+  "slug": "grimer",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "R",
+        "T"
+      ]
+    }
+  ]
+}

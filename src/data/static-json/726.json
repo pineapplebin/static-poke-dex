@@ -1,0 +1,38 @@
+{
+  "no": "726",
+  "idx": 726,
+  "name": {
+    "jpn": "ニャヒート",
+    "chs": "炎热喵"
+  },
+  "form": "",
+  "slug": "torracat",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "ED",
+        "ED"
+      ]
+    }
+  ]
+}

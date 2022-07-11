@@ -1,0 +1,68 @@
+{
+  "no": "646",
+  "idx": 646,
+  "name": {
+    "jpn": "キュレム",
+    "chs": "酋雷姆"
+  },
+  "form": "",
+  "slug": "kyurem",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "CC",
+        "CC"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "CC",
+        "CC"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

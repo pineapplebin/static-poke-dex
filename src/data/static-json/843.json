@@ -1,0 +1,23 @@
+{
+  "no": "843",
+  "idx": 843,
+  "name": {
+    "jpn": "スナヘビ",
+    "chs": "沙包蛇"
+  },
+  "form": "",
+  "slug": "silicobra",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

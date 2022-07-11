@@ -1,0 +1,23 @@
+{
+  "no": "895",
+  "idx": 895,
+  "name": {
+    "jpn": "レジドラゴ",
+    "chs": "雷吉鐸拉戈"
+  },
+  "form": "",
+  "slug": "regidrago",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

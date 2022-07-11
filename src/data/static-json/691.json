@@ -1,0 +1,53 @@
+{
+  "no": "691",
+  "idx": 691,
+  "name": {
+    "jpn": "ドラミドロ",
+    "chs": "毒藻龙"
+  },
+  "form": "",
+  "slug": "dragalge",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "C",
+        "E",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "CD"
+      ]
+    }
+  ]
+}

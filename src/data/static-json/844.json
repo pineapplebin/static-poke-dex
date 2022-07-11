@@ -1,0 +1,23 @@
+{
+  "no": "844",
+  "idx": 844,
+  "name": {
+    "jpn": "サダイジャ",
+    "chs": "沙螺蟒"
+  },
+  "form": "",
+  "slug": "sandaconda",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

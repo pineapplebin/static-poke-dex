@@ -1,0 +1,53 @@
+{
+  "no": "675",
+  "idx": 675,
+  "name": {
+    "jpn": "ゴロンダ",
+    "chs": "流氓熊猫"
+  },
+  "form": "",
+  "slug": "pangoro",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "EvE",
+        "EvE"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

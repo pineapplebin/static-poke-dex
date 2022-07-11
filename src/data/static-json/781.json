@@ -1,0 +1,38 @@
+{
+  "no": "781",
+  "idx": 781,
+  "name": {
+    "jpn": "ダダリン",
+    "chs": "破破舵轮"
+  },
+  "form": "",
+  "slug": "dhelmise",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "827",
+  "idx": 827,
+  "name": {
+    "jpn": "クスネ",
+    "chs": "偷儿狐"
+  },
+  "form": "",
+  "slug": "nickit",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

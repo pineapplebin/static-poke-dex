@@ -1,0 +1,34 @@
+{
+  "no": "806",
+  "idx": 806,
+  "name": {
+    "jpn": "ズガドーン",
+    "chs": "砰头小丑"
+  },
+  "form": "",
+  "slug": "blacephalon",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

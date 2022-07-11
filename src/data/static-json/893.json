@@ -1,0 +1,23 @@
+{
+  "no": "893",
+  "idx": 893,
+  "name": {
+    "jpn": "ザルード",
+    "chs": "薩戮德"
+  },
+  "form": "",
+  "slug": "zarude",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "Ev",
+        "Ev"
+      ]
+    }
+  ]
+}

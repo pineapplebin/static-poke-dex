@@ -1,0 +1,23 @@
+{
+  "no": "821",
+  "idx": 821,
+  "name": {
+    "jpn": "ココガラ",
+    "chs": "稚山雀"
+  },
+  "form": "",
+  "slug": "rookidee",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

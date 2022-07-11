@@ -1,0 +1,23 @@
+{
+  "no": "078",
+  "idx": 78,
+  "name": {
+    "jpn": "ギャロップ",
+    "chs": "烈焰马"
+  },
+  "form": "galar",
+  "slug": "rapidash",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "D"
+      ]
+    }
+  ]
+}

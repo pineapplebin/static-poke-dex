@@ -1,0 +1,23 @@
+{
+  "no": "834",
+  "idx": 834,
+  "name": {
+    "jpn": "カジリガメ",
+    "chs": "暴噬龟"
+  },
+  "form": "",
+  "slug": "drednaw",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

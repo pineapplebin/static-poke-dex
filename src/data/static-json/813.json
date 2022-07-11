@@ -1,0 +1,23 @@
+{
+  "no": "813",
+  "idx": 813,
+  "name": {
+    "jpn": "ヒバニー",
+    "chs": "炎兔儿"
+  },
+  "form": "",
+  "slug": "scorbunny",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "727",
+  "idx": 727,
+  "name": {
+    "jpn": "ガオガエン",
+    "chs": "炽焰咆哮虎"
+  },
+  "form": "",
+  "slug": "incineroar",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "ED",
+        "ED"
+      ]
+    }
+  ]
+}

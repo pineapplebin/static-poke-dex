@@ -1,0 +1,53 @@
+{
+  "no": "709",
+  "idx": 709,
+  "name": {
+    "jpn": "オーロット",
+    "chs": "朽木妖"
+  },
+  "form": "",
+  "slug": "trevenant",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

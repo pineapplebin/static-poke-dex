@@ -1,0 +1,23 @@
+{
+  "no": "856",
+  "idx": 856,
+  "name": {
+    "jpn": "ミブリム",
+    "chs": "迷布莉姆"
+  },
+  "form": "",
+  "slug": "hatenna",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

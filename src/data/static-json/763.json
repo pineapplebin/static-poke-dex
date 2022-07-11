@@ -1,0 +1,38 @@
+{
+  "no": "763",
+  "idx": 763,
+  "name": {
+    "jpn": "アマージョ",
+    "chs": "甜冷美后"
+  },
+  "form": "",
+  "slug": "tsareena",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

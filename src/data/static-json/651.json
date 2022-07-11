@@ -1,0 +1,42 @@
+{
+  "no": "651",
+  "idx": 651,
+  "name": {
+    "jpn": "ハリボーグ",
+    "chs": "胖胖哈力"
+  },
+  "form": "",
+  "slug": "quilladin",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "B"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "832",
+  "idx": 832,
+  "name": {
+    "jpn": "バイウールー",
+    "chs": "毛毛角羊"
+  },
+  "form": "",
+  "slug": "dubwool",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

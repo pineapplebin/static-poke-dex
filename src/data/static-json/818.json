@@ -1,0 +1,23 @@
+{
+  "no": "818",
+  "idx": 818,
+  "name": {
+    "jpn": "インテレオン",
+    "chs": "千面避役"
+  },
+  "form": "",
+  "slug": "inteleon",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

@@ -37,15 +37,9 @@
 
   function handleFlowToEdge() {
     const width = window.innerWidth;
-    const middleLine = width / 2;
 
     const pos = { ...$memoryData.magicButtonPos };
-
-    if (pos.x < middleLine) {
-      pos.x = 0;
-    } else {
-      pos.x = width - 56;
-    }
+    pos.x = width - 56;
 
     if (pos.y > window.innerHeight) {
       pos.y = 600;

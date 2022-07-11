@@ -1,0 +1,38 @@
+{
+  "no": "777",
+  "idx": 777,
+  "name": {
+    "jpn": "トゲデマル",
+    "chs": "托戈德玛尔"
+  },
+  "form": "",
+  "slug": "togedemaru",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

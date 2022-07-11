@@ -1,0 +1,23 @@
+{
+  "no": "820",
+  "idx": 820,
+  "name": {
+    "jpn": "ヨクバリス",
+    "chs": "藏饱栗鼠"
+  },
+  "form": "",
+  "slug": "greedent",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

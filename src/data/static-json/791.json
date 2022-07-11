@@ -1,0 +1,38 @@
+{
+  "no": "791",
+  "idx": 791,
+  "name": {
+    "jpn": "ソルガレオ",
+    "chs": "索尔迦雷欧"
+  },
+  "form": "",
+  "slug": "solgaleo",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "CCDA"
+      ]
+    }
+  ]
+}

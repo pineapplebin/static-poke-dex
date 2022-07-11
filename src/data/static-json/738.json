@@ -1,0 +1,38 @@
+{
+  "no": "738",
+  "idx": 738,
+  "name": {
+    "jpn": "クワガノン",
+    "chs": "锹农炮虫"
+  },
+  "form": "",
+  "slug": "vikavolt",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

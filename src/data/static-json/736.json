@@ -1,0 +1,38 @@
+{
+  "no": "736",
+  "idx": 736,
+  "name": {
+    "jpn": "アゴジムシ",
+    "chs": "强颚鸡母虫"
+  },
+  "form": "",
+  "slug": "grubbin",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

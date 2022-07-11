@@ -1,0 +1,23 @@
+{
+  "no": "839",
+  "idx": 839,
+  "name": {
+    "jpn": "セキタンザン",
+    "chs": "巨炭山"
+  },
+  "form": "",
+  "slug": "coalossal",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "no": "654",
+  "idx": 654,
+  "name": {
+    "jpn": "テールナー",
+    "chs": "长尾火狐"
+  },
+  "form": "",
+  "slug": "braixen",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "EvE",
+        "EvE"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "B"
+      ]
+    }
+  ]
+}

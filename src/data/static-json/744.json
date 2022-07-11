@@ -1,0 +1,38 @@
+{
+  "no": "744",
+  "idx": 744,
+  "name": {
+    "jpn": "イワンコ",
+    "chs": "岩狗狗"
+  },
+  "form": "",
+  "slug": "rockruff",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

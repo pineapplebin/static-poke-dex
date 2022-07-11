@@ -1,0 +1,57 @@
+{
+  "no": "648",
+  "idx": 648,
+  "name": {
+    "jpn": "メロエッタ",
+    "chs": "美洛耶塔"
+  },
+  "form": "",
+  "slug": "meloetta",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    }
+  ]
+}

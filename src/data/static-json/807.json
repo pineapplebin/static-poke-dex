@@ -1,0 +1,34 @@
+{
+  "no": "807",
+  "idx": 807,
+  "name": {
+    "jpn": "ゼラオラ",
+    "chs": "捷拉奥拉"
+  },
+  "form": "",
+  "slug": "zeraora",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "Ev",
+        "Ev"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "841",
+  "idx": 841,
+  "name": {
+    "jpn": "アップリュー",
+    "chs": "苹裹龙"
+  },
+  "form": "",
+  "slug": "flapple",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "T"
+      ]
+    }
+  ]
+}

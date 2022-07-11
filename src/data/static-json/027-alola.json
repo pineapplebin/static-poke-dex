@@ -1,0 +1,42 @@
+{
+  "no": "027",
+  "idx": 27,
+  "name": {
+    "jpn": "サンド",
+    "chs": "穿山鼠"
+  },
+  "form": "alola",
+  "slug": "sandshrew",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "C",
+        "R",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "RD",
+        "RD"
+      ]
+    }
+  ]
+}

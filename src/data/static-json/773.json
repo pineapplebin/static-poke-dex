@@ -1,0 +1,38 @@
+{
+  "no": "773",
+  "idx": 773,
+  "name": {
+    "jpn": "シルヴァディ",
+    "chs": "银伴战兽"
+  },
+  "form": "",
+  "slug": "silvally",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

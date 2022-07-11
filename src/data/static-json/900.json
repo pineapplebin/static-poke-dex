@@ -1,0 +1,21 @@
+{
+  "no": "900",
+  "idx": 900,
+  "name": {
+    "jpn": "バサギリ",
+    "chs": "劈斧螳螂"
+  },
+  "form": "",
+  "slug": "kleavor",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

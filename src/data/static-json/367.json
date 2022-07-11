@@ -1,0 +1,102 @@
+{
+  "no": "367",
+  "idx": 367,
+  "name": {
+    "jpn": "ハンテール",
+    "chs": "猎斑鱼"
+  },
+  "form": "",
+  "slug": "huntail",
+  "available": [
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "T",
+        "T",
+        "ET"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "T",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "ET",
+        "C",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp"
+      ],
+      "available": [
+        "ET",
+        "ET"
+      ]
+    }
+  ]
+}

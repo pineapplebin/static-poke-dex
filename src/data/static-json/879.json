@@ -1,0 +1,23 @@
+{
+  "no": "879",
+  "idx": 879,
+  "name": {
+    "jpn": "ダイオウドウ",
+    "chs": "大王铜象"
+  },
+  "form": "",
+  "slug": "copperajah",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

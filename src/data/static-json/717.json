@@ -1,0 +1,53 @@
+{
+  "no": "717",
+  "idx": 717,
+  "name": {
+    "jpn": "イベルタル",
+    "chs": "伊裴尔塔尔"
+  },
+  "form": "",
+  "slug": "yveltal",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "C",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "T",
+        "Ev",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CCDA",
+        "DA"
+      ]
+    }
+  ]
+}

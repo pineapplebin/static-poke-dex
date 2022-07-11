@@ -1,0 +1,23 @@
+{
+  "no": "860",
+  "idx": 860,
+  "name": {
+    "jpn": "ギモー",
+    "chs": "诈唬魔"
+  },
+  "form": "",
+  "slug": "morgrem",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

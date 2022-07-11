@@ -1,0 +1,21 @@
+{
+  "no": "724",
+  "idx": 724,
+  "name": {
+    "jpn": "ジュナイパー",
+    "chs": "狙射树枭"
+  },
+  "form": "hisui",
+  "slug": "decidueye",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "829",
+  "idx": 829,
+  "name": {
+    "jpn": "ヒメンカ",
+    "chs": "幼棉棉"
+  },
+  "form": "",
+  "slug": "gossifleur",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

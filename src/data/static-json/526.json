@@ -1,0 +1,68 @@
+{
+  "no": "526",
+  "idx": 526,
+  "name": {
+    "jpn": "ギガイアス",
+    "chs": "庞岩怪"
+  },
+  "form": "",
+  "slug": "gigalith",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

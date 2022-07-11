@@ -1,0 +1,23 @@
+{
+  "no": "875",
+  "idx": 875,
+  "name": {
+    "jpn": "コオリッポ",
+    "chs": "冰砌鹅"
+  },
+  "form": "",
+  "slug": "eiscue",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

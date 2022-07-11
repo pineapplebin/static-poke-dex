@@ -1,0 +1,53 @@
+{
+  "no": "711",
+  "idx": 711,
+  "name": {
+    "jpn": "パンプジン",
+    "chs": "南瓜怪人"
+  },
+  "form": "",
+  "slug": "gourgeist",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "EvET",
+        "EvET"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

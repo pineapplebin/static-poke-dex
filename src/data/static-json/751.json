@@ -1,0 +1,38 @@
+{
+  "no": "751",
+  "idx": 751,
+  "name": {
+    "jpn": "シズクモ",
+    "chs": "滴蛛"
+  },
+  "form": "",
+  "slug": "dewpider",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

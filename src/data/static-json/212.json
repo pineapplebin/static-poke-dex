@@ -1,0 +1,121 @@
+{
+  "no": "212",
+  "idx": 212,
+  "name": {
+    "jpn": "ハッサム",
+    "chs": "巨钳螳螂"
+  },
+  "form": "",
+  "slug": "scizor",
+  "available": [
+    {
+      "generation": "II",
+      "games": [
+        "g",
+        "s",
+        "c"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "III",
+      "games": [
+        "r",
+        "s",
+        "fr",
+        "lg",
+        "e"
+      ],
+      "available": [
+        "EvE",
+        "EvE",
+        "ET",
+        "EvE",
+        "EvE"
+      ]
+    },
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "ET",
+        "Ev",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "DWET",
+        "DWET",
+        "DWET",
+        "DWET"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "CD",
+        "CD",
+        "ET",
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

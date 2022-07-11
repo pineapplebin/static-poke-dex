@@ -1,0 +1,23 @@
+{
+  "no": "840",
+  "idx": 840,
+  "name": {
+    "jpn": "カジッチュ",
+    "chs": "啃果虫"
+  },
+  "form": "",
+  "slug": "applin",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

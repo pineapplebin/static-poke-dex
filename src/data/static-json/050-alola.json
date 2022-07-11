@@ -1,0 +1,42 @@
+{
+  "no": "050",
+  "idx": 50,
+  "name": {
+    "jpn": "ディグダ",
+    "chs": "地鼠"
+  },
+  "form": "alola",
+  "slug": "diglett",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "RD",
+        "RD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "no": "803",
+  "idx": 803,
+  "name": {
+    "jpn": "ベベノム",
+    "chs": "毒贝比"
+  },
+  "form": "",
+  "slug": "poipole",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "us",
+        "um"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "RD",
+        "RD"
+      ]
+    }
+  ]
+}

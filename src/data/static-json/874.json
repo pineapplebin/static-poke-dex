@@ -1,0 +1,23 @@
+{
+  "no": "874",
+  "idx": 874,
+  "name": {
+    "jpn": "イシヘンジン",
+    "chs": "巨石丁"
+  },
+  "form": "",
+  "slug": "stonjourner",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

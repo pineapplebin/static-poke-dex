@@ -1,0 +1,23 @@
+{
+  "no": "222",
+  "idx": 222,
+  "name": {
+    "jpn": "サニーゴ",
+    "chs": "太阳珊瑚"
+  },
+  "form": "galar",
+  "slug": "corsola",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

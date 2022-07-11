@@ -1,0 +1,23 @@
+{
+  "no": "824",
+  "idx": 824,
+  "name": {
+    "jpn": "サッチムシ",
+    "chs": "索侦虫"
+  },
+  "form": "",
+  "slug": "blipbug",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

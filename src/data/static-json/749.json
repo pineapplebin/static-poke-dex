@@ -1,0 +1,38 @@
+{
+  "no": "749",
+  "idx": 749,
+  "name": {
+    "jpn": "ドロバンコ",
+    "chs": "泥驴仔"
+  },
+  "form": "",
+  "slug": "mudbray",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

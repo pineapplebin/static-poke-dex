@@ -1,0 +1,53 @@
+{
+  "no": "685",
+  "idx": 685,
+  "name": {
+    "jpn": "ペロリーム",
+    "chs": "胖甜妮"
+  },
+  "form": "",
+  "slug": "slurpuff",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "ET",
+        "FSET",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "T"
+      ]
+    }
+  ]
+}

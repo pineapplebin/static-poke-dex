@@ -1,0 +1,21 @@
+{
+  "no": "550",
+  "idx": 550,
+  "name": {
+    "jpn": "バスラオ",
+    "chs": "野蛮鲈鱼"
+  },
+  "form": "white-striped",
+  "slug": "basculin",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

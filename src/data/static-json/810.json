@@ -1,0 +1,23 @@
+{
+  "no": "810",
+  "idx": 810,
+  "name": {
+    "jpn": "サルノリ",
+    "chs": "敲音猴"
+  },
+  "form": "",
+  "slug": "grookey",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

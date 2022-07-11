@@ -1,0 +1,57 @@
+{
+  "no": "604",
+  "idx": 604,
+  "name": {
+    "jpn": "シビルドン",
+    "chs": "麻麻鳗鱼王"
+  },
+  "form": "",
+  "slug": "eelektross",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "S",
+        "S",
+        "S",
+        "S"
+      ]
+    }
+  ]
+}

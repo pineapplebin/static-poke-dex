@@ -1,0 +1,38 @@
+{
+  "no": "764",
+  "idx": 764,
+  "name": {
+    "jpn": "キュワワー",
+    "chs": "花疗环环"
+  },
+  "form": "",
+  "slug": "comfey",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

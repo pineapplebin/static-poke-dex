@@ -1,0 +1,23 @@
+{
+  "no": "849",
+  "idx": 849,
+  "name": {
+    "jpn": "ストリンダー",
+    "chs": "颤弦蝾螈"
+  },
+  "form": "",
+  "slug": "toxtricity",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

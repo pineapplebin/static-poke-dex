@@ -1,0 +1,42 @@
+{
+  "no": "673",
+  "idx": 673,
+  "name": {
+    "jpn": "ゴーゴート",
+    "chs": "坐骑山羊"
+  },
+  "form": "",
+  "slug": "gogoat",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

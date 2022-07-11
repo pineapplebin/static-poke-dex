@@ -1,0 +1,42 @@
+{
+  "no": "720",
+  "idx": 720,
+  "name": {
+    "jpn": "フーパ",
+    "chs": "胡帕"
+  },
+  "form": "",
+  "slug": "hoopa",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    }
+  ]
+}

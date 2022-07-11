@@ -1,0 +1,23 @@
+{
+  "no": "859",
+  "idx": 859,
+  "name": {
+    "jpn": "ベロバー",
+    "chs": "捣蛋小妖"
+  },
+  "form": "",
+  "slug": "impidimp",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

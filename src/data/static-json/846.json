@@ -1,0 +1,23 @@
+{
+  "no": "846",
+  "idx": 846,
+  "name": {
+    "jpn": "サシカマス",
+    "chs": "刺梭鱼"
+  },
+  "form": "",
+  "slug": "arrokuda",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "765",
+  "idx": 765,
+  "name": {
+    "jpn": "ヤレユータン",
+    "chs": "智挥猩"
+  },
+  "form": "",
+  "slug": "oranguru",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "C",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "C"
+      ]
+    }
+  ]
+}

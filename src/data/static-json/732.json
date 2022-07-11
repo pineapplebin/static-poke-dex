@@ -1,0 +1,27 @@
+{
+  "no": "732",
+  "idx": 732,
+  "name": {
+    "jpn": "ケララッパ",
+    "chs": "喇叭啄鸟"
+  },
+  "form": "",
+  "slug": "trumbeak",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

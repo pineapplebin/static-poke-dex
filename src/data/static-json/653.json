@@ -1,0 +1,42 @@
+{
+  "no": "653",
+  "idx": 653,
+  "name": {
+    "jpn": "フォッコ",
+    "chs": "火狐狸"
+  },
+  "form": "",
+  "slug": "fennekin",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "R",
+        "R",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "B"
+      ]
+    }
+  ]
+}

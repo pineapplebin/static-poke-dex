@@ -1,0 +1,38 @@
+{
+  "no": "786",
+  "idx": 786,
+  "name": {
+    "jpn": "カプ・テテフ",
+    "chs": "卡璞・蝶蝶"
+  },
+  "form": "",
+  "slug": "tapu-lele",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

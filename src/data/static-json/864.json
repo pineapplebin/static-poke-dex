@@ -1,0 +1,23 @@
+{
+  "no": "864",
+  "idx": 864,
+  "name": {
+    "jpn": "サニゴーン",
+    "chs": "魔灵珊瑚"
+  },
+  "form": "",
+  "slug": "cursola",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "D"
+      ]
+    }
+  ]
+}

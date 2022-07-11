@@ -1,0 +1,91 @@
+{
+  "no": "483",
+  "idx": 483,
+  "name": {
+    "jpn": "ディアルガ",
+    "chs": "帝牙卢卡"
+  },
+  "form": "",
+  "slug": "dialga",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "C",
+        "T",
+        "C",
+        "EV",
+        "EV"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "DR",
+        "DR"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "Ev",
+        "C",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "DA",
+        "CCDA",
+        "C",
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

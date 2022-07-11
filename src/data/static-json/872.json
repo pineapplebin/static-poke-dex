@@ -1,0 +1,23 @@
+{
+  "no": "872",
+  "idx": 872,
+  "name": {
+    "jpn": "ユキハミ",
+    "chs": "雪吞虫"
+  },
+  "form": "",
+  "slug": "snom",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

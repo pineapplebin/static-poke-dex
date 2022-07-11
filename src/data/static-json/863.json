@@ -1,0 +1,23 @@
+{
+  "no": "863",
+  "idx": 863,
+  "name": {
+    "jpn": "ニャイキング",
+    "chs": "喵头目"
+  },
+  "form": "",
+  "slug": "perrserker",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

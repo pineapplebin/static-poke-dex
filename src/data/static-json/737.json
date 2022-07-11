@@ -1,0 +1,38 @@
+{
+  "no": "737",
+  "idx": 737,
+  "name": {
+    "jpn": "デンヂムシ",
+    "chs": "虫电宝"
+  },
+  "form": "",
+  "slug": "charjabug",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

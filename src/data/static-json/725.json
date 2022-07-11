@@ -1,0 +1,38 @@
+{
+  "no": "725",
+  "idx": 725,
+  "name": {
+    "jpn": "ニャビー",
+    "chs": "火斑喵"
+  },
+  "form": "",
+  "slug": "litten",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "RD",
+        "RD"
+      ]
+    }
+  ]
+}

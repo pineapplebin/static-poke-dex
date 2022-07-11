@@ -1,0 +1,23 @@
+{
+  "no": "845",
+  "idx": 845,
+  "name": {
+    "jpn": "ウッウ",
+    "chs": "古月鸟"
+  },
+  "form": "",
+  "slug": "cramorant",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

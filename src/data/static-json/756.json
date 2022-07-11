@@ -1,0 +1,38 @@
+{
+  "no": "756",
+  "idx": 756,
+  "name": {
+    "jpn": "マシェード",
+    "chs": "灯罩夜菇"
+  },
+  "form": "",
+  "slug": "shiinotic",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

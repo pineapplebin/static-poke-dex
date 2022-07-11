@@ -1,0 +1,38 @@
+{
+  "no": "800",
+  "idx": 800,
+  "name": {
+    "jpn": "ネクロズマ",
+    "chs": "奈克洛兹玛"
+  },
+  "form": "",
+  "slug": "necrozma",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

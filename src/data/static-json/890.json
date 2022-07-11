@@ -1,0 +1,23 @@
+{
+  "no": "890",
+  "idx": 890,
+  "name": {
+    "jpn": "ムゲンダイナ",
+    "chs": "无极汰那"
+  },
+  "form": "",
+  "slug": "eternatus",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "no": "669",
+  "idx": 669,
+  "name": {
+    "jpn": "フラベベ",
+    "chs": "花蓓蓓"
+  },
+  "form": "",
+  "slug": "flabebe",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

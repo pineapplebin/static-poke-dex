@@ -1,0 +1,23 @@
+{
+  "no": "869",
+  "idx": 869,
+  "name": {
+    "jpn": "マホイップ",
+    "chs": "霜奶仙"
+  },
+  "form": "",
+  "slug": "alcremie",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

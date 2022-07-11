@@ -1,0 +1,53 @@
+{
+  "no": "690",
+  "idx": 690,
+  "name": {
+    "jpn": "クズモー",
+    "chs": "垃垃藻"
+  },
+  "form": "",
+  "slug": "skrelp",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "C",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "B"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "CD"
+      ]
+    }
+  ]
+}

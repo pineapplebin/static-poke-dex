@@ -1,0 +1,21 @@
+{
+  "no": "215",
+  "idx": 215,
+  "name": {
+    "jpn": "ニューラ",
+    "chs": "狃拉"
+  },
+  "form": "hisui",
+  "slug": "sneasel",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

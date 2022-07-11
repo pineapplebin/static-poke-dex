@@ -1,0 +1,31 @@
+{
+  "no": "019",
+  "idx": 19,
+  "name": {
+    "jpn": "コラッタ",
+    "chs": "小拉达"
+  },
+  "form": "alola",
+  "slug": "rattata",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

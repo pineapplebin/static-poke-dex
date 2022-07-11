@@ -1,0 +1,23 @@
+{
+  "no": "817",
+  "idx": 817,
+  "name": {
+    "jpn": "ジメレオン",
+    "chs": "变涩蜥"
+  },
+  "form": "",
+  "slug": "drizzile",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "no": "652",
+  "idx": 652,
+  "name": {
+    "jpn": "ブリガロン",
+    "chs": "布里卡隆"
+  },
+  "form": "",
+  "slug": "chesnaught",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "S",
+        "S"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "no": "075",
+  "idx": 75,
+  "name": {
+    "jpn": "ゴローン",
+    "chs": "隆隆石"
+  },
+  "form": "alola",
+  "slug": "graveler",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C",
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

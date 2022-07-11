@@ -1,0 +1,23 @@
+{
+  "no": "819",
+  "idx": 819,
+  "name": {
+    "jpn": "ホシガリス",
+    "chs": "贪心栗鼠"
+  },
+  "form": "",
+  "slug": "skwovet",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

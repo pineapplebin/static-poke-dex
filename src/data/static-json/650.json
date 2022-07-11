@@ -1,0 +1,42 @@
+{
+  "no": "650",
+  "idx": 650,
+  "name": {
+    "jpn": "ハリマロン",
+    "chs": "哈力栗"
+  },
+  "form": "",
+  "slug": "chespin",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "R",
+        "R",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "B"
+      ]
+    }
+  ]
+}

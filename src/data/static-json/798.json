@@ -1,0 +1,38 @@
+{
+  "no": "798",
+  "idx": 798,
+  "name": {
+    "jpn": "カミツルギ",
+    "chs": "纸御剑"
+  },
+  "form": "",
+  "slug": "kartana",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "778",
+  "idx": 778,
+  "name": {
+    "jpn": "ミミッキュ",
+    "chs": "谜拟Ｑ"
+  },
+  "form": "",
+  "slug": "mimikyu",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

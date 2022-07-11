@@ -1,0 +1,23 @@
+{
+  "no": "562",
+  "idx": 562,
+  "name": {
+    "jpn": "デスマス",
+    "chs": "哭哭面具"
+  },
+  "form": "galar",
+  "slug": "yamask",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

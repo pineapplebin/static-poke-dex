@@ -1,0 +1,23 @@
+{
+  "no": "877",
+  "idx": 877,
+  "name": {
+    "jpn": "モルペコ",
+    "chs": "莫鲁贝可"
+  },
+  "form": "",
+  "slug": "morpeko",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

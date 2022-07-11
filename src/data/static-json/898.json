@@ -1,0 +1,23 @@
+{
+  "no": "898",
+  "idx": 898,
+  "name": {
+    "jpn": "バドレックス",
+    "chs": "蕾冠王"
+  },
+  "form": "",
+  "slug": "calyrex",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

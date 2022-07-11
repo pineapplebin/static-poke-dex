@@ -1,0 +1,70 @@
+{
+  "no": "548",
+  "idx": 548,
+  "name": {
+    "jpn": "チュリネ",
+    "chs": "百合根娃娃"
+  },
+  "form": "",
+  "slug": "petilil",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "R",
+        "C",
+        "R",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FS",
+        "FS",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "la"
+      ],
+      "available": [
+        "CD",
+        "CD",
+        "C"
+      ]
+    }
+  ]
+}

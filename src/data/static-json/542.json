@@ -1,0 +1,57 @@
+{
+  "no": "542",
+  "idx": 542,
+  "name": {
+    "jpn": "ハハコモリ",
+    "chs": "保姆虫"
+  },
+  "form": "",
+  "slug": "leavanny",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "FSE",
+        "FSE",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "S",
+        "S",
+        "S",
+        "S"
+      ]
+    }
+  ]
+}

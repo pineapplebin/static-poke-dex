@@ -1,0 +1,23 @@
+{
+  "no": "812",
+  "idx": 812,
+  "name": {
+    "jpn": "ゴリランダー",
+    "chs": "轰擂金刚猩"
+  },
+  "form": "",
+  "slug": "rillaboom",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

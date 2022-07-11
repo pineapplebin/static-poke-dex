@@ -1,0 +1,53 @@
+{
+  "no": "692",
+  "idx": 692,
+  "name": {
+    "jpn": "ウデッポウ",
+    "chs": "铁臂枪虾"
+  },
+  "form": "",
+  "slug": "clauncher",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "T",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "B",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "T"
+      ]
+    }
+  ]
+}

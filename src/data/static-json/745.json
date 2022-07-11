@@ -1,0 +1,38 @@
+{
+  "no": "745",
+  "idx": 745,
+  "name": {
+    "jpn": "ルガルガン",
+    "chs": "鬃岩狼人"
+  },
+  "form": "",
+  "slug": "lycanroc",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

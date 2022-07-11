@@ -1,0 +1,23 @@
+{
+  "no": "848",
+  "idx": 848,
+  "name": {
+    "jpn": "エレズン",
+    "chs": "毒电婴"
+  },
+  "form": "",
+  "slug": "toxel",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "816",
+  "idx": 816,
+  "name": {
+    "jpn": "メッソン",
+    "chs": "泪眼蜥"
+  },
+  "form": "",
+  "slug": "sobble",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "729",
+  "idx": 729,
+  "name": {
+    "jpn": "オシャマリ",
+    "chs": "花漾海狮"
+  },
+  "form": "",
+  "slug": "brionne",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "ED",
+        "ED"
+      ]
+    }
+  ]
+}

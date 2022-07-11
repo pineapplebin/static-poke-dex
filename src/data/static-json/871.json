@@ -1,0 +1,23 @@
+{
+  "no": "871",
+  "idx": 871,
+  "name": {
+    "jpn": "バチンウニ",
+    "chs": "啪嚓海胆"
+  },
+  "form": "",
+  "slug": "pincurchin",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

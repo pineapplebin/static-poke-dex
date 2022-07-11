@@ -1,0 +1,23 @@
+{
+  "no": "815",
+  "idx": 815,
+  "name": {
+    "jpn": "エースバーン",
+    "chs": "闪焰王牌"
+  },
+  "form": "",
+  "slug": "cinderace",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

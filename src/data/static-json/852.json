@@ -1,0 +1,23 @@
+{
+  "no": "852",
+  "idx": 852,
+  "name": {
+    "jpn": "タタッコ",
+    "chs": "拳拳蛸"
+  },
+  "form": "",
+  "slug": "clobbopus",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

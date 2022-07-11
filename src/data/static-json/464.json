@@ -1,0 +1,91 @@
+{
+  "no": "464",
+  "idx": 464,
+  "name": {
+    "jpn": "ドサイドン",
+    "chs": "超甲狂犀"
+  },
+  "form": "",
+  "slug": "rhyperior",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "DWET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "ET",
+        "ET",
+        "ET",
+        "ET"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "D",
+        "D",
+        "ET",
+        "ET",
+        "C"
+      ]
+    }
+  ]
+}

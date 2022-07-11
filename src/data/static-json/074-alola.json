@@ -1,0 +1,31 @@
+{
+  "no": "074",
+  "idx": 74,
+  "name": {
+    "jpn": "イシツブテ",
+    "chs": "小拳石"
+  },
+  "form": "alola",
+  "slug": "geodude",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "C",
+        "C",
+        "B",
+        "B",
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "no": "053",
+  "idx": 53,
+  "name": {
+    "jpn": "ペルシアン",
+    "chs": "猫老大"
+  },
+  "form": "alola",
+  "slug": "persian",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um",
+        "lp",
+        "le"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C",
+        "C",
+        "T",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "ED",
+        "ED"
+      ]
+    }
+  ]
+}

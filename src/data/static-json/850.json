@@ -1,0 +1,23 @@
+{
+  "no": "850",
+  "idx": 850,
+  "name": {
+    "jpn": "ヤクデ",
+    "chs": "烧火蚣"
+  },
+  "form": "",
+  "slug": "sizzlipede",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

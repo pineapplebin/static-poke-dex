@@ -1,0 +1,38 @@
+{
+  "no": "794",
+  "idx": 794,
+  "name": {
+    "jpn": "マッシブーン",
+    "chs": "爆肌蚊"
+  },
+  "form": "",
+  "slug": "buzzwole",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "T",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

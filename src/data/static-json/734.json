@@ -1,0 +1,27 @@
+{
+  "no": "734",
+  "idx": 734,
+  "name": {
+    "jpn": "ヤングース",
+    "chs": "猫鼬少"
+  },
+  "form": "",
+  "slug": "yungoos",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

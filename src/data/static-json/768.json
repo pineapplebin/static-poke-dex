@@ -1,0 +1,38 @@
+{
+  "no": "768",
+  "idx": 768,
+  "name": {
+    "jpn": "グソクムシャ",
+    "chs": "具甲武者"
+  },
+  "form": "",
+  "slug": "golisopod",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

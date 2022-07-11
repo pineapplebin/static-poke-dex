@@ -1,0 +1,23 @@
+{
+  "no": "836",
+  "idx": 836,
+  "name": {
+    "jpn": "パルスワン",
+    "chs": "逐电犬"
+  },
+  "form": "",
+  "slug": "boltund",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "no": "774",
+  "idx": 774,
+  "name": {
+    "jpn": "メテノ",
+    "chs": "小陨星"
+  },
+  "form": "",
+  "slug": "minior",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "110",
+  "idx": 110,
+  "name": {
+    "jpn": "マタドガス",
+    "chs": "双弹瓦斯"
+  },
+  "form": "galar",
+  "slug": "weezing",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

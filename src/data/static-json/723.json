@@ -1,0 +1,40 @@
+{
+  "no": "723",
+  "idx": 723,
+  "name": {
+    "jpn": "フクスロー",
+    "chs": "投羽枭"
+  },
+  "form": "",
+  "slug": "dartrix",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "la"
+      ],
+      "available": [
+        "ED",
+        "ED",
+        "C"
+      ]
+    }
+  ]
+}

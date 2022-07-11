@@ -1,0 +1,21 @@
+{
+  "no": "905",
+  "idx": 905,
+  "name": {
+    "jpn": "ラブトロス",
+    "chs": "眷戀雲"
+  },
+  "form": "",
+  "slug": "enamorus",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

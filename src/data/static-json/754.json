@@ -1,0 +1,38 @@
+{
+  "no": "754",
+  "idx": 754,
+  "name": {
+    "jpn": "ラランテス",
+    "chs": "兰螳花"
+  },
+  "form": "",
+  "slug": "lurantis",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "no": "391",
+  "idx": 391,
+  "name": {
+    "jpn": "モウカザル",
+    "chs": "猛火猴"
+  },
+  "form": "",
+  "slug": "monferno",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "EvE",
+        "EvE"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "EvE",
+        "EvE",
+        "EvB",
+        "EvB"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "EvB",
+        "EvB",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "S",
+        "S"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C"
+      ]
+    }
+  ]
+}

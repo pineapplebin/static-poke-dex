@@ -1,0 +1,21 @@
+{
+  "no": "713",
+  "idx": 713,
+  "name": {
+    "jpn": "クレベース",
+    "chs": "冰岩怪"
+  },
+  "form": "hisui",
+  "slug": "avalugg",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

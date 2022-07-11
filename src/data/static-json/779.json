@@ -1,0 +1,27 @@
+{
+  "no": "779",
+  "idx": 779,
+  "name": {
+    "jpn": "ハギギシリ",
+    "chs": "磨牙彩皮鱼"
+  },
+  "form": "",
+  "slug": "bruxish",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

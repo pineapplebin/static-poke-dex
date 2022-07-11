@@ -1,0 +1,38 @@
+{
+  "no": "787",
+  "idx": 787,
+  "name": {
+    "jpn": "カプ・ブルル",
+    "chs": "卡璞・哞哞"
+  },
+  "form": "",
+  "slug": "tapu-bulu",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

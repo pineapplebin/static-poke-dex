@@ -15,3 +15,21 @@ export interface TPokemonInfo {
     };
   };
 }
+
+export interface TStaticAvailable {
+  generation: string;
+  games: string[];
+  available: string[];
+}
+
+export interface TStaticPokemon {
+  no: string;
+  idx: number;
+  name: {
+    jpn: string;
+    chs: string;
+  };
+  form: string;
+  slug: string;
+  available: TStaticAvailable[];
+}

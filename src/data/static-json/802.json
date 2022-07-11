@@ -1,0 +1,38 @@
+{
+  "no": "802",
+  "idx": 802,
+  "name": {
+    "jpn": "マーシャドー",
+    "chs": "玛夏多"
+  },
+  "form": "",
+  "slug": "marshadow",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

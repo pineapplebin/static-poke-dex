@@ -1,0 +1,23 @@
+{
+  "no": "823",
+  "idx": 823,
+  "name": {
+    "jpn": "アーマーガア",
+    "chs": "钢铠鸦"
+  },
+  "form": "",
+  "slug": "corviknight",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

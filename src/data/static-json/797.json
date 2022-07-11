@@ -1,0 +1,38 @@
+{
+  "no": "797",
+  "idx": 797,
+  "name": {
+    "jpn": "テッカグヤ",
+    "chs": "铁火辉夜"
+  },
+  "form": "",
+  "slug": "celesteela",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "894",
+  "idx": 894,
+  "name": {
+    "jpn": "レジエレキ",
+    "chs": "雷吉艾勒奇"
+  },
+  "form": "",
+  "slug": "regieleki",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

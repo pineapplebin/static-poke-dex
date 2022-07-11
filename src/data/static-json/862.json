@@ -1,0 +1,23 @@
+{
+  "no": "862",
+  "idx": 862,
+  "name": {
+    "jpn": "タチフサグマ",
+    "chs": "堵拦熊"
+  },
+  "form": "",
+  "slug": "obstagoon",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

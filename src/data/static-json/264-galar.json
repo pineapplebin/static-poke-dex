@@ -1,0 +1,23 @@
+{
+  "no": "264",
+  "idx": 264,
+  "name": {
+    "jpn": "マッスグマ",
+    "chs": "直冲熊"
+  },
+  "form": "galar",
+  "slug": "linoone",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

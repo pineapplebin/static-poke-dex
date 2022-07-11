@@ -1,0 +1,23 @@
+{
+  "no": "825",
+  "idx": 825,
+  "name": {
+    "jpn": "レドームシ",
+    "chs": "天罩虫"
+  },
+  "form": "",
+  "slug": "dottler",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

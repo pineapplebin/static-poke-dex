@@ -1,0 +1,23 @@
+{
+  "no": "881",
+  "idx": 881,
+  "name": {
+    "jpn": "パッチルドン",
+    "chs": "雷鸟海兽"
+  },
+  "form": "",
+  "slug": "arctozolt",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

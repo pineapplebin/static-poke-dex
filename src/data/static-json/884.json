@@ -1,0 +1,23 @@
+{
+  "no": "884",
+  "idx": 884,
+  "name": {
+    "jpn": "ジュラルドン",
+    "chs": "铝钢龙"
+  },
+  "form": "",
+  "slug": "duraludon",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

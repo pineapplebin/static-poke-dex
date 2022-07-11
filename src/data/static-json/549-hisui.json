@@ -1,0 +1,21 @@
+{
+  "no": "549",
+  "idx": 549,
+  "name": {
+    "jpn": "ドレディア",
+    "chs": "裙儿小姐"
+  },
+  "form": "hisui",
+  "slug": "lilligant",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

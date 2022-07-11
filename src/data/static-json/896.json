@@ -1,0 +1,23 @@
+{
+  "no": "896",
+  "idx": 896,
+  "name": {
+    "jpn": "ブリザポス",
+    "chs": "雪暴馬"
+  },
+  "form": "",
+  "slug": "glastrier",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "no": "394",
+  "idx": 394,
+  "name": {
+    "jpn": "ポッタイシ",
+    "chs": "波皇子"
+  },
+  "form": "",
+  "slug": "prinplup",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "EvE",
+        "EvE",
+        "EvE",
+        "EvE"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "EvE",
+        "EvE",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "EvE",
+        "EvE",
+        "S",
+        "S"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "no": "697",
+  "idx": 697,
+  "name": {
+    "jpn": "ガチゴラス",
+    "chs": "怪颚龙"
+  },
+  "form": "",
+  "slug": "tyrantrum",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "EvE",
+        "EvE"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

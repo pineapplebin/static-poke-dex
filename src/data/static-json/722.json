@@ -1,0 +1,40 @@
+{
+  "no": "722",
+  "idx": 722,
+  "name": {
+    "jpn": "モクロー",
+    "chs": "木木枭"
+  },
+  "form": "",
+  "slug": "rowlet",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "la"
+      ],
+      "available": [
+        "RD",
+        "RD",
+        "C"
+      ]
+    }
+  ]
+}

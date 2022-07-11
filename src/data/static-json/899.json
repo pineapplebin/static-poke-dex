@@ -1,0 +1,21 @@
+{
+  "no": "899",
+  "idx": 899,
+  "name": {
+    "jpn": "アヤシシ",
+    "chs": "詭角鹿"
+  },
+  "form": "",
+  "slug": "wyrdeer",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

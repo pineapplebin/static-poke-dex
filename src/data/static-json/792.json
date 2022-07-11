@@ -1,0 +1,38 @@
+{
+  "no": "792",
+  "idx": 792,
+  "name": {
+    "jpn": "ルナアーラ",
+    "chs": "露奈雅拉"
+  },
+  "form": "",
+  "slug": "lunala",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CCDA",
+        "DA"
+      ]
+    }
+  ]
+}

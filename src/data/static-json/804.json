@@ -1,0 +1,34 @@
+{
+  "no": "804",
+  "idx": 804,
+  "name": {
+    "jpn": "アーゴヨン",
+    "chs": "四颚针龙"
+  },
+  "form": "",
+  "slug": "naganadel",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "ED",
+        "ED"
+      ]
+    }
+  ]
+}

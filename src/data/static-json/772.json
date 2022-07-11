@@ -1,0 +1,38 @@
+{
+  "no": "772",
+  "idx": 772,
+  "name": {
+    "jpn": "タイプ：ヌル",
+    "chs": "属性：空"
+  },
+  "form": "",
+  "slug": "type-null",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

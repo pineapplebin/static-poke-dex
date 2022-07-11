@@ -1,0 +1,70 @@
+{
+  "no": "645",
+  "idx": 645,
+  "name": {
+    "jpn": "ランドロス",
+    "chs": "土地云"
+  },
+  "form": "",
+  "slug": "landorus",
+  "available": [
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "CC",
+        "CC",
+        "DR",
+        "DR"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "T",
+        "T",
+        "CC",
+        "CC"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "CC",
+        "CC"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh",
+        "la"
+      ],
+      "available": [
+        "DA",
+        "DA",
+        "C"
+      ]
+    }
+  ]
+}

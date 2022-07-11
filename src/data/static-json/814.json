@@ -1,0 +1,23 @@
+{
+  "no": "814",
+  "idx": 814,
+  "name": {
+    "jpn": "ラビフット",
+    "chs": "腾蹴小将"
+  },
+  "form": "",
+  "slug": "raboot",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

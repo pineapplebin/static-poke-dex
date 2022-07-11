@@ -1,0 +1,23 @@
+{
+  "no": "847",
+  "idx": 847,
+  "name": {
+    "jpn": "カマスジョー",
+    "chs": "戽斗尖梭"
+  },
+  "form": "",
+  "slug": "barraskewda",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

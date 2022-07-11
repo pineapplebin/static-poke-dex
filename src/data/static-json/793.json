@@ -1,0 +1,38 @@
+{
+  "no": "793",
+  "idx": 793,
+  "name": {
+    "jpn": "ウツロイド",
+    "chs": "虚吾伊德"
+  },
+  "form": "",
+  "slug": "nihilego",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

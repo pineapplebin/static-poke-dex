@@ -1,0 +1,34 @@
+{
+  "no": "805",
+  "idx": 805,
+  "name": {
+    "jpn": "ツンデツンデ",
+    "chs": "垒磊石"
+  },
+  "form": "",
+  "slug": "stakataka",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

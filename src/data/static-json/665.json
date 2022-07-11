@@ -1,0 +1,42 @@
+{
+  "no": "665",
+  "idx": 665,
+  "name": {
+    "jpn": "コフーライ",
+    "chs": "粉蝶蛹"
+  },
+  "form": "",
+  "slug": "spewpa",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "no": "157",
+  "idx": 157,
+  "name": {
+    "jpn": "バクフーン",
+    "chs": "火暴兽"
+  },
+  "form": "hisui",
+  "slug": "typhlosion",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "782",
+  "idx": 782,
+  "name": {
+    "jpn": "ジャラコ",
+    "chs": "心鳞宝"
+  },
+  "form": "",
+  "slug": "jangmo-o",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "EV"
+      ]
+    }
+  ]
+}

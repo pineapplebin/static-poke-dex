@@ -1,0 +1,27 @@
+{
+  "no": "741",
+  "idx": 741,
+  "name": {
+    "jpn": "オドリドリ",
+    "chs": "花舞鸟"
+  },
+  "form": "",
+  "slug": "oricorio",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

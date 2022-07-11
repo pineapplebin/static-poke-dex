@@ -1,0 +1,23 @@
+{
+  "no": "835",
+  "idx": 835,
+  "name": {
+    "jpn": "ワンパチ",
+    "chs": "来电汪"
+  },
+  "form": "",
+  "slug": "yamper",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

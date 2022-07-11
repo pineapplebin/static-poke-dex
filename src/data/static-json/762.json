@@ -1,0 +1,38 @@
+{
+  "no": "762",
+  "idx": 762,
+  "name": {
+    "jpn": "アママイコ",
+    "chs": "甜舞妮"
+  },
+  "form": "",
+  "slug": "steenee",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "R",
+        "R",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

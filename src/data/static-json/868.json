@@ -1,0 +1,23 @@
+{
+  "no": "868",
+  "idx": 868,
+  "name": {
+    "jpn": "マホミル",
+    "chs": "小仙奶"
+  },
+  "form": "",
+  "slug": "milcery",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

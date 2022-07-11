@@ -1,0 +1,38 @@
+{
+  "no": "795",
+  "idx": 795,
+  "name": {
+    "jpn": "フェローチェ",
+    "chs": "费洛美螂"
+  },
+  "form": "",
+  "slug": "pheromosa",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "C",
+        "T",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "760",
+  "idx": 760,
+  "name": {
+    "jpn": "キテルグマ",
+    "chs": "穿着熊"
+  },
+  "form": "",
+  "slug": "bewear",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

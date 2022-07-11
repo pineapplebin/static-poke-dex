@@ -1,0 +1,23 @@
+{
+  "no": "882",
+  "idx": 882,
+  "name": {
+    "jpn": "ウオノラゴン",
+    "chs": "鳃鱼龙"
+  },
+  "form": "",
+  "slug": "dracovish",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "no": "739",
+  "idx": 739,
+  "name": {
+    "jpn": "マケンカニ",
+    "chs": "好胜蟹"
+  },
+  "form": "",
+  "slug": "crabrawler",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

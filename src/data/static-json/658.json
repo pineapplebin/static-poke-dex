@@ -1,0 +1,42 @@
+{
+  "no": "658",
+  "idx": 658,
+  "name": {
+    "jpn": "ゲッコウガ",
+    "chs": "甲贺忍蛙"
+  },
+  "form": "",
+  "slug": "greninja",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "S",
+        "S"
+      ]
+    }
+  ]
+}

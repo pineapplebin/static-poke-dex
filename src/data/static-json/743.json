@@ -1,0 +1,38 @@
+{
+  "no": "743",
+  "idx": 743,
+  "name": {
+    "jpn": "アブリボン",
+    "chs": "蝶结萌虻"
+  },
+  "form": "",
+  "slug": "ribombee",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "no": "733",
+  "idx": 733,
+  "name": {
+    "jpn": "ドデカバシ",
+    "chs": "铳嘴大鸟"
+  },
+  "form": "",
+  "slug": "toucannon",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "830",
+  "idx": 830,
+  "name": {
+    "jpn": "ワタシラガ",
+    "chs": "白蓬蓬"
+  },
+  "form": "",
+  "slug": "eldegoss",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

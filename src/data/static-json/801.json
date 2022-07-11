@@ -1,0 +1,38 @@
+{
+  "no": "801",
+  "idx": 801,
+  "name": {
+    "jpn": "マギアナ",
+    "chs": "玛机雅娜"
+  },
+  "form": "",
+  "slug": "magearna",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "EV",
+        "EV",
+        "EV",
+        "EV"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

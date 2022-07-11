@@ -1,0 +1,23 @@
+{
+  "no": "858",
+  "idx": 858,
+  "name": {
+    "jpn": "ブリムオン",
+    "chs": "布莉姆温"
+  },
+  "form": "",
+  "slug": "hatterene",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "077",
+  "idx": 77,
+  "name": {
+    "jpn": "ポニータ",
+    "chs": "小火马"
+  },
+  "form": "galar",
+  "slug": "ponyta",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "C"
+      ]
+    }
+  ]
+}

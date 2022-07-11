@@ -1,0 +1,23 @@
+{
+  "no": "811",
+  "idx": 811,
+  "name": {
+    "jpn": "バチンキー",
+    "chs": "啪咚猴"
+  },
+  "form": "",
+  "slug": "thwackey",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

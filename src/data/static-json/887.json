@@ -1,0 +1,23 @@
+{
+  "no": "887",
+  "idx": 887,
+  "name": {
+    "jpn": "ドラパルト",
+    "chs": "多龙巴鲁托"
+  },
+  "form": "",
+  "slug": "dragapult",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

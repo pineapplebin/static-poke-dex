@@ -1,0 +1,38 @@
+{
+  "no": "730",
+  "idx": 730,
+  "name": {
+    "jpn": "アシレーヌ",
+    "chs": "西狮海壬"
+  },
+  "form": "",
+  "slug": "primarina",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "E",
+        "E"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "ED",
+        "ED"
+      ]
+    }
+  ]
+}

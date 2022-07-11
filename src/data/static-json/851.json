@@ -1,0 +1,23 @@
+{
+  "no": "851",
+  "idx": 851,
+  "name": {
+    "jpn": "マルヤクデ",
+    "chs": "焚焰蚣"
+  },
+  "form": "",
+  "slug": "centiskorch",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

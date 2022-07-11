@@ -1,0 +1,38 @@
+{
+  "no": "766",
+  "idx": 766,
+  "name": {
+    "jpn": "ナゲツケサル",
+    "chs": "投掷猴"
+  },
+  "form": "",
+  "slug": "passimian",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "Ev",
+        "C",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "DA"
+      ]
+    }
+  ]
+}

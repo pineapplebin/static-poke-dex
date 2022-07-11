@@ -1,0 +1,38 @@
+{
+  "no": "742",
+  "idx": 742,
+  "name": {
+    "jpn": "アブリー",
+    "chs": "萌虻"
+  },
+  "form": "",
+  "slug": "cutiefly",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

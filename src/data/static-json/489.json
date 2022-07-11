@@ -1,0 +1,87 @@
+{
+  "no": "489",
+  "idx": 489,
+  "name": {
+    "jpn": "フィオネ",
+    "chs": "霏欧纳"
+  },
+  "form": "",
+  "slug": "phione",
+  "available": [
+    {
+      "generation": "IV",
+      "games": [
+        "d",
+        "p",
+        "pt",
+        "hg",
+        "ss"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "EvB",
+        "EvB"
+      ]
+    },
+    {
+      "generation": "V",
+      "games": [
+        "b",
+        "w",
+        "b2",
+        "w2"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "EvB",
+        "EvB",
+        "EvB",
+        "EvB"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "EvB",
+        "EvB",
+        "EvB",
+        "EvB"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "bd",
+        "sp",
+        "la"
+      ],
+      "available": [
+        "EvB",
+        "EvB",
+        "C"
+      ]
+    }
+  ]
+}

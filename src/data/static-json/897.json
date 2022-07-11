@@ -1,0 +1,23 @@
+{
+  "no": "897",
+  "idx": 897,
+  "name": {
+    "jpn": "レイスポス",
+    "chs": "靈幽馬"
+  },
+  "form": "",
+  "slug": "spectrier",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "no": "746",
+  "idx": 746,
+  "name": {
+    "jpn": "ヨワシ",
+    "chs": "弱丁鱼"
+  },
+  "form": "",
+  "slug": "wishiwashi",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

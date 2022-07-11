@@ -1,0 +1,23 @@
+{
+  "no": "828",
+  "idx": 828,
+  "name": {
+    "jpn": "フォクスライ",
+    "chs": "狐大盗"
+  },
+  "form": "",
+  "slug": "thievul",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

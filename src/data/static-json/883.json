@@ -1,0 +1,23 @@
+{
+  "no": "883",
+  "idx": 883,
+  "name": {
+    "jpn": "ウオチルドン",
+    "chs": "鳃鱼海兽"
+  },
+  "form": "",
+  "slug": "arctovish",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

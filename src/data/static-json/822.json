@@ -1,0 +1,23 @@
+{
+  "no": "822",
+  "idx": 822,
+  "name": {
+    "jpn": "アオガラス",
+    "chs": "蓝鸦"
+  },
+  "form": "",
+  "slug": "corvisquire",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "no": "058",
+  "idx": 58,
+  "name": {
+    "jpn": "ガーディ",
+    "chs": "卡蒂狗"
+  },
+  "form": "hisui",
+  "slug": "growlithe",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

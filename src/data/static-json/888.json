@@ -1,0 +1,23 @@
+{
+  "no": "888",
+  "idx": 888,
+  "name": {
+    "jpn": "ザシアン",
+    "chs": "苍响"
+  },
+  "form": "",
+  "slug": "zacian",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

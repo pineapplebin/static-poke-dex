@@ -1,0 +1,38 @@
+{
+  "no": "752",
+  "idx": 752,
+  "name": {
+    "jpn": "オニシズクモ",
+    "chs": "滴蛛霸"
+  },
+  "form": "",
+  "slug": "araquanid",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

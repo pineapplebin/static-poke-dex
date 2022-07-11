@@ -1,0 +1,38 @@
+{
+  "no": "785",
+  "idx": 785,
+  "name": {
+    "jpn": "カプ・コケコ",
+    "chs": "卡璞・鸣鸣"
+  },
+  "form": "",
+  "slug": "tapu-koko",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "DA"
+      ]
+    }
+  ]
+}

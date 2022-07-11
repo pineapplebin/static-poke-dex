@@ -1,0 +1,23 @@
+{
+  "no": "146",
+  "idx": 146,
+  "name": {
+    "jpn": "ファイヤー",
+    "chs": "火焰鸟"
+  },
+  "form": "galar",
+  "slug": "moltres",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

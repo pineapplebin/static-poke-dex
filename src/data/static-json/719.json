@@ -1,0 +1,53 @@
+{
+  "no": "719",
+  "idx": 719,
+  "name": {
+    "jpn": "ディアンシー",
+    "chs": "蒂安希"
+  },
+  "form": "",
+  "slug": "diancie",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "Ev",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

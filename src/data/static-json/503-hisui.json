@@ -1,0 +1,21 @@
+{
+  "no": "503",
+  "idx": 503,
+  "name": {
+    "jpn": "ダイケンキ",
+    "chs": "大剑鬼"
+  },
+  "form": "hisui",
+  "slug": "samurott",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

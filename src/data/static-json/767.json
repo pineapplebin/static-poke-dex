@@ -1,0 +1,38 @@
+{
+  "no": "767",
+  "idx": 767,
+  "name": {
+    "jpn": "コソクムシ",
+    "chs": "胆小虫"
+  },
+  "form": "",
+  "slug": "wimpod",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

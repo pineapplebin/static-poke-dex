@@ -1,0 +1,38 @@
+{
+  "no": "758",
+  "idx": 758,
+  "name": {
+    "jpn": "エンニュート",
+    "chs": "焰后蜥"
+  },
+  "form": "",
+  "slug": "salazzle",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "E",
+        "E",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

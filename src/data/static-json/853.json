@@ -1,0 +1,23 @@
+{
+  "no": "853",
+  "idx": 853,
+  "name": {
+    "jpn": "オトスパス",
+    "chs": "八爪武师"
+  },
+  "form": "",
+  "slug": "grapploct",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

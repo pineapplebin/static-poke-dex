@@ -1,0 +1,34 @@
+{
+  "no": "809",
+  "idx": 809,
+  "name": {
+    "jpn": "メルメタル",
+    "chs": "美录梅塔"
+  },
+  "form": "",
+  "slug": "melmetal",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "lp",
+        "le"
+      ],
+      "available": [
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

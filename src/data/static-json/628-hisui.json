@@ -1,0 +1,21 @@
+{
+  "no": "628",
+  "idx": 628,
+  "name": {
+    "jpn": "ウォーグル",
+    "chs": "勇士雄鹰"
+  },
+  "form": "hisui",
+  "slug": "braviary",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}

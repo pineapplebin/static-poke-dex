@@ -1,0 +1,42 @@
+{
+  "no": "666",
+  "idx": 666,
+  "name": {
+    "jpn": "ビビヨン",
+    "chs": "彩粉蝶"
+  },
+  "form": "",
+  "slug": "vivillon",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "E",
+        "E",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "E",
+        "E"
+      ]
+    }
+  ]
+}

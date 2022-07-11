@@ -1,0 +1,38 @@
+{
+  "no": "747",
+  "idx": 747,
+  "name": {
+    "jpn": "ヒドイデ",
+    "chs": "好坏星"
+  },
+  "form": "",
+  "slug": "mareanie",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

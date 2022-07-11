@@ -1,0 +1,23 @@
+{
+  "no": "865",
+  "idx": 865,
+  "name": {
+    "jpn": "ネギガナイト",
+    "chs": "葱游兵"
+  },
+  "form": "",
+  "slug": "sirfetchd",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "T"
+      ]
+    }
+  ]
+}

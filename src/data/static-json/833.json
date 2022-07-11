@@ -1,0 +1,23 @@
+{
+  "no": "833",
+  "idx": 833,
+  "name": {
+    "jpn": "カムカメ",
+    "chs": "咬咬龟"
+  },
+  "form": "",
+  "slug": "chewtle",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

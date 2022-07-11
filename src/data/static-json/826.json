@@ -1,0 +1,23 @@
+{
+  "no": "826",
+  "idx": 826,
+  "name": {
+    "jpn": "イオルブ",
+    "chs": "以欧路普"
+  },
+  "form": "",
+  "slug": "orbeetle",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

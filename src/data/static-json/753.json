@@ -1,0 +1,38 @@
+{
+  "no": "753",
+  "idx": 753,
+  "name": {
+    "jpn": "カリキリ",
+    "chs": "伪螳草"
+  },
+  "form": "",
+  "slug": "fomantis",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "CD",
+        "CD"
+      ]
+    }
+  ]
+}

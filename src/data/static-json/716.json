@@ -1,0 +1,53 @@
+{
+  "no": "716",
+  "idx": 716,
+  "name": {
+    "jpn": "ゼルネアス",
+    "chs": "哲尔尼亚斯"
+  },
+  "form": "",
+  "slug": "xerneas",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "Ev",
+        "Ev",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "Ev",
+        "C",
+        "Ev"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "DA",
+        "CCDA"
+      ]
+    }
+  ]
+}

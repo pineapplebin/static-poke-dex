@@ -1,0 +1,38 @@
+{
+  "no": "755",
+  "idx": 755,
+  "name": {
+    "jpn": "ネマシュ",
+    "chs": "睡睡菇"
+  },
+  "form": "",
+  "slug": "morelull",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "837",
+  "idx": 837,
+  "name": {
+    "jpn": "タンドン",
+    "chs": "小炭仔"
+  },
+  "form": "",
+  "slug": "rolycoly",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

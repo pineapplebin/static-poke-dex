@@ -1,0 +1,38 @@
+{
+  "no": "789",
+  "idx": 789,
+  "name": {
+    "jpn": "コスモッグ",
+    "chs": "科斯莫古"
+  },
+  "form": "",
+  "slug": "cosmog",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "R",
+        "R",
+        "R",
+        "R"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "RD",
+        "RD"
+      ]
+    }
+  ]
+}

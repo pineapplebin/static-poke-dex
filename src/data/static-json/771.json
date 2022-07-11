@@ -1,0 +1,38 @@
+{
+  "no": "771",
+  "idx": 771,
+  "name": {
+    "jpn": "ナマコブシ",
+    "chs": "拳海参"
+  },
+  "form": "",
+  "slug": "pyukumuku",
+  "available": [
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "C"
+      ]
+    }
+  ]
+}

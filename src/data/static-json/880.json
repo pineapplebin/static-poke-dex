@@ -1,0 +1,23 @@
+{
+  "no": "880",
+  "idx": 880,
+  "name": {
+    "jpn": "パッチラゴン",
+    "chs": "雷鸟龙"
+  },
+  "form": "",
+  "slug": "dracozolt",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "R",
+        "R"
+      ]
+    }
+  ]
+}

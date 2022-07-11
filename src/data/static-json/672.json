@@ -1,0 +1,42 @@
+{
+  "no": "672",
+  "idx": 672,
+  "name": {
+    "jpn": "メェークル",
+    "chs": "坐骑小羊"
+  },
+  "form": "",
+  "slug": "skiddo",
+  "available": [
+    {
+      "generation": "VI",
+      "games": [
+        "x",
+        "y",
+        "or",
+        "as"
+      ],
+      "available": [
+        "C",
+        "C",
+        "T",
+        "T"
+      ]
+    },
+    {
+      "generation": "VII",
+      "games": [
+        "s",
+        "m",
+        "us",
+        "um"
+      ],
+      "available": [
+        "T",
+        "T",
+        "T",
+        "T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "554",
+  "idx": 554,
+  "name": {
+    "jpn": "ダルマッカ",
+    "chs": "火红不倒翁"
+  },
+  "form": "galar",
+  "slug": "darumaka",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "C",
+        "T"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "no": "866",
+  "idx": 866,
+  "name": {
+    "jpn": "バリコオル",
+    "chs": "踏冰人偶"
+  },
+  "form": "",
+  "slug": "mr-rime",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "sw",
+        "sh"
+      ],
+      "available": [
+        "D",
+        "D"
+      ]
+    }
+  ]
+}

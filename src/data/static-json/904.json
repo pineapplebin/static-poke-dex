@@ -1,0 +1,21 @@
+{
+  "no": "904",
+  "idx": 904,
+  "name": {
+    "jpn": "ハリーマン",
+    "chs": "萬針魚"
+  },
+  "form": "",
+  "slug": "overqwil",
+  "available": [
+    {
+      "generation": "VIII",
+      "games": [
+        "la"
+      ],
+      "available": [
+        "C"
+      ]
+    }
+  ]
+}
