@@ -1,4 +1,4 @@
-import padStart from 'lodash/padStart';
+import padStart from 'lodash/padStart.js';
 import type { TStaticPokemon } from '../types/base';
 
 export function fetchStaticPokemon(no: string | number, form?: string): Promise<TStaticPokemon> {
