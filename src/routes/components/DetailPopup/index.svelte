@@ -9,16 +9,16 @@
   import PokeIcon from '../../../components/PokeIcon/index.svelte';
   import TypeLogo from '../../../components/TypeLogo/index.svelte';
 
-  import { getPokemonInfo } from '../../../data/struct';
-  import type { TPokemonInfo } from '../../../types/base';
+  import { fetchStaticPokemon } from '../../../data/fetch-static';
+  import type { TStaticPokemon } from '../../../types/base';
   import { normalizeStyle } from '../../../utils/styles';
 
   const dispatch = createEventDispatcher<{ close: never }>();
 
-  export let no: string | null = null;
+  export let no: string | number | null = null;
 
   let open = false;
-  let info: TPokemonInfo | null = null;
+  let info: TStaticPokemon | null = null;
 
   const client = new PokemonClient();
   let promise: Promise<Pokemon> | null = null;
@@ -26,7 +26,9 @@
   $: {
     if (no) {
       open = true;
-      info = getPokemonInfo(no);
+      fetchStaticPokemon(no).then((res) => {
+        info = res;
+      });
       promise = client.getPokemonById(+no);
     }
   }
@@ -61,7 +63,7 @@
     <div class="buttons">
       <Button variant="outlined">
         <Label>
-          <a href="https://wiki.52poke.com/wiki/{info?.name.eng}" target="_blank"> 跳转到百科 </a>
+          <a href="https://wiki.52poke.com/wiki/{info?.name.jpn}" target="_blank"> 跳转到百科 </a>
         </Label>
       </Button>
     </div>

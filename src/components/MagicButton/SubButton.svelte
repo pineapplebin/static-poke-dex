@@ -1,7 +1,8 @@
 <script lang="ts">
   import { getContext, createEventDispatcher } from 'svelte';
   import { fly } from 'svelte/transition';
-  import Fab, { Icon } from '@smui/fab';
+  import { Icon } from '@smui/fab';
+  import UIRoundButton from '../UIRoundButton.svelte';
   import { CONTEXT_KEY } from './constants';
   import type { TContext } from './constants';
 
@@ -24,9 +25,9 @@
 {#if $isActive}
   <div transition:fly={{ duration: 500, x: 500 }} class="sub-button">
     <div class="name">{name}</div>
-    <Fab mini on:click={handleClick}>
-      <Icon class="material-icons">{icon}</Icon>
-    </Fab>
+    <UIRoundButton level="secondary" on:click={handleClick}>
+      <Icon class="material-icons" style="color: black;">{icon}</Icon>
+    </UIRoundButton>
   </div>
 {/if}
 

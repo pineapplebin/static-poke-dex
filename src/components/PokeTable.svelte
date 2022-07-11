@@ -2,7 +2,6 @@
   import { createEventDispatcher } from 'svelte';
 
   import type { TTableHead, TTableRowData } from '../types/availability';
-  import { getPokemonInfo } from '../data/struct';
 
   import PokeIcon from './PokeIcon/index.svelte';
   import PokeAvailable from './PokeAvailable/index.svelte';
@@ -53,7 +52,7 @@
     </thead>
     <tbody>
       {#each data as b (b.name + b.form)}
-        {@const info = getPokemonInfo(b.no)}
+        {@const info = { idx: '', name: { chs: '' } }}
         {#if info}
           <tr>
             <td style="position: sticky; left: 0;">{info.idx}</td>

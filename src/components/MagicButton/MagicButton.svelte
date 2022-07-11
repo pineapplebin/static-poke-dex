@@ -3,7 +3,8 @@
   import { setContext, onMount } from 'svelte';
   import { writable } from 'svelte/store';
   import { fade } from 'svelte/transition';
-  import Fab, { Icon } from '@smui/fab';
+  import { Icon } from '@smui/fab';
+  import UIRoundButton from '../UIRoundButton.svelte';
 
   import { draggable } from '../../utils/actions/draggable';
   import type { TPosition } from '../../utils/actions/draggable';
@@ -72,9 +73,9 @@
     <slot />
   </div>
 
-  <Fab color="primary" on:click={() => ($isActive = true)}>
+  <UIRoundButton on:click={() => ($isActive = true)}>
     <Icon class="material-icons">key</Icon>
-  </Fab>
+  </UIRoundButton>
 </div>
 
 <style>

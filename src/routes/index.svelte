@@ -1,52 +1,35 @@
 <script lang="ts">
-  import 'normalize.css';
-
-  import TabBar from '@smui/tab-bar';
-  import Tab, { Label } from '@smui/tab';
-  import AvailableDescDialog from '../components/AvailableDescDialog/index.svelte';
-  import IndexTable from './components/IndexTable/index.svelte';
   import IndexMagicButton from './components/IndexMagicButton/index.svelte';
+  import PokeBox from './components/PokeBox/index.svelte';
   import DetailPopup from './components/DetailPopup/index.svelte';
 
-  import { memoryData } from '../shared/memoryData';
-
-  let tabs = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII'];
-  let openDialog = false;
-  let detailNo: string | null = null;
+  let detailNo: string | number | null = null;
 </script>
 
-<div class="tabs">
-  <TabBar {tabs} let:tab bind:active={$memoryData.currentTab}>
-    <Tab {tab}>
-      <Label>Gen {tab}</Label>
-    </Tab>
-  </TabBar>
-</div>
+<div class="background" />
 
-<div class="container">
-  <IndexTable
-    generation={$memoryData.currentTab}
-    on:check={() => (openDialog = true)}
-    on:detail={({ detail }) => (detailNo = detail)}
-  />
+<div class="content">
+  <PokeBox title="关东 1" rule="1-30" on:detail={(ev) => (detailNo = ev.detail.no)} />
 </div>
-
-<AvailableDescDialog bind:open={openDialog} />
 
 <IndexMagicButton />
 <DetailPopup no={detailNo} on:close={() => (detailNo = null)} />
 
 <style>
-  .tabs {
-    position: sticky;
+  .background {
+    position: fixed;
     top: 0;
-    z-index: 2;
-    background: white;
-    box-shadow: 5px 0 5px 5px #ccc;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(45deg, #f0e2f1 10%, #fff 50%, #ecfffe 90%);
+    z-index: 0;
   }
 
-  .container {
-    padding: 10px;
-    margin-top: 10px;
+  .content {
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
   }
 </style>

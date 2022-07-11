@@ -1,6 +1,6 @@
 <script lang="ts">
   import './pokesprite-pokemon-gen8.css';
-  import { getPokemonInfo } from '../../data/struct';
+  import MAPPING from './mapping.json';
 
   export let no: number | string | null | undefined = undefined;
   export let form: string | undefined = undefined;
@@ -10,9 +10,10 @@
   $: {
     if (no) {
       const list = [];
-      const info = getPokemonInfo(no);
-      if (info) {
-        list.push(info.slug.eng + (form ? `-${form}` : ''));
+      const key = ('' + no).padStart(3, '0') as keyof typeof MAPPING;
+      const slug: string | undefined = MAPPING[key];
+      if (slug) {
+        list.push(slug + (form ? `-${form}` : ''));
       }
       classList = ['pokesprite', 'pokemon', ...list].filter((s) => !!s).join(' ');
     }
