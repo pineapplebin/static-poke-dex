@@ -16,6 +16,11 @@ export interface TPokemonInfo {
   };
 }
 
+export interface TCheckPokemon {
+  no: string | number;
+  form?: string;
+}
+
 export interface TStaticAvailable {
   generation: string;
   games: string[];

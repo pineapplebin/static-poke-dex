@@ -33,7 +33,6 @@
     align-items: center;
     border-radius: 6px;
     overflow: hidden;
-    font-size: 14px;
     background: #445447;
     color: white;
     font-family: monospace;
@@ -42,11 +41,13 @@
   .name {
     text-align: center;
     width: 64px;
+    font-size: 16px;
   }
 
   .logo-holder {
     overflow: hidden;
-    padding: 0 0 0 4px;
+    padding: 0 2px 0 2px;
+    height: 28px;
   }
 
   .logo-holder.bug {

@@ -13,7 +13,7 @@ export function normalizeStyle(style: CSS.Properties) {
       if (typeof _value === 'number') {
         _value = `${value}px`;
       }
-      return `${kebabCase(key)}: ${_value};`;
+      return `${kebabCase(key)}:${_value};`;
     })
-    .join();
+    .join('');
 }

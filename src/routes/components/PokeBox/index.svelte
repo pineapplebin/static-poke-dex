@@ -1,8 +1,7 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
-  import PokeIcon from '../../../components/PokeIcon/index.svelte';
-  import { parseRule } from './utils';
-  import type { TParsedItem } from './utils';
+  import PokeIcon from '@/components/PokeIcon/index.svelte';
+  import { parseRule, type TParsedItem } from './utils';
 
   const dispatch = createEventDispatcher<{ detail: TParsedItem }>();
 
@@ -17,7 +16,9 @@
   }
 
   function handleDetail(cell: TParsedItem) {
-    dispatch('detail', cell);
+    setTimeout(() => {
+      dispatch('detail', cell);
+    }, 100);
   }
 </script>
 
@@ -33,7 +34,7 @@
   </div>
 </div>
 
-<style>
+<style lang="scss">
   .box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -50,6 +51,11 @@
     background-color: rgba(255, 255, 255, 0.6);
     margin: 0 auto;
     box-shadow: 0 4px 12px 0 rgba(33, 33, 33, 0.1);
+
+    &:active {
+      transform: scale(0.9);
+      transition: transform 0.1s ease-in-out;
+    }
   }
 
   .title {

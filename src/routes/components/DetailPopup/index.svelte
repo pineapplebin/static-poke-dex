@@ -1,41 +1,29 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
-  import { PokemonClient } from 'pokenode-ts';
-  import type { Pokemon } from 'pokenode-ts';
-
   import CircularProgress from '@smui/circular-progress';
-  import Button, { Label } from '@smui/button';
-  import PopupView from '../../../components/PopupView/index.svelte';
-  import PokeIcon from '../../../components/PokeIcon/index.svelte';
-  import TypeLogo from '../../../components/TypeLogo/index.svelte';
-
-  import { fetchStaticPokemon } from '../../../data/fetch-static';
-  import type { TStaticPokemon } from '../../../types/base';
-  import { normalizeStyle } from '../../../utils/styles';
+  import PopupView from '@/components/PopupView/index.svelte';
+  import TypeLogo from '@/components/TypeLogo/index.svelte';
+  import { normalizeStyle } from '@/utils/styles';
+  import { fetchDetailData, type TFetchDetailDataRes } from './fetch';
 
   const dispatch = createEventDispatcher<{ close: never }>();
 
   export let no: string | number | null = null;
+  export let form: string | undefined = undefined;
 
   let open = false;
-  let info: TStaticPokemon | null = null;
 
-  const client = new PokemonClient();
-  let promise: Promise<Pokemon> | null = null;
+  let promise: Promise<TFetchDetailDataRes> | null = null;
 
   $: {
     if (no) {
       open = true;
-      fetchStaticPokemon(no).then((res) => {
-        info = res;
-      });
-      promise = client.getPokemonById(+no);
+      promise = fetchDetailData({ no, form });
     }
   }
 
   function handleClose() {
     dispatch('close');
-    info = null;
     promise = null;
   }
 </script>
@@ -43,30 +31,32 @@
 <PopupView bind:open on:close={handleClose}>
   <div class="detail">
     {#await promise}
-      <div style={normalizeStyle({ display: 'flex', justifyContent: 'center', padding: '12px 0' })}>
+      <div
+        style={normalizeStyle({
+          display: 'flex',
+          width: '100%',
+          justifyContent: 'center',
+          padding: '12px 0'
+        })}
+      >
         <CircularProgress style="width: 36px; height: 36px;" indeterminate />
       </div>
     {:then value}
-      <img class="sprite" src={value?.sprites.front_default} alt="sprite" />
-      <div class="name">No. {no} {info?.name.chs}</div>
+      {@const info = value?.info}
+      {@const data = value?.static}
+      <img class="sprite" src={info?.sprites.front_default} alt="sprite" />
+      <div class="name">
+        <span>No.{no}</span>
+        <span>{data?.name.chs}</span>
+      </div>
       <div class="types">
-        {#each value?.types || [] as type}
+        {#each info?.types || [] as type}
           <TypeLogo name={type.type.name} />
         {/each}
       </div>
     {:catch err}
-      <PokeIcon {no} />
-      <div class="name">No. {no} {info?.name.chs}</div>
-      <span style="word-break: break-all;">{'' + err}</span>
+      <p>{'' + err}</p>
     {/await}
-
-    <div class="buttons">
-      <Button variant="outlined">
-        <Label>
-          <a href="https://wiki.52poke.com/wiki/{info?.name.jpn}" target="_blank"> 跳转到百科 </a>
-        </Label>
-      </Button>
-    </div>
   </div>
 </PopupView>
 
@@ -78,8 +68,7 @@
   }
 
   .name {
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 12px;
   }
 
@@ -88,22 +77,9 @@
     max-height: 120px;
   }
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-
   .types {
     display: flex;
     justify-content: center;
     column-gap: 8px;
-  }
-
-  .buttons {
-    margin: 12px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    column-gap: 10px;
   }
 </style>

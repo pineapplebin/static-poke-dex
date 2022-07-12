@@ -2,20 +2,26 @@
   import IndexMagicButton from './components/IndexMagicButton/index.svelte';
   import PokeBox from './components/PokeBox/index.svelte';
   import DetailPopup from './components/DetailPopup/index.svelte';
+  import type { TCheckPokemon } from '@/types/base';
 
-  let detailNo: string | number | null = null;
+  let checkDetail: TCheckPokemon | null = null;
+
+  function handleCheckDetail(ev: CustomEvent<TCheckPokemon>) {
+    checkDetail = ev.detail;
+  }
 </script>
 
 <div class="background" />
 
 <div class="content">
-  <PokeBox title="关东 1" rule="1-30" on:detail={(ev) => (detailNo = ev.detail.no)} />
+  <PokeBox title="关东 1" rule="1-30" on:detail={handleCheckDetail} />
+  <PokeBox title="关东 2" rule="31-60" on:detail={handleCheckDetail} />
 </div>
 
 <IndexMagicButton />
-<DetailPopup no={detailNo} on:close={() => (detailNo = null)} />
+<DetailPopup {...checkDetail ?? {}} on:close={() => (checkDetail = null)} />
 
-<style>
+<style lang="scss">
   .background {
     position: fixed;
     top: 0;
@@ -30,6 +36,10 @@
   .content {
     position: relative;
     z-index: 1;
-    padding-top: 20px;
+    padding: 20px 10px 0 10px;
+
+    > :global(div) {
+      margin-bottom: 30px;
+    }
   }
 </style>

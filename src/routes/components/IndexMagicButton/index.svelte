@@ -1,6 +1,6 @@
 <script lang="ts">
-  import MagicButton, { SubButton } from '../../../components/MagicButton';
-  import Dialog, { Title, Content } from '@smui/dialog';
+  import MagicButton, { SubButton } from '@/components/MagicButton';
+  import Dialog, { Title } from '@smui/dialog';
 
   let openSearchDialog = false;
 </script>

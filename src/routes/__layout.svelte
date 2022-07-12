@@ -1,6 +1,10 @@
 <slot />
 
 <style lang="scss" global>
+  body {
+    margin: 0;
+  }
+
   h1,
   h2,
   h3,

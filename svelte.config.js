@@ -1,3 +1,4 @@
+import path from 'path';
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
@@ -18,6 +19,14 @@ const config = {
 
     paths: {
       base: isDev ? '' : '/static-poke-dex'
+    },
+
+    vite: {
+      resolve: {
+        alias: {
+          '@': path.resolve('./src')
+        }
+      }
     }
   }
 };
