@@ -1,0 +1,1 @@
+const a=[{span:2,name:"VII",start:0,end:2,games:["lp","le"]},{span:2,name:"VIII",start:2,end:4,games:["sw","sh"]}],e=[{no:"808",name:"Meltan",data:[["T","T"],["T","T"]]},{no:"809",name:"Melmetal",data:[["T","T"],["T","T"]]}];var n={head:a,body:e};export{e as body,n as default,a as head};

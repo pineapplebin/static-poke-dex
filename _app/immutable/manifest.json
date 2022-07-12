@@ -1,0 +1,6001 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-a67a14b8.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-7045e37d.js",
+      "_index-9539bb32.js",
+      "_preload-helper-936e422d.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/components/DetailPopup/index.svelte",
+      "src/routes/components/IndexMagicButton/index.svelte",
+      "src/routes/components/IndexTable/index.svelte",
+      "src/routes/components/PokeBox/index.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-ca610055.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-7045e37d.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-72998bab.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-da5a738e.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-7045e37d.js"
+    ]
+  },
+  "src/routes/components/DetailPopup/index.svelte": {
+    "file": "pages/components/DetailPopup/index.svelte-e2df0b90.js",
+    "src": "src/routes/components/DetailPopup/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-7045e37d.js",
+      "_CircularProgress-f74dc7ad.js",
+      "_toNumber-e8d0ba12.js",
+      "_useActions-90889a13.js",
+      "_preload-helper-936e422d.js"
+    ],
+    "dynamicImports": [
+      "src/data/static-json/001.json",
+      "src/data/static-json/002.json",
+      "src/data/static-json/003.json",
+      "src/data/static-json/004.json",
+      "src/data/static-json/005.json",
+      "src/data/static-json/006.json",
+      "src/data/static-json/007.json",
+      "src/data/static-json/008.json",
+      "src/data/static-json/009.json",
+      "src/data/static-json/010.json",
+      "src/data/static-json/011.json",
+      "src/data/static-json/012.json",
+      "src/data/static-json/013.json",
+      "src/data/static-json/014.json",
+      "src/data/static-json/015.json",
+      "src/data/static-json/016.json",
+      "src/data/static-json/017.json",
+      "src/data/static-json/018.json",
+      "src/data/static-json/019-alola.json",
+      "src/data/static-json/019.json",
+      "src/data/static-json/020-alola.json",
+      "src/data/static-json/020.json",
+      "src/data/static-json/021.json",
+      "src/data/static-json/022.json",
+      "src/data/static-json/023.json",
+      "src/data/static-json/024.json",
+      "src/data/static-json/025.json",
+      "src/data/static-json/026-alola.json",
+      "src/data/static-json/026.json",
+      "src/data/static-json/027-alola.json",
+      "src/data/static-json/027.json",
+      "src/data/static-json/028-alola.json",
+      "src/data/static-json/028.json",
+      "src/data/static-json/029.json",
+      "src/data/static-json/030.json",
+      "src/data/static-json/031.json",
+      "src/data/static-json/032.json",
+      "src/data/static-json/033.json",
+      "src/data/static-json/034.json",
+      "src/data/static-json/035.json",
+      "src/data/static-json/036.json",
+      "src/data/static-json/037-alola.json",
+      "src/data/static-json/037.json",
+      "src/data/static-json/038-alola.json",
+      "src/data/static-json/038.json",
+      "src/data/static-json/039.json",
+      "src/data/static-json/040.json",
+      "src/data/static-json/041.json",
+      "src/data/static-json/042.json",
+      "src/data/static-json/043.json",
+      "src/data/static-json/044.json",
+      "src/data/static-json/045.json",
+      "src/data/static-json/046.json",
+      "src/data/static-json/047.json",
+      "src/data/static-json/048.json",
+      "src/data/static-json/049.json",
+      "src/data/static-json/050-alola.json",
+      "src/data/static-json/050.json",
+      "src/data/static-json/051-alola.json",
+      "src/data/static-json/051.json",
+      "src/data/static-json/052-alola.json",
+      "src/data/static-json/052-galar.json",
+      "src/data/static-json/052.json",
+      "src/data/static-json/053-alola.json",
+      "src/data/static-json/053.json",
+      "src/data/static-json/054.json",
+      "src/data/static-json/055.json",
+      "src/data/static-json/056.json",
+      "src/data/static-json/057.json",
+      "src/data/static-json/058-hisui.json",
+      "src/data/static-json/058.json",
+      "src/data/static-json/059-hisui.json",
+      "src/data/static-json/059.json",
+      "src/data/static-json/060.json",
+      "src/data/static-json/061.json",
+      "src/data/static-json/062.json",
+      "src/data/static-json/063.json",
+      "src/data/static-json/064.json",
+      "src/data/static-json/065.json",
+      "src/data/static-json/066.json",
+      "src/data/static-json/067.json",
+      "src/data/static-json/068.json",
+      "src/data/static-json/069.json",
+      "src/data/static-json/070.json",
+      "src/data/static-json/071.json",
+      "src/data/static-json/072.json",
+      "src/data/static-json/073.json",
+      "src/data/static-json/074-alola.json",
+      "src/data/static-json/074.json",
+      "src/data/static-json/075-alola.json",
+      "src/data/static-json/075.json",
+      "src/data/static-json/076-alola.json",
+      "src/data/static-json/076.json",
+      "src/data/static-json/077-galar.json",
+      "src/data/static-json/077.json",
+      "src/data/static-json/078-galar.json",
+      "src/data/static-json/078.json",
+      "src/data/static-json/079-galar.json",
+      "src/data/static-json/079.json",
+      "src/data/static-json/080-galar.json",
+      "src/data/static-json/080.json",
+      "src/data/static-json/081.json",
+      "src/data/static-json/082.json",
+      "src/data/static-json/083-galar.json",
+      "src/data/static-json/083.json",
+      "src/data/static-json/084.json",
+      "src/data/static-json/085.json",
+      "src/data/static-json/086.json",
+      "src/data/static-json/087.json",
+      "src/data/static-json/088-alola.json",
+      "src/data/static-json/088.json",
+      "src/data/static-json/089-alola.json",
+      "src/data/static-json/089.json",
+      "src/data/static-json/090.json",
+      "src/data/static-json/091.json",
+      "src/data/static-json/092.json",
+      "src/data/static-json/093.json",
+      "src/data/static-json/094.json",
+      "src/data/static-json/095.json",
+      "src/data/static-json/096.json",
+      "src/data/static-json/097.json",
+      "src/data/static-json/098.json",
+      "src/data/static-json/099.json",
+      "src/data/static-json/100-hisui.json",
+      "src/data/static-json/100.json",
+      "src/data/static-json/101-hisui.json",
+      "src/data/static-json/101.json",
+      "src/data/static-json/102.json",
+      "src/data/static-json/103-alola.json",
+      "src/data/static-json/103.json",
+      "src/data/static-json/104.json",
+      "src/data/static-json/105-alola.json",
+      "src/data/static-json/105.json",
+      "src/data/static-json/106.json",
+      "src/data/static-json/107.json",
+      "src/data/static-json/108.json",
+      "src/data/static-json/109.json",
+      "src/data/static-json/110-galar.json",
+      "src/data/static-json/110.json",
+      "src/data/static-json/111.json",
+      "src/data/static-json/112.json",
+      "src/data/static-json/113.json",
+      "src/data/static-json/114.json",
+      "src/data/static-json/115.json",
+      "src/data/static-json/116.json",
+      "src/data/static-json/117.json",
+      "src/data/static-json/118.json",
+      "src/data/static-json/119.json",
+      "src/data/static-json/120.json",
+      "src/data/static-json/121.json",
+      "src/data/static-json/122-galar.json",
+      "src/data/static-json/122.json",
+      "src/data/static-json/123.json",
+      "src/data/static-json/124.json",
+      "src/data/static-json/125.json",
+      "src/data/static-json/126.json",
+      "src/data/static-json/127.json",
+      "src/data/static-json/128.json",
+      "src/data/static-json/129.json",
+      "src/data/static-json/130.json",
+      "src/data/static-json/131.json",
+      "src/data/static-json/132.json",
+      "src/data/static-json/133.json",
+      "src/data/static-json/134.json",
+      "src/data/static-json/135.json",
+      "src/data/static-json/136.json",
+      "src/data/static-json/137.json",
+      "src/data/static-json/138.json",
+      "src/data/static-json/139.json",
+      "src/data/static-json/140.json",
+      "src/data/static-json/141.json",
+      "src/data/static-json/142.json",
+      "src/data/static-json/143.json",
+      "src/data/static-json/144-galar.json",
+      "src/data/static-json/144.json",
+      "src/data/static-json/145-galar.json",
+      "src/data/static-json/145.json",
+      "src/data/static-json/146-galar.json",
+      "src/data/static-json/146.json",
+      "src/data/static-json/147.json",
+      "src/data/static-json/148.json",
+      "src/data/static-json/149.json",
+      "src/data/static-json/150.json",
+      "src/data/static-json/151.json",
+      "src/data/static-json/152.json",
+      "src/data/static-json/153.json",
+      "src/data/static-json/154.json",
+      "src/data/static-json/155.json",
+      "src/data/static-json/156.json",
+      "src/data/static-json/157-hisui.json",
+      "src/data/static-json/157.json",
+      "src/data/static-json/158.json",
+      "src/data/static-json/159.json",
+      "src/data/static-json/160.json",
+      "src/data/static-json/161.json",
+      "src/data/static-json/162.json",
+      "src/data/static-json/163.json",
+      "src/data/static-json/164.json",
+      "src/data/static-json/165.json",
+      "src/data/static-json/166.json",
+      "src/data/static-json/167.json",
+      "src/data/static-json/168.json",
+      "src/data/static-json/169.json",
+      "src/data/static-json/170.json",
+      "src/data/static-json/171.json",
+      "src/data/static-json/172.json",
+      "src/data/static-json/173.json",
+      "src/data/static-json/174.json",
+      "src/data/static-json/175.json",
+      "src/data/static-json/176.json",
+      "src/data/static-json/177.json",
+      "src/data/static-json/178.json",
+      "src/data/static-json/179.json",
+      "src/data/static-json/180.json",
+      "src/data/static-json/181.json",
+      "src/data/static-json/182.json",
+      "src/data/static-json/183.json",
+      "src/data/static-json/184.json",
+      "src/data/static-json/185.json",
+      "src/data/static-json/186.json",
+      "src/data/static-json/187.json",
+      "src/data/static-json/188.json",
+      "src/data/static-json/189.json",
+      "src/data/static-json/190.json",
+      "src/data/static-json/191.json",
+      "src/data/static-json/192.json",
+      "src/data/static-json/193.json",
+      "src/data/static-json/194.json",
+      "src/data/static-json/195.json",
+      "src/data/static-json/196.json",
+      "src/data/static-json/197.json",
+      "src/data/static-json/198.json",
+      "src/data/static-json/199-galar.json",
+      "src/data/static-json/199.json",
+      "src/data/static-json/200.json",
+      "src/data/static-json/201.json",
+      "src/data/static-json/202.json",
+      "src/data/static-json/203.json",
+      "src/data/static-json/204.json",
+      "src/data/static-json/205.json",
+      "src/data/static-json/206.json",
+      "src/data/static-json/207.json",
+      "src/data/static-json/208.json",
+      "src/data/static-json/209.json",
+      "src/data/static-json/210.json",
+      "src/data/static-json/211-hisui.json",
+      "src/data/static-json/211.json",
+      "src/data/static-json/212.json",
+      "src/data/static-json/213.json",
+      "src/data/static-json/214.json",
+      "src/data/static-json/215-hisui.json",
+      "src/data/static-json/215.json",
+      "src/data/static-json/216.json",
+      "src/data/static-json/217.json",
+      "src/data/static-json/218.json",
+      "src/data/static-json/219.json",
+      "src/data/static-json/220.json",
+      "src/data/static-json/221.json",
+      "src/data/static-json/222-galar.json",
+      "src/data/static-json/222.json",
+      "src/data/static-json/223.json",
+      "src/data/static-json/224.json",
+      "src/data/static-json/225.json",
+      "src/data/static-json/226.json",
+      "src/data/static-json/227.json",
+      "src/data/static-json/228.json",
+      "src/data/static-json/229.json",
+      "src/data/static-json/230.json",
+      "src/data/static-json/231.json",
+      "src/data/static-json/232.json",
+      "src/data/static-json/233.json",
+      "src/data/static-json/234.json",
+      "src/data/static-json/235.json",
+      "src/data/static-json/236.json",
+      "src/data/static-json/237.json",
+      "src/data/static-json/238.json",
+      "src/data/static-json/239.json",
+      "src/data/static-json/240.json",
+      "src/data/static-json/241.json",
+      "src/data/static-json/242.json",
+      "src/data/static-json/243.json",
+      "src/data/static-json/244.json",
+      "src/data/static-json/245.json",
+      "src/data/static-json/246.json",
+      "src/data/static-json/247.json",
+      "src/data/static-json/248.json",
+      "src/data/static-json/249.json",
+      "src/data/static-json/250.json",
+      "src/data/static-json/251.json",
+      "src/data/static-json/252.json",
+      "src/data/static-json/253.json",
+      "src/data/static-json/254.json",
+      "src/data/static-json/255.json",
+      "src/data/static-json/256.json",
+      "src/data/static-json/257.json",
+      "src/data/static-json/258.json",
+      "src/data/static-json/259.json",
+      "src/data/static-json/260.json",
+      "src/data/static-json/261.json",
+      "src/data/static-json/262.json",
+      "src/data/static-json/263-galar.json",
+      "src/data/static-json/263.json",
+      "src/data/static-json/264-galar.json",
+      "src/data/static-json/264.json",
+      "src/data/static-json/265.json",
+      "src/data/static-json/266.json",
+      "src/data/static-json/267.json",
+      "src/data/static-json/268.json",
+      "src/data/static-json/269.json",
+      "src/data/static-json/270.json",
+      "src/data/static-json/271.json",
+      "src/data/static-json/272.json",
+      "src/data/static-json/273.json",
+      "src/data/static-json/274.json",
+      "src/data/static-json/275.json",
+      "src/data/static-json/276.json",
+      "src/data/static-json/277.json",
+      "src/data/static-json/278.json",
+      "src/data/static-json/279.json",
+      "src/data/static-json/280.json",
+      "src/data/static-json/281.json",
+      "src/data/static-json/282.json",
+      "src/data/static-json/283.json",
+      "src/data/static-json/284.json",
+      "src/data/static-json/285.json",
+      "src/data/static-json/286.json",
+      "src/data/static-json/287.json",
+      "src/data/static-json/288.json",
+      "src/data/static-json/289.json",
+      "src/data/static-json/290.json",
+      "src/data/static-json/291.json",
+      "src/data/static-json/292.json",
+      "src/data/static-json/293.json",
+      "src/data/static-json/294.json",
+      "src/data/static-json/295.json",
+      "src/data/static-json/296.json",
+      "src/data/static-json/297.json",
+      "src/data/static-json/298.json",
+      "src/data/static-json/299.json",
+      "src/data/static-json/300.json",
+      "src/data/static-json/301.json",
+      "src/data/static-json/302.json",
+      "src/data/static-json/303.json",
+      "src/data/static-json/304.json",
+      "src/data/static-json/305.json",
+      "src/data/static-json/306.json",
+      "src/data/static-json/307.json",
+      "src/data/static-json/308.json",
+      "src/data/static-json/309.json",
+      "src/data/static-json/310.json",
+      "src/data/static-json/311.json",
+      "src/data/static-json/312.json",
+      "src/data/static-json/313.json",
+      "src/data/static-json/314.json",
+      "src/data/static-json/315.json",
+      "src/data/static-json/316.json",
+      "src/data/static-json/317.json",
+      "src/data/static-json/318.json",
+      "src/data/static-json/319.json",
+      "src/data/static-json/320.json",
+      "src/data/static-json/321.json",
+      "src/data/static-json/322.json",
+      "src/data/static-json/323.json",
+      "src/data/static-json/324.json",
+      "src/data/static-json/325.json",
+      "src/data/static-json/326.json",
+      "src/data/static-json/327.json",
+      "src/data/static-json/328.json",
+      "src/data/static-json/329.json",
+      "src/data/static-json/330.json",
+      "src/data/static-json/331.json",
+      "src/data/static-json/332.json",
+      "src/data/static-json/333.json",
+      "src/data/static-json/334.json",
+      "src/data/static-json/335.json",
+      "src/data/static-json/336.json",
+      "src/data/static-json/337.json",
+      "src/data/static-json/338.json",
+      "src/data/static-json/339.json",
+      "src/data/static-json/340.json",
+      "src/data/static-json/341.json",
+      "src/data/static-json/342.json",
+      "src/data/static-json/343.json",
+      "src/data/static-json/344.json",
+      "src/data/static-json/345.json",
+      "src/data/static-json/346.json",
+      "src/data/static-json/347.json",
+      "src/data/static-json/348.json",
+      "src/data/static-json/349.json",
+      "src/data/static-json/350.json",
+      "src/data/static-json/351.json",
+      "src/data/static-json/352.json",
+      "src/data/static-json/353.json",
+      "src/data/static-json/354.json",
+      "src/data/static-json/355.json",
+      "src/data/static-json/356.json",
+      "src/data/static-json/357.json",
+      "src/data/static-json/358.json",
+      "src/data/static-json/359.json",
+      "src/data/static-json/360.json",
+      "src/data/static-json/361.json",
+      "src/data/static-json/362.json",
+      "src/data/static-json/363.json",
+      "src/data/static-json/364.json",
+      "src/data/static-json/365.json",
+      "src/data/static-json/366.json",
+      "src/data/static-json/367.json",
+      "src/data/static-json/368.json",
+      "src/data/static-json/369.json",
+      "src/data/static-json/370.json",
+      "src/data/static-json/371.json",
+      "src/data/static-json/372.json",
+      "src/data/static-json/373.json",
+      "src/data/static-json/374.json",
+      "src/data/static-json/375.json",
+      "src/data/static-json/376.json",
+      "src/data/static-json/377.json",
+      "src/data/static-json/378.json",
+      "src/data/static-json/379.json",
+      "src/data/static-json/380.json",
+      "src/data/static-json/381.json",
+      "src/data/static-json/382.json",
+      "src/data/static-json/383.json",
+      "src/data/static-json/384.json",
+      "src/data/static-json/385.json",
+      "src/data/static-json/386.json",
+      "src/data/static-json/387.json",
+      "src/data/static-json/388.json",
+      "src/data/static-json/389.json",
+      "src/data/static-json/390.json",
+      "src/data/static-json/391.json",
+      "src/data/static-json/392.json",
+      "src/data/static-json/393.json",
+      "src/data/static-json/394.json",
+      "src/data/static-json/395.json",
+      "src/data/static-json/396.json",
+      "src/data/static-json/397.json",
+      "src/data/static-json/398.json",
+      "src/data/static-json/399.json",
+      "src/data/static-json/400.json",
+      "src/data/static-json/401.json",
+      "src/data/static-json/402.json",
+      "src/data/static-json/403.json",
+      "src/data/static-json/404.json",
+      "src/data/static-json/405.json",
+      "src/data/static-json/406.json",
+      "src/data/static-json/407.json",
+      "src/data/static-json/408.json",
+      "src/data/static-json/409.json",
+      "src/data/static-json/410.json",
+      "src/data/static-json/411.json",
+      "src/data/static-json/412.json",
+      "src/data/static-json/413.json",
+      "src/data/static-json/414.json",
+      "src/data/static-json/415.json",
+      "src/data/static-json/416.json",
+      "src/data/static-json/417.json",
+      "src/data/static-json/418.json",
+      "src/data/static-json/419.json",
+      "src/data/static-json/420.json",
+      "src/data/static-json/421.json",
+      "src/data/static-json/422-east.json",
+      "src/data/static-json/422.json",
+      "src/data/static-json/423-east.json",
+      "src/data/static-json/423.json",
+      "src/data/static-json/424.json",
+      "src/data/static-json/425.json",
+      "src/data/static-json/426.json",
+      "src/data/static-json/427.json",
+      "src/data/static-json/428.json",
+      "src/data/static-json/429.json",
+      "src/data/static-json/430.json",
+      "src/data/static-json/431.json",
+      "src/data/static-json/432.json",
+      "src/data/static-json/433.json",
+      "src/data/static-json/434.json",
+      "src/data/static-json/435.json",
+      "src/data/static-json/436.json",
+      "src/data/static-json/437.json",
+      "src/data/static-json/438.json",
+      "src/data/static-json/439.json",
+      "src/data/static-json/440.json",
+      "src/data/static-json/441.json",
+      "src/data/static-json/442.json",
+      "src/data/static-json/443.json",
+      "src/data/static-json/444.json",
+      "src/data/static-json/445.json",
+      "src/data/static-json/446.json",
+      "src/data/static-json/447.json",
+      "src/data/static-json/448.json",
+      "src/data/static-json/449.json",
+      "src/data/static-json/450.json",
+      "src/data/static-json/451.json",
+      "src/data/static-json/452.json",
+      "src/data/static-json/453.json",
+      "src/data/static-json/454.json",
+      "src/data/static-json/455.json",
+      "src/data/static-json/456.json",
+      "src/data/static-json/457.json",
+      "src/data/static-json/458.json",
+      "src/data/static-json/459.json",
+      "src/data/static-json/460.json",
+      "src/data/static-json/461.json",
+      "src/data/static-json/462.json",
+      "src/data/static-json/463.json",
+      "src/data/static-json/464.json",
+      "src/data/static-json/465.json",
+      "src/data/static-json/466.json",
+      "src/data/static-json/467.json",
+      "src/data/static-json/468.json",
+      "src/data/static-json/469.json",
+      "src/data/static-json/470.json",
+      "src/data/static-json/471.json",
+      "src/data/static-json/472.json",
+      "src/data/static-json/473.json",
+      "src/data/static-json/474.json",
+      "src/data/static-json/475.json",
+      "src/data/static-json/476.json",
+      "src/data/static-json/477.json",
+      "src/data/static-json/478.json",
+      "src/data/static-json/479.json",
+      "src/data/static-json/480.json",
+      "src/data/static-json/481.json",
+      "src/data/static-json/482.json",
+      "src/data/static-json/483.json",
+      "src/data/static-json/484.json",
+      "src/data/static-json/485.json",
+      "src/data/static-json/486.json",
+      "src/data/static-json/487.json",
+      "src/data/static-json/488.json",
+      "src/data/static-json/489.json",
+      "src/data/static-json/490.json",
+      "src/data/static-json/491.json",
+      "src/data/static-json/492.json",
+      "src/data/static-json/493.json",
+      "src/data/static-json/494.json",
+      "src/data/static-json/495.json",
+      "src/data/static-json/496.json",
+      "src/data/static-json/497.json",
+      "src/data/static-json/498.json",
+      "src/data/static-json/499.json",
+      "src/data/static-json/500.json",
+      "src/data/static-json/501.json",
+      "src/data/static-json/502.json",
+      "src/data/static-json/503-hisui.json",
+      "src/data/static-json/503.json",
+      "src/data/static-json/504.json",
+      "src/data/static-json/505.json",
+      "src/data/static-json/506.json",
+      "src/data/static-json/507.json",
+      "src/data/static-json/508.json",
+      "src/data/static-json/509.json",
+      "src/data/static-json/510.json",
+      "src/data/static-json/511.json",
+      "src/data/static-json/512.json",
+      "src/data/static-json/513.json",
+      "src/data/static-json/514.json",
+      "src/data/static-json/515.json",
+      "src/data/static-json/516.json",
+      "src/data/static-json/517.json",
+      "src/data/static-json/518.json",
+      "src/data/static-json/519.json",
+      "src/data/static-json/520.json",
+      "src/data/static-json/521.json",
+      "src/data/static-json/522.json",
+      "src/data/static-json/523.json",
+      "src/data/static-json/524.json",
+      "src/data/static-json/525.json",
+      "src/data/static-json/526.json",
+      "src/data/static-json/527.json",
+      "src/data/static-json/528.json",
+      "src/data/static-json/529.json",
+      "src/data/static-json/530.json",
+      "src/data/static-json/531.json",
+      "src/data/static-json/532.json",
+      "src/data/static-json/533.json",
+      "src/data/static-json/534.json",
+      "src/data/static-json/535.json",
+      "src/data/static-json/536.json",
+      "src/data/static-json/537.json",
+      "src/data/static-json/538.json",
+      "src/data/static-json/539.json",
+      "src/data/static-json/540.json",
+      "src/data/static-json/541.json",
+      "src/data/static-json/542.json",
+      "src/data/static-json/543.json",
+      "src/data/static-json/544.json",
+      "src/data/static-json/545.json",
+      "src/data/static-json/546.json",
+      "src/data/static-json/547.json",
+      "src/data/static-json/548.json",
+      "src/data/static-json/549-hisui.json",
+      "src/data/static-json/549.json",
+      "src/data/static-json/550-blue-striped.json",
+      "src/data/static-json/550-white-striped.json",
+      "src/data/static-json/550.json",
+      "src/data/static-json/551.json",
+      "src/data/static-json/552.json",
+      "src/data/static-json/553.json",
+      "src/data/static-json/554-galar.json",
+      "src/data/static-json/554.json",
+      "src/data/static-json/555-galar.json",
+      "src/data/static-json/555.json",
+      "src/data/static-json/556.json",
+      "src/data/static-json/557.json",
+      "src/data/static-json/558.json",
+      "src/data/static-json/559.json",
+      "src/data/static-json/560.json",
+      "src/data/static-json/561.json",
+      "src/data/static-json/562-galar.json",
+      "src/data/static-json/562.json",
+      "src/data/static-json/563.json",
+      "src/data/static-json/564.json",
+      "src/data/static-json/565.json",
+      "src/data/static-json/566.json",
+      "src/data/static-json/567.json",
+      "src/data/static-json/568.json",
+      "src/data/static-json/569.json",
+      "src/data/static-json/570-hisui.json",
+      "src/data/static-json/570.json",
+      "src/data/static-json/571-hisui.json",
+      "src/data/static-json/571.json",
+      "src/data/static-json/572.json",
+      "src/data/static-json/573.json",
+      "src/data/static-json/574.json",
+      "src/data/static-json/575.json",
+      "src/data/static-json/576.json",
+      "src/data/static-json/577.json",
+      "src/data/static-json/578.json",
+      "src/data/static-json/579.json",
+      "src/data/static-json/580.json",
+      "src/data/static-json/581.json",
+      "src/data/static-json/582.json",
+      "src/data/static-json/583.json",
+      "src/data/static-json/584.json",
+      "src/data/static-json/585.json",
+      "src/data/static-json/586.json",
+      "src/data/static-json/587.json",
+      "src/data/static-json/588.json",
+      "src/data/static-json/589.json",
+      "src/data/static-json/590.json",
+      "src/data/static-json/591.json",
+      "src/data/static-json/592.json",
+      "src/data/static-json/593.json",
+      "src/data/static-json/594.json",
+      "src/data/static-json/595.json",
+      "src/data/static-json/596.json",
+      "src/data/static-json/597.json",
+      "src/data/static-json/598.json",
+      "src/data/static-json/599.json",
+      "src/data/static-json/600.json",
+      "src/data/static-json/601.json",
+      "src/data/static-json/602.json",
+      "src/data/static-json/603.json",
+      "src/data/static-json/604.json",
+      "src/data/static-json/605.json",
+      "src/data/static-json/606.json",
+      "src/data/static-json/607.json",
+      "src/data/static-json/608.json",
+      "src/data/static-json/609.json",
+      "src/data/static-json/610.json",
+      "src/data/static-json/611.json",
+      "src/data/static-json/612.json",
+      "src/data/static-json/613.json",
+      "src/data/static-json/614.json",
+      "src/data/static-json/615.json",
+      "src/data/static-json/616.json",
+      "src/data/static-json/617.json",
+      "src/data/static-json/618-galar.json",
+      "src/data/static-json/618.json",
+      "src/data/static-json/619.json",
+      "src/data/static-json/620.json",
+      "src/data/static-json/621.json",
+      "src/data/static-json/622.json",
+      "src/data/static-json/623.json",
+      "src/data/static-json/624.json",
+      "src/data/static-json/625.json",
+      "src/data/static-json/626.json",
+      "src/data/static-json/627.json",
+      "src/data/static-json/628-hisui.json",
+      "src/data/static-json/628.json",
+      "src/data/static-json/629.json",
+      "src/data/static-json/630.json",
+      "src/data/static-json/631.json",
+      "src/data/static-json/632.json",
+      "src/data/static-json/633.json",
+      "src/data/static-json/634.json",
+      "src/data/static-json/635.json",
+      "src/data/static-json/636.json",
+      "src/data/static-json/637.json",
+      "src/data/static-json/638.json",
+      "src/data/static-json/639.json",
+      "src/data/static-json/640.json",
+      "src/data/static-json/641.json",
+      "src/data/static-json/642.json",
+      "src/data/static-json/643.json",
+      "src/data/static-json/644.json",
+      "src/data/static-json/645.json",
+      "src/data/static-json/646.json",
+      "src/data/static-json/647.json",
+      "src/data/static-json/648.json",
+      "src/data/static-json/649.json",
+      "src/data/static-json/650.json",
+      "src/data/static-json/651.json",
+      "src/data/static-json/652.json",
+      "src/data/static-json/653.json",
+      "src/data/static-json/654.json",
+      "src/data/static-json/655.json",
+      "src/data/static-json/656.json",
+      "src/data/static-json/657.json",
+      "src/data/static-json/658.json",
+      "src/data/static-json/659.json",
+      "src/data/static-json/660.json",
+      "src/data/static-json/661.json",
+      "src/data/static-json/662.json",
+      "src/data/static-json/663.json",
+      "src/data/static-json/664.json",
+      "src/data/static-json/665.json",
+      "src/data/static-json/666.json",
+      "src/data/static-json/667.json",
+      "src/data/static-json/668.json",
+      "src/data/static-json/669.json",
+      "src/data/static-json/670.json",
+      "src/data/static-json/671.json",
+      "src/data/static-json/672.json",
+      "src/data/static-json/673.json",
+      "src/data/static-json/674.json",
+      "src/data/static-json/675.json",
+      "src/data/static-json/676.json",
+      "src/data/static-json/677.json",
+      "src/data/static-json/678.json",
+      "src/data/static-json/679.json",
+      "src/data/static-json/680.json",
+      "src/data/static-json/681.json",
+      "src/data/static-json/682.json",
+      "src/data/static-json/683.json",
+      "src/data/static-json/684.json",
+      "src/data/static-json/685.json",
+      "src/data/static-json/686.json",
+      "src/data/static-json/687.json",
+      "src/data/static-json/688.json",
+      "src/data/static-json/689.json",
+      "src/data/static-json/690.json",
+      "src/data/static-json/691.json",
+      "src/data/static-json/692.json",
+      "src/data/static-json/693.json",
+      "src/data/static-json/694.json",
+      "src/data/static-json/695.json",
+      "src/data/static-json/696.json",
+      "src/data/static-json/697.json",
+      "src/data/static-json/698.json",
+      "src/data/static-json/699.json",
+      "src/data/static-json/700.json",
+      "src/data/static-json/701.json",
+      "src/data/static-json/702.json",
+      "src/data/static-json/703.json",
+      "src/data/static-json/704.json",
+      "src/data/static-json/705-hisui.json",
+      "src/data/static-json/705.json",
+      "src/data/static-json/706-hisui.json",
+      "src/data/static-json/706.json",
+      "src/data/static-json/707.json",
+      "src/data/static-json/708.json",
+      "src/data/static-json/709.json",
+      "src/data/static-json/710.json",
+      "src/data/static-json/711.json",
+      "src/data/static-json/712.json",
+      "src/data/static-json/713-hisui.json",
+      "src/data/static-json/713.json",
+      "src/data/static-json/714.json",
+      "src/data/static-json/715.json",
+      "src/data/static-json/716.json",
+      "src/data/static-json/717.json",
+      "src/data/static-json/718.json",
+      "src/data/static-json/719.json",
+      "src/data/static-json/720.json",
+      "src/data/static-json/721.json",
+      "src/data/static-json/722.json",
+      "src/data/static-json/723.json",
+      "src/data/static-json/724-hisui.json",
+      "src/data/static-json/724.json",
+      "src/data/static-json/725.json",
+      "src/data/static-json/726.json",
+      "src/data/static-json/727.json",
+      "src/data/static-json/728.json",
+      "src/data/static-json/729.json",
+      "src/data/static-json/730.json",
+      "src/data/static-json/731.json",
+      "src/data/static-json/732.json",
+      "src/data/static-json/733.json",
+      "src/data/static-json/734.json",
+      "src/data/static-json/735.json",
+      "src/data/static-json/736.json",
+      "src/data/static-json/737.json",
+      "src/data/static-json/738.json",
+      "src/data/static-json/739.json",
+      "src/data/static-json/740.json",
+      "src/data/static-json/741.json",
+      "src/data/static-json/742.json",
+      "src/data/static-json/743.json",
+      "src/data/static-json/744.json",
+      "src/data/static-json/745.json",
+      "src/data/static-json/746.json",
+      "src/data/static-json/747.json",
+      "src/data/static-json/748.json",
+      "src/data/static-json/749.json",
+      "src/data/static-json/750.json",
+      "src/data/static-json/751.json",
+      "src/data/static-json/752.json",
+      "src/data/static-json/753.json",
+      "src/data/static-json/754.json",
+      "src/data/static-json/755.json",
+      "src/data/static-json/756.json",
+      "src/data/static-json/757.json",
+      "src/data/static-json/758.json",
+      "src/data/static-json/759.json",
+      "src/data/static-json/760.json",
+      "src/data/static-json/761.json",
+      "src/data/static-json/762.json",
+      "src/data/static-json/763.json",
+      "src/data/static-json/764.json",
+      "src/data/static-json/765.json",
+      "src/data/static-json/766.json",
+      "src/data/static-json/767.json",
+      "src/data/static-json/768.json",
+      "src/data/static-json/769.json",
+      "src/data/static-json/770.json",
+      "src/data/static-json/771.json",
+      "src/data/static-json/772.json",
+      "src/data/static-json/773.json",
+      "src/data/static-json/774.json",
+      "src/data/static-json/775.json",
+      "src/data/static-json/776.json",
+      "src/data/static-json/777.json",
+      "src/data/static-json/778.json",
+      "src/data/static-json/779.json",
+      "src/data/static-json/780.json",
+      "src/data/static-json/781.json",
+      "src/data/static-json/782.json",
+      "src/data/static-json/783.json",
+      "src/data/static-json/784.json",
+      "src/data/static-json/785.json",
+      "src/data/static-json/786.json",
+      "src/data/static-json/787.json",
+      "src/data/static-json/788.json",
+      "src/data/static-json/789.json",
+      "src/data/static-json/790.json",
+      "src/data/static-json/791.json",
+      "src/data/static-json/792.json",
+      "src/data/static-json/793.json",
+      "src/data/static-json/794.json",
+      "src/data/static-json/795.json",
+      "src/data/static-json/796.json",
+      "src/data/static-json/797.json",
+      "src/data/static-json/798.json",
+      "src/data/static-json/799.json",
+      "src/data/static-json/800.json",
+      "src/data/static-json/801.json",
+      "src/data/static-json/802.json",
+      "src/data/static-json/803.json",
+      "src/data/static-json/804.json",
+      "src/data/static-json/805.json",
+      "src/data/static-json/806.json",
+      "src/data/static-json/807.json",
+      "src/data/static-json/808.json",
+      "src/data/static-json/809.json",
+      "src/data/static-json/810.json",
+      "src/data/static-json/811.json",
+      "src/data/static-json/812.json",
+      "src/data/static-json/813.json",
+      "src/data/static-json/814.json",
+      "src/data/static-json/815.json",
+      "src/data/static-json/816.json",
+      "src/data/static-json/817.json",
+      "src/data/static-json/818.json",
+      "src/data/static-json/819.json",
+      "src/data/static-json/820.json",
+      "src/data/static-json/821.json",
+      "src/data/static-json/822.json",
+      "src/data/static-json/823.json",
+      "src/data/static-json/824.json",
+      "src/data/static-json/825.json",
+      "src/data/static-json/826.json",
+      "src/data/static-json/827.json",
+      "src/data/static-json/828.json",
+      "src/data/static-json/829.json",
+      "src/data/static-json/830.json",
+      "src/data/static-json/831.json",
+      "src/data/static-json/832.json",
+      "src/data/static-json/833.json",
+      "src/data/static-json/834.json",
+      "src/data/static-json/835.json",
+      "src/data/static-json/836.json",
+      "src/data/static-json/837.json",
+      "src/data/static-json/838.json",
+      "src/data/static-json/839.json",
+      "src/data/static-json/840.json",
+      "src/data/static-json/841.json",
+      "src/data/static-json/842.json",
+      "src/data/static-json/843.json",
+      "src/data/static-json/844.json",
+      "src/data/static-json/845.json",
+      "src/data/static-json/846.json",
+      "src/data/static-json/847.json",
+      "src/data/static-json/848.json",
+      "src/data/static-json/849.json",
+      "src/data/static-json/850.json",
+      "src/data/static-json/851.json",
+      "src/data/static-json/852.json",
+      "src/data/static-json/853.json",
+      "src/data/static-json/854.json",
+      "src/data/static-json/855.json",
+      "src/data/static-json/856.json",
+      "src/data/static-json/857.json",
+      "src/data/static-json/858.json",
+      "src/data/static-json/859.json",
+      "src/data/static-json/860.json",
+      "src/data/static-json/861.json",
+      "src/data/static-json/862.json",
+      "src/data/static-json/863.json",
+      "src/data/static-json/864.json",
+      "src/data/static-json/865.json",
+      "src/data/static-json/866.json",
+      "src/data/static-json/867.json",
+      "src/data/static-json/868.json",
+      "src/data/static-json/869.json",
+      "src/data/static-json/870.json",
+      "src/data/static-json/871.json",
+      "src/data/static-json/872.json",
+      "src/data/static-json/873.json",
+      "src/data/static-json/874.json",
+      "src/data/static-json/875.json",
+      "src/data/static-json/876.json",
+      "src/data/static-json/877.json",
+      "src/data/static-json/878.json",
+      "src/data/static-json/879.json",
+      "src/data/static-json/880.json",
+      "src/data/static-json/881.json",
+      "src/data/static-json/882.json",
+      "src/data/static-json/883.json",
+      "src/data/static-json/884.json",
+      "src/data/static-json/885.json",
+      "src/data/static-json/886.json",
+      "src/data/static-json/887.json",
+      "src/data/static-json/888.json",
+      "src/data/static-json/889.json",
+      "src/data/static-json/890.json",
+      "src/data/static-json/891.json",
+      "src/data/static-json/892.json",
+      "src/data/static-json/893.json",
+      "src/data/static-json/894.json",
+      "src/data/static-json/895.json",
+      "src/data/static-json/896.json",
+      "src/data/static-json/897.json",
+      "src/data/static-json/898.json",
+      "src/data/static-json/899.json",
+      "src/data/static-json/900.json",
+      "src/data/static-json/901.json",
+      "src/data/static-json/902.json",
+      "src/data/static-json/903.json",
+      "src/data/static-json/904.json",
+      "src/data/static-json/905.json"
+    ],
+    "css": [
+      "assets/pages/components/DetailPopup/index.svelte-528a317d.css"
+    ],
+    "assets": [
+      "assets/type-logos-c41ec38f.png"
+    ]
+  },
+  "src/routes/components/IndexMagicButton/index.svelte": {
+    "file": "pages/components/IndexMagicButton/index.svelte-bb9ef9a4.js",
+    "src": "src/routes/components/IndexMagicButton/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-7045e37d.js",
+      "_index-9539bb32.js",
+      "_toNumber-e8d0ba12.js",
+      "_useActions-90889a13.js"
+    ],
+    "css": [
+      "assets/pages/components/IndexMagicButton/index.svelte-eeacafea.css"
+    ]
+  },
+  "src/routes/components/IndexTable/index.svelte": {
+    "file": "pages/components/IndexTable/index.svelte-9c9aef9f.js",
+    "src": "src/routes/components/IndexTable/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-7045e37d.js",
+      "_preload-helper-936e422d.js",
+      "_CircularProgress-f74dc7ad.js",
+      "_index-c0887a8f.js",
+      "_index-9539bb32.js",
+      "_useActions-90889a13.js"
+    ],
+    "dynamicImports": [
+      "src/data/gen-1.json",
+      "src/data/gen-2.json",
+      "src/data/gen-3.json",
+      "src/data/gen-4.json",
+      "src/data/gen-5.json",
+      "src/data/gen-6.json",
+      "src/data/gen-7-2.json",
+      "src/data/gen-7.json",
+      "src/data/gen-8.json"
+    ],
+    "css": [
+      "assets/pages/components/IndexTable/index.svelte-ea7fc21f.css"
+    ]
+  },
+  "src/routes/components/PokeBox/index.svelte": {
+    "file": "pages/components/PokeBox/index.svelte-8dcb2105.js",
+    "src": "src/routes/components/PokeBox/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-7045e37d.js",
+      "_index-c0887a8f.js"
+    ],
+    "css": [
+      "assets/pages/components/PokeBox/index.svelte-25e04573.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-d64b2c40.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-7045e37d.js",
+      "src/routes/components/IndexMagicButton/index.svelte",
+      "src/routes/components/PokeBox/index.svelte",
+      "src/routes/components/DetailPopup/index.svelte",
+      "_index-9539bb32.js",
+      "_toNumber-e8d0ba12.js",
+      "_useActions-90889a13.js",
+      "_index-c0887a8f.js",
+      "_CircularProgress-f74dc7ad.js",
+      "_preload-helper-936e422d.js"
+    ],
+    "css": [
+      "assets/pages/index.svelte-5a1e212d.css"
+    ]
+  },
+  "_index-7045e37d.js": {
+    "file": "chunks/index-7045e37d.js"
+  },
+  "_index-9539bb32.js": {
+    "file": "chunks/index-9539bb32.js",
+    "imports": [
+      "_index-7045e37d.js"
+    ]
+  },
+  "_preload-helper-936e422d.js": {
+    "file": "chunks/preload-helper-936e422d.js"
+  },
+  "_CircularProgress-f74dc7ad.js": {
+    "file": "chunks/CircularProgress-f74dc7ad.js",
+    "imports": [
+      "_index-7045e37d.js",
+      "_useActions-90889a13.js"
+    ]
+  },
+  "_toNumber-e8d0ba12.js": {
+    "file": "chunks/toNumber-e8d0ba12.js",
+    "imports": [
+      "_useActions-90889a13.js",
+      "_index-7045e37d.js"
+    ]
+  },
+  "_useActions-90889a13.js": {
+    "file": "chunks/useActions-90889a13.js",
+    "imports": [
+      "_index-7045e37d.js"
+    ]
+  },
+  "_index-c0887a8f.js": {
+    "file": "chunks/index-c0887a8f.js",
+    "imports": [
+      "_index-7045e37d.js"
+    ],
+    "css": [
+      "assets/index-7e558034.css"
+    ],
+    "assets": [
+      "assets/pokesprite-pokemon-gen8-a864de23.png"
+    ]
+  },
+  "src/data/static-json/001.json": {
+    "file": "chunks/001-e0636168.js",
+    "src": "src/data/static-json/001.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/002.json": {
+    "file": "chunks/002-871f870f.js",
+    "src": "src/data/static-json/002.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/003.json": {
+    "file": "chunks/003-6f987a92.js",
+    "src": "src/data/static-json/003.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/004.json": {
+    "file": "chunks/004-cc8fb362.js",
+    "src": "src/data/static-json/004.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/005.json": {
+    "file": "chunks/005-ee2f4eb0.js",
+    "src": "src/data/static-json/005.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/006.json": {
+    "file": "chunks/006-f9f16794.js",
+    "src": "src/data/static-json/006.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/007.json": {
+    "file": "chunks/007-53ca4147.js",
+    "src": "src/data/static-json/007.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/008.json": {
+    "file": "chunks/008-4a1f1370.js",
+    "src": "src/data/static-json/008.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/009.json": {
+    "file": "chunks/009-38e5a3e8.js",
+    "src": "src/data/static-json/009.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/010.json": {
+    "file": "chunks/010-7de73659.js",
+    "src": "src/data/static-json/010.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/011.json": {
+    "file": "chunks/011-8130101b.js",
+    "src": "src/data/static-json/011.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/012.json": {
+    "file": "chunks/012-5a306182.js",
+    "src": "src/data/static-json/012.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/013.json": {
+    "file": "chunks/013-469e1c54.js",
+    "src": "src/data/static-json/013.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/014.json": {
+    "file": "chunks/014-03b45f2e.js",
+    "src": "src/data/static-json/014.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/015.json": {
+    "file": "chunks/015-c9bf871b.js",
+    "src": "src/data/static-json/015.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/016.json": {
+    "file": "chunks/016-772987dc.js",
+    "src": "src/data/static-json/016.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/017.json": {
+    "file": "chunks/017-cfc22957.js",
+    "src": "src/data/static-json/017.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/018.json": {
+    "file": "chunks/018-4c1b0d30.js",
+    "src": "src/data/static-json/018.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/019-alola.json": {
+    "file": "chunks/019-alola-7662caa9.js",
+    "src": "src/data/static-json/019-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/019.json": {
+    "file": "chunks/019-79aac8bd.js",
+    "src": "src/data/static-json/019.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/020-alola.json": {
+    "file": "chunks/020-alola-a8ef8c1b.js",
+    "src": "src/data/static-json/020-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/020.json": {
+    "file": "chunks/020-4766bc50.js",
+    "src": "src/data/static-json/020.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/021.json": {
+    "file": "chunks/021-e697788e.js",
+    "src": "src/data/static-json/021.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/022.json": {
+    "file": "chunks/022-9414f72a.js",
+    "src": "src/data/static-json/022.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/023.json": {
+    "file": "chunks/023-9991f0ce.js",
+    "src": "src/data/static-json/023.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/024.json": {
+    "file": "chunks/024-3b2cee45.js",
+    "src": "src/data/static-json/024.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/025.json": {
+    "file": "chunks/025-fbeb3f12.js",
+    "src": "src/data/static-json/025.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/026-alola.json": {
+    "file": "chunks/026-alola-8801def7.js",
+    "src": "src/data/static-json/026-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/026.json": {
+    "file": "chunks/026-e95a300c.js",
+    "src": "src/data/static-json/026.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/027-alola.json": {
+    "file": "chunks/027-alola-dcbae8b1.js",
+    "src": "src/data/static-json/027-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/027.json": {
+    "file": "chunks/027-35460c79.js",
+    "src": "src/data/static-json/027.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/028-alola.json": {
+    "file": "chunks/028-alola-7181340e.js",
+    "src": "src/data/static-json/028-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/028.json": {
+    "file": "chunks/028-6db73b91.js",
+    "src": "src/data/static-json/028.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/029.json": {
+    "file": "chunks/029-ef06cd7d.js",
+    "src": "src/data/static-json/029.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/030.json": {
+    "file": "chunks/030-a2b7d42d.js",
+    "src": "src/data/static-json/030.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/031.json": {
+    "file": "chunks/031-d2f8a0df.js",
+    "src": "src/data/static-json/031.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/032.json": {
+    "file": "chunks/032-4861650d.js",
+    "src": "src/data/static-json/032.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/033.json": {
+    "file": "chunks/033-dbd57daf.js",
+    "src": "src/data/static-json/033.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/034.json": {
+    "file": "chunks/034-a6c83f55.js",
+    "src": "src/data/static-json/034.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/035.json": {
+    "file": "chunks/035-2ac5a80c.js",
+    "src": "src/data/static-json/035.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/036.json": {
+    "file": "chunks/036-e8e7cd59.js",
+    "src": "src/data/static-json/036.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/037-alola.json": {
+    "file": "chunks/037-alola-03cda9ca.js",
+    "src": "src/data/static-json/037-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/037.json": {
+    "file": "chunks/037-f985e199.js",
+    "src": "src/data/static-json/037.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/038-alola.json": {
+    "file": "chunks/038-alola-ddbba829.js",
+    "src": "src/data/static-json/038-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/038.json": {
+    "file": "chunks/038-4b161e0a.js",
+    "src": "src/data/static-json/038.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/039.json": {
+    "file": "chunks/039-bb7fb0f6.js",
+    "src": "src/data/static-json/039.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/040.json": {
+    "file": "chunks/040-def28362.js",
+    "src": "src/data/static-json/040.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/041.json": {
+    "file": "chunks/041-f91f5134.js",
+    "src": "src/data/static-json/041.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/042.json": {
+    "file": "chunks/042-dba46d17.js",
+    "src": "src/data/static-json/042.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/043.json": {
+    "file": "chunks/043-ca808629.js",
+    "src": "src/data/static-json/043.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/044.json": {
+    "file": "chunks/044-02a96fc0.js",
+    "src": "src/data/static-json/044.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/045.json": {
+    "file": "chunks/045-2f84817d.js",
+    "src": "src/data/static-json/045.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/046.json": {
+    "file": "chunks/046-dbd6df33.js",
+    "src": "src/data/static-json/046.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/047.json": {
+    "file": "chunks/047-0a7ff9d0.js",
+    "src": "src/data/static-json/047.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/048.json": {
+    "file": "chunks/048-36955842.js",
+    "src": "src/data/static-json/048.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/049.json": {
+    "file": "chunks/049-31c340bb.js",
+    "src": "src/data/static-json/049.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/050-alola.json": {
+    "file": "chunks/050-alola-885bbfb6.js",
+    "src": "src/data/static-json/050-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/050.json": {
+    "file": "chunks/050-3e5f2687.js",
+    "src": "src/data/static-json/050.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/051-alola.json": {
+    "file": "chunks/051-alola-04b1e6a8.js",
+    "src": "src/data/static-json/051-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/051.json": {
+    "file": "chunks/051-ffc0191e.js",
+    "src": "src/data/static-json/051.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/052-alola.json": {
+    "file": "chunks/052-alola-3c4d90ec.js",
+    "src": "src/data/static-json/052-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/052-galar.json": {
+    "file": "chunks/052-galar-240518c4.js",
+    "src": "src/data/static-json/052-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/052.json": {
+    "file": "chunks/052-538c3f9f.js",
+    "src": "src/data/static-json/052.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/053-alola.json": {
+    "file": "chunks/053-alola-252631bc.js",
+    "src": "src/data/static-json/053-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/053.json": {
+    "file": "chunks/053-3b918e8e.js",
+    "src": "src/data/static-json/053.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/054.json": {
+    "file": "chunks/054-f12ae2b0.js",
+    "src": "src/data/static-json/054.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/055.json": {
+    "file": "chunks/055-21d9204f.js",
+    "src": "src/data/static-json/055.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/056.json": {
+    "file": "chunks/056-8bd8b36e.js",
+    "src": "src/data/static-json/056.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/057.json": {
+    "file": "chunks/057-10466086.js",
+    "src": "src/data/static-json/057.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/058-hisui.json": {
+    "file": "chunks/058-hisui-680d0544.js",
+    "src": "src/data/static-json/058-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/058.json": {
+    "file": "chunks/058-30c411bb.js",
+    "src": "src/data/static-json/058.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/059-hisui.json": {
+    "file": "chunks/059-hisui-7d47a7dd.js",
+    "src": "src/data/static-json/059-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/059.json": {
+    "file": "chunks/059-1f43bc2f.js",
+    "src": "src/data/static-json/059.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/060.json": {
+    "file": "chunks/060-0dccae18.js",
+    "src": "src/data/static-json/060.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/061.json": {
+    "file": "chunks/061-3a4e816e.js",
+    "src": "src/data/static-json/061.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/062.json": {
+    "file": "chunks/062-e4b91c51.js",
+    "src": "src/data/static-json/062.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/063.json": {
+    "file": "chunks/063-0399dc3f.js",
+    "src": "src/data/static-json/063.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/064.json": {
+    "file": "chunks/064-f3f6fa51.js",
+    "src": "src/data/static-json/064.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/065.json": {
+    "file": "chunks/065-d85829d7.js",
+    "src": "src/data/static-json/065.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/066.json": {
+    "file": "chunks/066-248996c6.js",
+    "src": "src/data/static-json/066.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/067.json": {
+    "file": "chunks/067-b551dc17.js",
+    "src": "src/data/static-json/067.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/068.json": {
+    "file": "chunks/068-3d948464.js",
+    "src": "src/data/static-json/068.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/069.json": {
+    "file": "chunks/069-29e400fb.js",
+    "src": "src/data/static-json/069.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/070.json": {
+    "file": "chunks/070-8cf8f878.js",
+    "src": "src/data/static-json/070.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/071.json": {
+    "file": "chunks/071-81d19028.js",
+    "src": "src/data/static-json/071.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/072.json": {
+    "file": "chunks/072-fad0485b.js",
+    "src": "src/data/static-json/072.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/073.json": {
+    "file": "chunks/073-edaa71d8.js",
+    "src": "src/data/static-json/073.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/074-alola.json": {
+    "file": "chunks/074-alola-17fa71a4.js",
+    "src": "src/data/static-json/074-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/074.json": {
+    "file": "chunks/074-28df9150.js",
+    "src": "src/data/static-json/074.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/075-alola.json": {
+    "file": "chunks/075-alola-b68832ee.js",
+    "src": "src/data/static-json/075-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/075.json": {
+    "file": "chunks/075-5b44045a.js",
+    "src": "src/data/static-json/075.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/076-alola.json": {
+    "file": "chunks/076-alola-daaf013f.js",
+    "src": "src/data/static-json/076-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/076.json": {
+    "file": "chunks/076-0059449a.js",
+    "src": "src/data/static-json/076.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/077-galar.json": {
+    "file": "chunks/077-galar-06c48e21.js",
+    "src": "src/data/static-json/077-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/077.json": {
+    "file": "chunks/077-6a917ead.js",
+    "src": "src/data/static-json/077.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/078-galar.json": {
+    "file": "chunks/078-galar-af99b051.js",
+    "src": "src/data/static-json/078-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/078.json": {
+    "file": "chunks/078-e9e52aeb.js",
+    "src": "src/data/static-json/078.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/079-galar.json": {
+    "file": "chunks/079-galar-6ebcd823.js",
+    "src": "src/data/static-json/079-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/079.json": {
+    "file": "chunks/079-d7eea4d2.js",
+    "src": "src/data/static-json/079.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/080-galar.json": {
+    "file": "chunks/080-galar-3fe45168.js",
+    "src": "src/data/static-json/080-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/080.json": {
+    "file": "chunks/080-f03bcecf.js",
+    "src": "src/data/static-json/080.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/081.json": {
+    "file": "chunks/081-481a89cf.js",
+    "src": "src/data/static-json/081.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/082.json": {
+    "file": "chunks/082-e9a0e235.js",
+    "src": "src/data/static-json/082.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/083-galar.json": {
+    "file": "chunks/083-galar-f1ff7d1c.js",
+    "src": "src/data/static-json/083-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/083.json": {
+    "file": "chunks/083-f7d33cd3.js",
+    "src": "src/data/static-json/083.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/084.json": {
+    "file": "chunks/084-d208d889.js",
+    "src": "src/data/static-json/084.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/085.json": {
+    "file": "chunks/085-a55ff9be.js",
+    "src": "src/data/static-json/085.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/086.json": {
+    "file": "chunks/086-2c58dd06.js",
+    "src": "src/data/static-json/086.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/087.json": {
+    "file": "chunks/087-cefd5bde.js",
+    "src": "src/data/static-json/087.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/088-alola.json": {
+    "file": "chunks/088-alola-5582e733.js",
+    "src": "src/data/static-json/088-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/088.json": {
+    "file": "chunks/088-e3be8346.js",
+    "src": "src/data/static-json/088.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/089-alola.json": {
+    "file": "chunks/089-alola-0e94aac2.js",
+    "src": "src/data/static-json/089-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/089.json": {
+    "file": "chunks/089-6aa041ce.js",
+    "src": "src/data/static-json/089.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/090.json": {
+    "file": "chunks/090-0248a51b.js",
+    "src": "src/data/static-json/090.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/091.json": {
+    "file": "chunks/091-2d5ce160.js",
+    "src": "src/data/static-json/091.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/092.json": {
+    "file": "chunks/092-0242084c.js",
+    "src": "src/data/static-json/092.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/093.json": {
+    "file": "chunks/093-536fc0a6.js",
+    "src": "src/data/static-json/093.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/094.json": {
+    "file": "chunks/094-c5b8c669.js",
+    "src": "src/data/static-json/094.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/095.json": {
+    "file": "chunks/095-8fbf02f5.js",
+    "src": "src/data/static-json/095.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/096.json": {
+    "file": "chunks/096-e3bec5ba.js",
+    "src": "src/data/static-json/096.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/097.json": {
+    "file": "chunks/097-c3a1bcc0.js",
+    "src": "src/data/static-json/097.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/098.json": {
+    "file": "chunks/098-493b7400.js",
+    "src": "src/data/static-json/098.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/099.json": {
+    "file": "chunks/099-e294f9e7.js",
+    "src": "src/data/static-json/099.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/100-hisui.json": {
+    "file": "chunks/100-hisui-7b53cae6.js",
+    "src": "src/data/static-json/100-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/100.json": {
+    "file": "chunks/100-8ed4182a.js",
+    "src": "src/data/static-json/100.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/101-hisui.json": {
+    "file": "chunks/101-hisui-986a2a8a.js",
+    "src": "src/data/static-json/101-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/101.json": {
+    "file": "chunks/101-386fbdcd.js",
+    "src": "src/data/static-json/101.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/102.json": {
+    "file": "chunks/102-98ce2295.js",
+    "src": "src/data/static-json/102.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/103-alola.json": {
+    "file": "chunks/103-alola-ea2c42cd.js",
+    "src": "src/data/static-json/103-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/103.json": {
+    "file": "chunks/103-7eb140c1.js",
+    "src": "src/data/static-json/103.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/104.json": {
+    "file": "chunks/104-576e909e.js",
+    "src": "src/data/static-json/104.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/105-alola.json": {
+    "file": "chunks/105-alola-0b6e1ea3.js",
+    "src": "src/data/static-json/105-alola.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/105.json": {
+    "file": "chunks/105-567a78f2.js",
+    "src": "src/data/static-json/105.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/106.json": {
+    "file": "chunks/106-abcef4aa.js",
+    "src": "src/data/static-json/106.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/107.json": {
+    "file": "chunks/107-613f61c8.js",
+    "src": "src/data/static-json/107.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/108.json": {
+    "file": "chunks/108-56093b14.js",
+    "src": "src/data/static-json/108.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/109.json": {
+    "file": "chunks/109-42e522cd.js",
+    "src": "src/data/static-json/109.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/110-galar.json": {
+    "file": "chunks/110-galar-bef81fff.js",
+    "src": "src/data/static-json/110-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/110.json": {
+    "file": "chunks/110-1523ee83.js",
+    "src": "src/data/static-json/110.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/111.json": {
+    "file": "chunks/111-b2a91324.js",
+    "src": "src/data/static-json/111.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/112.json": {
+    "file": "chunks/112-727c8f93.js",
+    "src": "src/data/static-json/112.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/113.json": {
+    "file": "chunks/113-c5b3238f.js",
+    "src": "src/data/static-json/113.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/114.json": {
+    "file": "chunks/114-3286dd93.js",
+    "src": "src/data/static-json/114.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/115.json": {
+    "file": "chunks/115-6ec2d489.js",
+    "src": "src/data/static-json/115.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/116.json": {
+    "file": "chunks/116-4fc95b89.js",
+    "src": "src/data/static-json/116.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/117.json": {
+    "file": "chunks/117-dfb5c10a.js",
+    "src": "src/data/static-json/117.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/118.json": {
+    "file": "chunks/118-9af5ebdd.js",
+    "src": "src/data/static-json/118.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/119.json": {
+    "file": "chunks/119-a105c1d4.js",
+    "src": "src/data/static-json/119.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/120.json": {
+    "file": "chunks/120-c9f967c0.js",
+    "src": "src/data/static-json/120.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/121.json": {
+    "file": "chunks/121-ce4aeb58.js",
+    "src": "src/data/static-json/121.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/122-galar.json": {
+    "file": "chunks/122-galar-e4c8b8fe.js",
+    "src": "src/data/static-json/122-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/122.json": {
+    "file": "chunks/122-b9b775b4.js",
+    "src": "src/data/static-json/122.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/123.json": {
+    "file": "chunks/123-a4f445a1.js",
+    "src": "src/data/static-json/123.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/124.json": {
+    "file": "chunks/124-4a558cdd.js",
+    "src": "src/data/static-json/124.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/125.json": {
+    "file": "chunks/125-74913d0e.js",
+    "src": "src/data/static-json/125.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/126.json": {
+    "file": "chunks/126-b213fd48.js",
+    "src": "src/data/static-json/126.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/127.json": {
+    "file": "chunks/127-cc5dc956.js",
+    "src": "src/data/static-json/127.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/128.json": {
+    "file": "chunks/128-c5a1062a.js",
+    "src": "src/data/static-json/128.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/129.json": {
+    "file": "chunks/129-974191aa.js",
+    "src": "src/data/static-json/129.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/130.json": {
+    "file": "chunks/130-e5dac0fb.js",
+    "src": "src/data/static-json/130.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/131.json": {
+    "file": "chunks/131-7c84dcbb.js",
+    "src": "src/data/static-json/131.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/132.json": {
+    "file": "chunks/132-5a8630af.js",
+    "src": "src/data/static-json/132.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/133.json": {
+    "file": "chunks/133-4745dd53.js",
+    "src": "src/data/static-json/133.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/134.json": {
+    "file": "chunks/134-d5a92100.js",
+    "src": "src/data/static-json/134.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/135.json": {
+    "file": "chunks/135-b4743279.js",
+    "src": "src/data/static-json/135.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/136.json": {
+    "file": "chunks/136-61321a6c.js",
+    "src": "src/data/static-json/136.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/137.json": {
+    "file": "chunks/137-65fa8ace.js",
+    "src": "src/data/static-json/137.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/138.json": {
+    "file": "chunks/138-c219b01d.js",
+    "src": "src/data/static-json/138.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/139.json": {
+    "file": "chunks/139-40b6eee5.js",
+    "src": "src/data/static-json/139.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/140.json": {
+    "file": "chunks/140-5c4ad5f6.js",
+    "src": "src/data/static-json/140.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/141.json": {
+    "file": "chunks/141-36876f40.js",
+    "src": "src/data/static-json/141.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/142.json": {
+    "file": "chunks/142-337067f8.js",
+    "src": "src/data/static-json/142.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/143.json": {
+    "file": "chunks/143-47dc60dc.js",
+    "src": "src/data/static-json/143.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/144-galar.json": {
+    "file": "chunks/144-galar-ec9bdb61.js",
+    "src": "src/data/static-json/144-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/144.json": {
+    "file": "chunks/144-b9727abc.js",
+    "src": "src/data/static-json/144.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/145-galar.json": {
+    "file": "chunks/145-galar-b47a2462.js",
+    "src": "src/data/static-json/145-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/145.json": {
+    "file": "chunks/145-1de6e306.js",
+    "src": "src/data/static-json/145.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/146-galar.json": {
+    "file": "chunks/146-galar-b3b1b33b.js",
+    "src": "src/data/static-json/146-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/146.json": {
+    "file": "chunks/146-5db3205d.js",
+    "src": "src/data/static-json/146.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/147.json": {
+    "file": "chunks/147-4f29469a.js",
+    "src": "src/data/static-json/147.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/148.json": {
+    "file": "chunks/148-40ded05d.js",
+    "src": "src/data/static-json/148.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/149.json": {
+    "file": "chunks/149-0e6ede0c.js",
+    "src": "src/data/static-json/149.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/150.json": {
+    "file": "chunks/150-c8dd4a66.js",
+    "src": "src/data/static-json/150.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/151.json": {
+    "file": "chunks/151-92dbc9e6.js",
+    "src": "src/data/static-json/151.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/152.json": {
+    "file": "chunks/152-04fcbbe4.js",
+    "src": "src/data/static-json/152.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/153.json": {
+    "file": "chunks/153-362d363d.js",
+    "src": "src/data/static-json/153.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/154.json": {
+    "file": "chunks/154-b4c8d94d.js",
+    "src": "src/data/static-json/154.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/155.json": {
+    "file": "chunks/155-86227f86.js",
+    "src": "src/data/static-json/155.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/156.json": {
+    "file": "chunks/156-663e2a77.js",
+    "src": "src/data/static-json/156.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/157-hisui.json": {
+    "file": "chunks/157-hisui-c51d0f13.js",
+    "src": "src/data/static-json/157-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/157.json": {
+    "file": "chunks/157-45bcd44f.js",
+    "src": "src/data/static-json/157.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/158.json": {
+    "file": "chunks/158-58ebcc7c.js",
+    "src": "src/data/static-json/158.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/159.json": {
+    "file": "chunks/159-3c6d548e.js",
+    "src": "src/data/static-json/159.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/160.json": {
+    "file": "chunks/160-9962a3f9.js",
+    "src": "src/data/static-json/160.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/161.json": {
+    "file": "chunks/161-4753bede.js",
+    "src": "src/data/static-json/161.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/162.json": {
+    "file": "chunks/162-5ceb76a8.js",
+    "src": "src/data/static-json/162.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/163.json": {
+    "file": "chunks/163-0d79bee9.js",
+    "src": "src/data/static-json/163.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/164.json": {
+    "file": "chunks/164-471e5dd6.js",
+    "src": "src/data/static-json/164.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/165.json": {
+    "file": "chunks/165-94919243.js",
+    "src": "src/data/static-json/165.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/166.json": {
+    "file": "chunks/166-4dc5563c.js",
+    "src": "src/data/static-json/166.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/167.json": {
+    "file": "chunks/167-acc73ad5.js",
+    "src": "src/data/static-json/167.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/168.json": {
+    "file": "chunks/168-77b3199b.js",
+    "src": "src/data/static-json/168.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/169.json": {
+    "file": "chunks/169-72261a2d.js",
+    "src": "src/data/static-json/169.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/170.json": {
+    "file": "chunks/170-20307fdb.js",
+    "src": "src/data/static-json/170.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/171.json": {
+    "file": "chunks/171-ea43d2e5.js",
+    "src": "src/data/static-json/171.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/172.json": {
+    "file": "chunks/172-cec0205c.js",
+    "src": "src/data/static-json/172.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/173.json": {
+    "file": "chunks/173-5a1af47f.js",
+    "src": "src/data/static-json/173.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/174.json": {
+    "file": "chunks/174-f7f72fea.js",
+    "src": "src/data/static-json/174.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/175.json": {
+    "file": "chunks/175-e7be7645.js",
+    "src": "src/data/static-json/175.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/176.json": {
+    "file": "chunks/176-9e9462d3.js",
+    "src": "src/data/static-json/176.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/177.json": {
+    "file": "chunks/177-d2149aac.js",
+    "src": "src/data/static-json/177.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/178.json": {
+    "file": "chunks/178-e0be3bd4.js",
+    "src": "src/data/static-json/178.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/179.json": {
+    "file": "chunks/179-e010d001.js",
+    "src": "src/data/static-json/179.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/180.json": {
+    "file": "chunks/180-e4305625.js",
+    "src": "src/data/static-json/180.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/181.json": {
+    "file": "chunks/181-c6b7e4b8.js",
+    "src": "src/data/static-json/181.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/182.json": {
+    "file": "chunks/182-49234057.js",
+    "src": "src/data/static-json/182.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/183.json": {
+    "file": "chunks/183-44a77cc2.js",
+    "src": "src/data/static-json/183.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/184.json": {
+    "file": "chunks/184-183f2034.js",
+    "src": "src/data/static-json/184.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/185.json": {
+    "file": "chunks/185-7753069e.js",
+    "src": "src/data/static-json/185.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/186.json": {
+    "file": "chunks/186-36d22985.js",
+    "src": "src/data/static-json/186.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/187.json": {
+    "file": "chunks/187-74840b21.js",
+    "src": "src/data/static-json/187.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/188.json": {
+    "file": "chunks/188-a0c1aea8.js",
+    "src": "src/data/static-json/188.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/189.json": {
+    "file": "chunks/189-ec9233e7.js",
+    "src": "src/data/static-json/189.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/190.json": {
+    "file": "chunks/190-4f99bd0c.js",
+    "src": "src/data/static-json/190.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/191.json": {
+    "file": "chunks/191-76882c16.js",
+    "src": "src/data/static-json/191.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/192.json": {
+    "file": "chunks/192-4a2e09c8.js",
+    "src": "src/data/static-json/192.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/193.json": {
+    "file": "chunks/193-ec0d43c7.js",
+    "src": "src/data/static-json/193.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/194.json": {
+    "file": "chunks/194-a4484e4e.js",
+    "src": "src/data/static-json/194.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/195.json": {
+    "file": "chunks/195-3261cba4.js",
+    "src": "src/data/static-json/195.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/196.json": {
+    "file": "chunks/196-1d4129df.js",
+    "src": "src/data/static-json/196.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/197.json": {
+    "file": "chunks/197-63f8d6ae.js",
+    "src": "src/data/static-json/197.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/198.json": {
+    "file": "chunks/198-0f100313.js",
+    "src": "src/data/static-json/198.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/199-galar.json": {
+    "file": "chunks/199-galar-7a15b878.js",
+    "src": "src/data/static-json/199-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/199.json": {
+    "file": "chunks/199-efee659b.js",
+    "src": "src/data/static-json/199.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/200.json": {
+    "file": "chunks/200-d071b7b3.js",
+    "src": "src/data/static-json/200.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/201.json": {
+    "file": "chunks/201-5a4f8605.js",
+    "src": "src/data/static-json/201.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/202.json": {
+    "file": "chunks/202-62085f9b.js",
+    "src": "src/data/static-json/202.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/203.json": {
+    "file": "chunks/203-ae66bd3f.js",
+    "src": "src/data/static-json/203.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/204.json": {
+    "file": "chunks/204-900274e8.js",
+    "src": "src/data/static-json/204.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/205.json": {
+    "file": "chunks/205-4871b704.js",
+    "src": "src/data/static-json/205.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/206.json": {
+    "file": "chunks/206-9fda8644.js",
+    "src": "src/data/static-json/206.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/207.json": {
+    "file": "chunks/207-cbcb98e7.js",
+    "src": "src/data/static-json/207.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/208.json": {
+    "file": "chunks/208-8413053e.js",
+    "src": "src/data/static-json/208.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/209.json": {
+    "file": "chunks/209-4a53c242.js",
+    "src": "src/data/static-json/209.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/210.json": {
+    "file": "chunks/210-ac36ae30.js",
+    "src": "src/data/static-json/210.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/211-hisui.json": {
+    "file": "chunks/211-hisui-30681ef7.js",
+    "src": "src/data/static-json/211-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/211.json": {
+    "file": "chunks/211-244673ea.js",
+    "src": "src/data/static-json/211.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/212.json": {
+    "file": "chunks/212-300e68d3.js",
+    "src": "src/data/static-json/212.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/213.json": {
+    "file": "chunks/213-e0ba16c3.js",
+    "src": "src/data/static-json/213.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/214.json": {
+    "file": "chunks/214-626c9394.js",
+    "src": "src/data/static-json/214.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/215-hisui.json": {
+    "file": "chunks/215-hisui-89ff603c.js",
+    "src": "src/data/static-json/215-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/215.json": {
+    "file": "chunks/215-93e7eb99.js",
+    "src": "src/data/static-json/215.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/216.json": {
+    "file": "chunks/216-394486c4.js",
+    "src": "src/data/static-json/216.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/217.json": {
+    "file": "chunks/217-fc86df34.js",
+    "src": "src/data/static-json/217.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/218.json": {
+    "file": "chunks/218-bbcca7df.js",
+    "src": "src/data/static-json/218.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/219.json": {
+    "file": "chunks/219-07c42eac.js",
+    "src": "src/data/static-json/219.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/220.json": {
+    "file": "chunks/220-8e2620f9.js",
+    "src": "src/data/static-json/220.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/221.json": {
+    "file": "chunks/221-53a65372.js",
+    "src": "src/data/static-json/221.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/222-galar.json": {
+    "file": "chunks/222-galar-7678ccfc.js",
+    "src": "src/data/static-json/222-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/222.json": {
+    "file": "chunks/222-463563a3.js",
+    "src": "src/data/static-json/222.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/223.json": {
+    "file": "chunks/223-0f9c0d9e.js",
+    "src": "src/data/static-json/223.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/224.json": {
+    "file": "chunks/224-ae18d1af.js",
+    "src": "src/data/static-json/224.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/225.json": {
+    "file": "chunks/225-1583a48c.js",
+    "src": "src/data/static-json/225.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/226.json": {
+    "file": "chunks/226-e5baacba.js",
+    "src": "src/data/static-json/226.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/227.json": {
+    "file": "chunks/227-eb96fc6c.js",
+    "src": "src/data/static-json/227.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/228.json": {
+    "file": "chunks/228-cbcf1f68.js",
+    "src": "src/data/static-json/228.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/229.json": {
+    "file": "chunks/229-01d6d8a0.js",
+    "src": "src/data/static-json/229.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/230.json": {
+    "file": "chunks/230-7af2cf58.js",
+    "src": "src/data/static-json/230.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/231.json": {
+    "file": "chunks/231-255ba18f.js",
+    "src": "src/data/static-json/231.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/232.json": {
+    "file": "chunks/232-aeb28ea2.js",
+    "src": "src/data/static-json/232.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/233.json": {
+    "file": "chunks/233-9dd410b1.js",
+    "src": "src/data/static-json/233.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/234.json": {
+    "file": "chunks/234-977afb74.js",
+    "src": "src/data/static-json/234.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/235.json": {
+    "file": "chunks/235-1aed8a0a.js",
+    "src": "src/data/static-json/235.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/236.json": {
+    "file": "chunks/236-9f0f0600.js",
+    "src": "src/data/static-json/236.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/237.json": {
+    "file": "chunks/237-259e1bbb.js",
+    "src": "src/data/static-json/237.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/238.json": {
+    "file": "chunks/238-269a1e8c.js",
+    "src": "src/data/static-json/238.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/239.json": {
+    "file": "chunks/239-bdc0bc01.js",
+    "src": "src/data/static-json/239.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/240.json": {
+    "file": "chunks/240-06f9596e.js",
+    "src": "src/data/static-json/240.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/241.json": {
+    "file": "chunks/241-0115221a.js",
+    "src": "src/data/static-json/241.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/242.json": {
+    "file": "chunks/242-8b5d4932.js",
+    "src": "src/data/static-json/242.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/243.json": {
+    "file": "chunks/243-2672512a.js",
+    "src": "src/data/static-json/243.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/244.json": {
+    "file": "chunks/244-a5c1af95.js",
+    "src": "src/data/static-json/244.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/245.json": {
+    "file": "chunks/245-0c94dc66.js",
+    "src": "src/data/static-json/245.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/246.json": {
+    "file": "chunks/246-1706df44.js",
+    "src": "src/data/static-json/246.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/247.json": {
+    "file": "chunks/247-8a98a36b.js",
+    "src": "src/data/static-json/247.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/248.json": {
+    "file": "chunks/248-2646b804.js",
+    "src": "src/data/static-json/248.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/249.json": {
+    "file": "chunks/249-af94e90c.js",
+    "src": "src/data/static-json/249.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/250.json": {
+    "file": "chunks/250-9b8a3f6a.js",
+    "src": "src/data/static-json/250.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/251.json": {
+    "file": "chunks/251-d9234bdd.js",
+    "src": "src/data/static-json/251.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/252.json": {
+    "file": "chunks/252-e1e4317b.js",
+    "src": "src/data/static-json/252.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/253.json": {
+    "file": "chunks/253-5fe541c6.js",
+    "src": "src/data/static-json/253.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/254.json": {
+    "file": "chunks/254-3a35acd7.js",
+    "src": "src/data/static-json/254.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/255.json": {
+    "file": "chunks/255-09fd1d90.js",
+    "src": "src/data/static-json/255.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/256.json": {
+    "file": "chunks/256-20e93719.js",
+    "src": "src/data/static-json/256.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/257.json": {
+    "file": "chunks/257-f1552f3e.js",
+    "src": "src/data/static-json/257.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/258.json": {
+    "file": "chunks/258-66399179.js",
+    "src": "src/data/static-json/258.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/259.json": {
+    "file": "chunks/259-d7960246.js",
+    "src": "src/data/static-json/259.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/260.json": {
+    "file": "chunks/260-3d0b39d1.js",
+    "src": "src/data/static-json/260.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/261.json": {
+    "file": "chunks/261-18d0610c.js",
+    "src": "src/data/static-json/261.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/262.json": {
+    "file": "chunks/262-fa69a9c8.js",
+    "src": "src/data/static-json/262.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/263-galar.json": {
+    "file": "chunks/263-galar-40b59582.js",
+    "src": "src/data/static-json/263-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/263.json": {
+    "file": "chunks/263-bdee1e50.js",
+    "src": "src/data/static-json/263.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/264-galar.json": {
+    "file": "chunks/264-galar-720a5978.js",
+    "src": "src/data/static-json/264-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/264.json": {
+    "file": "chunks/264-c817c07d.js",
+    "src": "src/data/static-json/264.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/265.json": {
+    "file": "chunks/265-468563f1.js",
+    "src": "src/data/static-json/265.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/266.json": {
+    "file": "chunks/266-974509cb.js",
+    "src": "src/data/static-json/266.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/267.json": {
+    "file": "chunks/267-b4987f7c.js",
+    "src": "src/data/static-json/267.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/268.json": {
+    "file": "chunks/268-7c7b66aa.js",
+    "src": "src/data/static-json/268.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/269.json": {
+    "file": "chunks/269-b823eef4.js",
+    "src": "src/data/static-json/269.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/270.json": {
+    "file": "chunks/270-91712101.js",
+    "src": "src/data/static-json/270.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/271.json": {
+    "file": "chunks/271-b063b73c.js",
+    "src": "src/data/static-json/271.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/272.json": {
+    "file": "chunks/272-ff0d2f78.js",
+    "src": "src/data/static-json/272.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/273.json": {
+    "file": "chunks/273-86c99a73.js",
+    "src": "src/data/static-json/273.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/274.json": {
+    "file": "chunks/274-204f41fd.js",
+    "src": "src/data/static-json/274.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/275.json": {
+    "file": "chunks/275-d6a92db0.js",
+    "src": "src/data/static-json/275.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/276.json": {
+    "file": "chunks/276-735e2c13.js",
+    "src": "src/data/static-json/276.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/277.json": {
+    "file": "chunks/277-68804e57.js",
+    "src": "src/data/static-json/277.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/278.json": {
+    "file": "chunks/278-cfe6f643.js",
+    "src": "src/data/static-json/278.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/279.json": {
+    "file": "chunks/279-7be989b1.js",
+    "src": "src/data/static-json/279.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/280.json": {
+    "file": "chunks/280-73657ffb.js",
+    "src": "src/data/static-json/280.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/281.json": {
+    "file": "chunks/281-fce95203.js",
+    "src": "src/data/static-json/281.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/282.json": {
+    "file": "chunks/282-c2a7ad43.js",
+    "src": "src/data/static-json/282.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/283.json": {
+    "file": "chunks/283-2c087823.js",
+    "src": "src/data/static-json/283.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/284.json": {
+    "file": "chunks/284-62ee973d.js",
+    "src": "src/data/static-json/284.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/285.json": {
+    "file": "chunks/285-26c1b063.js",
+    "src": "src/data/static-json/285.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/286.json": {
+    "file": "chunks/286-d644d38a.js",
+    "src": "src/data/static-json/286.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/287.json": {
+    "file": "chunks/287-3fbce739.js",
+    "src": "src/data/static-json/287.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/288.json": {
+    "file": "chunks/288-19aff0c6.js",
+    "src": "src/data/static-json/288.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/289.json": {
+    "file": "chunks/289-652d49d4.js",
+    "src": "src/data/static-json/289.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/290.json": {
+    "file": "chunks/290-375a09c5.js",
+    "src": "src/data/static-json/290.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/291.json": {
+    "file": "chunks/291-a02c51f8.js",
+    "src": "src/data/static-json/291.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/292.json": {
+    "file": "chunks/292-a07711fd.js",
+    "src": "src/data/static-json/292.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/293.json": {
+    "file": "chunks/293-a623feb9.js",
+    "src": "src/data/static-json/293.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/294.json": {
+    "file": "chunks/294-76d9a3a8.js",
+    "src": "src/data/static-json/294.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/295.json": {
+    "file": "chunks/295-e872b287.js",
+    "src": "src/data/static-json/295.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/296.json": {
+    "file": "chunks/296-eb60d689.js",
+    "src": "src/data/static-json/296.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/297.json": {
+    "file": "chunks/297-3a70ba0b.js",
+    "src": "src/data/static-json/297.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/298.json": {
+    "file": "chunks/298-81d52a4a.js",
+    "src": "src/data/static-json/298.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/299.json": {
+    "file": "chunks/299-8ecbb12b.js",
+    "src": "src/data/static-json/299.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/300.json": {
+    "file": "chunks/300-9ff83b22.js",
+    "src": "src/data/static-json/300.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/301.json": {
+    "file": "chunks/301-eb0cd961.js",
+    "src": "src/data/static-json/301.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/302.json": {
+    "file": "chunks/302-aafee6cf.js",
+    "src": "src/data/static-json/302.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/303.json": {
+    "file": "chunks/303-07632bdf.js",
+    "src": "src/data/static-json/303.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/304.json": {
+    "file": "chunks/304-dfc66933.js",
+    "src": "src/data/static-json/304.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/305.json": {
+    "file": "chunks/305-04189a2c.js",
+    "src": "src/data/static-json/305.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/306.json": {
+    "file": "chunks/306-c0ded85b.js",
+    "src": "src/data/static-json/306.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/307.json": {
+    "file": "chunks/307-5d20dfdf.js",
+    "src": "src/data/static-json/307.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/308.json": {
+    "file": "chunks/308-e36e7d6d.js",
+    "src": "src/data/static-json/308.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/309.json": {
+    "file": "chunks/309-c4393bac.js",
+    "src": "src/data/static-json/309.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/310.json": {
+    "file": "chunks/310-f44336f8.js",
+    "src": "src/data/static-json/310.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/311.json": {
+    "file": "chunks/311-53b938a3.js",
+    "src": "src/data/static-json/311.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/312.json": {
+    "file": "chunks/312-0e39d6be.js",
+    "src": "src/data/static-json/312.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/313.json": {
+    "file": "chunks/313-8367e694.js",
+    "src": "src/data/static-json/313.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/314.json": {
+    "file": "chunks/314-e62badb4.js",
+    "src": "src/data/static-json/314.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/315.json": {
+    "file": "chunks/315-75b5a5b1.js",
+    "src": "src/data/static-json/315.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/316.json": {
+    "file": "chunks/316-647397f4.js",
+    "src": "src/data/static-json/316.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/317.json": {
+    "file": "chunks/317-da8b6073.js",
+    "src": "src/data/static-json/317.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/318.json": {
+    "file": "chunks/318-8d03d23f.js",
+    "src": "src/data/static-json/318.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/319.json": {
+    "file": "chunks/319-a4f9692f.js",
+    "src": "src/data/static-json/319.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/320.json": {
+    "file": "chunks/320-8d64a142.js",
+    "src": "src/data/static-json/320.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/321.json": {
+    "file": "chunks/321-43be15a8.js",
+    "src": "src/data/static-json/321.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/322.json": {
+    "file": "chunks/322-ef2a8dc1.js",
+    "src": "src/data/static-json/322.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/323.json": {
+    "file": "chunks/323-3d97c525.js",
+    "src": "src/data/static-json/323.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/324.json": {
+    "file": "chunks/324-f9a8e761.js",
+    "src": "src/data/static-json/324.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/325.json": {
+    "file": "chunks/325-a457476b.js",
+    "src": "src/data/static-json/325.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/326.json": {
+    "file": "chunks/326-eb1ca91c.js",
+    "src": "src/data/static-json/326.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/327.json": {
+    "file": "chunks/327-97fdc8a0.js",
+    "src": "src/data/static-json/327.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/328.json": {
+    "file": "chunks/328-117fab30.js",
+    "src": "src/data/static-json/328.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/329.json": {
+    "file": "chunks/329-ffe9f67c.js",
+    "src": "src/data/static-json/329.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/330.json": {
+    "file": "chunks/330-7f00074b.js",
+    "src": "src/data/static-json/330.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/331.json": {
+    "file": "chunks/331-7092727d.js",
+    "src": "src/data/static-json/331.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/332.json": {
+    "file": "chunks/332-a992d893.js",
+    "src": "src/data/static-json/332.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/333.json": {
+    "file": "chunks/333-cfa49400.js",
+    "src": "src/data/static-json/333.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/334.json": {
+    "file": "chunks/334-0f54277d.js",
+    "src": "src/data/static-json/334.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/335.json": {
+    "file": "chunks/335-98ea0cea.js",
+    "src": "src/data/static-json/335.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/336.json": {
+    "file": "chunks/336-b372d3be.js",
+    "src": "src/data/static-json/336.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/337.json": {
+    "file": "chunks/337-3b13dc2a.js",
+    "src": "src/data/static-json/337.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/338.json": {
+    "file": "chunks/338-a51e4a69.js",
+    "src": "src/data/static-json/338.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/339.json": {
+    "file": "chunks/339-8b107e41.js",
+    "src": "src/data/static-json/339.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/340.json": {
+    "file": "chunks/340-b6434edf.js",
+    "src": "src/data/static-json/340.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/341.json": {
+    "file": "chunks/341-5f952015.js",
+    "src": "src/data/static-json/341.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/342.json": {
+    "file": "chunks/342-120a126a.js",
+    "src": "src/data/static-json/342.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/343.json": {
+    "file": "chunks/343-4f54c181.js",
+    "src": "src/data/static-json/343.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/344.json": {
+    "file": "chunks/344-13e2bb03.js",
+    "src": "src/data/static-json/344.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/345.json": {
+    "file": "chunks/345-51cdced5.js",
+    "src": "src/data/static-json/345.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/346.json": {
+    "file": "chunks/346-853f5ae2.js",
+    "src": "src/data/static-json/346.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/347.json": {
+    "file": "chunks/347-4424cb67.js",
+    "src": "src/data/static-json/347.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/348.json": {
+    "file": "chunks/348-6a369be3.js",
+    "src": "src/data/static-json/348.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/349.json": {
+    "file": "chunks/349-42f13233.js",
+    "src": "src/data/static-json/349.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/350.json": {
+    "file": "chunks/350-59998c4f.js",
+    "src": "src/data/static-json/350.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/351.json": {
+    "file": "chunks/351-fc3001b6.js",
+    "src": "src/data/static-json/351.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/352.json": {
+    "file": "chunks/352-2ed40844.js",
+    "src": "src/data/static-json/352.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/353.json": {
+    "file": "chunks/353-bc232b57.js",
+    "src": "src/data/static-json/353.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/354.json": {
+    "file": "chunks/354-790f8fe3.js",
+    "src": "src/data/static-json/354.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/355.json": {
+    "file": "chunks/355-55112698.js",
+    "src": "src/data/static-json/355.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/356.json": {
+    "file": "chunks/356-3d0c8937.js",
+    "src": "src/data/static-json/356.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/357.json": {
+    "file": "chunks/357-140de22b.js",
+    "src": "src/data/static-json/357.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/358.json": {
+    "file": "chunks/358-b8f0f849.js",
+    "src": "src/data/static-json/358.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/359.json": {
+    "file": "chunks/359-bfa24b26.js",
+    "src": "src/data/static-json/359.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/360.json": {
+    "file": "chunks/360-f7246352.js",
+    "src": "src/data/static-json/360.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/361.json": {
+    "file": "chunks/361-87099ff3.js",
+    "src": "src/data/static-json/361.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/362.json": {
+    "file": "chunks/362-42bfa52b.js",
+    "src": "src/data/static-json/362.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/363.json": {
+    "file": "chunks/363-361d84b0.js",
+    "src": "src/data/static-json/363.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/364.json": {
+    "file": "chunks/364-19319105.js",
+    "src": "src/data/static-json/364.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/365.json": {
+    "file": "chunks/365-f45503b4.js",
+    "src": "src/data/static-json/365.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/366.json": {
+    "file": "chunks/366-51ae404c.js",
+    "src": "src/data/static-json/366.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/367.json": {
+    "file": "chunks/367-e7b1b815.js",
+    "src": "src/data/static-json/367.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/368.json": {
+    "file": "chunks/368-b0ccb546.js",
+    "src": "src/data/static-json/368.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/369.json": {
+    "file": "chunks/369-233cb7a7.js",
+    "src": "src/data/static-json/369.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/370.json": {
+    "file": "chunks/370-8f18baf7.js",
+    "src": "src/data/static-json/370.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/371.json": {
+    "file": "chunks/371-88e435ec.js",
+    "src": "src/data/static-json/371.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/372.json": {
+    "file": "chunks/372-4950a501.js",
+    "src": "src/data/static-json/372.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/373.json": {
+    "file": "chunks/373-000e8cd3.js",
+    "src": "src/data/static-json/373.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/374.json": {
+    "file": "chunks/374-7c007c45.js",
+    "src": "src/data/static-json/374.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/375.json": {
+    "file": "chunks/375-fb23f462.js",
+    "src": "src/data/static-json/375.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/376.json": {
+    "file": "chunks/376-afe75370.js",
+    "src": "src/data/static-json/376.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/377.json": {
+    "file": "chunks/377-9bce7209.js",
+    "src": "src/data/static-json/377.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/378.json": {
+    "file": "chunks/378-a5bae993.js",
+    "src": "src/data/static-json/378.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/379.json": {
+    "file": "chunks/379-2f4bf2c5.js",
+    "src": "src/data/static-json/379.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/380.json": {
+    "file": "chunks/380-18289af3.js",
+    "src": "src/data/static-json/380.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/381.json": {
+    "file": "chunks/381-9af82865.js",
+    "src": "src/data/static-json/381.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/382.json": {
+    "file": "chunks/382-6f286adc.js",
+    "src": "src/data/static-json/382.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/383.json": {
+    "file": "chunks/383-260d0d9a.js",
+    "src": "src/data/static-json/383.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/384.json": {
+    "file": "chunks/384-94723749.js",
+    "src": "src/data/static-json/384.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/385.json": {
+    "file": "chunks/385-0cc2fe3c.js",
+    "src": "src/data/static-json/385.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/386.json": {
+    "file": "chunks/386-affdce31.js",
+    "src": "src/data/static-json/386.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/387.json": {
+    "file": "chunks/387-6cfee089.js",
+    "src": "src/data/static-json/387.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/388.json": {
+    "file": "chunks/388-c2cbd2da.js",
+    "src": "src/data/static-json/388.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/389.json": {
+    "file": "chunks/389-53cfe783.js",
+    "src": "src/data/static-json/389.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/390.json": {
+    "file": "chunks/390-29bc4676.js",
+    "src": "src/data/static-json/390.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/391.json": {
+    "file": "chunks/391-8092bc9a.js",
+    "src": "src/data/static-json/391.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/392.json": {
+    "file": "chunks/392-34312ca9.js",
+    "src": "src/data/static-json/392.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/393.json": {
+    "file": "chunks/393-cec96a24.js",
+    "src": "src/data/static-json/393.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/394.json": {
+    "file": "chunks/394-71a12797.js",
+    "src": "src/data/static-json/394.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/395.json": {
+    "file": "chunks/395-7e7d8155.js",
+    "src": "src/data/static-json/395.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/396.json": {
+    "file": "chunks/396-a4e91102.js",
+    "src": "src/data/static-json/396.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/397.json": {
+    "file": "chunks/397-45e04f62.js",
+    "src": "src/data/static-json/397.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/398.json": {
+    "file": "chunks/398-9acd56ba.js",
+    "src": "src/data/static-json/398.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/399.json": {
+    "file": "chunks/399-13de4a20.js",
+    "src": "src/data/static-json/399.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/400.json": {
+    "file": "chunks/400-1a979905.js",
+    "src": "src/data/static-json/400.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/401.json": {
+    "file": "chunks/401-607b6827.js",
+    "src": "src/data/static-json/401.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/402.json": {
+    "file": "chunks/402-9f992bd2.js",
+    "src": "src/data/static-json/402.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/403.json": {
+    "file": "chunks/403-4be0b213.js",
+    "src": "src/data/static-json/403.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/404.json": {
+    "file": "chunks/404-11a74172.js",
+    "src": "src/data/static-json/404.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/405.json": {
+    "file": "chunks/405-18957132.js",
+    "src": "src/data/static-json/405.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/406.json": {
+    "file": "chunks/406-1dd18f4c.js",
+    "src": "src/data/static-json/406.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/407.json": {
+    "file": "chunks/407-1a34d113.js",
+    "src": "src/data/static-json/407.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/408.json": {
+    "file": "chunks/408-1473c221.js",
+    "src": "src/data/static-json/408.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/409.json": {
+    "file": "chunks/409-ee7cd48b.js",
+    "src": "src/data/static-json/409.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/410.json": {
+    "file": "chunks/410-40eb2cc9.js",
+    "src": "src/data/static-json/410.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/411.json": {
+    "file": "chunks/411-6f5e9260.js",
+    "src": "src/data/static-json/411.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/412.json": {
+    "file": "chunks/412-421b30af.js",
+    "src": "src/data/static-json/412.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/413.json": {
+    "file": "chunks/413-d5b4cdd4.js",
+    "src": "src/data/static-json/413.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/414.json": {
+    "file": "chunks/414-ed55d3e3.js",
+    "src": "src/data/static-json/414.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/415.json": {
+    "file": "chunks/415-1f957454.js",
+    "src": "src/data/static-json/415.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/416.json": {
+    "file": "chunks/416-3f1aa495.js",
+    "src": "src/data/static-json/416.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/417.json": {
+    "file": "chunks/417-e9f60889.js",
+    "src": "src/data/static-json/417.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/418.json": {
+    "file": "chunks/418-358cd9ca.js",
+    "src": "src/data/static-json/418.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/419.json": {
+    "file": "chunks/419-378ae092.js",
+    "src": "src/data/static-json/419.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/420.json": {
+    "file": "chunks/420-36855648.js",
+    "src": "src/data/static-json/420.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/421.json": {
+    "file": "chunks/421-c18fd91c.js",
+    "src": "src/data/static-json/421.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/422-east.json": {
+    "file": "chunks/422-east-0dd4b272.js",
+    "src": "src/data/static-json/422-east.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/422.json": {
+    "file": "chunks/422-8558f9b0.js",
+    "src": "src/data/static-json/422.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/423-east.json": {
+    "file": "chunks/423-east-7a23882a.js",
+    "src": "src/data/static-json/423-east.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/423.json": {
+    "file": "chunks/423-8fb21410.js",
+    "src": "src/data/static-json/423.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/424.json": {
+    "file": "chunks/424-1141772c.js",
+    "src": "src/data/static-json/424.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/425.json": {
+    "file": "chunks/425-b76ff644.js",
+    "src": "src/data/static-json/425.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/426.json": {
+    "file": "chunks/426-8576e102.js",
+    "src": "src/data/static-json/426.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/427.json": {
+    "file": "chunks/427-2a191d47.js",
+    "src": "src/data/static-json/427.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/428.json": {
+    "file": "chunks/428-a550d7a1.js",
+    "src": "src/data/static-json/428.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/429.json": {
+    "file": "chunks/429-d075be16.js",
+    "src": "src/data/static-json/429.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/430.json": {
+    "file": "chunks/430-6ccee17b.js",
+    "src": "src/data/static-json/430.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/431.json": {
+    "file": "chunks/431-ccbb9037.js",
+    "src": "src/data/static-json/431.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/432.json": {
+    "file": "chunks/432-f12b1448.js",
+    "src": "src/data/static-json/432.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/433.json": {
+    "file": "chunks/433-bd63de6e.js",
+    "src": "src/data/static-json/433.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/434.json": {
+    "file": "chunks/434-887d0642.js",
+    "src": "src/data/static-json/434.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/435.json": {
+    "file": "chunks/435-f1c75ac3.js",
+    "src": "src/data/static-json/435.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/436.json": {
+    "file": "chunks/436-4fff4327.js",
+    "src": "src/data/static-json/436.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/437.json": {
+    "file": "chunks/437-8eedf034.js",
+    "src": "src/data/static-json/437.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/438.json": {
+    "file": "chunks/438-41fecf4c.js",
+    "src": "src/data/static-json/438.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/439.json": {
+    "file": "chunks/439-1898fbe8.js",
+    "src": "src/data/static-json/439.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/440.json": {
+    "file": "chunks/440-6ad1c685.js",
+    "src": "src/data/static-json/440.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/441.json": {
+    "file": "chunks/441-b0918a2c.js",
+    "src": "src/data/static-json/441.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/442.json": {
+    "file": "chunks/442-2a9ca391.js",
+    "src": "src/data/static-json/442.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/443.json": {
+    "file": "chunks/443-08e55ad3.js",
+    "src": "src/data/static-json/443.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/444.json": {
+    "file": "chunks/444-bb083237.js",
+    "src": "src/data/static-json/444.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/445.json": {
+    "file": "chunks/445-d34fc2a0.js",
+    "src": "src/data/static-json/445.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/446.json": {
+    "file": "chunks/446-c47bca1e.js",
+    "src": "src/data/static-json/446.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/447.json": {
+    "file": "chunks/447-d1e9ba25.js",
+    "src": "src/data/static-json/447.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/448.json": {
+    "file": "chunks/448-ad396a42.js",
+    "src": "src/data/static-json/448.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/449.json": {
+    "file": "chunks/449-e66322ff.js",
+    "src": "src/data/static-json/449.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/450.json": {
+    "file": "chunks/450-b1b756d4.js",
+    "src": "src/data/static-json/450.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/451.json": {
+    "file": "chunks/451-fa2ad378.js",
+    "src": "src/data/static-json/451.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/452.json": {
+    "file": "chunks/452-bb0a4785.js",
+    "src": "src/data/static-json/452.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/453.json": {
+    "file": "chunks/453-b1a32380.js",
+    "src": "src/data/static-json/453.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/454.json": {
+    "file": "chunks/454-6b27dde5.js",
+    "src": "src/data/static-json/454.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/455.json": {
+    "file": "chunks/455-16e6e96c.js",
+    "src": "src/data/static-json/455.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/456.json": {
+    "file": "chunks/456-0b3f67bb.js",
+    "src": "src/data/static-json/456.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/457.json": {
+    "file": "chunks/457-608045ee.js",
+    "src": "src/data/static-json/457.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/458.json": {
+    "file": "chunks/458-2f708f56.js",
+    "src": "src/data/static-json/458.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/459.json": {
+    "file": "chunks/459-e0cb2c8b.js",
+    "src": "src/data/static-json/459.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/460.json": {
+    "file": "chunks/460-afa04254.js",
+    "src": "src/data/static-json/460.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/461.json": {
+    "file": "chunks/461-23f813e8.js",
+    "src": "src/data/static-json/461.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/462.json": {
+    "file": "chunks/462-6e34f785.js",
+    "src": "src/data/static-json/462.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/463.json": {
+    "file": "chunks/463-90b783b7.js",
+    "src": "src/data/static-json/463.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/464.json": {
+    "file": "chunks/464-62279354.js",
+    "src": "src/data/static-json/464.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/465.json": {
+    "file": "chunks/465-50ff05b1.js",
+    "src": "src/data/static-json/465.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/466.json": {
+    "file": "chunks/466-0f60baf1.js",
+    "src": "src/data/static-json/466.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/467.json": {
+    "file": "chunks/467-a86f222d.js",
+    "src": "src/data/static-json/467.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/468.json": {
+    "file": "chunks/468-fd8813c0.js",
+    "src": "src/data/static-json/468.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/469.json": {
+    "file": "chunks/469-12ba9e8b.js",
+    "src": "src/data/static-json/469.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/470.json": {
+    "file": "chunks/470-f6f28334.js",
+    "src": "src/data/static-json/470.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/471.json": {
+    "file": "chunks/471-55b95c6b.js",
+    "src": "src/data/static-json/471.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/472.json": {
+    "file": "chunks/472-7980767e.js",
+    "src": "src/data/static-json/472.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/473.json": {
+    "file": "chunks/473-23c394f5.js",
+    "src": "src/data/static-json/473.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/474.json": {
+    "file": "chunks/474-578d9bc6.js",
+    "src": "src/data/static-json/474.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/475.json": {
+    "file": "chunks/475-1ade63e5.js",
+    "src": "src/data/static-json/475.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/476.json": {
+    "file": "chunks/476-0ab3c4f4.js",
+    "src": "src/data/static-json/476.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/477.json": {
+    "file": "chunks/477-22224d6e.js",
+    "src": "src/data/static-json/477.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/478.json": {
+    "file": "chunks/478-c83d5096.js",
+    "src": "src/data/static-json/478.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/479.json": {
+    "file": "chunks/479-7d2fe8df.js",
+    "src": "src/data/static-json/479.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/480.json": {
+    "file": "chunks/480-9095f28b.js",
+    "src": "src/data/static-json/480.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/481.json": {
+    "file": "chunks/481-a6bfde20.js",
+    "src": "src/data/static-json/481.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/482.json": {
+    "file": "chunks/482-c3d600be.js",
+    "src": "src/data/static-json/482.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/483.json": {
+    "file": "chunks/483-afbd8fee.js",
+    "src": "src/data/static-json/483.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/484.json": {
+    "file": "chunks/484-10463521.js",
+    "src": "src/data/static-json/484.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/485.json": {
+    "file": "chunks/485-74156c9a.js",
+    "src": "src/data/static-json/485.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/486.json": {
+    "file": "chunks/486-8fade01b.js",
+    "src": "src/data/static-json/486.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/487.json": {
+    "file": "chunks/487-8d30c456.js",
+    "src": "src/data/static-json/487.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/488.json": {
+    "file": "chunks/488-0905241d.js",
+    "src": "src/data/static-json/488.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/489.json": {
+    "file": "chunks/489-540c004b.js",
+    "src": "src/data/static-json/489.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/490.json": {
+    "file": "chunks/490-fe142186.js",
+    "src": "src/data/static-json/490.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/491.json": {
+    "file": "chunks/491-e1bad330.js",
+    "src": "src/data/static-json/491.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/492.json": {
+    "file": "chunks/492-85559098.js",
+    "src": "src/data/static-json/492.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/493.json": {
+    "file": "chunks/493-456188c1.js",
+    "src": "src/data/static-json/493.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/494.json": {
+    "file": "chunks/494-8b0e38d7.js",
+    "src": "src/data/static-json/494.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/495.json": {
+    "file": "chunks/495-41421be0.js",
+    "src": "src/data/static-json/495.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/496.json": {
+    "file": "chunks/496-9b6221b2.js",
+    "src": "src/data/static-json/496.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/497.json": {
+    "file": "chunks/497-cfe96874.js",
+    "src": "src/data/static-json/497.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/498.json": {
+    "file": "chunks/498-4a908bbb.js",
+    "src": "src/data/static-json/498.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/499.json": {
+    "file": "chunks/499-e08989fb.js",
+    "src": "src/data/static-json/499.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/500.json": {
+    "file": "chunks/500-349e81a7.js",
+    "src": "src/data/static-json/500.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/501.json": {
+    "file": "chunks/501-25aabd76.js",
+    "src": "src/data/static-json/501.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/502.json": {
+    "file": "chunks/502-44341476.js",
+    "src": "src/data/static-json/502.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/503-hisui.json": {
+    "file": "chunks/503-hisui-33f4f31d.js",
+    "src": "src/data/static-json/503-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/503.json": {
+    "file": "chunks/503-3f5839a3.js",
+    "src": "src/data/static-json/503.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/504.json": {
+    "file": "chunks/504-759a02a5.js",
+    "src": "src/data/static-json/504.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/505.json": {
+    "file": "chunks/505-9675a8d9.js",
+    "src": "src/data/static-json/505.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/506.json": {
+    "file": "chunks/506-89773a5a.js",
+    "src": "src/data/static-json/506.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/507.json": {
+    "file": "chunks/507-ed182720.js",
+    "src": "src/data/static-json/507.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/508.json": {
+    "file": "chunks/508-533f69f1.js",
+    "src": "src/data/static-json/508.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/509.json": {
+    "file": "chunks/509-f1d57735.js",
+    "src": "src/data/static-json/509.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/510.json": {
+    "file": "chunks/510-595544cc.js",
+    "src": "src/data/static-json/510.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/511.json": {
+    "file": "chunks/511-b0412900.js",
+    "src": "src/data/static-json/511.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/512.json": {
+    "file": "chunks/512-23c2dcf8.js",
+    "src": "src/data/static-json/512.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/513.json": {
+    "file": "chunks/513-a3515949.js",
+    "src": "src/data/static-json/513.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/514.json": {
+    "file": "chunks/514-b732a74f.js",
+    "src": "src/data/static-json/514.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/515.json": {
+    "file": "chunks/515-d5b341fb.js",
+    "src": "src/data/static-json/515.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/516.json": {
+    "file": "chunks/516-54a7a60c.js",
+    "src": "src/data/static-json/516.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/517.json": {
+    "file": "chunks/517-135218ad.js",
+    "src": "src/data/static-json/517.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/518.json": {
+    "file": "chunks/518-343d8d54.js",
+    "src": "src/data/static-json/518.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/519.json": {
+    "file": "chunks/519-f4e5b490.js",
+    "src": "src/data/static-json/519.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/520.json": {
+    "file": "chunks/520-11876472.js",
+    "src": "src/data/static-json/520.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/521.json": {
+    "file": "chunks/521-6bfc4d5c.js",
+    "src": "src/data/static-json/521.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/522.json": {
+    "file": "chunks/522-540d0567.js",
+    "src": "src/data/static-json/522.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/523.json": {
+    "file": "chunks/523-ec9d8c56.js",
+    "src": "src/data/static-json/523.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/524.json": {
+    "file": "chunks/524-28fef719.js",
+    "src": "src/data/static-json/524.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/525.json": {
+    "file": "chunks/525-d149a5ab.js",
+    "src": "src/data/static-json/525.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/526.json": {
+    "file": "chunks/526-fa9bfb0a.js",
+    "src": "src/data/static-json/526.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/527.json": {
+    "file": "chunks/527-7789d0d7.js",
+    "src": "src/data/static-json/527.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/528.json": {
+    "file": "chunks/528-3a06a7e9.js",
+    "src": "src/data/static-json/528.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/529.json": {
+    "file": "chunks/529-60a58208.js",
+    "src": "src/data/static-json/529.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/530.json": {
+    "file": "chunks/530-975ee90b.js",
+    "src": "src/data/static-json/530.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/531.json": {
+    "file": "chunks/531-347fbf0e.js",
+    "src": "src/data/static-json/531.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/532.json": {
+    "file": "chunks/532-1ff5fde3.js",
+    "src": "src/data/static-json/532.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/533.json": {
+    "file": "chunks/533-6c8f88f8.js",
+    "src": "src/data/static-json/533.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/534.json": {
+    "file": "chunks/534-c80e7b37.js",
+    "src": "src/data/static-json/534.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/535.json": {
+    "file": "chunks/535-d150c11a.js",
+    "src": "src/data/static-json/535.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/536.json": {
+    "file": "chunks/536-a0545ceb.js",
+    "src": "src/data/static-json/536.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/537.json": {
+    "file": "chunks/537-3ca9535b.js",
+    "src": "src/data/static-json/537.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/538.json": {
+    "file": "chunks/538-94f7a619.js",
+    "src": "src/data/static-json/538.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/539.json": {
+    "file": "chunks/539-b92b4ce5.js",
+    "src": "src/data/static-json/539.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/540.json": {
+    "file": "chunks/540-9fd6e99c.js",
+    "src": "src/data/static-json/540.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/541.json": {
+    "file": "chunks/541-81eab4ca.js",
+    "src": "src/data/static-json/541.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/542.json": {
+    "file": "chunks/542-2cc713ea.js",
+    "src": "src/data/static-json/542.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/543.json": {
+    "file": "chunks/543-50a29d4a.js",
+    "src": "src/data/static-json/543.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/544.json": {
+    "file": "chunks/544-21c87242.js",
+    "src": "src/data/static-json/544.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/545.json": {
+    "file": "chunks/545-33ca1a72.js",
+    "src": "src/data/static-json/545.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/546.json": {
+    "file": "chunks/546-a8e3d7d6.js",
+    "src": "src/data/static-json/546.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/547.json": {
+    "file": "chunks/547-dbaf8132.js",
+    "src": "src/data/static-json/547.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/548.json": {
+    "file": "chunks/548-d5a5006e.js",
+    "src": "src/data/static-json/548.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/549-hisui.json": {
+    "file": "chunks/549-hisui-ba150975.js",
+    "src": "src/data/static-json/549-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/549.json": {
+    "file": "chunks/549-3a98c0ea.js",
+    "src": "src/data/static-json/549.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/550-blue-striped.json": {
+    "file": "chunks/550-blue-striped-e151ea77.js",
+    "src": "src/data/static-json/550-blue-striped.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/550-white-striped.json": {
+    "file": "chunks/550-white-striped-ae290d0b.js",
+    "src": "src/data/static-json/550-white-striped.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/550.json": {
+    "file": "chunks/550-288e28ed.js",
+    "src": "src/data/static-json/550.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/551.json": {
+    "file": "chunks/551-22cc8c52.js",
+    "src": "src/data/static-json/551.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/552.json": {
+    "file": "chunks/552-778142a9.js",
+    "src": "src/data/static-json/552.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/553.json": {
+    "file": "chunks/553-61014c72.js",
+    "src": "src/data/static-json/553.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/554-galar.json": {
+    "file": "chunks/554-galar-9ddf59ec.js",
+    "src": "src/data/static-json/554-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/554.json": {
+    "file": "chunks/554-488f87bd.js",
+    "src": "src/data/static-json/554.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/555-galar.json": {
+    "file": "chunks/555-galar-5024a3fb.js",
+    "src": "src/data/static-json/555-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/555.json": {
+    "file": "chunks/555-145b1246.js",
+    "src": "src/data/static-json/555.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/556.json": {
+    "file": "chunks/556-bbde310d.js",
+    "src": "src/data/static-json/556.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/557.json": {
+    "file": "chunks/557-d095d896.js",
+    "src": "src/data/static-json/557.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/558.json": {
+    "file": "chunks/558-f7d39a43.js",
+    "src": "src/data/static-json/558.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/559.json": {
+    "file": "chunks/559-5048b881.js",
+    "src": "src/data/static-json/559.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/560.json": {
+    "file": "chunks/560-4d4ba03d.js",
+    "src": "src/data/static-json/560.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/561.json": {
+    "file": "chunks/561-42e1c1b6.js",
+    "src": "src/data/static-json/561.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/562-galar.json": {
+    "file": "chunks/562-galar-65617e2a.js",
+    "src": "src/data/static-json/562-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/562.json": {
+    "file": "chunks/562-97a8af73.js",
+    "src": "src/data/static-json/562.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/563.json": {
+    "file": "chunks/563-a7194b33.js",
+    "src": "src/data/static-json/563.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/564.json": {
+    "file": "chunks/564-2a7e58de.js",
+    "src": "src/data/static-json/564.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/565.json": {
+    "file": "chunks/565-e94e7ac7.js",
+    "src": "src/data/static-json/565.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/566.json": {
+    "file": "chunks/566-e11c0474.js",
+    "src": "src/data/static-json/566.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/567.json": {
+    "file": "chunks/567-67c1eaa2.js",
+    "src": "src/data/static-json/567.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/568.json": {
+    "file": "chunks/568-a4e7293f.js",
+    "src": "src/data/static-json/568.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/569.json": {
+    "file": "chunks/569-09b13cb8.js",
+    "src": "src/data/static-json/569.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/570-hisui.json": {
+    "file": "chunks/570-hisui-df661f7b.js",
+    "src": "src/data/static-json/570-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/570.json": {
+    "file": "chunks/570-3a931504.js",
+    "src": "src/data/static-json/570.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/571-hisui.json": {
+    "file": "chunks/571-hisui-992cadb5.js",
+    "src": "src/data/static-json/571-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/571.json": {
+    "file": "chunks/571-4a2214dc.js",
+    "src": "src/data/static-json/571.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/572.json": {
+    "file": "chunks/572-0d97f4b7.js",
+    "src": "src/data/static-json/572.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/573.json": {
+    "file": "chunks/573-50ee182b.js",
+    "src": "src/data/static-json/573.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/574.json": {
+    "file": "chunks/574-be191139.js",
+    "src": "src/data/static-json/574.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/575.json": {
+    "file": "chunks/575-fbb24c32.js",
+    "src": "src/data/static-json/575.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/576.json": {
+    "file": "chunks/576-56184191.js",
+    "src": "src/data/static-json/576.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/577.json": {
+    "file": "chunks/577-dd0f4b76.js",
+    "src": "src/data/static-json/577.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/578.json": {
+    "file": "chunks/578-998985b1.js",
+    "src": "src/data/static-json/578.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/579.json": {
+    "file": "chunks/579-fd99b65a.js",
+    "src": "src/data/static-json/579.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/580.json": {
+    "file": "chunks/580-9129ca67.js",
+    "src": "src/data/static-json/580.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/581.json": {
+    "file": "chunks/581-eff5ddf3.js",
+    "src": "src/data/static-json/581.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/582.json": {
+    "file": "chunks/582-a2a60945.js",
+    "src": "src/data/static-json/582.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/583.json": {
+    "file": "chunks/583-fee1f0e1.js",
+    "src": "src/data/static-json/583.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/584.json": {
+    "file": "chunks/584-df20328d.js",
+    "src": "src/data/static-json/584.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/585.json": {
+    "file": "chunks/585-40123f56.js",
+    "src": "src/data/static-json/585.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/586.json": {
+    "file": "chunks/586-0c34bce3.js",
+    "src": "src/data/static-json/586.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/587.json": {
+    "file": "chunks/587-0c1c9ffc.js",
+    "src": "src/data/static-json/587.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/588.json": {
+    "file": "chunks/588-2b875db9.js",
+    "src": "src/data/static-json/588.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/589.json": {
+    "file": "chunks/589-d286748b.js",
+    "src": "src/data/static-json/589.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/590.json": {
+    "file": "chunks/590-d77da283.js",
+    "src": "src/data/static-json/590.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/591.json": {
+    "file": "chunks/591-8f5a5598.js",
+    "src": "src/data/static-json/591.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/592.json": {
+    "file": "chunks/592-bf4e344e.js",
+    "src": "src/data/static-json/592.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/593.json": {
+    "file": "chunks/593-eaed6b53.js",
+    "src": "src/data/static-json/593.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/594.json": {
+    "file": "chunks/594-4e9f0462.js",
+    "src": "src/data/static-json/594.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/595.json": {
+    "file": "chunks/595-7d43664b.js",
+    "src": "src/data/static-json/595.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/596.json": {
+    "file": "chunks/596-27e00e99.js",
+    "src": "src/data/static-json/596.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/597.json": {
+    "file": "chunks/597-36132ed8.js",
+    "src": "src/data/static-json/597.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/598.json": {
+    "file": "chunks/598-ab825f69.js",
+    "src": "src/data/static-json/598.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/599.json": {
+    "file": "chunks/599-598e4aa1.js",
+    "src": "src/data/static-json/599.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/600.json": {
+    "file": "chunks/600-15d4f05b.js",
+    "src": "src/data/static-json/600.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/601.json": {
+    "file": "chunks/601-64360641.js",
+    "src": "src/data/static-json/601.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/602.json": {
+    "file": "chunks/602-f0940a7e.js",
+    "src": "src/data/static-json/602.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/603.json": {
+    "file": "chunks/603-35ec13b7.js",
+    "src": "src/data/static-json/603.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/604.json": {
+    "file": "chunks/604-9b66dc8a.js",
+    "src": "src/data/static-json/604.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/605.json": {
+    "file": "chunks/605-1a6523d5.js",
+    "src": "src/data/static-json/605.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/606.json": {
+    "file": "chunks/606-5c3e3f42.js",
+    "src": "src/data/static-json/606.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/607.json": {
+    "file": "chunks/607-7caacc5b.js",
+    "src": "src/data/static-json/607.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/608.json": {
+    "file": "chunks/608-b32c4cd4.js",
+    "src": "src/data/static-json/608.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/609.json": {
+    "file": "chunks/609-3eb05ff5.js",
+    "src": "src/data/static-json/609.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/610.json": {
+    "file": "chunks/610-cd8d509e.js",
+    "src": "src/data/static-json/610.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/611.json": {
+    "file": "chunks/611-6ec9527b.js",
+    "src": "src/data/static-json/611.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/612.json": {
+    "file": "chunks/612-9b185723.js",
+    "src": "src/data/static-json/612.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/613.json": {
+    "file": "chunks/613-7c66616d.js",
+    "src": "src/data/static-json/613.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/614.json": {
+    "file": "chunks/614-bbf237a2.js",
+    "src": "src/data/static-json/614.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/615.json": {
+    "file": "chunks/615-ef3c4154.js",
+    "src": "src/data/static-json/615.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/616.json": {
+    "file": "chunks/616-2c3087b0.js",
+    "src": "src/data/static-json/616.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/617.json": {
+    "file": "chunks/617-aee51c51.js",
+    "src": "src/data/static-json/617.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/618-galar.json": {
+    "file": "chunks/618-galar-cf1f4b39.js",
+    "src": "src/data/static-json/618-galar.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/618.json": {
+    "file": "chunks/618-55a380c0.js",
+    "src": "src/data/static-json/618.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/619.json": {
+    "file": "chunks/619-87ce3baf.js",
+    "src": "src/data/static-json/619.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/620.json": {
+    "file": "chunks/620-5580d143.js",
+    "src": "src/data/static-json/620.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/621.json": {
+    "file": "chunks/621-d317a5c8.js",
+    "src": "src/data/static-json/621.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/622.json": {
+    "file": "chunks/622-9196a0d9.js",
+    "src": "src/data/static-json/622.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/623.json": {
+    "file": "chunks/623-f1b1f127.js",
+    "src": "src/data/static-json/623.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/624.json": {
+    "file": "chunks/624-95ca36f8.js",
+    "src": "src/data/static-json/624.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/625.json": {
+    "file": "chunks/625-0171a3c9.js",
+    "src": "src/data/static-json/625.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/626.json": {
+    "file": "chunks/626-56b5426c.js",
+    "src": "src/data/static-json/626.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/627.json": {
+    "file": "chunks/627-a7b5045e.js",
+    "src": "src/data/static-json/627.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/628-hisui.json": {
+    "file": "chunks/628-hisui-58ddc607.js",
+    "src": "src/data/static-json/628-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/628.json": {
+    "file": "chunks/628-e3700639.js",
+    "src": "src/data/static-json/628.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/629.json": {
+    "file": "chunks/629-9dbe437d.js",
+    "src": "src/data/static-json/629.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/630.json": {
+    "file": "chunks/630-a17472dd.js",
+    "src": "src/data/static-json/630.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/631.json": {
+    "file": "chunks/631-b88635a6.js",
+    "src": "src/data/static-json/631.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/632.json": {
+    "file": "chunks/632-acbb3329.js",
+    "src": "src/data/static-json/632.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/633.json": {
+    "file": "chunks/633-e8fd8d7d.js",
+    "src": "src/data/static-json/633.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/634.json": {
+    "file": "chunks/634-69b29c6b.js",
+    "src": "src/data/static-json/634.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/635.json": {
+    "file": "chunks/635-1c1bc453.js",
+    "src": "src/data/static-json/635.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/636.json": {
+    "file": "chunks/636-0cb2d93b.js",
+    "src": "src/data/static-json/636.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/637.json": {
+    "file": "chunks/637-22cccf7f.js",
+    "src": "src/data/static-json/637.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/638.json": {
+    "file": "chunks/638-30b45284.js",
+    "src": "src/data/static-json/638.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/639.json": {
+    "file": "chunks/639-cb1def54.js",
+    "src": "src/data/static-json/639.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/640.json": {
+    "file": "chunks/640-a19108b8.js",
+    "src": "src/data/static-json/640.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/641.json": {
+    "file": "chunks/641-8a1c6e4d.js",
+    "src": "src/data/static-json/641.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/642.json": {
+    "file": "chunks/642-957ec2f1.js",
+    "src": "src/data/static-json/642.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/643.json": {
+    "file": "chunks/643-3ed1dc75.js",
+    "src": "src/data/static-json/643.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/644.json": {
+    "file": "chunks/644-6773847c.js",
+    "src": "src/data/static-json/644.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/645.json": {
+    "file": "chunks/645-c82dc8ae.js",
+    "src": "src/data/static-json/645.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/646.json": {
+    "file": "chunks/646-36db9e1e.js",
+    "src": "src/data/static-json/646.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/647.json": {
+    "file": "chunks/647-24d24b47.js",
+    "src": "src/data/static-json/647.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/648.json": {
+    "file": "chunks/648-290de5e1.js",
+    "src": "src/data/static-json/648.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/649.json": {
+    "file": "chunks/649-cc8f595a.js",
+    "src": "src/data/static-json/649.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/650.json": {
+    "file": "chunks/650-884546d2.js",
+    "src": "src/data/static-json/650.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/651.json": {
+    "file": "chunks/651-6967c897.js",
+    "src": "src/data/static-json/651.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/652.json": {
+    "file": "chunks/652-d0cd9079.js",
+    "src": "src/data/static-json/652.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/653.json": {
+    "file": "chunks/653-5e3732a4.js",
+    "src": "src/data/static-json/653.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/654.json": {
+    "file": "chunks/654-b79e457c.js",
+    "src": "src/data/static-json/654.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/655.json": {
+    "file": "chunks/655-34f125e5.js",
+    "src": "src/data/static-json/655.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/656.json": {
+    "file": "chunks/656-ddeb3f2e.js",
+    "src": "src/data/static-json/656.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/657.json": {
+    "file": "chunks/657-fea685b2.js",
+    "src": "src/data/static-json/657.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/658.json": {
+    "file": "chunks/658-8baba5a9.js",
+    "src": "src/data/static-json/658.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/659.json": {
+    "file": "chunks/659-ad9896dc.js",
+    "src": "src/data/static-json/659.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/660.json": {
+    "file": "chunks/660-65dadcf3.js",
+    "src": "src/data/static-json/660.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/661.json": {
+    "file": "chunks/661-3ec1d600.js",
+    "src": "src/data/static-json/661.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/662.json": {
+    "file": "chunks/662-bda02cc2.js",
+    "src": "src/data/static-json/662.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/663.json": {
+    "file": "chunks/663-0a7884d4.js",
+    "src": "src/data/static-json/663.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/664.json": {
+    "file": "chunks/664-17b7fc74.js",
+    "src": "src/data/static-json/664.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/665.json": {
+    "file": "chunks/665-85d394db.js",
+    "src": "src/data/static-json/665.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/666.json": {
+    "file": "chunks/666-6904001a.js",
+    "src": "src/data/static-json/666.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/667.json": {
+    "file": "chunks/667-2b3ace0f.js",
+    "src": "src/data/static-json/667.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/668.json": {
+    "file": "chunks/668-bac237ea.js",
+    "src": "src/data/static-json/668.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/669.json": {
+    "file": "chunks/669-5d16ad75.js",
+    "src": "src/data/static-json/669.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/670.json": {
+    "file": "chunks/670-ae562d9a.js",
+    "src": "src/data/static-json/670.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/671.json": {
+    "file": "chunks/671-7a42e80e.js",
+    "src": "src/data/static-json/671.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/672.json": {
+    "file": "chunks/672-75315d1e.js",
+    "src": "src/data/static-json/672.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/673.json": {
+    "file": "chunks/673-d53a88ae.js",
+    "src": "src/data/static-json/673.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/674.json": {
+    "file": "chunks/674-9322b7e1.js",
+    "src": "src/data/static-json/674.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/675.json": {
+    "file": "chunks/675-04f1ebcb.js",
+    "src": "src/data/static-json/675.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/676.json": {
+    "file": "chunks/676-0ff4cfb0.js",
+    "src": "src/data/static-json/676.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/677.json": {
+    "file": "chunks/677-0e3dade7.js",
+    "src": "src/data/static-json/677.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/678.json": {
+    "file": "chunks/678-78428bfe.js",
+    "src": "src/data/static-json/678.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/679.json": {
+    "file": "chunks/679-b5aface9.js",
+    "src": "src/data/static-json/679.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/680.json": {
+    "file": "chunks/680-3301ecdf.js",
+    "src": "src/data/static-json/680.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/681.json": {
+    "file": "chunks/681-33c4fd0a.js",
+    "src": "src/data/static-json/681.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/682.json": {
+    "file": "chunks/682-55c5f5da.js",
+    "src": "src/data/static-json/682.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/683.json": {
+    "file": "chunks/683-12327e6a.js",
+    "src": "src/data/static-json/683.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/684.json": {
+    "file": "chunks/684-9f105a01.js",
+    "src": "src/data/static-json/684.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/685.json": {
+    "file": "chunks/685-a90c3d62.js",
+    "src": "src/data/static-json/685.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/686.json": {
+    "file": "chunks/686-21f2ac33.js",
+    "src": "src/data/static-json/686.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/687.json": {
+    "file": "chunks/687-53788500.js",
+    "src": "src/data/static-json/687.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/688.json": {
+    "file": "chunks/688-c24d0cf9.js",
+    "src": "src/data/static-json/688.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/689.json": {
+    "file": "chunks/689-3ff86693.js",
+    "src": "src/data/static-json/689.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/690.json": {
+    "file": "chunks/690-93547302.js",
+    "src": "src/data/static-json/690.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/691.json": {
+    "file": "chunks/691-ab139ed3.js",
+    "src": "src/data/static-json/691.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/692.json": {
+    "file": "chunks/692-fc7d4032.js",
+    "src": "src/data/static-json/692.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/693.json": {
+    "file": "chunks/693-9ee86238.js",
+    "src": "src/data/static-json/693.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/694.json": {
+    "file": "chunks/694-c01507fc.js",
+    "src": "src/data/static-json/694.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/695.json": {
+    "file": "chunks/695-f5866d4f.js",
+    "src": "src/data/static-json/695.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/696.json": {
+    "file": "chunks/696-8a3cb238.js",
+    "src": "src/data/static-json/696.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/697.json": {
+    "file": "chunks/697-00c14b52.js",
+    "src": "src/data/static-json/697.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/698.json": {
+    "file": "chunks/698-7f6f6503.js",
+    "src": "src/data/static-json/698.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/699.json": {
+    "file": "chunks/699-98b8488b.js",
+    "src": "src/data/static-json/699.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/700.json": {
+    "file": "chunks/700-053c55e8.js",
+    "src": "src/data/static-json/700.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/701.json": {
+    "file": "chunks/701-7c45479c.js",
+    "src": "src/data/static-json/701.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/702.json": {
+    "file": "chunks/702-49567b54.js",
+    "src": "src/data/static-json/702.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/703.json": {
+    "file": "chunks/703-c28f8e6b.js",
+    "src": "src/data/static-json/703.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/704.json": {
+    "file": "chunks/704-bef5f90e.js",
+    "src": "src/data/static-json/704.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/705-hisui.json": {
+    "file": "chunks/705-hisui-e87dbf2b.js",
+    "src": "src/data/static-json/705-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/705.json": {
+    "file": "chunks/705-3fc1ffcc.js",
+    "src": "src/data/static-json/705.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/706-hisui.json": {
+    "file": "chunks/706-hisui-004e6829.js",
+    "src": "src/data/static-json/706-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/706.json": {
+    "file": "chunks/706-f3843758.js",
+    "src": "src/data/static-json/706.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/707.json": {
+    "file": "chunks/707-898d78de.js",
+    "src": "src/data/static-json/707.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/708.json": {
+    "file": "chunks/708-914644a5.js",
+    "src": "src/data/static-json/708.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/709.json": {
+    "file": "chunks/709-7c792a5d.js",
+    "src": "src/data/static-json/709.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/710.json": {
+    "file": "chunks/710-b60ac304.js",
+    "src": "src/data/static-json/710.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/711.json": {
+    "file": "chunks/711-9c07cd05.js",
+    "src": "src/data/static-json/711.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/712.json": {
+    "file": "chunks/712-d238f2e1.js",
+    "src": "src/data/static-json/712.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/713-hisui.json": {
+    "file": "chunks/713-hisui-e2106a4e.js",
+    "src": "src/data/static-json/713-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/713.json": {
+    "file": "chunks/713-1a265993.js",
+    "src": "src/data/static-json/713.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/714.json": {
+    "file": "chunks/714-3568298e.js",
+    "src": "src/data/static-json/714.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/715.json": {
+    "file": "chunks/715-12add41b.js",
+    "src": "src/data/static-json/715.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/716.json": {
+    "file": "chunks/716-be7fd77b.js",
+    "src": "src/data/static-json/716.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/717.json": {
+    "file": "chunks/717-e9fc3535.js",
+    "src": "src/data/static-json/717.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/718.json": {
+    "file": "chunks/718-eb21cec0.js",
+    "src": "src/data/static-json/718.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/719.json": {
+    "file": "chunks/719-808dc84a.js",
+    "src": "src/data/static-json/719.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/720.json": {
+    "file": "chunks/720-9da9df60.js",
+    "src": "src/data/static-json/720.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/721.json": {
+    "file": "chunks/721-c815ab0f.js",
+    "src": "src/data/static-json/721.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/722.json": {
+    "file": "chunks/722-30755708.js",
+    "src": "src/data/static-json/722.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/723.json": {
+    "file": "chunks/723-2bfcdee3.js",
+    "src": "src/data/static-json/723.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/724-hisui.json": {
+    "file": "chunks/724-hisui-3fb6b2d1.js",
+    "src": "src/data/static-json/724-hisui.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/724.json": {
+    "file": "chunks/724-a861b403.js",
+    "src": "src/data/static-json/724.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/725.json": {
+    "file": "chunks/725-97ad19d8.js",
+    "src": "src/data/static-json/725.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/726.json": {
+    "file": "chunks/726-f4d2d2b1.js",
+    "src": "src/data/static-json/726.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/727.json": {
+    "file": "chunks/727-5a5ae5cd.js",
+    "src": "src/data/static-json/727.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/728.json": {
+    "file": "chunks/728-dc2b5fcd.js",
+    "src": "src/data/static-json/728.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/729.json": {
+    "file": "chunks/729-38d86744.js",
+    "src": "src/data/static-json/729.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/730.json": {
+    "file": "chunks/730-a822996b.js",
+    "src": "src/data/static-json/730.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/731.json": {
+    "file": "chunks/731-7e5da127.js",
+    "src": "src/data/static-json/731.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/732.json": {
+    "file": "chunks/732-b2c0f792.js",
+    "src": "src/data/static-json/732.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/733.json": {
+    "file": "chunks/733-464212b4.js",
+    "src": "src/data/static-json/733.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/734.json": {
+    "file": "chunks/734-3882f0dc.js",
+    "src": "src/data/static-json/734.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/735.json": {
+    "file": "chunks/735-8dac71c4.js",
+    "src": "src/data/static-json/735.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/736.json": {
+    "file": "chunks/736-47cb0423.js",
+    "src": "src/data/static-json/736.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/737.json": {
+    "file": "chunks/737-8019a990.js",
+    "src": "src/data/static-json/737.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/738.json": {
+    "file": "chunks/738-609ea626.js",
+    "src": "src/data/static-json/738.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/739.json": {
+    "file": "chunks/739-810fa0d3.js",
+    "src": "src/data/static-json/739.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/740.json": {
+    "file": "chunks/740-59252b7a.js",
+    "src": "src/data/static-json/740.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/741.json": {
+    "file": "chunks/741-acc2cdf5.js",
+    "src": "src/data/static-json/741.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/742.json": {
+    "file": "chunks/742-8df39990.js",
+    "src": "src/data/static-json/742.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/743.json": {
+    "file": "chunks/743-f2f55a41.js",
+    "src": "src/data/static-json/743.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/744.json": {
+    "file": "chunks/744-e7921028.js",
+    "src": "src/data/static-json/744.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/745.json": {
+    "file": "chunks/745-89971159.js",
+    "src": "src/data/static-json/745.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/746.json": {
+    "file": "chunks/746-f9c99505.js",
+    "src": "src/data/static-json/746.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/747.json": {
+    "file": "chunks/747-df38aae4.js",
+    "src": "src/data/static-json/747.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/748.json": {
+    "file": "chunks/748-d206d5b1.js",
+    "src": "src/data/static-json/748.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/749.json": {
+    "file": "chunks/749-49317215.js",
+    "src": "src/data/static-json/749.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/750.json": {
+    "file": "chunks/750-492ce6b5.js",
+    "src": "src/data/static-json/750.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/751.json": {
+    "file": "chunks/751-7d0b12ed.js",
+    "src": "src/data/static-json/751.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/752.json": {
+    "file": "chunks/752-21a8a010.js",
+    "src": "src/data/static-json/752.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/753.json": {
+    "file": "chunks/753-b6b57516.js",
+    "src": "src/data/static-json/753.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/754.json": {
+    "file": "chunks/754-00ae3541.js",
+    "src": "src/data/static-json/754.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/755.json": {
+    "file": "chunks/755-845188fc.js",
+    "src": "src/data/static-json/755.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/756.json": {
+    "file": "chunks/756-37109cb8.js",
+    "src": "src/data/static-json/756.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/757.json": {
+    "file": "chunks/757-90c845cf.js",
+    "src": "src/data/static-json/757.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/758.json": {
+    "file": "chunks/758-a5916419.js",
+    "src": "src/data/static-json/758.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/759.json": {
+    "file": "chunks/759-49ba402e.js",
+    "src": "src/data/static-json/759.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/760.json": {
+    "file": "chunks/760-ea2f2cec.js",
+    "src": "src/data/static-json/760.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/761.json": {
+    "file": "chunks/761-3db39f5c.js",
+    "src": "src/data/static-json/761.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/762.json": {
+    "file": "chunks/762-f9dda09d.js",
+    "src": "src/data/static-json/762.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/763.json": {
+    "file": "chunks/763-4b6685c6.js",
+    "src": "src/data/static-json/763.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/764.json": {
+    "file": "chunks/764-0ba67d85.js",
+    "src": "src/data/static-json/764.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/765.json": {
+    "file": "chunks/765-6161635c.js",
+    "src": "src/data/static-json/765.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/766.json": {
+    "file": "chunks/766-28e1bd75.js",
+    "src": "src/data/static-json/766.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/767.json": {
+    "file": "chunks/767-2defef3c.js",
+    "src": "src/data/static-json/767.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/768.json": {
+    "file": "chunks/768-be541098.js",
+    "src": "src/data/static-json/768.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/769.json": {
+    "file": "chunks/769-1fd02134.js",
+    "src": "src/data/static-json/769.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/770.json": {
+    "file": "chunks/770-6315ea0e.js",
+    "src": "src/data/static-json/770.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/771.json": {
+    "file": "chunks/771-e7d9d4fb.js",
+    "src": "src/data/static-json/771.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/772.json": {
+    "file": "chunks/772-6ff87e2b.js",
+    "src": "src/data/static-json/772.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/773.json": {
+    "file": "chunks/773-bfb2f57a.js",
+    "src": "src/data/static-json/773.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/774.json": {
+    "file": "chunks/774-d5f68eab.js",
+    "src": "src/data/static-json/774.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/775.json": {
+    "file": "chunks/775-d4b44925.js",
+    "src": "src/data/static-json/775.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/776.json": {
+    "file": "chunks/776-257120c3.js",
+    "src": "src/data/static-json/776.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/777.json": {
+    "file": "chunks/777-83aed8eb.js",
+    "src": "src/data/static-json/777.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/778.json": {
+    "file": "chunks/778-bcadfca1.js",
+    "src": "src/data/static-json/778.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/779.json": {
+    "file": "chunks/779-d915c45e.js",
+    "src": "src/data/static-json/779.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/780.json": {
+    "file": "chunks/780-0d5aa83f.js",
+    "src": "src/data/static-json/780.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/781.json": {
+    "file": "chunks/781-5607ce27.js",
+    "src": "src/data/static-json/781.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/782.json": {
+    "file": "chunks/782-acd7b725.js",
+    "src": "src/data/static-json/782.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/783.json": {
+    "file": "chunks/783-654be1bd.js",
+    "src": "src/data/static-json/783.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/784.json": {
+    "file": "chunks/784-22885ed0.js",
+    "src": "src/data/static-json/784.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/785.json": {
+    "file": "chunks/785-5ecaa2b7.js",
+    "src": "src/data/static-json/785.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/786.json": {
+    "file": "chunks/786-b12d315f.js",
+    "src": "src/data/static-json/786.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/787.json": {
+    "file": "chunks/787-69436879.js",
+    "src": "src/data/static-json/787.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/788.json": {
+    "file": "chunks/788-e39ffe06.js",
+    "src": "src/data/static-json/788.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/789.json": {
+    "file": "chunks/789-716bcea6.js",
+    "src": "src/data/static-json/789.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/790.json": {
+    "file": "chunks/790-e4f5a9e7.js",
+    "src": "src/data/static-json/790.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/791.json": {
+    "file": "chunks/791-f4d607f0.js",
+    "src": "src/data/static-json/791.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/792.json": {
+    "file": "chunks/792-6e1b832f.js",
+    "src": "src/data/static-json/792.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/793.json": {
+    "file": "chunks/793-e688b765.js",
+    "src": "src/data/static-json/793.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/794.json": {
+    "file": "chunks/794-99419563.js",
+    "src": "src/data/static-json/794.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/795.json": {
+    "file": "chunks/795-791a64ef.js",
+    "src": "src/data/static-json/795.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/796.json": {
+    "file": "chunks/796-73356322.js",
+    "src": "src/data/static-json/796.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/797.json": {
+    "file": "chunks/797-bc26e106.js",
+    "src": "src/data/static-json/797.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/798.json": {
+    "file": "chunks/798-0442dd3a.js",
+    "src": "src/data/static-json/798.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/799.json": {
+    "file": "chunks/799-2e4d8b1b.js",
+    "src": "src/data/static-json/799.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/800.json": {
+    "file": "chunks/800-66b398d9.js",
+    "src": "src/data/static-json/800.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/801.json": {
+    "file": "chunks/801-e1e62148.js",
+    "src": "src/data/static-json/801.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/802.json": {
+    "file": "chunks/802-93f73473.js",
+    "src": "src/data/static-json/802.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/803.json": {
+    "file": "chunks/803-0f62bc3d.js",
+    "src": "src/data/static-json/803.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/804.json": {
+    "file": "chunks/804-2a44f104.js",
+    "src": "src/data/static-json/804.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/805.json": {
+    "file": "chunks/805-8539246b.js",
+    "src": "src/data/static-json/805.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/806.json": {
+    "file": "chunks/806-44652409.js",
+    "src": "src/data/static-json/806.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/807.json": {
+    "file": "chunks/807-8c0a1354.js",
+    "src": "src/data/static-json/807.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/808.json": {
+    "file": "chunks/808-d06f0520.js",
+    "src": "src/data/static-json/808.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/809.json": {
+    "file": "chunks/809-4ddf34b1.js",
+    "src": "src/data/static-json/809.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/810.json": {
+    "file": "chunks/810-5ca71060.js",
+    "src": "src/data/static-json/810.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/811.json": {
+    "file": "chunks/811-8e770d85.js",
+    "src": "src/data/static-json/811.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/812.json": {
+    "file": "chunks/812-04101a4e.js",
+    "src": "src/data/static-json/812.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/813.json": {
+    "file": "chunks/813-5e47cf2f.js",
+    "src": "src/data/static-json/813.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/814.json": {
+    "file": "chunks/814-a7005a28.js",
+    "src": "src/data/static-json/814.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/815.json": {
+    "file": "chunks/815-fcb00962.js",
+    "src": "src/data/static-json/815.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/816.json": {
+    "file": "chunks/816-e3c500c2.js",
+    "src": "src/data/static-json/816.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/817.json": {
+    "file": "chunks/817-c6fff013.js",
+    "src": "src/data/static-json/817.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/818.json": {
+    "file": "chunks/818-65ab35b8.js",
+    "src": "src/data/static-json/818.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/819.json": {
+    "file": "chunks/819-004ddde0.js",
+    "src": "src/data/static-json/819.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/820.json": {
+    "file": "chunks/820-d38aa01f.js",
+    "src": "src/data/static-json/820.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/821.json": {
+    "file": "chunks/821-36d831b1.js",
+    "src": "src/data/static-json/821.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/822.json": {
+    "file": "chunks/822-4166da63.js",
+    "src": "src/data/static-json/822.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/823.json": {
+    "file": "chunks/823-a86c5b15.js",
+    "src": "src/data/static-json/823.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/824.json": {
+    "file": "chunks/824-3ed6378a.js",
+    "src": "src/data/static-json/824.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/825.json": {
+    "file": "chunks/825-8323efd6.js",
+    "src": "src/data/static-json/825.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/826.json": {
+    "file": "chunks/826-2b65b96f.js",
+    "src": "src/data/static-json/826.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/827.json": {
+    "file": "chunks/827-af476e2e.js",
+    "src": "src/data/static-json/827.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/828.json": {
+    "file": "chunks/828-009d831e.js",
+    "src": "src/data/static-json/828.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/829.json": {
+    "file": "chunks/829-dd65d22a.js",
+    "src": "src/data/static-json/829.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/830.json": {
+    "file": "chunks/830-ffe90e25.js",
+    "src": "src/data/static-json/830.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/831.json": {
+    "file": "chunks/831-897be698.js",
+    "src": "src/data/static-json/831.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/832.json": {
+    "file": "chunks/832-0dfe2fa0.js",
+    "src": "src/data/static-json/832.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/833.json": {
+    "file": "chunks/833-fe77ab95.js",
+    "src": "src/data/static-json/833.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/834.json": {
+    "file": "chunks/834-dd558247.js",
+    "src": "src/data/static-json/834.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/835.json": {
+    "file": "chunks/835-ad450694.js",
+    "src": "src/data/static-json/835.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/836.json": {
+    "file": "chunks/836-0c079de4.js",
+    "src": "src/data/static-json/836.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/837.json": {
+    "file": "chunks/837-8ea461ab.js",
+    "src": "src/data/static-json/837.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/838.json": {
+    "file": "chunks/838-4a20fcb4.js",
+    "src": "src/data/static-json/838.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/839.json": {
+    "file": "chunks/839-123fd6d5.js",
+    "src": "src/data/static-json/839.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/840.json": {
+    "file": "chunks/840-f84b69e0.js",
+    "src": "src/data/static-json/840.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/841.json": {
+    "file": "chunks/841-3bbe122a.js",
+    "src": "src/data/static-json/841.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/842.json": {
+    "file": "chunks/842-be18e409.js",
+    "src": "src/data/static-json/842.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/843.json": {
+    "file": "chunks/843-75d0c0ff.js",
+    "src": "src/data/static-json/843.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/844.json": {
+    "file": "chunks/844-fb05157f.js",
+    "src": "src/data/static-json/844.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/845.json": {
+    "file": "chunks/845-865cc79a.js",
+    "src": "src/data/static-json/845.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/846.json": {
+    "file": "chunks/846-760b5d39.js",
+    "src": "src/data/static-json/846.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/847.json": {
+    "file": "chunks/847-0adb1773.js",
+    "src": "src/data/static-json/847.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/848.json": {
+    "file": "chunks/848-f5b805b1.js",
+    "src": "src/data/static-json/848.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/849.json": {
+    "file": "chunks/849-a9b2e0cb.js",
+    "src": "src/data/static-json/849.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/850.json": {
+    "file": "chunks/850-a0bc7433.js",
+    "src": "src/data/static-json/850.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/851.json": {
+    "file": "chunks/851-52f9a011.js",
+    "src": "src/data/static-json/851.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/852.json": {
+    "file": "chunks/852-82f9a6dc.js",
+    "src": "src/data/static-json/852.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/853.json": {
+    "file": "chunks/853-40316317.js",
+    "src": "src/data/static-json/853.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/854.json": {
+    "file": "chunks/854-08f10e4d.js",
+    "src": "src/data/static-json/854.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/855.json": {
+    "file": "chunks/855-50deee2f.js",
+    "src": "src/data/static-json/855.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/856.json": {
+    "file": "chunks/856-d315e603.js",
+    "src": "src/data/static-json/856.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/857.json": {
+    "file": "chunks/857-8e19c456.js",
+    "src": "src/data/static-json/857.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/858.json": {
+    "file": "chunks/858-f1753c60.js",
+    "src": "src/data/static-json/858.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/859.json": {
+    "file": "chunks/859-1a89f27f.js",
+    "src": "src/data/static-json/859.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/860.json": {
+    "file": "chunks/860-c30ccee1.js",
+    "src": "src/data/static-json/860.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/861.json": {
+    "file": "chunks/861-f9460fc6.js",
+    "src": "src/data/static-json/861.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/862.json": {
+    "file": "chunks/862-4db2b716.js",
+    "src": "src/data/static-json/862.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/863.json": {
+    "file": "chunks/863-7fd432b2.js",
+    "src": "src/data/static-json/863.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/864.json": {
+    "file": "chunks/864-14856210.js",
+    "src": "src/data/static-json/864.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/865.json": {
+    "file": "chunks/865-972ee761.js",
+    "src": "src/data/static-json/865.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/866.json": {
+    "file": "chunks/866-b0883339.js",
+    "src": "src/data/static-json/866.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/867.json": {
+    "file": "chunks/867-f3edbb8b.js",
+    "src": "src/data/static-json/867.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/868.json": {
+    "file": "chunks/868-b66f47b5.js",
+    "src": "src/data/static-json/868.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/869.json": {
+    "file": "chunks/869-cb39d4df.js",
+    "src": "src/data/static-json/869.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/870.json": {
+    "file": "chunks/870-f48da4c4.js",
+    "src": "src/data/static-json/870.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/871.json": {
+    "file": "chunks/871-c396d0ed.js",
+    "src": "src/data/static-json/871.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/872.json": {
+    "file": "chunks/872-8b77ef74.js",
+    "src": "src/data/static-json/872.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/873.json": {
+    "file": "chunks/873-716afbf0.js",
+    "src": "src/data/static-json/873.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/874.json": {
+    "file": "chunks/874-88260a99.js",
+    "src": "src/data/static-json/874.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/875.json": {
+    "file": "chunks/875-faf7cbf7.js",
+    "src": "src/data/static-json/875.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/876.json": {
+    "file": "chunks/876-4d25a55c.js",
+    "src": "src/data/static-json/876.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/877.json": {
+    "file": "chunks/877-87a39f64.js",
+    "src": "src/data/static-json/877.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/878.json": {
+    "file": "chunks/878-53f9d0d4.js",
+    "src": "src/data/static-json/878.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/879.json": {
+    "file": "chunks/879-fe25c69f.js",
+    "src": "src/data/static-json/879.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/880.json": {
+    "file": "chunks/880-110dedb3.js",
+    "src": "src/data/static-json/880.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/881.json": {
+    "file": "chunks/881-131cf6e6.js",
+    "src": "src/data/static-json/881.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/882.json": {
+    "file": "chunks/882-3331da64.js",
+    "src": "src/data/static-json/882.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/883.json": {
+    "file": "chunks/883-c52e5a71.js",
+    "src": "src/data/static-json/883.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/884.json": {
+    "file": "chunks/884-03b31c78.js",
+    "src": "src/data/static-json/884.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/885.json": {
+    "file": "chunks/885-96c9a61f.js",
+    "src": "src/data/static-json/885.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/886.json": {
+    "file": "chunks/886-26e866c9.js",
+    "src": "src/data/static-json/886.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/887.json": {
+    "file": "chunks/887-81c39f12.js",
+    "src": "src/data/static-json/887.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/888.json": {
+    "file": "chunks/888-b7fcffc5.js",
+    "src": "src/data/static-json/888.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/889.json": {
+    "file": "chunks/889-e3e217ac.js",
+    "src": "src/data/static-json/889.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/890.json": {
+    "file": "chunks/890-cdc20486.js",
+    "src": "src/data/static-json/890.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/891.json": {
+    "file": "chunks/891-fb466425.js",
+    "src": "src/data/static-json/891.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/892.json": {
+    "file": "chunks/892-76e38c63.js",
+    "src": "src/data/static-json/892.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/893.json": {
+    "file": "chunks/893-a9e031b8.js",
+    "src": "src/data/static-json/893.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/894.json": {
+    "file": "chunks/894-94181f2a.js",
+    "src": "src/data/static-json/894.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/895.json": {
+    "file": "chunks/895-84263504.js",
+    "src": "src/data/static-json/895.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/896.json": {
+    "file": "chunks/896-37b6e1a2.js",
+    "src": "src/data/static-json/896.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/897.json": {
+    "file": "chunks/897-c1504678.js",
+    "src": "src/data/static-json/897.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/898.json": {
+    "file": "chunks/898-91db3b26.js",
+    "src": "src/data/static-json/898.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/899.json": {
+    "file": "chunks/899-78b38cd0.js",
+    "src": "src/data/static-json/899.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/900.json": {
+    "file": "chunks/900-4f8bf55d.js",
+    "src": "src/data/static-json/900.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/901.json": {
+    "file": "chunks/901-252f0bbd.js",
+    "src": "src/data/static-json/901.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/902.json": {
+    "file": "chunks/902-f1017369.js",
+    "src": "src/data/static-json/902.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/903.json": {
+    "file": "chunks/903-61dc2903.js",
+    "src": "src/data/static-json/903.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/904.json": {
+    "file": "chunks/904-f667f227.js",
+    "src": "src/data/static-json/904.json",
+    "isDynamicEntry": true
+  },
+  "src/data/static-json/905.json": {
+    "file": "chunks/905-c0f4cbf9.js",
+    "src": "src/data/static-json/905.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-1.json": {
+    "file": "chunks/gen-1-ab7d9068.js",
+    "src": "src/data/gen-1.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-2.json": {
+    "file": "chunks/gen-2-0c1bceef.js",
+    "src": "src/data/gen-2.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-3.json": {
+    "file": "chunks/gen-3-ad2fca55.js",
+    "src": "src/data/gen-3.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-4.json": {
+    "file": "chunks/gen-4-fcea96ab.js",
+    "src": "src/data/gen-4.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-5.json": {
+    "file": "chunks/gen-5-3b1686fb.js",
+    "src": "src/data/gen-5.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-6.json": {
+    "file": "chunks/gen-6-666fd9f0.js",
+    "src": "src/data/gen-6.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-7-2.json": {
+    "file": "chunks/gen-7-2-30aceb71.js",
+    "src": "src/data/gen-7-2.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-7.json": {
+    "file": "chunks/gen-7-ae1ca728.js",
+    "src": "src/data/gen-7.json",
+    "isDynamicEntry": true
+  },
+  "src/data/gen-8.json": {
+    "file": "chunks/gen-8-8c10df72.js",
+    "src": "src/data/gen-8.json",
+    "isDynamicEntry": true
+  }
+}
