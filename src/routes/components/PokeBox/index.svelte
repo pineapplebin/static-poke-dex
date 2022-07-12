@@ -1,7 +1,6 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import { scale } from 'svelte/transition';
-  import { browser } from '$app/env';
   import { flip } from 'svelte/animate';
   import PokeIcon from '@/components/PokeIcon/index.svelte';
   import { parseRule, type TParsedItem } from './utils';
@@ -25,14 +24,15 @@
     if (idx >= parsed.length) {
       return;
     }
+    const DELTA = 3;
 
     return setTimeout(() => {
       if (cancel !== cancelId) {
         return;
       }
-      cells.push(parsed[idx]);
+      cells.push(...parsed.slice(idx, idx + DELTA));
       cells = cells;
-      playAnimation(parsed, idx + 1, cancelId);
+      playAnimation(parsed, idx + DELTA, cancelId);
     }, 50) as any;
   }
 

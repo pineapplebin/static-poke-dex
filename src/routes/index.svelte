@@ -5,32 +5,23 @@
   import PokeBox from './components/PokeBox/index.svelte';
   import DetailPopup from './components/DetailPopup/index.svelte';
   import type { TCheckPokemon } from '@/types/base';
+  import { BOX_LIST, switchBox } from './constants/boxes';
 
   let checkDetail: TCheckPokemon | null = null;
   let currentIndex = 0;
-  const BOX_LIST = [
-    { title: '关东 1', rule: '1-50' },
-    { title: '关东 2', rule: '51-100' }
-  ];
 
   function handleCheckDetail(ev: CustomEvent<TCheckPokemon>) {
     checkDetail = ev.detail;
   }
 
   function handleSwipe(e: CustomEvent<{ direction: 'left' | 'right' | 'top' | 'bottom' }>) {
-    let targetIndex = currentIndex;
+    let delta = 0;
     if (e.detail.direction === 'left') {
-      targetIndex += 1;
-      if (targetIndex >= BOX_LIST.length) {
-        targetIndex = 0;
-      }
+      delta = 1;
     } else if (e.detail.direction === 'right') {
-      targetIndex -= 1;
-      if (targetIndex < 0) {
-        targetIndex = BOX_LIST.length - 1;
-      }
+      delta = -1;
     }
-    currentIndex = targetIndex;
+    currentIndex = switchBox(currentIndex, delta);
   }
 </script>
 
@@ -62,6 +53,7 @@
     position: relative;
     z-index: 1;
     padding: 30px 10px 0 10px;
+    min-height: 80vh;
 
     > :global(div) {
       margin-bottom: 30px;
