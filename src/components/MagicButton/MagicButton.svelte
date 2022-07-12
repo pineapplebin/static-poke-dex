@@ -6,13 +6,12 @@
   import { Icon } from '@smui/fab';
   import UIRoundButton from '../UIRoundButton.svelte';
 
-  import { draggable } from '../../utils/actions/draggable';
-  import type { TPosition } from '../../utils/actions/draggable';
+  import { draggable, type TPosition } from '@/utils/actions/draggable';
+  import { memoryData } from '@/shared/memoryData';
+  import { normalizeStyle } from '@/utils/styles';
 
-  import { memoryData } from '../../shared/memoryData';
   import { CONTEXT_KEY } from './constants';
   import type { TContext } from './constants';
-  import { normalizeStyle } from '../../utils/styles';
 
   let isActive = writable(false);
   $: {

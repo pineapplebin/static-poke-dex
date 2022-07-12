@@ -1,8 +1,8 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
   import { checkIsSolid } from './utils';
-  import { availableDialogData } from '../../shared/availableDialogData';
-  import type { TAvailableDialogData } from '../../shared/availableDialogData';
+  import { availableDialogData } from '@/shared/availableDialogData';
+  import type { TAvailableDialogData } from '@/shared/availableDialogData';
 
   const dispatcher = createEventDispatcher<{ check: TAvailableDialogData }>();
 

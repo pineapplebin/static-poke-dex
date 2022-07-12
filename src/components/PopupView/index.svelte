@@ -2,9 +2,9 @@
   import { createEventDispatcher } from 'svelte';
   import { browser } from '$app/env';
   import { fade } from 'svelte/transition';
-  import { draggable } from '../../utils/actions/draggable';
-  import type { TPosition } from '../../utils/actions/draggable';
-  import { normalizeStyle } from '../../utils/styles';
+  import { draggable } from '@/utils/actions/draggable';
+  import type { TPosition } from '@/utils/actions/draggable';
+  import { normalizeStyle } from '@/utils/styles';
 
   const dispatch = createEventDispatcher<{ close: never }>();
 
@@ -12,7 +12,10 @@
   export let distance = 300;
   export let open = false;
 
+  let contentEl: HTMLDivElement;
+
   let disabled = false;
+  let startDragging = false;
   let startTimestamp = 0;
   let touchStartPosition = 0;
   let deltaPosition = 0;
@@ -44,15 +47,27 @@
   }
 
   function handleDragStart(startPos: number) {
-    touchStartPosition = startPos;
-    startTimestamp = Date.now();
+    if (contentEl.scrollTop < 10) {
+      startDragging = true;
+      touchStartPosition = startPos;
+      startTimestamp = Date.now();
+    } else {
+      startDragging = false;
+    }
   }
 
   function handleDrag({ detail }: { detail: TPosition }) {
+    if (!startDragging) {
+      return;
+    }
     deltaPosition = detail.y < touchStartPosition ? 0 : detail.y - touchStartPosition;
   }
 
   function handleCheckDragEnd() {
+    if (!startDragging) {
+      return;
+    }
+
     // 如果时间比阈值短；或者大于预设距离 则关闭弹窗
     if (
       deltaPosition > 0 &&
@@ -81,7 +96,7 @@
       transform: disabled ? undefined : `translateY(${deltaPosition + 50}px)`
     })}
   >
-    <div class="content">
+    <div bind:this={contentEl} class="content">
       <slot />
     </div>
   </div>
@@ -115,11 +130,13 @@
   }
 
   .content {
+    position: relative;
     height: 95%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0 0 5px 5px #aaa;
     background-color: white;
+    overflow: hidden auto;
   }
 
   .fly-in {

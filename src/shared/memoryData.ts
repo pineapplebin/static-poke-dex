@@ -1,7 +1,7 @@
 import { browser } from '$app/env';
 import { writable } from 'svelte/store';
 import debounce from 'lodash/debounce.js';
-import type { TPosition } from '../utils/actions/draggable';
+import type { TPosition } from '@/utils/actions/draggable';
 
 export interface TMemoryData {
   currentTab: string;

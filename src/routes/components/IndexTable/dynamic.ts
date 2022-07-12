@@ -1,5 +1,5 @@
-import type { TTableHead, TTableRowData } from '../../../types/availability';
-import { romanToInt } from '../../../utils/functional';
+import type { TTableHead, TTableRowData } from '@/types/availability';
+import { romanToInt } from '@/utils/functional';
 
 interface TAvailableData {
   head: TTableHead[];

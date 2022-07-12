@@ -4,11 +4,11 @@
 
   import { explainAvailable } from './utils';
   import type { ExplainItem } from './utils';
-  import { availableDialogData } from '../../shared/availableDialogData';
-  import { getPokemonInfo } from '../../data/struct';
-  import type { TPokemonInfo } from '../../types/base';
+  import { availableDialogData } from '@/shared/availableDialogData';
+  import type { TStaticPokemon } from '@/types/base';
+  import { fetchStaticPokemon } from '@/data/fetch-static';
 
-  import PokeIcon from '../PokeIcon/index.svelte';
+  import PokeIcon from '@/components/PokeIcon/index.svelte';
 
   export let open: boolean = false;
 
@@ -19,17 +19,19 @@
     }
   }
 
-  let info: TPokemonInfo | null = null;
+  let info: TStaticPokemon | null = null;
   $: {
     if ($availableDialogData.pokeInfo.no) {
-      info = getPokemonInfo($availableDialogData.pokeInfo.no);
+      fetchStaticPokemon($availableDialogData.pokeInfo.no).then((res) => {
+        info = res;
+      });
     }
   }
 
   function handleClickJump() {
     if (info) {
       window.open(
-        `https://wiki.52poke.com/wiki/${info.name.eng}#.E8.8E.B7.E5.BE.97.E6.96.B9.E5.BC.8F`
+        `https://wiki.52poke.com/wiki/${info.name.jpn}#.E8.8E.B7.E5.BE.97.E6.96.B9.E5.BC.8F`
       );
     }
   }

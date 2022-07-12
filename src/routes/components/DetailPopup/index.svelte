@@ -54,6 +54,7 @@
           <TypeLogo name={type.type.name} />
         {/each}
       </div>
+      <!-- <pre style="word-break: break-all; white-space: normal;">{JSON.stringify(info)}</pre> -->
     {:catch err}
       <p>{'' + err}</p>
     {/await}
@@ -62,8 +63,6 @@
 
 <style>
   .detail {
-    height: 95vh;
-    overflow: hidden auto;
     text-align: center;
   }
 

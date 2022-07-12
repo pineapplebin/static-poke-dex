@@ -1,7 +1,7 @@
 <script lang="ts">
   import { dynamicImportData } from './dynamic';
   import CircularProgress from '@smui/circular-progress';
-  import PokeTable from '../../../components/PokeTable.svelte';
+  import PokeTable from '@/components/PokeTable.svelte';
 
   export let generation: string = '';
 

@@ -27,7 +27,13 @@
 
   <div class="box">
     {#each cells as cell}
-      <div class="box-cell" on:click={() => handleDetail(cell)}>
+      <div
+        class="box-cell"
+        on:click={(e) => {
+          e.preventDefault();
+          handleDetail(cell);
+        }}
+      >
         <PokeIcon no={cell.no} form={cell.form} />
       </div>
     {/each}
