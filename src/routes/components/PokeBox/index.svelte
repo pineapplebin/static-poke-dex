@@ -1,5 +1,8 @@
 <script lang="ts">
   import { createEventDispatcher } from 'svelte';
+  import { scale } from 'svelte/transition';
+  import { browser } from '$app/env';
+  import { flip } from 'svelte/animate';
   import PokeIcon from '@/components/PokeIcon/index.svelte';
   import { parseRule, type TParsedItem } from './utils';
 
@@ -9,10 +12,28 @@
   export let rule: string = '';
 
   let cells: TParsedItem[] = [];
+  let cancel: number = 0;
   $: {
     if (rule) {
-      cells = parseRule(rule);
+      cancel += 1;
+      cells = [];
+      playAnimation(parseRule(rule), 0, cancel);
     }
+  }
+
+  function playAnimation(parsed: TParsedItem[], idx: number, cancelId: number): number | undefined {
+    if (idx >= parsed.length) {
+      return;
+    }
+
+    return setTimeout(() => {
+      if (cancel !== cancelId) {
+        return;
+      }
+      cells.push(parsed[idx]);
+      cells = cells;
+      playAnimation(parsed, idx + 1, cancelId);
+    }, 50) as any;
   }
 
   function handleDetail(cell: TParsedItem) {
@@ -26,8 +47,10 @@
   <div class="title">{title}</div>
 
   <div class="box">
-    {#each cells as cell}
+    {#each cells as cell, index (index)}
       <div
+        animate:flip
+        in:scale={{ duration: 100, start: 0.5, opacity: 0.3 }}
         class="box-cell"
         on:click={(e) => {
           e.preventDefault();
@@ -44,6 +67,7 @@
   .box {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 60px;
     grid-gap: 8px 0;
   }
 

@@ -29,7 +29,7 @@ export function parseRule(rule: string): TParsedItem[] {
     }
   });
 
-  return result.slice(0, 30);
+  return result;
 }
 
 function parseRangeRule(rule: string): TParsedItem[] {

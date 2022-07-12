@@ -15,14 +15,16 @@
   let contentEl: HTMLDivElement;
 
   let disabled = false;
-  let startDragging = false;
-  let startTimestamp = 0;
-  let touchStartPosition = 0;
-  let deltaPosition = 0;
+  let startDragging = false; // 拖拽控制开关
+  let startTimestamp = 0; // 拖拽开始时间戳
+  let touchStartPosition = 0; // 拖拽开始位置
+  let deltaPosition = 0; // 拖拽距离
 
   let flyIn = false;
   let timeout: number | null = null;
   $: {
+    // 上层控制打开时 有个飞入动画
+    // 动画时间禁用拖拽
     if (open) {
       flyIn = true;
       disabled = true;
@@ -46,6 +48,10 @@
     }
   }
 
+  /**
+   * 处理拖拽开始
+   * 如果内容过长时 没滚动到内容顶部前禁用拖拽
+   */
   function handleDragStart(startPos: number) {
     if (contentEl.scrollTop < 10) {
       startDragging = true;

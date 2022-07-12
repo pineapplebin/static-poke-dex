@@ -2,6 +2,7 @@
 
 <style lang="scss" global>
   body {
+    touch-action: pan-x pan-y;
     margin: 0;
   }
 

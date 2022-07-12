@@ -43,6 +43,7 @@
     "normalize.css": "^8.0.1",
     "pokenode-ts": "^1.14.0",
     "pokesprite-images": "^2.6.0",
-    "smui-theme": "^6.0.0-beta.16"
+    "smui-theme": "^6.0.0-beta.16",
+    "svelte-gestures": "^1.4.1"
   }
 }
