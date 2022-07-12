@@ -1,1 +1,0 @@
-const a="767",l=767,s={jpn:"\u30B3\u30BD\u30AF\u30E0\u30B7",chs:"\u80C6\u5C0F\u866B"},n="",e="wimpod",o=[{generation:"VII",games:["s","m","us","um"],available:["C","C","C","C"]},{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var i={no:a,idx:767,name:s,form:n,slug:e,available:o};export{o as available,i as default,n as form,l as idx,s as name,a as no,e as slug};

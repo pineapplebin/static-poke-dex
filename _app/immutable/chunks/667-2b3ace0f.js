@@ -1,1 +1,0 @@
-const a="667",l=667,e={jpn:"\u30B7\u30B7\u30B3",chs:"\u5C0F\u72EE\u72EE"},n="",o="litleo",s=[{generation:"VI",games:["x","y","or","as"],available:["C","C","T","T"]},{generation:"VII",games:["s","m","us","um"],available:["T","T","C","C"]}];var t={no:a,idx:667,name:e,form:n,slug:o,available:s};export{s as available,t as default,n as form,l as idx,e as name,a as no,o as slug};

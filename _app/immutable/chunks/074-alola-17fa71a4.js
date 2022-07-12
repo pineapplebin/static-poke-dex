@@ -1,1 +1,0 @@
-const a="074",s=74,l={jpn:"\u30A4\u30B7\u30C4\u30D6\u30C6",chs:"\u5C0F\u62F3\u77F3"},o="alola",e="geodude",n=[{generation:"VII",games:["s","m","us","um","lp","le"],available:["C","C","B","B","R","R"]}];var t={no:a,idx:74,name:l,form:o,slug:e,available:n};export{n as available,t as default,o as form,s as idx,l as name,a as no,e as slug};

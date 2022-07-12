@@ -1,1 +1,0 @@
-const a="877",l=877,o={jpn:"\u30E2\u30EB\u30DA\u30B3",chs:"\u83AB\u9C81\u8D1D\u53EF"},n="",s="morpeko",e=[{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var t={no:a,idx:877,name:o,form:n,slug:s,available:e};export{e as available,t as default,n as form,l as idx,o as name,a as no,s as slug};

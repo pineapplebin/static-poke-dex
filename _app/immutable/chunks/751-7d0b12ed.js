@@ -1,1 +1,0 @@
-const a="751",l=751,e={jpn:"\u30B7\u30BA\u30AF\u30E2",chs:"\u6EF4\u86DB"},s="",n="dewpider",o=[{generation:"VII",games:["s","m","us","um"],available:["C","C","C","C"]},{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var i={no:a,idx:751,name:e,form:s,slug:n,available:o};export{o as available,i as default,s as form,l as idx,e as name,a as no,n as slug};
