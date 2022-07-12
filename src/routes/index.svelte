@@ -6,9 +6,9 @@
   import DetailPopup from './components/DetailPopup/index.svelte';
   import type { TCheckPokemon } from '@/types/base';
   import { BOX_LIST, switchBox } from './constants/boxes';
+  import { memoryData } from '@/shared/memoryData';
 
   let checkDetail: TCheckPokemon | null = null;
-  let currentIndex = 0;
 
   function handleCheckDetail(ev: CustomEvent<TCheckPokemon>) {
     checkDetail = ev.detail;
@@ -21,15 +21,15 @@
     } else if (e.detail.direction === 'right') {
       delta = -1;
     }
-    currentIndex = switchBox(currentIndex, delta);
+    $memoryData.currentIndex = switchBox($memoryData.currentIndex, delta);
   }
 </script>
 
 <div class="background" />
 
 <div class="content" use:swipe on:swipe={handleSwipe}>
-  {#if BOX_LIST[currentIndex]}
-    {@const box = BOX_LIST[currentIndex]}
+  {#if BOX_LIST[$memoryData.currentIndex]}
+    {@const box = BOX_LIST[$memoryData.currentIndex]}
     <PokeBox {...box} on:detail={handleCheckDetail} />
   {/if}
 </div>

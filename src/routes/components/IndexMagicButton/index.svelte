@@ -1,8 +1,17 @@
 <script lang="ts">
   import MagicButton, { SubButton } from '@/components/MagicButton';
-  import Dialog, { Title } from '@smui/dialog';
+  import FilterDialog from './components/FilterDialog.svelte';
+  import { memoryData } from '@/shared/memoryData';
 
   let openSearchDialog = false;
+  let selection: number | null = $memoryData.currentIndex;
+
+  $: {
+    if (selection !== null) {
+      $memoryData.currentIndex = selection;
+      openSearchDialog = false;
+    }
+  }
 </script>
 
 <MagicButton>
@@ -14,6 +23,4 @@
   />
 </MagicButton>
 
-<Dialog bind:open={openSearchDialog}>
-  <Title>过滤</Title>
-</Dialog>
+<FilterDialog bind:open={openSearchDialog} />

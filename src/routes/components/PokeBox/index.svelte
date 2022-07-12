@@ -93,12 +93,13 @@
     width: 60vw;
     height: 48px;
     border-radius: 24px;
-    background: white;
+    background: black;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
 
     font-size: 18px;
-    color: black;
+    font-weight: bold;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;

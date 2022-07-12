@@ -4,7 +4,7 @@ import debounce from 'lodash/debounce.js';
 import type { TPosition } from '@/utils/actions/draggable';
 
 export interface TMemoryData {
-  currentTab: string;
+  currentIndex: number;
   magicButtonPos: TPosition;
 }
 
@@ -23,7 +23,7 @@ function loadFromStorage(): Partial<TMemoryData> {
 }
 
 export const memoryData = writable<TMemoryData>({
-  currentTab: 'I',
+  currentIndex: 0,
   magicButtonPos: {
     x: 10000,
     y: 600
