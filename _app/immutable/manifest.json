@@ -1,11 +1,11 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-194ceb37.js",
+    "file": "start-ecfe1f50.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-7045e37d.js",
-      "_index-9539bb32.js",
+      "_index-49b9df21.js",
+      "_index-49512a20.js",
       "_preload-helper-936e422d.js"
     ],
     "dynamicImports": [
@@ -19,36 +19,37 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-ca610055.js",
+    "file": "pages/__layout.svelte-6a74410b.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7045e37d.js"
+      "_index-49b9df21.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-72998bab.css"
+      "assets/pages/__layout.svelte-5df53408.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-da5a738e.js",
+    "file": "error.svelte-b41a97cb.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7045e37d.js"
+      "_index-49b9df21.js"
     ]
   },
   "src/routes/components/DetailPopup/index.svelte": {
-    "file": "pages/components/DetailPopup/index.svelte-99f83c4b.js",
+    "file": "pages/components/DetailPopup/index.svelte-f002f999.js",
     "src": "src/routes/components/DetailPopup/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7045e37d.js",
-      "_CircularProgress-f74dc7ad.js",
-      "_toNumber-e8d0ba12.js",
-      "_useActions-90889a13.js",
+      "_index-49b9df21.js",
+      "_CircularProgress-27e6fe35.js",
+      "_index-30b38f2f.js",
+      "_toNumber-d8fdaa7d.js",
+      "_useActions-eb7854e1.js",
       "_preload-helper-936e422d.js"
     ],
     "dynamicImports": [
@@ -1023,32 +1024,33 @@
     ]
   },
   "src/routes/components/IndexMagicButton/index.svelte": {
-    "file": "pages/components/IndexMagicButton/index.svelte-bb9ef9a4.js",
+    "file": "pages/components/IndexMagicButton/index.svelte-2acd6234.js",
     "src": "src/routes/components/IndexMagicButton/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7045e37d.js",
-      "_index-9539bb32.js",
-      "_toNumber-e8d0ba12.js",
-      "_useActions-90889a13.js"
+      "_index-49b9df21.js",
+      "_index-49512a20.js",
+      "_index-30b38f2f.js",
+      "_useActions-eb7854e1.js",
+      "_toNumber-d8fdaa7d.js"
     ],
     "css": [
       "assets/pages/components/IndexMagicButton/index.svelte-eeacafea.css"
     ]
   },
   "src/routes/components/IndexTable/index.svelte": {
-    "file": "pages/components/IndexTable/index.svelte-9c9aef9f.js",
+    "file": "pages/components/IndexTable/index.svelte-b954ae09.js",
     "src": "src/routes/components/IndexTable/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7045e37d.js",
+      "_index-49b9df21.js",
       "_preload-helper-936e422d.js",
-      "_CircularProgress-f74dc7ad.js",
-      "_index-c0887a8f.js",
-      "_index-9539bb32.js",
-      "_useActions-90889a13.js"
+      "_CircularProgress-27e6fe35.js",
+      "_index-3ad73cac.js",
+      "_index-49512a20.js",
+      "_useActions-eb7854e1.js"
     ],
     "dynamicImports": [
       "src/data/gen-1.json",
@@ -1066,75 +1068,82 @@
     ]
   },
   "src/routes/components/PokeBox/index.svelte": {
-    "file": "pages/components/PokeBox/index.svelte-6621413a.js",
+    "file": "pages/components/PokeBox/index.svelte-5ffd187d.js",
     "src": "src/routes/components/PokeBox/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7045e37d.js",
-      "_index-c0887a8f.js"
+      "_index-49b9df21.js",
+      "_index-30b38f2f.js",
+      "_index-3ad73cac.js"
     ],
     "css": [
-      "assets/pages/components/PokeBox/index.svelte-25e04573.css"
+      "assets/pages/components/PokeBox/index.svelte-f57d95cb.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-72df728d.js",
+    "file": "pages/index.svelte-29ae5601.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7045e37d.js",
+      "_index-49b9df21.js",
       "src/routes/components/IndexMagicButton/index.svelte",
       "src/routes/components/PokeBox/index.svelte",
       "src/routes/components/DetailPopup/index.svelte",
-      "_index-9539bb32.js",
-      "_toNumber-e8d0ba12.js",
-      "_useActions-90889a13.js",
-      "_index-c0887a8f.js",
-      "_CircularProgress-f74dc7ad.js",
+      "_index-49512a20.js",
+      "_index-30b38f2f.js",
+      "_useActions-eb7854e1.js",
+      "_toNumber-d8fdaa7d.js",
+      "_index-3ad73cac.js",
+      "_CircularProgress-27e6fe35.js",
       "_preload-helper-936e422d.js"
     ],
     "css": [
-      "assets/pages/index.svelte-5a1e212d.css"
+      "assets/pages/index.svelte-77852b1e.css"
     ]
   },
-  "_index-7045e37d.js": {
-    "file": "chunks/index-7045e37d.js"
+  "_index-49b9df21.js": {
+    "file": "chunks/index-49b9df21.js"
   },
-  "_index-9539bb32.js": {
-    "file": "chunks/index-9539bb32.js",
+  "_index-49512a20.js": {
+    "file": "chunks/index-49512a20.js",
     "imports": [
-      "_index-7045e37d.js"
+      "_index-49b9df21.js"
     ]
   },
   "_preload-helper-936e422d.js": {
     "file": "chunks/preload-helper-936e422d.js"
   },
-  "_CircularProgress-f74dc7ad.js": {
-    "file": "chunks/CircularProgress-f74dc7ad.js",
+  "_CircularProgress-27e6fe35.js": {
+    "file": "chunks/CircularProgress-27e6fe35.js",
     "imports": [
-      "_index-7045e37d.js",
-      "_useActions-90889a13.js"
+      "_index-49b9df21.js",
+      "_useActions-eb7854e1.js"
     ]
   },
-  "_toNumber-e8d0ba12.js": {
-    "file": "chunks/toNumber-e8d0ba12.js",
+  "_toNumber-d8fdaa7d.js": {
+    "file": "chunks/toNumber-d8fdaa7d.js",
     "imports": [
-      "_useActions-90889a13.js",
-      "_index-7045e37d.js"
+      "_useActions-eb7854e1.js"
     ]
   },
-  "_useActions-90889a13.js": {
-    "file": "chunks/useActions-90889a13.js",
+  "_useActions-eb7854e1.js": {
+    "file": "chunks/useActions-eb7854e1.js",
     "imports": [
-      "_index-7045e37d.js"
+      "_index-49b9df21.js"
     ]
   },
-  "_index-c0887a8f.js": {
-    "file": "chunks/index-c0887a8f.js",
+  "_index-30b38f2f.js": {
+    "file": "chunks/index-30b38f2f.js",
     "imports": [
-      "_index-7045e37d.js"
+      "_index-49b9df21.js"
+    ]
+  },
+  "_index-3ad73cac.js": {
+    "file": "chunks/index-3ad73cac.js",
+    "imports": [
+      "_index-49b9df21.js"
     ],
     "css": [
       "assets/index-7e558034.css"
