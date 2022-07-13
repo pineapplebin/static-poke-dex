@@ -12,9 +12,14 @@
       const list = [];
       const key = ('' + no).padStart(3, '0') as keyof typeof MAPPING;
       const slug: string | undefined = MAPPING[key];
+
       if (slug) {
-        list.push(slug + (form ? `-${form}` : ''));
+        list.push(slug + (form && form !== 'female' ? `-${form}` : ''));
+        if (form === 'female') {
+          list.push(form);
+        }
       }
+
       classList = ['pokesprite', 'pokemon', ...list].filter((s) => !!s).join(' ');
     }
   }

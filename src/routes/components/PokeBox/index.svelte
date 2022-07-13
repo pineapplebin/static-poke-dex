@@ -24,7 +24,7 @@
     if (idx >= parsed.length) {
       return;
     }
-    const DELTA = 3;
+    const DELTA = 4;
 
     return setTimeout(() => {
       if (cancel !== cancelId) {
@@ -50,7 +50,7 @@
     {#each cells as cell, index (index)}
       <div
         animate:flip
-        in:scale={{ duration: 100, start: 0.5, opacity: 0.3 }}
+        in:scale={{ duration: 80, start: 0.5, opacity: 0.3 }}
         class="box-cell"
         on:click={(e) => {
           e.preventDefault();

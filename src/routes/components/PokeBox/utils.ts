@@ -26,6 +26,9 @@ export function parseRule(rule: string): TParsedItem[] {
     } else if (part.indexOf('|') > -1) {
       // xx|form 模式
       result.push(parseFormRule(part));
+    } else if (!isNaN(+part)) {
+      // xx 模式
+      result.push({ no: +part });
     }
   });
 

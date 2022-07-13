@@ -1297,6 +1297,7 @@
 .pokesprite.flapple { background-position: -560px -2204px }
 .pokesprite.flapple-gmax { background-position: -630px -2204px }
 .pokesprite.appletun { background-position: -700px -2204px }
+.pokesprite.appletun-gmax { background-position: -630px -2204px }
 .pokesprite.silicobra { background-position: -770px -2204px }
 .pokesprite.sandaconda { background-position: -840px -2204px }
 .pokesprite.sandaconda-gmax { background-position: -910px -2204px }
@@ -2762,6 +2763,7 @@
 .pokesprite.flapple.shiny { background-position: -1680px -4698px }
 .pokesprite.flapple-gmax.shiny { background-position: -1750px -4698px }
 .pokesprite.appletun.shiny { background-position: -1820px -4698px }
+.pokesprite.appletun-gmax.shiny { background-position: -1750px -4698px }
 .pokesprite.silicobra.shiny { background-position: -1890px -4698px }
 .pokesprite.sandaconda.shiny { background-position: -1960px -4698px }
 .pokesprite.sandaconda-gmax.shiny { background-position: -2030px -4698px }

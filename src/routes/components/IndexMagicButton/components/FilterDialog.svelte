@@ -12,7 +12,7 @@
     const last = acc[acc.length - 1];
     if (last) {
       const parts = last.label.split(' ');
-      if (!new RegExp(`^${parts[0]}`).test(item.label)) {
+      if (!new RegExp(`^${parts[0]}`).test(item.label) && /\d+$/.test(item.label)) {
         acc.push(item);
       }
     } else {

@@ -33,8 +33,42 @@ export const BOX_LIST = [
     rule: '412|sandy,412|trash,413|sandy,413|trash,422|east,423|east,479|heat,479|wash,479|frost,479|fan,479|mow,492|sky'
   },
   {
-    title: 'Gigantamax 1',
-    rule: '3|gmax,6|gmax,9|gmax,12|gmax,25|gmax'
+    title: 'Pokemon GO',
+    rule: '808-809'
+  },
+  { title: 'Galar 1', rule: '810-849' },
+  { title: 'Galar 2', rule: '850-889' },
+  { title: 'Galar 3', rule: '890-898' },
+  { title: 'Galar Alternate', rule: '849|low-key,854,855,876|female,892,893|dada' },
+  {
+    title: 'Galar Forms',
+    rule: [52, 77, 78, 79, 80, 83, 110, 122, 144, 145, 146, 199, 222, 263, 264, 554, 555, 562, 618]
+      .map((no) => `${no}|galar`)
+      .join(',')
+  },
+  {
+    title: 'Galar Gigantamax',
+    rule: [
+      3, 6, 9, 12, 25, 52, 68, 94, 99, 131, 143, 569, 809, 812, 815, 818, 823, 826, 834, 839, 841,
+      842, 844, 849
+    ]
+      .map((no) => `${no}|gmax`)
+      .concat(['849|low-key-gmax'])
+      .concat([851, 858, 861, 869, 879, 884].map((no) => `${no}|gmax`))
+      .concat(['892|single-strike-gmax', '892|rapid-strike-gmax'])
+      .join(',')
+  },
+  {
+    title: 'Hisui 1',
+    rule: '899-905'
+  },
+  {
+    title: 'Hisui Forms',
+    rule: [58, 59, 100, 101, 157, 211, 215, 503, 549]
+      .map((no) => `${no}|hisui`)
+      .concat(['550|white-striped'])
+      .concat([570, 571, 628, 705, 706, 713, 724].map((no) => `${no}|hisui`))
+      .join(',')
   }
 ];
 
