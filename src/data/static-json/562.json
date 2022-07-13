@@ -5,7 +5,6 @@
     "jpn": "デスマス",
     "chs": "哭哭面具"
   },
-  "form": "",
   "slug": "yamask",
   "available": [
     {
@@ -64,5 +63,20 @@
         "R"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "C",
+          "C"
+        ]
+      }
+    ]
+  }
 }

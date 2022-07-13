@@ -11,7 +11,7 @@ export interface TFetchDetailDataRes {
 
 export async function fetchDetailData(check: TCheckPokemon) {
   const [staticRes, pokeRes] = await Promise.allSettled([
-    fetchStaticPokemon(check.no, check.form),
+    fetchStaticPokemon(check.no),
     client.getPokemonById(+check.no)
   ]);
 

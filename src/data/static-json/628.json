@@ -5,7 +5,6 @@
     "jpn": "ウォーグル",
     "chs": "勇士雄鹰"
   },
-  "form": "",
   "slug": "braviary",
   "available": [
     {
@@ -64,5 +63,18 @@
         "T"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

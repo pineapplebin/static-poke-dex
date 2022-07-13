@@ -5,7 +5,6 @@
     "jpn": "サンドパン",
     "chs": "穿山王"
   },
-  "form": "",
   "slug": "sandslash",
   "available": [
     {
@@ -134,5 +133,39 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "T",
+          "E",
+          "T",
+          "E",
+          "E",
+          "T"
+        ]
+      },
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "ED",
+          "ED"
+        ]
+      }
+    ]
+  }
 }

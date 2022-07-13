@@ -5,7 +5,6 @@
     "jpn": "マッスグマ",
     "chs": "直冲熊"
   },
-  "form": "",
   "slug": "linoone",
   "available": [
     {
@@ -102,5 +101,20 @@
         "E"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "C",
+          "C"
+        ]
+      }
+    ]
+  }
 }

@@ -5,7 +5,6 @@
     "jpn": "ビリリダマ",
     "chs": "霹雳电球"
   },
-  "form": "",
   "slug": "voltorb",
   "available": [
     {
@@ -130,5 +129,18 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

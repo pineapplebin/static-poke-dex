@@ -5,7 +5,6 @@
     "jpn": "サニーゴ",
     "chs": "太阳珊瑚"
   },
-  "form": "",
   "slug": "corsola",
   "available": [
     {
@@ -115,5 +114,20 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "T",
+          "C"
+        ]
+      }
+    ]
+  }
 }

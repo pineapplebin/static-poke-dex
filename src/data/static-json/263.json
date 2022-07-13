@@ -5,7 +5,6 @@
     "jpn": "ジグザグマ",
     "chs": "蛇纹熊"
   },
-  "form": "",
   "slug": "zigzagoon",
   "available": [
     {
@@ -102,5 +101,20 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "C",
+          "C"
+        ]
+      }
+    ]
+  }
 }

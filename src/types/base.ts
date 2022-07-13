@@ -34,7 +34,9 @@ export interface TStaticPokemon {
     jpn: string;
     chs: string;
   };
-  form: string;
   slug: string;
   available: TStaticAvailable[];
+  forms?: {
+    [p: string]: TStaticAvailable[];
+  };
 }

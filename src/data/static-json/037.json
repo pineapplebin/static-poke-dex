@@ -5,7 +5,6 @@
     "jpn": "ロコン",
     "chs": "六尾"
   },
-  "form": "",
   "slug": "vulpix",
   "available": [
     {
@@ -136,5 +135,41 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "C",
+          "Ev",
+          "C",
+          "T",
+          "T",
+          "R"
+        ]
+      },
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh",
+          "la"
+        ],
+        "available": [
+          "RD",
+          "RD",
+          "C"
+        ]
+      }
+    ]
+  }
 }

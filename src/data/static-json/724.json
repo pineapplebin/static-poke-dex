@@ -5,7 +5,6 @@
     "jpn": "ジュナイパー",
     "chs": "狙射树枭"
   },
-  "form": "",
   "slug": "decidueye",
   "available": [
     {
@@ -34,5 +33,18 @@
         "ED"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

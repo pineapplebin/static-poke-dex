@@ -5,7 +5,6 @@
     "jpn": "マルマイン",
     "chs": "顽皮雷弹"
   },
-  "form": "",
   "slug": "electrode",
   "available": [
     {
@@ -130,5 +129,18 @@
         "E"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

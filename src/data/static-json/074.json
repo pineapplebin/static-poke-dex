@@ -5,7 +5,6 @@
     "jpn": "イシツブテ",
     "chs": "小拳石"
   },
-  "form": "",
   "slug": "geodude",
   "available": [
     {
@@ -132,5 +131,28 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "C",
+          "C",
+          "B",
+          "B",
+          "R",
+          "R"
+        ]
+      }
+    ]
+  }
 }

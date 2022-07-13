@@ -5,7 +5,6 @@
     "jpn": "ダイケンキ",
     "chs": "大剑鬼"
   },
-  "form": "",
   "slug": "samurott",
   "available": [
     {
@@ -53,5 +52,18 @@
         "T"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

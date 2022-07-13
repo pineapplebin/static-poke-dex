@@ -5,7 +5,6 @@
     "jpn": "ヤドキング",
     "chs": "呆呆王"
   },
-  "form": "",
   "slug": "slowking",
   "available": [
     {
@@ -115,5 +114,20 @@
         "ET"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "ED",
+          "ED"
+        ]
+      }
+    ]
+  }
 }

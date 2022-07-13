@@ -5,7 +5,6 @@
     "jpn": "コラッタ",
     "chs": "小拉达"
   },
-  "form": "",
   "slug": "rattata",
   "available": [
     {
@@ -130,5 +129,28 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "C",
+          "C",
+          "C",
+          "C",
+          "R",
+          "R"
+        ]
+      }
+    ]
+  }
 }

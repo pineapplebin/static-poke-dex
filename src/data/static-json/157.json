@@ -5,7 +5,6 @@
     "jpn": "バクフーン",
     "chs": "火暴兽"
   },
-  "form": "",
   "slug": "typhlosion",
   "available": [
     {
@@ -111,5 +110,18 @@
         "E"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

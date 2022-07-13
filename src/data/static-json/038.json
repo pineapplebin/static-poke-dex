@@ -5,7 +5,6 @@
     "jpn": "キュウコン",
     "chs": "九尾"
   },
-  "form": "",
   "slug": "ninetales",
   "available": [
     {
@@ -136,5 +135,41 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "E",
+          "EvE",
+          "E",
+          "T",
+          "T",
+          "E"
+        ]
+      },
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh",
+          "la"
+        ],
+        "available": [
+          "ED",
+          "ED",
+          "E"
+        ]
+      }
+    ]
+  }
 }

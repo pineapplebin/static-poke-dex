@@ -5,7 +5,6 @@
     "jpn": "ドレディア",
     "chs": "裙儿小姐"
   },
-  "form": "",
   "slug": "lilligant",
   "available": [
     {
@@ -64,5 +63,18 @@
         "CD"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

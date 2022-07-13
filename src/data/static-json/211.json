@@ -5,7 +5,6 @@
     "jpn": "ハリーセン",
     "chs": "千针鱼"
   },
-  "form": "",
   "slug": "qwilfish",
   "available": [
     {
@@ -115,5 +114,18 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

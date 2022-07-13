@@ -5,7 +5,6 @@
     "jpn": "ベトベター",
     "chs": "臭泥"
   },
-  "form": "",
   "slug": "grimer",
   "available": [
     {
@@ -130,5 +129,28 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "C",
+          "C",
+          "C",
+          "C",
+          "R",
+          "T"
+        ]
+      }
+    ]
+  }
 }

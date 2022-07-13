@@ -5,7 +5,6 @@
     "jpn": "ベトベトン",
     "chs": "臭臭泥"
   },
-  "form": "",
   "slug": "muk",
   "available": [
     {
@@ -130,5 +129,28 @@
         "E"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "E",
+          "E",
+          "E",
+          "E",
+          "E",
+          "T"
+        ]
+      }
+    ]
+  }
 }

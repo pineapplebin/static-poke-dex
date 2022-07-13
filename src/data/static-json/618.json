@@ -5,7 +5,6 @@
     "jpn": "マッギョ",
     "chs": "泥巴鱼"
   },
-  "form": "",
   "slug": "stunfisk",
   "available": [
     {
@@ -64,5 +63,20 @@
         "RD"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "C",
+          "C"
+        ]
+      }
+    ]
+  }
 }

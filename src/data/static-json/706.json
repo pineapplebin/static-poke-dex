@@ -5,7 +5,6 @@
     "jpn": "ヌメルゴン",
     "chs": "黏美龙"
   },
-  "form": "",
   "slug": "goodra",
   "available": [
     {
@@ -49,5 +48,18 @@
         "D"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

@@ -5,7 +5,6 @@
     "jpn": "ゾロアーク",
     "chs": "索罗亚克"
   },
-  "form": "",
   "slug": "zoroark",
   "available": [
     {
@@ -64,5 +63,18 @@
         "CD"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

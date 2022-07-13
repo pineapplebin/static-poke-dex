@@ -5,7 +5,6 @@
     "jpn": "ゴローニャ",
     "chs": "隆隆岩"
   },
-  "form": "",
   "slug": "golem",
   "available": [
     {
@@ -132,5 +131,28 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "R",
+          "R",
+          "ET",
+          "ET",
+          "ET",
+          "ET"
+        ]
+      }
+    ]
+  }
 }

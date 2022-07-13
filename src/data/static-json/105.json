@@ -5,7 +5,6 @@
     "jpn": "ガラガラ",
     "chs": "嘎啦嘎啦"
   },
-  "form": "",
   "slug": "marowak",
   "available": [
     {
@@ -134,5 +133,39 @@
         "E"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "E",
+          "E",
+          "R",
+          "E",
+          "R",
+          "R"
+        ]
+      },
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "RD",
+          "RD"
+        ]
+      }
+    ]
+  }
 }

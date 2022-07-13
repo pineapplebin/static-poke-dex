@@ -5,7 +5,6 @@
     "jpn": "ゾロア",
     "chs": "索罗亚"
   },
-  "form": "",
   "slug": "zorua",
   "available": [
     {
@@ -64,5 +63,18 @@
         "CD"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

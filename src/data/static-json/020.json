@@ -5,7 +5,6 @@
     "jpn": "ラッタ",
     "chs": "拉达"
   },
-  "form": "",
   "slug": "raticate",
   "available": [
     {
@@ -130,5 +129,28 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "alola": [
+      {
+        "generation": "VII",
+        "games": [
+          "s",
+          "m",
+          "us",
+          "um",
+          "lp",
+          "le"
+        ],
+        "available": [
+          "C",
+          "C",
+          "C",
+          "C",
+          "E",
+          "E"
+        ]
+      }
+    ]
+  }
 }

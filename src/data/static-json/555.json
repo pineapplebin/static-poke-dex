@@ -5,7 +5,6 @@
     "jpn": "ヒヒダルマ",
     "chs": "达摩狒狒"
   },
-  "form": "",
   "slug": "darmanitan",
   "available": [
     {
@@ -64,5 +63,20 @@
         "T"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "D",
+          "T"
+        ]
+      }
+    ]
+  }
 }

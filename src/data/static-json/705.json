@@ -5,7 +5,6 @@
     "jpn": "ヌメイル",
     "chs": "黏美儿"
   },
-  "form": "",
   "slug": "sliggoo",
   "available": [
     {
@@ -49,5 +48,18 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "hisui": [
+      {
+        "generation": "VIII",
+        "games": [
+          "la"
+        ],
+        "available": [
+          "C"
+        ]
+      }
+    ]
+  }
 }

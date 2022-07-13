@@ -5,7 +5,6 @@
     "jpn": "ヤドラン",
     "chs": "呆壳兽"
   },
-  "form": "",
   "slug": "slowbro",
   "available": [
     {
@@ -134,5 +133,20 @@
         "E"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "ED",
+          "ED"
+        ]
+      }
+    ]
+  }
 }

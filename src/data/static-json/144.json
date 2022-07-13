@@ -5,7 +5,6 @@
     "jpn": "フリーザー",
     "chs": "急冻鸟"
   },
-  "form": "",
   "slug": "articuno",
   "available": [
     {
@@ -134,5 +133,20 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": {
+    "galar": [
+      {
+        "generation": "VIII",
+        "games": [
+          "sw",
+          "sh"
+        ],
+        "available": [
+          "CD",
+          "CD"
+        ]
+      }
+    ]
+  }
 }
