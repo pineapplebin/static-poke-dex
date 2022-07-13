@@ -1,0 +1,1 @@
+const a="768",o=768,s={jpn:"\u30B0\u30BD\u30AF\u30E0\u30B7\u30E3",chs:"\u5177\u7532\u6B66\u8005"},e="golisopod",n=[{generation:"VII",games:["s","m","us","um"],available:["E","E","E","E"]},{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var l={no:a,idx:768,name:s,slug:e,available:n};export{n as available,l as default,o as idx,s as name,a as no,e as slug};

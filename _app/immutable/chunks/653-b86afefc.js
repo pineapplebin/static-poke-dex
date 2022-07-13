@@ -1,0 +1,1 @@
+const a="653",l=653,n={jpn:"\u30D5\u30A9\u30C3\u30B3",chs:"\u706B\u72D0\u72F8"},e="fennekin",s=[{generation:"VI",games:["x","y","or","as"],available:["R","R","Ev","Ev"]},{generation:"VII",games:["s","m","us","um"],available:["T","T","B","B"]}];var o={no:a,idx:653,name:n,slug:e,available:s};export{s as available,o as default,l as idx,n as name,a as no,e as slug};

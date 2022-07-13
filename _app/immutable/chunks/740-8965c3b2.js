@@ -1,0 +1,1 @@
+const a="740",l=740,n={jpn:"\u30B1\u30B1\u30F3\u30AB\u30CB",chs:"\u597D\u80DC\u6BDB\u87F9"},s="crabominable",e=[{generation:"VII",games:["s","m","us","um"],available:["E","E","E","E"]}];var o={no:a,idx:740,name:n,slug:s,available:e};export{e as available,o as default,l as idx,n as name,a as no,s as slug};

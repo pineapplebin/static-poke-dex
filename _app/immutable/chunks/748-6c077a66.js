@@ -1,0 +1,1 @@
+const a="748",l=748,e={jpn:"\u30C9\u30D2\u30C9\u30A4\u30C7",chs:"\u8D85\u574F\u661F"},s="toxapex",n=[{generation:"VII",games:["s","m","us","um"],available:["E","E","E","E"]},{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var o={no:a,idx:748,name:e,slug:s,available:n};export{n as available,o as default,l as idx,e as name,a as no,s as slug};

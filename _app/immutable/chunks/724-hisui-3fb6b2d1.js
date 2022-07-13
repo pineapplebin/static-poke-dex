@@ -1,1 +1,0 @@
-const a="724",o=724,e={jpn:"\u30B8\u30E5\u30CA\u30A4\u30D1\u30FC",chs:"\u72D9\u5C04\u6811\u67AD"},n="hisui",s="decidueye",i=[{generation:"VIII",games:["la"],available:["C"]}];var l={no:a,idx:724,name:e,form:n,slug:s,available:i};export{i as available,l as default,n as form,o as idx,e as name,a as no,s as slug};

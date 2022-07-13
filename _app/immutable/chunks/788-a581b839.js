@@ -1,0 +1,1 @@
+const a="788",i=788,n={jpn:"\u30AB\u30D7\u30FB\u30EC\u30D2\u30EC",chs:"\u5361\u749E\u30FB\u9CCD\u9CCD"},s="tapu-fini",e=[{generation:"VII",games:["s","m","us","um"],available:["C","C","C","C"]},{generation:"VIII",games:["sw","sh"],available:["DA","DA"]}];var l={no:a,idx:788,name:n,slug:s,available:e};export{e as available,l as default,i as idx,n as name,a as no,s as slug};

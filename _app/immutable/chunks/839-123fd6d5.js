@@ -1,1 +1,0 @@
-const a="839",e=839,s={jpn:"\u30BB\u30AD\u30BF\u30F3\u30B6\u30F3",chs:"\u5DE8\u70AD\u5C71"},o="",n="coalossal",l=[{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var t={no:a,idx:839,name:s,form:o,slug:n,available:l};export{l as available,t as default,o as form,e as idx,s as name,a as no,n as slug};

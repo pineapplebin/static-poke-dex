@@ -1,0 +1,1 @@
+const a="784",o=784,s={jpn:"\u30B8\u30E3\u30E9\u30E9\u30F3\u30AC",chs:"\u6756\u5C3E\u9CDE\u7532\u9F99"},e="kommo-o",n=[{generation:"VII",games:["s","m","us","um"],available:["C","C","C","C"]},{generation:"VIII",games:["sw","sh"],available:["C","EVE"]}];var l={no:a,idx:784,name:s,slug:e,available:n};export{n as available,l as default,o as idx,s as name,a as no,e as slug};

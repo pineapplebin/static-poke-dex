@@ -1,0 +1,1 @@
+const a="902",s=902,n={jpn:"\u30A4\u30C0\u30A4\u30C8\u30A6",chs:"\u5E7D\u5C3E\u7384\u9C7C"},e="basculegion",l=[{generation:"VIII",games:["la"],available:["C"]}];var o={no:a,idx:902,name:n,slug:e,available:l};export{l as available,o as default,s as idx,n as name,a as no,e as slug};

@@ -1,0 +1,1 @@
+const a="776",o=776,n={jpn:"\u30D0\u30AF\u30AC\u30E1\u30B9",chs:"\u7206\u7130\u9F9F\u517D"},s="turtonator",e=[{generation:"VII",games:["s","m","us","um"],available:["C","Ev","C","T"]},{generation:"VIII",games:["sw","sh"],available:["C","T"]}];var t={no:a,idx:776,name:n,slug:s,available:e};export{e as available,t as default,o as idx,n as name,a as no,s as slug};

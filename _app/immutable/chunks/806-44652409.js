@@ -1,1 +1,0 @@
-const a="806",l=806,n={jpn:"\u30BA\u30AC\u30C9\u30FC\u30F3",chs:"\u7830\u5934\u5C0F\u4E11"},e="",s="blacephalon",o=[{generation:"VII",games:["us","um"],available:["C","T"]},{generation:"VIII",games:["sw","sh"],available:["DA","DA"]}];var t={no:a,idx:806,name:n,form:e,slug:s,available:o};export{o as available,t as default,e as form,l as idx,n as name,a as no,s as slug};

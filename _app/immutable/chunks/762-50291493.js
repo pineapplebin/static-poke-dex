@@ -1,0 +1,1 @@
+const a="762",l=762,e={jpn:"\u30A2\u30DE\u30DE\u30A4\u30B3",chs:"\u751C\u821E\u59AE"},s="steenee",n=[{generation:"VII",games:["s","m","us","um"],available:["R","R","C","C"]},{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var o={no:a,idx:762,name:e,slug:s,available:n};export{n as available,o as default,l as idx,e as name,a as no,s as slug};

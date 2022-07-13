@@ -1,1 +1,0 @@
-const a="842",l=842,n={jpn:"\u30BF\u30EB\u30C3\u30D7\u30EB",chs:"\u4E30\u871C\u9F99"},s="",o="appletun",e=[{generation:"VIII",games:["sw","sh"],available:["T","D"]}];var t={no:a,idx:842,name:n,form:s,slug:o,available:e};export{e as available,t as default,s as form,l as idx,n as name,a as no,o as slug};

@@ -1,0 +1,1 @@
+const a="664",l=664,e={jpn:"\u30B3\u30D5\u30AD\u30E0\u30B7",chs:"\u7C89\u8776\u866B"},s="scatterbug",n=[{generation:"VI",games:["x","y","or","as"],available:["C","C","T","T"]},{generation:"VII",games:["s","m","us","um"],available:["T","T","S","S"]}];var o={no:a,idx:664,name:e,slug:s,available:n};export{n as available,o as default,l as idx,e as name,a as no,s as slug};

@@ -1,0 +1,1 @@
+const a="723",l=723,s={jpn:"\u30D5\u30AF\u30B9\u30ED\u30FC",chs:"\u6295\u7FBD\u67AD"},e="dartrix",n=[{generation:"VII",games:["s","m","us","um"],available:["E","E","E","E"]},{generation:"VIII",games:["sw","sh","la"],available:["ED","ED","C"]}];var i={no:a,idx:723,name:s,slug:e,available:n};export{n as available,i as default,l as idx,s as name,a as no,e as slug};

@@ -1,0 +1,1 @@
+const a="670",l=670,e={jpn:"\u30D5\u30E9\u30A8\u30C3\u30C6",chs:"\u82B1\u53F6\u8482"},n="floette",s=[{generation:"VI",games:["x","y","or","as"],available:["E","E","T","T"]},{generation:"VII",games:["s","m","us","um"],available:["T","T","C","C"]}];var o={no:a,idx:670,name:e,slug:n,available:s};export{s as available,o as default,l as idx,e as name,a as no,n as slug};
