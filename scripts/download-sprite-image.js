@@ -17,7 +17,7 @@ const ERROR_LIST = [];
 async function downloadImage(slug, filename, no) {
   try {
     await downloader.image({
-      url: `https://img.pokemondb.net/sprites/home/normal/1x/${slug}.png`,
+      url: `https://img.pokemondb.net/sprites/home/normal/${slug}.png`,
       dest: filename
     });
     count++;
@@ -134,12 +134,16 @@ function fetchPoke(no) {
 async function main() {
   const keys = Object.keys(POKEMON_LIST).sort();
   const BATCH = 100;
-  let index = 850;
+  let index = 0;
 
-  await Promise.all(keys.slice(index, index + BATCH).map((no) => fetchPoke(no))).finally(() => {
-    console.log(`\n[DONE] total count: ${count}\n[END] error list: ${ERROR_LIST.join(', ')}`);
-    process.exit();
-  });
+  while (index < keys.length) {
+    await Promise.all(keys.slice(index, index + BATCH).map((no) => fetchPoke(no))).finally(() => {
+      console.log(`\n[DONE] total count: ${count}\n[END] error list: ${ERROR_LIST.join(', ')}`);
+    });
+    index += BATCH;
+  }
+
+  process.exit();
 }
 
 main();
