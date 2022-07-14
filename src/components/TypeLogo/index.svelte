@@ -46,7 +46,10 @@
 
   .logo-holder {
     overflow: hidden;
-    padding: 0 2px 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
     height: 28px;
   }
 

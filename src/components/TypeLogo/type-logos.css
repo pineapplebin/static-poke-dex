@@ -1,64 +1,63 @@
 .type-logos {
   display: inline-block;
-  width: 28px;
-  height: 28px;
-
-  background-image: url('type-logos.png');
+  width: 16px;
+  height: 16px;
+  background-size: contain;
   background-repeat: no-repeat;
-  image-rendering: pixelated;
+  background-position: center center;
 }
 
 .type-logos.bug {
-  background-position: 0 0;
+  background-image: url('./assets/bug.png');
 }
 .type-logos.dark {
-  background-position: -28px 0;
+  background-image: url('./assets/dark.png');
 }
 .type-logos.dragon {
-  background-position: -56px 0;
+  background-image: url('./assets/dragon.png');
 }
 .type-logos.electric {
-  background-position: -84px 0;
+  background-image: url('./assets/electric.png');
 }
 .type-logos.fairy {
-  background-position: 0 -28px;
+  background-image: url('./assets/fairy.png');
 }
 .type-logos.fighting {
-  background-position: -28px -28px;
+  background-image: url('./assets/fighting.png');
 }
 .type-logos.fire {
-  background-position: -56px -28px;
+  background-image: url('./assets/fire.png');
 }
 .type-logos.flying {
-  background-position: -84px -28px;
+  background-image: url('./assets/flying.png');
 }
 .type-logos.ghost {
-  background-position: 0 -56px;
+  background-image: url('./assets/ghost.png');
 }
 .type-logos.grass {
-  background-position: -28px -56px;
+  background-image: url('./assets/grass.png');
 }
 .type-logos.ground {
-  background-position: -56px -256px;
+  background-image: url('./assets/ground.png');
 }
 .type-logos.ice {
-  background-position: -84px -56px;
+  background-image: url('./assets/ice.png');
 }
 .type-logos.normal {
-  background-position: 0 -84px;
+  background-image: url('./assets/normal.png');
 }
 .type-logos.poison {
-  background-position: -28px -84px;
+  background-image: url('./assets/poison.png');
 }
 .type-logos.psychic {
-  background-position: -56px -84px;
+  background-image: url('./assets/psychic.png');
 }
 .type-logos.rock {
-  background-position: -84px -84px;
+  background-image: url('./assets/rock.png');
 }
 .type-logos.steel {
-  background-position: -112px 0;
+  background-image: url('./assets/steel.png');
 }
 .type-logos.water {
-  background-position: -112px -28px;
+  background-image: url('./assets/water.png');
 }
