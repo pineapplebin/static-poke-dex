@@ -41,7 +41,7 @@
   .name {
     text-align: center;
     width: 64px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .logo-holder {

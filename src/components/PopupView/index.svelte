@@ -125,6 +125,7 @@
     right: 0;
     top: 0;
     z-index: 101;
+    touch-action: pan-x pan-y;
   }
 
   .animation {
@@ -140,7 +141,7 @@
     height: 95%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 0 0 5px 5px #aaa;
+    box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.3);
     background-color: white;
     overflow: hidden auto;
   }

@@ -39,3 +39,10 @@ export function romanToInt(str1: string): number {
 
   return num;
 }
+
+/**
+ * 填充编号至 3 位字符串
+ */
+export function fillNo(no: string | number): string {
+  return ('' + no).padStart(3, '0');
+}

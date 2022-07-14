@@ -1,12 +1,23 @@
 <script lang="ts">
   import { assets } from '$app/paths';
   import { createEventDispatcher } from 'svelte';
-  import { fly } from 'svelte/transition';
+  import { fade, fly } from 'svelte/transition';
+  import type { Pokemon } from 'pokenode-ts';
+
   import CircularProgress from '@smui/circular-progress';
   import PopupView from '@/components/PopupView/index.svelte';
   import TypeLogo from '@/components/TypeLogo/index.svelte';
+  import PokeIcon from '@/components/PokeIcon/index.svelte';
+  import FormDetail from './components/FormDetail.svelte';
+
   import { normalizeStyle } from '@/utils/styles';
-  import { fetchDetailData, type TFetchDetailDataRes } from './fetch';
+  import {
+    fetchDetailData,
+    fetchPokemonByUrl,
+    type TFetchDetailDataRes,
+    type TFormData
+  } from './fetch';
+  import { fillNo } from '@/utils/functional';
 
   const dispatch = createEventDispatcher<{ close: never }>();
 
@@ -15,19 +26,42 @@
 
   let open = false;
   let promise: Promise<TFetchDetailDataRes> | null = null;
+
   $: {
     if (no) {
+      const _no = fillNo(no);
       open = true;
-      promise = fetchDetailData({ no, form });
+      promise = fetchDetailData(_no);
     }
   }
   function handleClose() {
-    dispatch('close');
     promise = null;
     transition = false;
+    imageSlug = '';
+    formDetailPromise = null;
+    dispatch('close');
+    form = undefined;
   }
-
   let transition = false;
+
+  /**
+   * 请求 pokemon-specis 后
+   * 获取 pokemon 具体信息
+   */
+
+  let imageSlug: string = '';
+  $: {
+    if (no) {
+      const _no = fillNo(no);
+      imageSlug = form ? `${_no}-${form}` : _no;
+    }
+  }
+  let formDetailPromise: Promise<Pokemon> | null = null;
+  function handleFetchFormDetail(data: TFormData) {
+    formDetailPromise = null;
+    form = data.form === '$' ? undefined : data.form;
+    formDetailPromise = fetchPokemonByUrl(data.url);
+  }
 </script>
 
 <PopupView bind:open on:close={handleClose}>
@@ -44,7 +78,6 @@
         <CircularProgress style="width: 36px; height: 36px;" indeterminate />
       </div>
     {:then value}
-      {@const info = value?.info}
       {@const data = value?.static}
       <div class="background-red" class:transition><div /></div>
       <div class="background-name" class:transition>
@@ -54,16 +87,14 @@
       <img
         class="sprite"
         class:transition
-        src="{assets}/sprites/{no}.png"
+        src={imageSlug ? `${assets}/sprites/${imageSlug}.png` : undefined}
         alt="sprite"
         on:load={() => setTimeout(() => (transition = true), 300)}
+        on:error={() => (imageSlug = fillNo(no || ''))}
       />
       {#if transition}
-        <div transition:fly={{ duration: 100, x: 100 }} class="types">
-          {#each info?.types || [] as type}
-            <TypeLogo name={type.type.name} />
-          {/each}
-        </div>
+        {@const forms = value?.forms}
+        <FormDetail {forms} {no} bind:form />
       {/if}
       <!-- <pre style="word-break: break-all; white-space: normal;">{JSON.stringify(info)}</pre> -->
     {:catch err}
@@ -88,12 +119,6 @@
       transition: transform 0.1s ease-in-out;
       transform: translateX(80%);
     }
-  }
-
-  .types {
-    display: flex;
-    justify-content: center;
-    column-gap: 8px;
   }
 
   .background-red {
@@ -138,6 +163,7 @@
     color: white;
     font-size: 16px;
     font-weight: bold;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
 
     @include parallelogram-head($height, black);
   }

@@ -44,7 +44,7 @@ function transForms(forms, slug, no) {
     .map((f) => {
       let _f = f;
 
-      if (no === '25' && f === 'partner-cap') {
+      if (no === '025' && f === 'partner-cap') {
         // 皮卡丘 partner-cap
         _f = 'johto-cap';
       } else if (no === '201') {
