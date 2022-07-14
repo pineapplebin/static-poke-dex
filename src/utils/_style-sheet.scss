@@ -1,0 +1,31 @@
+@mixin parallelogram-tail($height, $color) {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: calc(-1 * $height / 2);
+    height: 0;
+    width: 0;
+    border-top: calc($height / 2) solid $color;
+    border-left: calc($height / 4) solid $color;
+    border-right: calc($height / 4) solid transparent;
+    border-bottom: calc($height / 2) solid transparent;
+  }
+}
+
+@mixin parallelogram-head($height, $color) {
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(-1 * $height / 2);
+    height: 0;
+    width: 0;
+    border-top: calc($height / 2) solid transparent;
+    border-left: calc($height / 4) solid transparent;
+    border-right: calc($height / 4) solid $color;
+    border-bottom: calc($height / 2) solid $color;
+  }
+}
