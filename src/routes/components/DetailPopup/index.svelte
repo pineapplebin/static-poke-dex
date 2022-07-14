@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { assets } from '$app/paths';
   import { createEventDispatcher } from 'svelte';
   import { fly } from 'svelte/transition';
   import CircularProgress from '@smui/circular-progress';
@@ -53,7 +54,7 @@
       <img
         class="sprite"
         class:transition
-        src={info?.sprites.other.home.front_default}
+        src="{assets}/sprites/{no}.png"
         alt="sprite"
         on:load={() => setTimeout(() => (transition = true), 300)}
       />
