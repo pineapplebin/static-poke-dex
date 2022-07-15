@@ -37,5 +37,12 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "blue",
+    "orange",
+    "red",
+    "white",
+    "yellow"
   ]
 }

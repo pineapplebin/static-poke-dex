@@ -18,5 +18,11 @@
         "D"
       ]
     }
+  ],
+  "forms": [
+    "amped",
+    "gmax",
+    "low-key",
+    "low-key-gmax"
   ]
 }

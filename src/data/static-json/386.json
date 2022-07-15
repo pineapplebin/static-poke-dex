@@ -97,5 +97,11 @@
         "T"
       ]
     }
+  ],
+  "forms": [
+    "attack",
+    "defense",
+    "normal",
+    "speed"
   ]
 }

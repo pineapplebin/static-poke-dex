@@ -64,7 +64,10 @@
       ]
     }
   ],
-  "forms": {
+  "forms": [
+    "hisui"
+  ],
+  "formsAvailable": {
     "hisui": [
       {
         "generation": "VIII",

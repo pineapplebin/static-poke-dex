@@ -6,7 +6,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = nodePath.dirname(__filename);
 
 import POKEMON_LIST from 'pokesprite-images/data/pokemon.json' assert { type: 'json' };
-import LIST from '../src/data/gen-1.json' assert { type: 'json' };
 
 const WRITE_ROOT = nodePath.join(nodePath.dirname(__dirname), 'src', 'data', 'static-json');
 
@@ -53,11 +52,12 @@ function constructStaticJsonData(item, head, next) {
       chs: info.name.chs
     },
     slug: info.slug.eng,
-    available: buildAvailable(item, head)
+    available: buildAvailable(item, head),
+    forms: Object.keys(info['gen-8'].forms).filter((f) => f !== '$')
   };
 
   if (next && next.no === item.no) {
-    data.forms = {
+    data.formsAvailable = {
       [next.form]: buildAvailable(next, head)
     };
   }
@@ -77,11 +77,16 @@ function main(list) {
     }
     const next = body[idx + 1];
     const data = constructStaticJsonData(item, head, next);
-    if (data.forms) {
+    if (data.formsAvailable) {
       skipNext = true;
     }
     writeStaticJsonFile(data);
   });
 }
 
-main(LIST);
+for (const name of ['1', '2', '3', '4', '5', '6', '7', '7-2', '8']) {
+  const { default: list } = await import(`../src/data/gen-${name}.json`, {
+    assert: { type: 'json' }
+  });
+  main(list);
+}

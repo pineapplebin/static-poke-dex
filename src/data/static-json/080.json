@@ -134,7 +134,11 @@
       ]
     }
   ],
-  "forms": {
+  "forms": [
+    "galar",
+    "mega"
+  ],
+  "formsAvailable": {
     "galar": [
       {
         "generation": "VIII",

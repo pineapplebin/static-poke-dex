@@ -97,5 +97,9 @@
         "S"
       ]
     }
+  ],
+  "forms": [
+    "blank",
+    "filled"
   ]
 }

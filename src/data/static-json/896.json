@@ -3,7 +3,7 @@
   "idx": 896,
   "name": {
     "jpn": "ブリザポス",
-    "chs": "雪暴马"
+    "chs": "雪暴馬"
   },
   "slug": "glastrier",
   "available": [
@@ -18,5 +18,6 @@
         "CD"
       ]
     }
-  ]
+  ],
+  "forms": []
 }

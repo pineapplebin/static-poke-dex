@@ -33,5 +33,9 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "school",
+    "solo"
   ]
 }

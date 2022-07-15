@@ -132,7 +132,10 @@
       ]
     }
   ],
-  "forms": {
+  "forms": [
+    "alola"
+  ],
+  "formsAvailable": {
     "alola": [
       {
         "generation": "VII",

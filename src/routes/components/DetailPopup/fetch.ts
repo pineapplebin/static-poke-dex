@@ -1,6 +1,7 @@
 import { UtilityClient, PokemonClient, type PokemonSpecies, type Pokemon } from 'pokenode-ts';
 import type { TStaticPokemon } from '@/types/base';
 import { fetchStaticPokemon } from '@/data/fetch-static';
+import { transForm } from './trans-form';
 
 const client = new PokemonClient();
 const utilClient = new UtilityClient();
@@ -34,14 +35,7 @@ export async function fetchDetailData(no: string) {
 
   result.info = pokeRes.value;
 
-  const regexp = new RegExp(`^${result.info.name}\\-?`);
-  result.forms = pokeRes.value.varieties.map((item) => {
-    const form = item.pokemon.name.replace(regexp, '');
-    return {
-      form: form || '$',
-      url: item.pokemon.url
-    };
-  });
+  result.forms = transForm(no, staticRes.value, pokeRes.value.varieties);
 
   return result;
 }

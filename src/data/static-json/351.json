@@ -97,5 +97,10 @@
         "S"
       ]
     }
+  ],
+  "forms": [
+    "rainy",
+    "snowy",
+    "sunny"
   ]
 }

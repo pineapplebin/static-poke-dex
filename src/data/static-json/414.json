@@ -82,5 +82,10 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "plant",
+    "sandy",
+    "trash"
   ]
 }

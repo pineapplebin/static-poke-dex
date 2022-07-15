@@ -48,5 +48,9 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "blade",
+    "shield"
   ]
 }

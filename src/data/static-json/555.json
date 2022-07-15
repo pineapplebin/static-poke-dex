@@ -64,7 +64,13 @@
       ]
     }
   ],
-  "forms": {
+  "forms": [
+    "galar",
+    "galar-zen",
+    "standard",
+    "zen"
+  ],
+  "formsAvailable": {
     "galar": [
       {
         "generation": "VIII",

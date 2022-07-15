@@ -3,7 +3,7 @@
   "idx": 904,
   "name": {
     "jpn": "ハリーマン",
-    "chs": "万针鱼"
+    "chs": "萬針魚"
   },
   "slug": "overqwil",
   "available": [
@@ -16,5 +16,6 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": []
 }

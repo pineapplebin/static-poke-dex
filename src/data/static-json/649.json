@@ -63,5 +63,12 @@
         "T"
       ]
     }
+  ],
+  "forms": [
+    "burn",
+    "chill",
+    "douse",
+    "shock",
+    "standard"
   ]
 }

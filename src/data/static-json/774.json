@@ -22,5 +22,28 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "blue",
+    "blue-gen7",
+    "blue-meteor",
+    "green",
+    "green-gen7",
+    "green-meteor",
+    "indigo",
+    "indigo-gen7",
+    "indigo-meteor",
+    "orange",
+    "orange-gen7",
+    "orange-meteor",
+    "red",
+    "red-gen7",
+    "red-meteor",
+    "violet",
+    "violet-gen7",
+    "violet-meteor",
+    "yellow",
+    "yellow-gen7",
+    "yellow-meteor"
   ]
 }

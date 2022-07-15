@@ -134,7 +134,12 @@
       ]
     }
   ],
-  "forms": {
+  "forms": [
+    "alola",
+    "totem",
+    "totem-alola"
+  ],
+  "formsAvailable": {
     "alola": [
       {
         "generation": "VII",

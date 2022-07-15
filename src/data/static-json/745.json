@@ -33,5 +33,10 @@
         "CD"
       ]
     }
+  ],
+  "forms": [
+    "dusk",
+    "midday",
+    "midnight"
   ]
 }

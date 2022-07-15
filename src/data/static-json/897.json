@@ -3,7 +3,7 @@
   "idx": 897,
   "name": {
     "jpn": "レイスポス",
-    "chs": "灵幽马"
+    "chs": "靈幽馬"
   },
   "slug": "spectrier",
   "available": [
@@ -18,5 +18,6 @@
         "CD"
       ]
     }
-  ]
+  ],
+  "forms": []
 }

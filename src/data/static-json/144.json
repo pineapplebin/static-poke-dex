@@ -134,7 +134,10 @@
       ]
     }
   ],
-  "forms": {
+  "forms": [
+    "galar"
+  ],
+  "formsAvailable": {
     "galar": [
       {
         "generation": "VIII",

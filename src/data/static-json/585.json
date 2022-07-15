@@ -52,5 +52,11 @@
         "T"
       ]
     }
+  ],
+  "forms": [
+    "autumn",
+    "spring",
+    "summer",
+    "winter"
   ]
 }

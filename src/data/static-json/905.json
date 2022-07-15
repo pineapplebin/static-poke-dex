@@ -3,7 +3,7 @@
   "idx": 905,
   "name": {
     "jpn": "ラブトロス",
-    "chs": "眷恋云"
+    "chs": "眷戀雲"
   },
   "slug": "enamorus",
   "available": [
@@ -16,5 +16,9 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "incarnate",
+    "therian"
   ]
 }

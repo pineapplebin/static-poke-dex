@@ -11,7 +11,7 @@
 
   $: {
     const item = forms.find((item) => item.form === form || (!form && item.form === '$'));
-    if (item) {
+    if (item && item.url) {
       handleFetchFormDetail(item);
     }
   }

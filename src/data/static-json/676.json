@@ -37,5 +37,17 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "dandy",
+    "debutante",
+    "diamond",
+    "heart",
+    "kabuki",
+    "la-reine",
+    "matron",
+    "natural",
+    "pharaoh",
+    "star"
   ]
 }

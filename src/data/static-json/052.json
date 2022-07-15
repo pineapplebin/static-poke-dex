@@ -18,5 +18,10 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "alola",
+    "galar",
+    "gmax"
   ]
 }

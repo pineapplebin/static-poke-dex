@@ -87,7 +87,11 @@
       ]
     }
   ],
-  "forms": {
+  "forms": [
+    "east",
+    "west"
+  ],
+  "formsAvailable": {
     "east": [
       {
         "generation": "IV",

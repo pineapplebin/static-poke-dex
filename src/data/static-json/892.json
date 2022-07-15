@@ -3,7 +3,7 @@
   "idx": 892,
   "name": {
     "jpn": "ウーラオス",
-    "chs": "武道熊师"
+    "chs": "武道熊師"
   },
   "slug": "urshifu",
   "available": [
@@ -18,5 +18,10 @@
         "ED"
       ]
     }
+  ],
+  "forms": [
+    "gmax",
+    "rapid-strike-gmax",
+    "single-strike-gmax"
   ]
 }

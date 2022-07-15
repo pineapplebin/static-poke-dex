@@ -1,13 +1,10 @@
 <script lang="ts">
   import { assets } from '$app/paths';
   import { createEventDispatcher } from 'svelte';
-  import { fade, fly } from 'svelte/transition';
   import type { Pokemon } from 'pokenode-ts';
 
   import CircularProgress from '@smui/circular-progress';
   import PopupView from '@/components/PopupView/index.svelte';
-  import TypeLogo from '@/components/TypeLogo/index.svelte';
-  import PokeIcon from '@/components/PokeIcon/index.svelte';
   import FormDetail from './components/FormDetail.svelte';
 
   import { normalizeStyle } from '@/utils/styles';
@@ -96,7 +93,6 @@
         {@const forms = value?.forms}
         <FormDetail {forms} {no} bind:form />
       {/if}
-      <!-- <pre style="word-break: break-all; white-space: normal;">{JSON.stringify(info)}</pre> -->
     {:catch err}
       <p>{'' + err}</p>
     {/await}

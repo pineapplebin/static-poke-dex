@@ -130,7 +130,11 @@
       ]
     }
   ],
-  "forms": {
+  "forms": [
+    "hisui",
+    "hisui-noble"
+  ],
+  "formsAvailable": {
     "hisui": [
       {
         "generation": "VIII",

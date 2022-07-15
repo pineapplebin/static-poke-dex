@@ -3,7 +3,7 @@
   "idx": 899,
   "name": {
     "jpn": "アヤシシ",
-    "chs": "诡角鹿"
+    "chs": "詭角鹿"
   },
   "slug": "wyrdeer",
   "available": [
@@ -16,5 +16,6 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": []
 }

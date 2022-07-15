@@ -37,5 +37,27 @@
         "E"
       ]
     }
+  ],
+  "forms": [
+    "archipelago",
+    "continental",
+    "elegant",
+    "fancy",
+    "garden",
+    "high-plains",
+    "icy-snow",
+    "jungle",
+    "marine",
+    "meadow",
+    "modern",
+    "monsoon",
+    "ocean",
+    "poke-ball",
+    "polar",
+    "river",
+    "sandstorm",
+    "savanna",
+    "sun",
+    "tundra"
   ]
 }

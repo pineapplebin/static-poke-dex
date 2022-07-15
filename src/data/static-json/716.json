@@ -48,5 +48,9 @@
         "CCDA"
       ]
     }
+  ],
+  "forms": [
+    "active",
+    "neutral"
   ]
 }

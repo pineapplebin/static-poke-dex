@@ -3,7 +3,7 @@
   "idx": 902,
   "name": {
     "jpn": "イダイトウ",
-    "chs": "幽尾玄鱼"
+    "chs": "幽尾玄魚"
   },
   "slug": "basculegion",
   "available": [
@@ -16,5 +16,6 @@
         "C"
       ]
     }
-  ]
+  ],
+  "forms": []
 }

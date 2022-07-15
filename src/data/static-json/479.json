@@ -86,5 +86,12 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "fan",
+    "frost",
+    "heat",
+    "mow",
+    "wash"
   ]
 }

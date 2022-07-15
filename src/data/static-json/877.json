@@ -18,5 +18,9 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "full-belly",
+    "hangry"
   ]
 }

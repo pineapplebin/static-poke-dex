@@ -16,5 +16,10 @@
         "C"
       ]
     }
+  ],
+  "forms": [
+    "blue-striped",
+    "red-striped",
+    "white-striped"
   ]
 }
