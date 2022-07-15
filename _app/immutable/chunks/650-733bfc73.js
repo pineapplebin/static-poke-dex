@@ -1,1 +1,0 @@
-const a="650",l=650,e={jpn:"\u30CF\u30EA\u30DE\u30ED\u30F3",chs:"\u54C8\u529B\u6817"},n="chespin",s=[{generation:"VI",games:["x","y","or","as"],available:["R","R","T","T"]},{generation:"VII",games:["s","m","us","um"],available:["T","T","B","B"]}];var o={no:a,idx:650,name:e,slug:n,available:s};export{s as available,o as default,l as idx,e as name,a as no,n as slug};

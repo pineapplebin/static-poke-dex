@@ -1,1 +1,0 @@
-const a="651",l=651,n={jpn:"\u30CF\u30EA\u30DC\u30FC\u30B0",chs:"\u80D6\u80D6\u54C8\u529B"},e="quilladin",s=[{generation:"VI",games:["x","y","or","as"],available:["E","E","T","T"]},{generation:"VII",games:["s","m","us","um"],available:["T","T","B","B"]}];var i={no:a,idx:651,name:n,slug:e,available:s};export{s as available,i as default,l as idx,n as name,a as no,e as slug};

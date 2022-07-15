@@ -1,1 +1,0 @@
-const a="671",l=671,e={jpn:"\u30D5\u30E9\u30FC\u30B8\u30A7\u30B9",chs:"\u82B1\u6D01\u592B\u4EBA"},s="florges",n=[{generation:"VI",games:["x","y","or","as"],available:["E","E","T","T"]},{generation:"VII",games:["s","m","us","um"],available:["T","T","E","E"]}];var o={no:a,idx:671,name:e,slug:s,available:n};export{n as available,o as default,l as idx,e as name,a as no,s as slug};

@@ -1,1 +1,0 @@
-const a="824",l=824,n={jpn:"\u30B5\u30C3\u30C1\u30E0\u30B7",chs:"\u7D22\u4FA6\u866B"},s="blipbug",e=[{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var o={no:a,idx:824,name:n,slug:s,available:e};export{e as available,o as default,l as idx,n as name,a as no,s as slug};

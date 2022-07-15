@@ -1,1 +1,0 @@
-const a="853",l=853,n={jpn:"\u30AA\u30C8\u30B9\u30D1\u30B9",chs:"\u516B\u722A\u6B66\u5E08"},s="grapploct",e=[{generation:"VIII",games:["sw","sh"],available:["C","C"]}];var o={no:a,idx:853,name:n,slug:s,available:e};export{e as available,o as default,l as idx,n as name,a as no,s as slug};

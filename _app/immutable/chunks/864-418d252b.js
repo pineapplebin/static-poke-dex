@@ -1,1 +1,0 @@
-const a="864",l=864,s={jpn:"\u30B5\u30CB\u30B4\u30FC\u30F3",chs:"\u9B54\u7075\u73CA\u745A"},n="cursola",e=[{generation:"VIII",games:["sw","sh"],available:["T","D"]}];var o={no:a,idx:864,name:s,slug:n,available:e};export{e as available,o as default,l as idx,s as name,a as no,n as slug};

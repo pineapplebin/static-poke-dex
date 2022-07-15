@@ -1,1 +1,0 @@
-const a="796",l=796,e={jpn:"\u30C7\u30F3\u30B8\u30E5\u30E2\u30AF",chs:"\u7535\u675F\u6728"},s="xurkitree",n=[{generation:"VII",games:["s","m","us","um"],available:["C","C","C","C"]},{generation:"VIII",games:["sw","sh"],available:["DA","DA"]}];var i={no:a,idx:796,name:e,slug:s,available:n};export{n as available,i as default,l as idx,e as name,a as no,s as slug};

@@ -1,1 +1,0 @@
-const a="666",l=666,n={jpn:"\u30D3\u30D3\u30E8\u30F3",chs:"\u5F69\u7C89\u8776"},e="vivillon",s=[{generation:"VI",games:["x","y","or","as"],available:["E","E","Ev","Ev"]},{generation:"VII",games:["s","m","us","um"],available:["T","T","E","E"]}];var o={no:a,idx:666,name:n,slug:e,available:s};export{s as available,o as default,l as idx,n as name,a as no,e as slug};
