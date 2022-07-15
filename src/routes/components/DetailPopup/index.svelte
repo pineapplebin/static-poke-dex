@@ -32,11 +32,11 @@
     }
   }
   function handleClose() {
+    dispatch('close');
     promise = null;
     transition = false;
     imageSlug = '';
     formDetailPromise = null;
-    dispatch('close');
     form = undefined;
   }
   let transition = false;
@@ -109,7 +109,7 @@
 
   .sprite {
     display: inline-block;
-    max-height: 150px;
+    height: 150px;
 
     &.transition {
       transition: transform 0.1s ease-in-out;

@@ -1,6 +1,7 @@
 <script lang="ts">
   import './pokesprite-pokemon-gen8.css';
   import MAPPING from './mapping.json';
+  import { fillNo } from '@/utils/functional';
 
   export let no: number | string | null | undefined = undefined;
   export let form: string | undefined = undefined;
@@ -10,11 +11,11 @@
   $: {
     if (no) {
       const list = [];
-      const key = ('' + no).padStart(3, '0') as keyof typeof MAPPING;
+      const key = fillNo(no) as keyof typeof MAPPING;
       const slug: string | undefined = MAPPING[key];
 
       if (slug) {
-        list.push(slug + (form && form !== 'female' ? `-${form}` : ''));
+        list.push(slug, slug + (form && form !== 'female' ? `-${form}` : ''));
         if (form === 'female') {
           list.push(form);
         }

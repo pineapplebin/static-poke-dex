@@ -32,6 +32,14 @@ export const BOX_LIST = [
     title: 'Sinnoh Alternate',
     rule: '412|sandy,412|trash,413|sandy,413|trash,422|east,423|east,479|heat,479|wash,479|frost,479|fan,479|mow,492|sky'
   },
+  { title: 'Unova 1', rule: '494-533' },
+  { title: 'Unova 2', rule: '534-573' },
+  { title: 'Unova 3', rule: '574-613' },
+  { title: 'Unova 4', rule: '614-649' },
+  {
+    title: 'Unova Alternate',
+    rule: '521|female,550|blue-striped,585|summer,585|autumn,585|winter,586|summer,586|autumn,586|winter,592|female,593|female,641|therian,642|therian,645|therian'
+  },
   {
     title: 'Pokemon GO',
     rule: '808-809'
@@ -60,7 +68,7 @@ export const BOX_LIST = [
   },
   {
     title: 'Hisui 1',
-    rule: '899-905'
+    rule: '899-905,905|therian'
   },
   {
     title: 'Hisui Forms',
