@@ -1,0 +1,15 @@
+{
+  "background": "white",
+  "description": "Static Pokemon Dex",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "touch-icon.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    }
+  ],
+  "name": "Static Poke Dex",
+  "short_name": "StaticPokeDex",
+  "start_url": "."
+}
