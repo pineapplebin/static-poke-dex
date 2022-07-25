@@ -38,8 +38,17 @@ export const BOX_LIST = [
   { title: 'Unova 4', rule: '614-649' },
   {
     title: 'Unova Alternate',
-    rule: '521|female,550|blue-striped,585|summer,585|autumn,585|winter,586|summer,586|autumn,586|winter,592|female,593|female,641|therian,642|therian,645|therian'
+    rule:
+      '521|female,550|blue-striped,585|summer,585|autumn,' +
+      '585|winter,586|summer,586|autumn,586|winter,592|female,' +
+      '593|female,641|therian,642|therian,645|therian,647|resolute'
   },
+  { title: 'Kalos 1', rule: '650-689' },
+  { title: 'Kalos 2', rule: '690-721' },
+  // {
+  //   title: 'Kalos Alternate',
+  //   rule: ''
+  // },
   {
     title: 'Pokemon GO',
     rule: '808-809'
