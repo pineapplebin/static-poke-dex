@@ -1,5 +1,5 @@
 {
-  "background": "white",
+  "theme_color": "#000",
   "description": "Static Pokemon Dex",
   "display": "fullscreen",
   "icons": [

@@ -115,7 +115,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 100;
+    z-index: 6;
     background: rgba(0, 0, 0, 0.32);
   }
 
@@ -124,7 +124,7 @@
     left: 0;
     right: 0;
     top: 0;
-    z-index: 101;
+    z-index: 6;
     touch-action: pan-x pan-y;
   }
 

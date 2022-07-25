@@ -1,4 +1,4 @@
-@mixin parallelogram-tail($height, $color) {
+@mixin parallelogram-tail($height, $color: false) {
   &::after {
     content: '';
     display: block;
@@ -7,15 +7,20 @@
     right: calc(-1 * $height / 2);
     height: 0;
     width: 0;
-    border-top: calc($height / 2) solid $color;
-    border-left: calc($height / 4) solid $color;
+    @if $color {
+      border-top: calc($height / 2) solid $color;
+      border-left: calc($height / 4) solid $color;
+    } @else {
+      border-top: calc($height / 2) solid var(--genGameColor);
+      border-left: calc($height / 4) solid var(--genGameColor);
+    }
     border-right: calc($height / 4) solid transparent;
     border-bottom: calc($height / 2) solid transparent;
   }
 }
 
-@mixin parallelogram-head($height, $color) {
-  &::after {
+@mixin parallelogram-head($height, $color: false) {
+  &::before {
     content: '';
     display: block;
     position: absolute;
@@ -25,7 +30,12 @@
     width: 0;
     border-top: calc($height / 2) solid transparent;
     border-left: calc($height / 4) solid transparent;
-    border-right: calc($height / 4) solid $color;
-    border-bottom: calc($height / 2) solid $color;
+    @if $color {
+      border-right: calc($height / 4) solid $color;
+      border-bottom: calc($height / 2) solid $color;
+    } @else {
+      border-right: calc($height / 4) solid var(--genGameColor);
+      border-bottom: calc($height / 2) solid var(--genGameColor);
+    }
   }
 }

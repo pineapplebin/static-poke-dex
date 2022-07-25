@@ -20,6 +20,11 @@
 
   let formDetailPromise: Promise<Pokemon> | null = null;
 
+  /**
+   * 请求 pokemon-specis 后
+   * 获取 pokemon 具体信息
+   */
+
   function handleFetchFormDetail(data: TFormData) {
     formDetailPromise = null;
     formDetailPromise = fetchPokemonByUrl(data.url);
@@ -45,6 +50,10 @@
           <TypeLogo name={type.type.name} />
         {/each}
       </div>
+
+      <div class="available">
+        <slot name="available" />
+      </div>
     </div>
   {/if}
 {/await}
@@ -58,6 +67,10 @@
     display: flex;
     justify-content: center;
     column-gap: 8px;
+  }
+
+  .available {
+    margin-top: 20px;
   }
 
   .icons {

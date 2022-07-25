@@ -1,20 +1,17 @@
 <script lang="ts">
   import { assets } from '$app/paths';
   import { createEventDispatcher } from 'svelte';
-  import type { Pokemon } from 'pokenode-ts';
 
+  import AvailableDescDialog from '@/components/AvailableDescDialog/index.svelte';
   import CircularProgress from '@smui/circular-progress';
   import PopupView from '@/components/PopupView/index.svelte';
   import FormDetail from './components/FormDetail.svelte';
+  import AvailableTable from './components/AvailableTable.svelte';
 
   import { normalizeStyle } from '@/utils/styles';
-  import {
-    fetchDetailData,
-    fetchPokemonByUrl,
-    type TFetchDetailDataRes,
-    type TFormData
-  } from './fetch';
+  import { fetchDetailData, type TFetchDetailDataRes } from './fetch';
   import { fillNo } from '@/utils/functional';
+  import { availableDialogData } from '@/shared/availableDialogData';
 
   const dispatch = createEventDispatcher<{ close: never }>();
 
@@ -23,6 +20,7 @@
 
   let open = false;
   let promise: Promise<TFetchDetailDataRes> | null = null;
+  let transition = false;
 
   $: {
     if (no) {
@@ -36,15 +34,8 @@
     promise = null;
     transition = false;
     imageSlug = '';
-    formDetailPromise = null;
     form = undefined;
   }
-  let transition = false;
-
-  /**
-   * 请求 pokemon-specis 后
-   * 获取 pokemon 具体信息
-   */
 
   let imageSlug: string = '';
   $: {
@@ -53,11 +44,14 @@
       imageSlug = form ? `${_no}-${form}` : _no;
     }
   }
-  let formDetailPromise: Promise<Pokemon> | null = null;
-  function handleFetchFormDetail(data: TFormData) {
-    formDetailPromise = null;
-    form = data.form === '$' ? undefined : data.form;
-    formDetailPromise = fetchPokemonByUrl(data.url);
+
+  let showDialog = false;
+  function handleShowAvailableDesc(data: CustomEvent<{ game: string; available: string }>) {
+    if (no) {
+      showDialog = true;
+      const { game, available } = data.detail;
+      $availableDialogData = { game, available, pokeInfo: { no: fillNo(no), form } };
+    }
   }
 </script>
 
@@ -89,15 +83,25 @@
         on:load={() => setTimeout(() => (transition = true), 300)}
         on:error={() => (imageSlug = fillNo(no || ''))}
       />
+
       {#if transition}
         {@const forms = value?.forms}
-        <FormDetail {forms} {no} bind:form />
+        <FormDetail {forms} {no} bind:form>
+          <AvailableTable
+            slot="available"
+            staticInfo={data}
+            {form}
+            on:click={handleShowAvailableDesc}
+          />
+        </FormDetail>
       {/if}
     {:catch err}
       <p>{'' + err}</p>
     {/await}
   </div>
 </PopupView>
+
+<AvailableDescDialog bind:open={showDialog} />
 
 <style lang="scss">
   @import '../../../utils/style-sheet';
