@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { TStaticAvailable, TStaticPokemon } from '@/types/base';
+  import SelectedArrow from '@/components/SelectedArrow.svelte';
   import AvailableItem from './AvailableItem.svelte';
 
   export let staticInfo: TStaticPokemon | undefined;
@@ -16,10 +17,21 @@
       availableList = [];
     }
   }
+
+  let checkIndex = 0;
 </script>
 
 <div class="available-list">
-  {#each availableList as gen}
+  <div class="gen-select-list">
+    {#each availableList as gen, index}
+      <SelectedArrow bind:group={checkIndex} value={index}>
+        <div class="gen-select">{gen.generation}</div>
+      </SelectedArrow>
+    {/each}
+  </div>
+
+  {#if availableList[checkIndex]}
+    {@const gen = availableList[checkIndex]}
     <div class="generation">
       {#each gen.games as game, index}
         <AvailableItem
@@ -30,7 +42,7 @@
         />
       {/each}
     </div>
-  {/each}
+  {/if}
 </div>
 
 <style>
@@ -39,5 +51,14 @@
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
+  }
+
+  .gen-select-list {
+    margin-bottom: 10px;
+  }
+
+  .gen-select {
+    width: 40px;
+    text-align: center;
   }
 </style>

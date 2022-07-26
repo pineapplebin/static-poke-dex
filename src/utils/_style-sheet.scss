@@ -11,8 +11,8 @@
       border-top: calc($height / 2) solid $color;
       border-left: calc($height / 4) solid $color;
     } @else {
-      border-top: calc($height / 2) solid var(--genGameColor);
-      border-left: calc($height / 4) solid var(--genGameColor);
+      border-top: calc($height / 2) solid var(--injectColor);
+      border-left: calc($height / 4) solid var(--injectColor);
     }
     border-right: calc($height / 4) solid transparent;
     border-bottom: calc($height / 2) solid transparent;
@@ -34,8 +34,8 @@
       border-right: calc($height / 4) solid $color;
       border-bottom: calc($height / 2) solid $color;
     } @else {
-      border-right: calc($height / 4) solid var(--genGameColor);
-      border-bottom: calc($height / 2) solid var(--genGameColor);
+      border-right: calc($height / 4) solid var(--injectColor);
+      border-bottom: calc($height / 2) solid var(--injectColor);
     }
   }
 }

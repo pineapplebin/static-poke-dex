@@ -22,7 +22,7 @@
       color: $color;
     }
     .#{$gen}-#{$game}-solid {
-      --genGameColor: #{$color};
+      --injectColor: #{$color};
       background: $color !important;
     }
   }

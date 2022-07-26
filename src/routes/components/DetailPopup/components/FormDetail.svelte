@@ -3,22 +3,25 @@
   import type { Pokemon } from 'pokenode-ts';
   import PokeIcon from '@/components/PokeIcon/index.svelte';
   import TypeLogo from '@/components/TypeLogo/index.svelte';
+  import SelectedArrow from '@/components/SelectedArrow.svelte';
   import { fetchPokemonByUrl, type TFormData } from '../fetch';
+  import TitleTag from './TitleTag.svelte';
 
   export let no: string | number | null = null;
   export let form: string | undefined = undefined;
   export let forms: TFormData[] = [];
 
+  let formDetailPromise: Promise<Pokemon> | null = null;
+
   $: {
     const item = forms.find((item) => item.form === form || (!form && item.form === '$'));
     if (item && item.url) {
+      formDetailPromise = null;
       setTimeout(() => {
         handleFetchFormDetail(item);
-      }, 300);
+      }, 200);
     }
   }
-
-  let formDetailPromise: Promise<Pokemon> | null = null;
 
   /**
    * 请求 pokemon-specis 后
@@ -26,20 +29,15 @@
    */
 
   function handleFetchFormDetail(data: TFormData) {
-    formDetailPromise = null;
     formDetailPromise = fetchPokemonByUrl(data.url);
   }
 </script>
 
 <div class="icons" transition:fly={{ duration: 100, x: -100 }}>
   {#each forms || [] as item (item.form)}
-    <div
-      class="icon-item"
-      class:active={(!form && item.form === '$') || form === item.form}
-      on:click={() => (form = item.form === '$' ? undefined : item.form)}
-    >
+    <SelectedArrow bind:group={form} value={item.form === '$' ? undefined : item.form}>
       <PokeIcon {no} form={item.form === '$' ? undefined : item.form} />
-    </div>
+    </SelectedArrow>
   {/each}
 </div>
 {#await formDetailPromise then info}
@@ -52,6 +50,7 @@
       </div>
 
       <div class="available">
+        <TitleTag>获得方式</TitleTag>
         <slot name="available" />
       </div>
     </div>
@@ -70,50 +69,10 @@
   }
 
   .available {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .icons {
     margin-top: -20px;
-  }
-
-  .icon-item {
-    position: relative;
-    display: inline-block;
-
-    &.active {
-      &::after {
-        position: absolute;
-        bottom: 0;
-        left: 40%;
-        content: '';
-        display: block;
-        width: 0;
-        height: 0;
-        border-top: 6px solid transparent;
-        border-right: 6px solid transparent;
-        border-left: 6px solid transparent;
-        border-bottom: 6px solid black;
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
-        animation: bounce 1.5s infinite;
-      }
-    }
-  }
-
-  @keyframes bounce {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(10px);
-    }
-    60% {
-      transform: translateY(5px);
-    }
   }
 </style>
