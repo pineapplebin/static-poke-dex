@@ -41,6 +41,7 @@
     position: relative;
     width: 68px;
     height: 56px;
+    user-select: none;
   }
 
   .game {

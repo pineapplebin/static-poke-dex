@@ -40,18 +40,26 @@
     </SelectedArrow>
   {/each}
 </div>
+
 {#await formDetailPromise then info}
   {#if info}
     <div in:fade={{ duration: 100 }} class="form-detail">
-      <div class="types">
-        {#each info.types || [] as type}
-          <TypeLogo name={type.type.name} />
-        {/each}
+      <div class="block-title battle">
+        <TitleTag>属性关系</TitleTag>
+        <div class="types">
+          {#each info.types || [] as type}
+            <TypeLogo name={type.type.name} />
+          {/each}
+        </div>
       </div>
 
-      <div class="available">
+      <div class="block-title available">
         <TitleTag>获得方式</TitleTag>
         <slot name="available" />
+      </div>
+
+      <div class="block-title evo-chain">
+        <TitleTag>进化链</TitleTag>
       </div>
     </div>
   {/if}
@@ -68,11 +76,12 @@
     column-gap: 8px;
   }
 
-  .available {
-    margin-top: 10px;
+  .block-title {
+    margin-top: 24px;
   }
 
   .icons {
-    margin-top: -20px;
+    margin-top: -24px;
+    margin-bottom: -38px;
   }
 </style>

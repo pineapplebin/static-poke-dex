@@ -86,6 +86,7 @@
     height: 56px;
     transition: transform 100ms ease-out;
     z-index: 11;
+    user-select: none;
 
     display: flex;
     flex-direction: column;

@@ -1,12 +1,12 @@
 <script lang="ts">
   import { swipe } from 'svelte-gestures';
+  import type { TCheckPokemon } from '@/types/base';
+  import { BOX_LIST, switchBox } from './constants/boxes';
+  import { memoryData } from '@/shared/memoryData';
 
   import IndexMagicButton from './components/IndexMagicButton/index.svelte';
   import PokeBox from './components/PokeBox/index.svelte';
   import DetailPopup from './components/DetailPopup/index.svelte';
-  import type { TCheckPokemon } from '@/types/base';
-  import { BOX_LIST, switchBox } from './constants/boxes';
-  import { memoryData } from '@/shared/memoryData';
 
   let checkDetail: TCheckPokemon | null = null;
 
@@ -54,6 +54,7 @@
     z-index: 1;
     padding: 30px 10px 0 10px;
     min-height: 80vh;
+    user-select: none;
 
     > :global(div) {
       margin-bottom: 30px;

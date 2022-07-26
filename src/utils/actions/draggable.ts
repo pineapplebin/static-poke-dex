@@ -18,7 +18,6 @@ export const draggable: Action<HTMLElement, { disabled: boolean }> = (node, para
   }
 
   function handleTouchMove(e: TouchEvent) {
-    e.preventDefault();
     if (isMoving && !disabled) {
       const target = e.targetTouches[0];
       node.dispatchEvent(

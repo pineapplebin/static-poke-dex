@@ -1,6 +1,10 @@
 <slot />
 
 <style lang="scss" global>
+  html {
+    overflow: hidden;
+  }
+
   body {
     touch-action: pan-x pan-y;
     margin: 0;

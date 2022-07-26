@@ -46,3 +46,21 @@ export function romanToInt(str1: string): number {
 export function fillNo(no: string | number): string {
   return ('' + no).padStart(3, '0');
 }
+
+/**
+ * like python range
+ *
+ * @param start
+ * @param end
+ * @param step
+ */
+export function range(start: number, end: number | undefined = undefined, step: number = 1) {
+  let _start = end === undefined ? 0 : start;
+  let _end = end === undefined ? start : end;
+
+  if (_start > _end) {
+    throw new Error('start can not larger than end');
+  }
+
+  return new Array(_end - _start).fill(null).map((_, idx) => _start + idx * step);
+}

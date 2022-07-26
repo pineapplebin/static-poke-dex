@@ -6,6 +6,7 @@
   export let staticInfo: TStaticPokemon | undefined;
   export let form: string | undefined;
 
+  let checkIndex = 0;
   let availableList: TStaticAvailable[] = [];
   $: {
     if (staticInfo) {
@@ -17,8 +18,6 @@
       availableList = [];
     }
   }
-
-  let checkIndex = 0;
 </script>
 
 <div class="available-list">
@@ -55,10 +54,12 @@
 
   .gen-select-list {
     margin-bottom: 10px;
+    font-family: monospace;
   }
 
   .gen-select {
     width: 40px;
     text-align: center;
+    line-height: 1.5;
   }
 </style>
