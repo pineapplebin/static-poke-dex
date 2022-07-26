@@ -8,8 +8,6 @@ export type TPosition = {
 export const draggable: Action<HTMLElement, { disabled: boolean }> = (node, params) => {
   let disabled = !!params?.disabled;
   let isMoving = false;
-  let currX = 0;
-  let currY = 0;
 
   function handleTouchStart(e: TouchEvent) {
     isMoving = true;
@@ -20,6 +18,7 @@ export const draggable: Action<HTMLElement, { disabled: boolean }> = (node, para
   }
 
   function handleTouchMove(e: TouchEvent) {
+    e.preventDefault();
     if (isMoving && !disabled) {
       const target = e.targetTouches[0];
       node.dispatchEvent(
