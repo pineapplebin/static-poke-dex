@@ -12,6 +12,8 @@
   import { fetchDetailData, type TFetchDetailDataRes } from './fetch';
   import { fillNo } from '@/utils/functional';
   import { availableDialogData } from '@/shared/availableDialogData';
+  import AttackTypeDialog from './components/AttackTypeDialog.svelte';
+  import type { TTypeNames } from '@/components/TypeLogo/constants';
 
   const dispatch = createEventDispatcher<{ close: never }>();
 
@@ -45,14 +47,17 @@
     }
   }
 
-  let showDialog = false;
+  let showAvailableDialog = false;
   function handleShowAvailableDesc(data: CustomEvent<{ game: string; available: string }>) {
     if (no) {
-      showDialog = true;
+      showAvailableDialog = true;
       const { game, available } = data.detail;
       $availableDialogData = { game, available, pokeInfo: { no: fillNo(no), form } };
     }
   }
+
+  let showAttackDialog = false;
+  let attackType: TTypeNames | null = null;
 </script>
 
 <PopupView bind:open on:close={handleClose}>
@@ -86,7 +91,15 @@
 
       {#if transition}
         {@const forms = value?.forms}
-        <FormDetail {forms} {no} bind:form>
+        <FormDetail
+          {forms}
+          {no}
+          bind:form
+          on:attack-dialog={(ev) => {
+            attackType = ev.detail;
+            showAttackDialog = true;
+          }}
+        >
           <AvailableTable
             slot="available"
             staticInfo={data}
@@ -101,7 +114,8 @@
   </div>
 </PopupView>
 
-<AvailableDescDialog bind:open={showDialog} />
+<AvailableDescDialog bind:open={showAvailableDialog} />
+<AttackTypeDialog bind:open={showAttackDialog} type={attackType} />
 
 <style lang="scss">
   @import '../../../utils/style-sheet';

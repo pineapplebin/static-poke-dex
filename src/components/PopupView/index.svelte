@@ -143,7 +143,8 @@
     border-top-right-radius: 10px;
     box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.3);
     background-color: white;
-    overflow: hidden auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .fly-in {

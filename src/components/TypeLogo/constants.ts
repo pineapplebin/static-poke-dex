@@ -26,6 +26,8 @@ export const TYPES_MAP = {
   [Types.WATER]: { className: 'water', chs: '水' }
 } as const;
 
+export type TTypeUseful = keyof typeof TYPES_MAP;
+
 export const TYPES_NAME = Object.values(TYPES_MAP).reduce((acc, item) => {
   acc[item.className] = item.chs;
   return acc;
@@ -33,4 +35,11 @@ export const TYPES_NAME = Object.values(TYPES_MAP).reduce((acc, item) => {
 
 export type TGetTypeName<R> = R extends Record<string, { className: infer S }> ? S : never;
 
-export type TTypeNames = TGetTypeName<typeof TYPES_MAP>
+export type TTypeNames = TGetTypeName<typeof TYPES_MAP>;
+
+export const TYPES_ID_MAP = Object.keys(TYPES_MAP).reduce((acc, key) => {
+  const typeId = +key as TTypeUseful;
+  const item = TYPES_MAP[typeId];
+  acc[item.className] = +key;
+  return acc;
+}, {} as Record<TTypeNames, TTypeUseful>);

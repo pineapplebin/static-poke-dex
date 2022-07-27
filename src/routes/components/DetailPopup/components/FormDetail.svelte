@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { createEventDispatcher } from 'svelte';
   import { fly, fade } from 'svelte/transition';
   import type { Pokemon } from 'pokenode-ts';
   import PokeIcon from '@/components/PokeIcon/index.svelte';
@@ -6,6 +7,10 @@
   import SelectedArrow from '@/components/SelectedArrow.svelte';
   import { fetchPokemonByUrl, type TFormData } from '../fetch';
   import TitleTag from './TitleTag.svelte';
+  import TypeChart from './TypeChart.svelte';
+  import type { TTypeNames } from '@/components/TypeLogo/constants';
+
+  const dispatch = createEventDispatcher<{ 'attack-dialog': TTypeNames }>();
 
   export let no: string | number | null = null;
   export let form: string | undefined = undefined;
@@ -23,13 +28,12 @@
     }
   }
 
-  /**
-   * 请求 pokemon-specis 后
-   * 获取 pokemon 具体信息
-   */
-
   function handleFetchFormDetail(data: TFormData) {
     formDetailPromise = fetchPokemonByUrl(data.url);
+  }
+
+  function handleShowAttackDialog(ev: CustomEvent<TTypeNames>) {
+    dispatch('attack-dialog', ev.detail);
   }
 </script>
 
@@ -48,9 +52,10 @@
         <TitleTag>属性关系</TitleTag>
         <div class="types">
           {#each info.types || [] as type}
-            <TypeLogo name={type.type.name} />
+            <TypeLogo name={type.type.name} on:click={handleShowAttackDialog} />
           {/each}
         </div>
+        <TypeChart types={info.types || []} on:click={handleShowAttackDialog} />
       </div>
 
       <div class="block-title available">
@@ -74,14 +79,15 @@
     display: flex;
     justify-content: center;
     column-gap: 8px;
+    margin: 4px 0;
   }
 
   .block-title {
-    margin-top: 24px;
+    margin-top: 10px;
   }
 
   .icons {
     margin-top: -24px;
-    margin-bottom: -38px;
+    margin-bottom: -30px;
   }
 </style>

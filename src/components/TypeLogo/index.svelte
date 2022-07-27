@@ -1,9 +1,12 @@
 <script lang="ts">
+  import { createEventDispatcher } from 'svelte';
   import { Types } from 'pokenode-ts';
-  import type { TTypeInfo, TTypeNames } from './constants';
+  import type { TTypeInfo, TTypeNames, TTypeUseful } from './constants';
   import { TYPES_MAP, TYPES_NAME } from './constants';
 
-  export let type = Types.UNKNOWN;
+  const dispatch = createEventDispatcher<{ click: TTypeNames }>();
+
+  export let type: Types = Types.UNKNOWN;
   export let name: string | null = null;
 
   let info: TTypeInfo | null = null;
@@ -16,9 +19,13 @@
   function getName() {
     return name ? TYPES_NAME[name as TTypeNames] : info?.chs;
   }
+
+  function handleClick() {
+    dispatch('click', name ? (name as TTypeNames) : TYPES_MAP[type as TTypeUseful].className);
+  }
 </script>
 
-<div class="type">
+<div class="type" on:click={handleClick}>
   <div class="logo-holder {name ?? info?.className}">
     <span class="type-logos {name ?? info?.className}" />
   </div>
@@ -38,6 +45,8 @@
     background: #445447;
     color: white;
     font-family: monospace;
+    width: 72px;
+    height: $h;
     margin-right: calc($h / 2);
 
     @include parallelogram-tail($h, #445447);
