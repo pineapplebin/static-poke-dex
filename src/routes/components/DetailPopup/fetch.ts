@@ -9,6 +9,7 @@ const utilClient = new UtilityClient();
 export interface TFormData {
   form: string;
   url: string;
+  icon?: string;
 }
 
 export interface TFetchDetailDataRes {

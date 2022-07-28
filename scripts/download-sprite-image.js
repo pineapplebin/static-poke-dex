@@ -85,12 +85,30 @@ const TRANS_MAP = {
       return 'ash';
     }
   },
+  668: ({ f, slug, no }, extra) => {
+    // 火炎狮
+    if (f === '$') {
+      extra.push({ slug: `${slug}-f`, filename: getWritePath(`${no}-female`) });
+    }
+  },
+  678: ({ f, slug, no }, extra) => {
+    // 超能妙喵
+    if (f === '$') {
+      extra.push({ slug: `${slug}-female`, filename: getWritePath(`${no}-female`) });
+    }
+  },
   716: ({ f }) => {
     // 哲尔尼亚斯
     if (f === '$') {
       return 'active';
     } else if (f === 'neutral') {
       return '$';
+    }
+  },
+  718: ({ f, slug, no }, extra) => {
+    // 基格尔德
+    if (f === '10' || f === '50') {
+      extra.push({ slug: `${slug}-${f}`, filename: getWritePath(`${no}-${f}-power-construct`) });
     }
   },
   774: ({ f }) => {
@@ -246,4 +264,4 @@ async function downloadSpecific(no) {
 }
 
 // main();
-downloadSpecific('593');
+downloadSpecific('718');

@@ -79,6 +79,71 @@ HARD_MAPPING['585'] = HARD_MAPPING['586'] = (varieties) =>
 HARD_MAPPING['592'] = HARD_MAPPING['593'] = (varieties) =>
   varieties.concat([{ form: 'female', url: varieties[0].url }]);
 
+HARD_MAPPING['666'] = (varieties) =>
+  varieties.concat(
+    [
+      'icy-snow',
+      'polar',
+      'tundra',
+      'continental',
+      'garden',
+      'elegant',
+      'meadow',
+      'modern',
+      'marine',
+      'archipelago',
+      'high-plains',
+      'sandstorm',
+      'river',
+      'monsoon',
+      'savanna',
+      'sun',
+      'ocean',
+      'jungle',
+      'fancy',
+      'poke-ball'
+    ].map((f) => ({ form: f, url: varieties[0].url }))
+  );
+
+// 668 火炎狮
+HARD_MAPPING['668'] = (varieties) => varieties.concat([{ form: 'female', url: varieties[0].url }]);
+
+// 669 花蓓蓓
+// 670 花叶蒂
+// 671 花洁夫人
+HARD_MAPPING['669'] =
+  HARD_MAPPING['670'] =
+  HARD_MAPPING['671'] =
+    (varieties) =>
+      varieties.concat(
+        ['yellow', 'orange', 'blue', 'white'].map((f) => ({ form: f, url: varieties[0].url }))
+      );
+
+// 676 多丽米亚
+HARD_MAPPING['676'] = (varieties) =>
+  varieties.concat(
+    [
+      'heart',
+      'star',
+      'diamond',
+      'debutante',
+      'matron',
+      'dandy',
+      'la-reine',
+      'kabuki',
+      'pharaoh'
+    ].map((s) => ({ form: s, url: varieties[0].url }))
+  );
+
+// 718 基格尔德
+HARD_MAPPING['718'] = (varieties) =>
+  varieties.map((item) => {
+    if (/power\-construct$/.test(item.form)) {
+      return { ...item, icon: item.form.replace('-power-construct', '') };
+    }
+    return item;
+  });
+
 // 849 颤弦蝾螈
 HARD_MAPPING['849'] = (varieties) =>
   varieties.map((item) => {

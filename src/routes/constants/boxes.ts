@@ -45,10 +45,75 @@ export const BOX_LIST = [
   },
   { title: 'Kalos 1', rule: '650-689' },
   { title: 'Kalos 2', rule: '690-721' },
-  // {
-  //   title: 'Kalos Alternate',
-  //   rule: ''
-  // },
+  {
+    title: 'Kalos Alternate',
+    rule:
+      '658|ash,668|female,' +
+      [669, 670, 671]
+        .map((no) => ['yellow', 'orange', 'blue', 'white'].map((f) => `${no}|${f}`).join(','))
+        .join(',') +
+      ',' +
+      ['heart', 'star', 'diamond', 'debutante', 'matron', 'dandy', 'la-reine', 'kabuki', 'pharaoh']
+        .map((f) => `676|${f}`)
+        .join(',') +
+      ',678|female,' +
+      [710, 711]
+        .map((no) => ['small', 'large', 'super'].map((f) => `${no}|${f}`).join(','))
+        .join(',') +
+      ',718|50|power-construct,718|10,718|10|power-construct,720|unbound'
+  },
+  {
+    title: 'Vivillon Forms',
+    rule: [
+      'icy-snow',
+      'polar',
+      'tundra',
+      'continental',
+      'garden',
+      'elegant',
+      'meadow',
+      'modern',
+      'marine',
+      'archipelago',
+      'high-plains',
+      'sandstorm',
+      'river',
+      'monsoon',
+      'savanna',
+      'sun',
+      'ocean',
+      'jungle',
+      'fancy',
+      'poke-ball'
+    ]
+      .map((f) => `666|${f}`)
+      .join(',')
+  },
+  {
+    title: 'Alola 1',
+    rule: '722-761'
+  },
+  {
+    title: 'Alola 2',
+    rule: '762-801'
+  },
+  {
+    title: 'Alola 3',
+    rule: '802-807'
+  },
+  {
+    title: 'Alola Alternate',
+    rule:
+      '741|pom-pom,741|pau,741|sensu,744|own-tempo,745|midnight,745|dusk,' +
+      ['orange', 'yellow', 'green', 'blue', 'indigo', 'violet'].map((f) => `774|${f}`).join(',') +
+      ',801|original'
+  },
+  {
+    title: 'Alola Forms',
+    rule: [19, 20, 26, 27, 28, 37, 38, 50, 51, 52, 53, 74, 75, 76, 88, 89, 103, 105]
+      .map((no) => `${no}|alola`)
+      .join(',')
+  },
   {
     title: 'Pokemon GO',
     rule: '808-809'

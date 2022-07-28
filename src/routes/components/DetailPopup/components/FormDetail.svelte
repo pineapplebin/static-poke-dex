@@ -40,7 +40,7 @@
 <div class="icons" transition:fly={{ duration: 100, x: -100 }}>
   {#each forms || [] as item (item.form)}
     <SelectedArrow bind:group={form} value={item.form === '$' ? undefined : item.form}>
-      <PokeIcon {no} form={item.form === '$' ? undefined : item.form} />
+      <PokeIcon {no} form={item.icon ?? (item.form === '$' ? undefined : item.form)} />
     </SelectedArrow>
   {/each}
 </div>

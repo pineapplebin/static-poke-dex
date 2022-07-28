@@ -57,7 +57,7 @@
           handleDetail(cell);
         }}
       >
-        <PokeIcon no={cell.no} form={cell.form} />
+        <PokeIcon no={cell.no} form={cell.icon ?? cell.form} />
       </div>
     {/each}
   </div>

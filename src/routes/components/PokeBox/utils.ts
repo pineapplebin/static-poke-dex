@@ -1,6 +1,7 @@
 export interface TParsedItem {
   no: number;
   form?: string;
+  icon?: string;
 }
 
 /**
@@ -44,6 +45,10 @@ function parseRangeRule(rule: string): TParsedItem[] {
 }
 
 function parseFormRule(rule: string): TParsedItem {
-  const [no, form] = rule.split('|');
-  return { no: +no, form };
+  const [no, form, note] = rule.split('|');
+  return {
+    no: +no,
+    form: note ? `${form}-${note}` : form,
+    icon: note ? form : undefined
+  };
 }

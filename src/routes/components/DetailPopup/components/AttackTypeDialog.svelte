@@ -36,7 +36,7 @@
     <Content>
       {#each [good, bad] as list}
         <div class="list">
-          {#each list as item}
+          {#each list as item (item.type)}
             <div class="item">
               <TypeLogo type={item.type} />
               {#if item.times < 1 && item.times > 0}
