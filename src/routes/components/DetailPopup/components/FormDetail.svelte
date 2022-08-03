@@ -2,13 +2,15 @@
   import { createEventDispatcher } from 'svelte';
   import { fly, fade } from 'svelte/transition';
   import type { Pokemon } from 'pokenode-ts';
+  import type { TTypeNames } from '@/components/TypeLogo/constants';
+
   import PokeIcon from '@/components/PokeIcon/index.svelte';
   import TypeLogo from '@/components/TypeLogo/index.svelte';
   import SelectedArrow from '@/components/SelectedArrow.svelte';
   import { fetchPokemonByUrl, type TFormData } from '../fetch';
   import TitleTag from './TitleTag.svelte';
   import TypeChart from './TypeChart.svelte';
-  import type { TTypeNames } from '@/components/TypeLogo/constants';
+  import HexagonStats from '@/components/HexagonStats/index';
 
   const dispatch = createEventDispatcher<{ 'attack-dialog': TTypeNames }>();
 
@@ -61,6 +63,13 @@
       <div class="block-title available">
         <TitleTag>获得方式</TitleTag>
         <slot name="available" />
+      </div>
+
+      <div class="block-title stats">
+        <TitleTag>种族值</TitleTag>
+        <div>
+          <HexagonStats stats={info.stats.map((item) => item.base_stat)} />
+        </div>
       </div>
 
       <div class="block-title evo-chain">

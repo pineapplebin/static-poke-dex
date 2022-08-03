@@ -14,13 +14,15 @@ export function transForm(
 ): TFormData[] {
   const regexp = new RegExp(`^${staticInfo.slug}\\-?`);
 
-  const _varieties = varieties.map((item) => {
-    const form = item.pokemon.name.replace(regexp, '');
-    return {
-      form: item.is_default ? '$' : form || '$',
-      url: item.pokemon.url
-    };
-  });
+  const _varieties = varieties
+    .filter((item) => !/-totem$/.test(item.pokemon.name))
+    .map((item) => {
+      const form = item.pokemon.name.replace(regexp, '');
+      return {
+        form: item.is_default ? '$' : form || '$',
+        url: item.pokemon.url
+      };
+    });
 
   if (no in HARD_MAPPING && typeof HARD_MAPPING[no] === 'function') {
     return HARD_MAPPING[no](_varieties, staticInfo);
