@@ -221,6 +221,20 @@ export function getPokemonDefenseRelation(types: PokemonType[]): TPokemonDefense
       } else {
         weakness[key] = (weakness[key] ?? 1) * relation.times;
       }
+
+      if (key in resistance && key in weakness) {
+        const merge = +(resistance[key] * weakness[key]).toPrecision(10);
+        if (merge === 1) {
+          delete resistance[key];
+          delete weakness[key];
+        } else if (merge > 1) {
+          weakness[key] = merge;
+          delete resistance[key];
+        } else if (merge < 1) {
+          resistance[key] = merge;
+          delete weakness[key];
+        }
+      }
     });
   });
 
