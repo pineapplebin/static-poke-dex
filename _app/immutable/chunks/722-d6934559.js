@@ -1,0 +1,1 @@
+const a="722",l=722,s={jpn:"\u30E2\u30AF\u30ED\u30FC",chs:"\u6728\u6728\u67AD"},e="rowlet",n=[{generation:"VII",games:["s","m","us","um"],available:["R","R","R","R"]},{generation:"VIII",games:["sw","sh","la"],available:["RD","RD","C"]}],o=[];var t={no:a,idx:722,name:s,slug:e,available:n,forms:o};export{n as available,t as default,o as forms,l as idx,s as name,a as no,e as slug};
