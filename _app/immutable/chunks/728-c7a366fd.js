@@ -1,1 +1,0 @@
-const a="728",l=728,s={jpn:"\u30A2\u30B7\u30DE\u30EA",chs:"\u7403\u7403\u6D77\u72EE"},n="popplio",o=[{generation:"VII",games:["s","m","us","um"],available:["R","R","R","R"]},{generation:"VIII",games:["sw","sh"],available:["RD","RD"]}],e=[];var i={no:a,idx:728,name:s,slug:n,available:o,forms:e};export{o as available,i as default,e as forms,l as idx,s as name,a as no,n as slug};

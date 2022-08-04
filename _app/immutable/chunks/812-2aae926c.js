@@ -1,1 +1,0 @@
-const a="812",e=812,s={jpn:"\u30B4\u30EA\u30E9\u30F3\u30C0\u30FC",chs:"\u8F70\u64C2\u91D1\u521A\u7329"},o="rillaboom",n=[{generation:"VIII",games:["sw","sh"],available:["E","E"]}],l=["gmax"];var t={no:a,idx:812,name:s,slug:o,available:n,forms:l};export{n as available,t as default,l as forms,e as idx,s as name,a as no,o as slug};

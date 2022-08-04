@@ -1,1 +1,0 @@
-const a="841",l=841,s={jpn:"\u30A2\u30C3\u30D7\u30EA\u30E5\u30FC",chs:"\u82F9\u88F9\u9F99"},n="flapple",o=[{generation:"VIII",games:["sw","sh"],available:["D","T"]}],e=["gmax"];var t={no:a,idx:841,name:s,slug:n,available:o,forms:e};export{o as available,t as default,e as forms,l as idx,s as name,a as no,n as slug};

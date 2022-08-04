@@ -1,1 +1,0 @@
-const a="739",l=739,s={jpn:"\u30DE\u30B1\u30F3\u30AB\u30CB",chs:"\u597D\u80DC\u87F9"},n="crabrawler",o=[{generation:"VII",games:["s","m","us","um"],available:["C","C","C","C"]}],e=[];var t={no:a,idx:739,name:s,slug:n,available:o,forms:e};export{o as available,t as default,e as forms,l as idx,s as name,a as no,n as slug};
