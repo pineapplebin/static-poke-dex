@@ -222,6 +222,7 @@ export function getPokemonDefenseRelation(types: PokemonType[]): TPokemonDefense
         weakness[key] = (weakness[key] ?? 1) * relation.times;
       }
 
+      // 合并复合属性冲突
       if (key in resistance && key in weakness) {
         const merge = +(resistance[key] * weakness[key]).toPrecision(10);
         if (merge === 1) {

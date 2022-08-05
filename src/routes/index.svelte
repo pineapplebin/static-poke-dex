@@ -1,14 +1,21 @@
 <script lang="ts">
   import { swipe } from 'svelte-gestures';
   import type { TCheckPokemon } from '@/types/base';
-  import { BOX_LIST, switchBox } from './constants/boxes';
+  import { BOX_LIST, switchBox, type TBox } from './constants/boxes';
   import { memoryData } from '@/shared/memoryData';
 
   import IndexMagicButton from './components/IndexMagicButton/index.svelte';
   import PokeBox from './components/PokeBox/index.svelte';
   import DetailPopup from './components/DetailPopup/index.svelte';
 
+  const PAGE_SIZE = 2;
   let checkDetail: TCheckPokemon | null = null;
+
+  let pageList: TBox[] = [];
+  $: {
+    const idx = $memoryData.currentIndex;
+    pageList = BOX_LIST.slice(idx * PAGE_SIZE, idx * PAGE_SIZE + PAGE_SIZE);
+  }
 
   function handleCheckDetail(ev: CustomEvent<TCheckPokemon>) {
     checkDetail = ev.detail;
@@ -21,17 +28,16 @@
     } else if (e.detail.direction === 'right') {
       delta = -1;
     }
-    $memoryData.currentIndex = switchBox($memoryData.currentIndex, delta);
+    $memoryData.currentIndex = switchBox($memoryData.currentIndex, delta, PAGE_SIZE);
   }
 </script>
 
 <div class="background" />
 
 <div class="content" use:swipe on:swipe={handleSwipe}>
-  {#if BOX_LIST[$memoryData.currentIndex]}
-    {@const box = BOX_LIST[$memoryData.currentIndex]}
+  {#each pageList as box (box.title)}
     <PokeBox {...box} on:detail={handleCheckDetail} />
-  {/if}
+  {/each}
 </div>
 
 <IndexMagicButton />

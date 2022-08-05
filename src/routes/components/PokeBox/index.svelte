@@ -66,17 +66,18 @@
 <style lang="scss">
   .box {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: 60px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 50px;
     grid-gap: 8px 0;
+    min-height: 290px;
   }
 
   .box-cell {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    width: 68px;
-    height: 60px;
+    align-items: flex-end;
+    width: 60px;
+    height: 50px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.6);
     margin: 0 auto;
@@ -91,7 +92,7 @@
   .title {
     margin: 0 auto;
     width: 60vw;
-    height: 48px;
+    height: 40px;
     border-radius: 24px;
     background: black;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);

@@ -74,6 +74,7 @@
 
       <div class="block-title evo-chain">
         <TitleTag>进化链</TitleTag>
+        <slot name="evo-chain" />
       </div>
     </div>
   {/if}

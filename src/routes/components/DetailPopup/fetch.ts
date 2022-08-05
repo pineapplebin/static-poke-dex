@@ -3,8 +3,8 @@ import type { TStaticPokemon } from '@/types/base';
 import { fetchStaticPokemon } from '@/data/fetch-static';
 import { transForm } from './trans-form';
 
-const client = new PokemonClient();
-const utilClient = new UtilityClient();
+export const client = new PokemonClient();
+export const utilClient = new UtilityClient();
 
 export interface TFormData {
   form: string;

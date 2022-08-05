@@ -10,10 +10,11 @@
   let availableList: TStaticAvailable[] = [];
   $: {
     if (staticInfo) {
-      availableList =
+      availableList = (
         (form && staticInfo.formsAvailable && form in staticInfo.formsAvailable
           ? staticInfo.formsAvailable[form]
-          : staticInfo.available) || [];
+          : staticInfo.available) || []
+      ).reverse();
     } else {
       availableList = [];
     }

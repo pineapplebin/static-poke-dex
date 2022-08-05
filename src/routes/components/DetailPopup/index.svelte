@@ -14,6 +14,7 @@
   import { availableDialogData } from '@/shared/availableDialogData';
   import AttackTypeDialog from './components/AttackTypeDialog.svelte';
   import type { TTypeNames } from '@/components/TypeLogo/constants';
+  import EvoChain from './components/EvoChain.svelte';
 
   const dispatch = createEventDispatcher<{ close: never }>();
 
@@ -106,6 +107,7 @@
             {form}
             on:click={handleShowAvailableDesc}
           />
+          <EvoChain slot="evo-chain" url={value?.info?.evolution_chain.url} {no} {form} />
         </FormDetail>
       {/if}
     {:catch err}

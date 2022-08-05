@@ -1,41 +1,35 @@
+export type TBox = {
+  title: string;
+  rule: string;
+};
+
+const DELTA = 30;
+
 export const BOX_LIST = [
-  { title: 'Kanto 1', rule: '1-40' },
-  { title: 'Kanto 2', rule: '41-80' },
-  { title: 'Kanto 3', rule: '81-120' },
-  { title: 'Kanto 4', rule: '121-151' },
-  {
-    title: 'Cap Pikachu',
-    rule: ['original', 'hoenn', 'sinnoh', 'unova', 'kalos', 'alola', 'partner', 'world']
+  ...splitBoxByNo('Kanto', 1, 151),
+  ...splitBoxByRule(
+    'Cap Pikachu',
+    ['original', 'hoenn', 'sinnoh', 'unova', 'kalos', 'alola', 'partner', 'world']
       .map((s) => `25|${s}-cap`)
       .join(',')
-  },
-  { title: 'Johto 1', rule: '152-191' },
-  { title: 'Johto 2', rule: '192-231' },
-  { title: 'Johto 3', rule: '232-251' },
-  {
-    title: 'Unown',
-    rule: [
+  ),
+  ...splitBoxByNo('Johto', 152, 251),
+  ...splitBoxByRule(
+    'Unown',
+    [
       ...new Array(26).fill(0).map((_, i) => `201|${String.fromCharCode(97 + i)}`),
       '201|exclamation',
       '201|question'
     ].join(',')
-  },
-  { title: 'Hoenn 1', rule: '252-291' },
-  { title: 'Hoenn 2', rule: '292-331' },
-  { title: 'Hoenn 3', rule: '332-371' },
-  { title: 'Hoenn 4', rule: '372-386' },
+  ),
+  ...splitBoxByNo('Hoenn', 252, 386),
   { title: 'Hoenn Alternate', rule: '386|attack,386|defense,386|speed' },
-  { title: 'Sinnoh 1', rule: '387-426' },
-  { title: 'Sinnoh 2', rule: '427-466' },
-  { title: 'Sinnoh 3', rule: '467-493' },
+  ...splitBoxByNo('Sinnoh', 387, 493),
   {
     title: 'Sinnoh Alternate',
     rule: '412|sandy,412|trash,413|sandy,413|trash,422|east,423|east,479|heat,479|wash,479|frost,479|fan,479|mow,492|sky'
   },
-  { title: 'Unova 1', rule: '494-533' },
-  { title: 'Unova 2', rule: '534-573' },
-  { title: 'Unova 3', rule: '574-613' },
-  { title: 'Unova 4', rule: '614-649' },
+  ...splitBoxByNo('Unova', 494, 649),
   {
     title: 'Unova Alternate',
     rule:
@@ -43,12 +37,10 @@ export const BOX_LIST = [
       '585|winter,586|summer,586|autumn,586|winter,592|female,' +
       '593|female,641|therian,642|therian,645|therian,647|resolute'
   },
-  { title: 'Kalos 1', rule: '650-689' },
-  { title: 'Kalos 2', rule: '690-721' },
-  {
-    title: 'Kalos Alternate',
-    rule:
-      '658|ash,668|female,' +
+  ...splitBoxByNo('Kalos', 650, 721),
+  ...splitBoxByRule(
+    'Kalos Alternate',
+    '658|ash,668|female,' +
       [669, 670, 671]
         .map((no) => ['yellow', 'orange', 'blue', 'white'].map((f) => `${no}|${f}`).join(','))
         .join(',') +
@@ -61,7 +53,7 @@ export const BOX_LIST = [
         .map((no) => ['small', 'large', 'super'].map((f) => `${no}|${f}`).join(','))
         .join(',') +
       ',718|50|power-construct,718|10,718|10|power-construct,720|unbound'
-  },
+  ),
   {
     title: 'Vivillon Forms',
     rule: [
@@ -89,38 +81,24 @@ export const BOX_LIST = [
       .map((f) => `666|${f}`)
       .join(',')
   },
-  {
-    title: 'Alola 1',
-    rule: '722-761'
-  },
-  {
-    title: 'Alola 2',
-    rule: '762-801'
-  },
-  {
-    title: 'Alola 3',
-    rule: '802-807'
-  },
-  {
-    title: 'Alola Alternate',
-    rule:
-      '741|pom-pom,741|pau,741|sensu,744|own-tempo,745|midnight,745|dusk,' +
+  ...splitBoxByNo('Alola', 722, 807),
+  ...splitBoxByRule(
+    'Alola Alternate',
+    '741|pom-pom,741|pau,741|sensu,744|own-tempo,745|midnight,745|dusk,' +
       ['orange', 'yellow', 'green', 'blue', 'indigo', 'violet'].map((f) => `774|${f}`).join(',') +
       ',801|original'
-  },
-  {
-    title: 'Alola Forms',
-    rule: [19, 20, 26, 27, 28, 37, 38, 50, 51, 52, 53, 74, 75, 76, 88, 89, 103, 105]
+  ),
+  ...splitBoxByRule(
+    'Alola Forms',
+    [19, 20, 26, 27, 28, 37, 38, 50, 51, 52, 53, 74, 75, 76, 88, 89, 103, 105]
       .map((no) => `${no}|alola`)
       .join(',')
-  },
+  ),
   {
     title: 'Pokemon GO',
     rule: '808-809'
   },
-  { title: 'Galar 1', rule: '810-849' },
-  { title: 'Galar 2', rule: '850-889' },
-  { title: 'Galar 3', rule: '890-898' },
+  ...splitBoxByNo('Galar', 810, 898),
   { title: 'Galar Alternate', rule: '849|low-key,854,855,876|female,892,893|dada' },
   {
     title: 'Galar Forms',
@@ -128,9 +106,9 @@ export const BOX_LIST = [
       .map((no) => `${no}|galar`)
       .join(',')
   },
-  {
-    title: 'Galar Gigantamax',
-    rule: [
+  ...splitBoxByRule(
+    'Galar Gigantamax',
+    [
       3, 6, 9, 12, 25, 52, 68, 94, 99, 131, 143, 569, 809, 812, 815, 818, 823, 826, 834, 839, 841,
       842, 844, 849
     ]
@@ -139,7 +117,7 @@ export const BOX_LIST = [
       .concat([851, 858, 861, 869, 879, 884].map((no) => `${no}|gmax`))
       .concat(['892|single-strike-gmax', '892|rapid-strike-gmax'])
       .join(',')
-  },
+  ),
   {
     title: 'Hisui 1',
     rule: '899-905,905|therian'
@@ -154,16 +132,52 @@ export const BOX_LIST = [
   }
 ];
 
-export function switchBox(idx: number, delta: number) {
+export function splitBoxByNo(title: string, start: number, end: number) {
+  const result: TBox[] = [];
+
+  let count = 1;
+  let current = start;
+  while (current < end) {
+    result.push({
+      title: `${title} ${count}`,
+      rule: `${current}-${Math.min(end, current + DELTA - 1)}`
+    });
+    count++;
+    current += DELTA;
+  }
+
+  return result;
+}
+
+export function splitBoxByRule(title: string, rule: string) {
+  const result: TBox[] = [];
+
+  const list = rule.split(',');
+  let count = 1;
+  let current = 0;
+  while (current < list.length) {
+    result.push({
+      title: `${title} ${count}`,
+      rule: list.slice(current, current + DELTA).join(',')
+    });
+    count++;
+    current += DELTA;
+  }
+
+  return result;
+}
+
+export function switchBox(idx: number, delta: number, pageSize: number) {
+  const length = Math.floor(BOX_LIST.length / pageSize);
   let targetIndex = idx;
 
   targetIndex += delta;
 
-  if (targetIndex >= BOX_LIST.length) {
+  if (targetIndex >= length) {
     targetIndex = 0;
   }
   if (targetIndex < 0) {
-    targetIndex = BOX_LIST.length - 1;
+    targetIndex = length - 1;
   }
 
   return targetIndex;
