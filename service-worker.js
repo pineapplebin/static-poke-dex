@@ -1,5 +1,5 @@
 const build = [
-  "/static-poke-dex/_app/immutable/start-356a5cf3.js",
+  "/static-poke-dex/_app/immutable/start-59606f63.js",
   "/static-poke-dex/_app/immutable/pages/__layout.svelte-96ed4647.js",
   "/static-poke-dex/_app/immutable/assets/pages/__layout.svelte-b80a8c80.css",
   "/static-poke-dex/_app/immutable/error.svelte-336dfe63.js",
@@ -2330,7 +2330,7 @@ const files = [
   "/static-poke-dex/sprites/905.png",
   "/static-poke-dex/touch-icon.png"
 ];
-const version = "1660048509215";
+const version = "1660048750631";
 const worker = self;
 const VERSION = `cache${version}`;
 const cacheFiles = build.concat(files);
@@ -2354,7 +2354,6 @@ worker.addEventListener("fetch", function(event) {
   if (event.request.method !== "GET" || event.request.headers.has("range"))
     return;
   const url = new URL(event.request.url);
-  console.log("On fetch", event.request.url, url.pathname);
   if (staticAssets.has(url.pathname)) {
     event.respondWith(caches.match(event.request, {
       ignoreSearch: true
@@ -2362,7 +2361,6 @@ worker.addEventListener("fetch", function(event) {
       if (cached) {
         return cached;
       }
-      console.log("No cached, create", event.request.url);
       return fetch(event.request);
     }).then((response) => {
       return caches.open(VERSION).then((cache) => {
