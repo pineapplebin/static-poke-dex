@@ -5,21 +5,22 @@
   import { BOX_LIST } from '@/routes/constants/boxes';
   import { memoryData } from '@/shared/memoryData';
 
-  const OPTIONS: { label: string; value: number }[] = BOX_LIST.map((item, idx) => ({
-    label: item.title,
-    value: idx
-  })).reduce((acc, item) => {
-    const last = acc[acc.length - 1];
-    if (last) {
-      const parts = last.label.split(' ');
-      if (!new RegExp(`^${parts[0]}`).test(item.label) && /\d+$/.test(item.label)) {
-        acc.push(item);
-      }
-    } else {
-      acc.push(item);
-    }
-    return acc;
-  }, [] as any);
+  const PAGE_SIZE = 2;
+
+  const OPTIONS: { label: string; value: number }[] = [
+    'Kanto',
+    'Johto',
+    'Hoenn',
+    'Sinnoh',
+    'Unova',
+    'Kalos',
+    'Alola',
+    'Galar',
+    'Hisui'
+  ].map((region) => {
+    const index = BOX_LIST.findIndex((box) => new RegExp(`\^${region}`).test(box.title));
+    return { label: region, value: Math.floor(index / PAGE_SIZE) };
+  });
 
   export let open = false;
   let selection: number | null = $memoryData.currentIndex;

@@ -35,8 +35,12 @@
 <div class="background" />
 
 <div class="content" use:swipe on:swipe={handleSwipe}>
-  {#each pageList as box (box.title)}
-    <PokeBox {...box} on:detail={handleCheckDetail} />
+  {#each pageList as box, index (box.title)}
+    <PokeBox
+      {...box}
+      index={$memoryData.currentIndex * PAGE_SIZE + index}
+      on:detail={handleCheckDetail}
+    />
   {/each}
 </div>
 

@@ -107,7 +107,7 @@
             {form}
             on:click={handleShowAvailableDesc}
           />
-          <EvoChain slot="evo-chain" url={value?.info?.evolution_chain.url} {no} {form} />
+          <EvoChain slot="evo-chain" url={value?.info?.evolution_chain?.url} {no} {form} />
         </FormDetail>
       {/if}
     {:catch err}

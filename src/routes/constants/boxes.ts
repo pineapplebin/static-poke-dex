@@ -137,7 +137,7 @@ export function splitBoxByNo(title: string, start: number, end: number) {
 
   let count = 1;
   let current = start;
-  while (current < end) {
+  while (current <= end) {
     result.push({
       title: `${title} ${count}`,
       rule: `${current}-${Math.min(end, current + DELTA - 1)}`
@@ -155,7 +155,7 @@ export function splitBoxByRule(title: string, rule: string) {
   const list = rule.split(',');
   let count = 1;
   let current = 0;
-  while (current < list.length) {
+  while (current <= list.length) {
     result.push({
       title: `${title} ${count}`,
       rule: list.slice(current, current + DELTA).join(',')
@@ -168,7 +168,7 @@ export function splitBoxByRule(title: string, rule: string) {
 }
 
 export function switchBox(idx: number, delta: number, pageSize: number) {
-  const length = Math.floor(BOX_LIST.length / pageSize);
+  const length = Math.round(BOX_LIST.length / pageSize);
   let targetIndex = idx;
 
   targetIndex += delta;

@@ -26,8 +26,6 @@
     justify-content: flex-end;
     width: calc($w + $h / 2);
     height: calc(2 * $h);
-    // filter: drop-shadow(4px 4px 5px rgb(33 33 33 / 10%));
-    // border: 1px solid red;
 
     > .icon,
     > .ava {

@@ -7,6 +7,7 @@
 
   const dispatch = createEventDispatcher<{ detail: TParsedItem }>();
 
+  export let index: number = -1;
   export let title: string = '';
   export let rule: string = '';
 
@@ -44,7 +45,12 @@
 </script>
 
 <div class="container">
-  <div class="title">{title}</div>
+  <div class="title">
+    <span>{title}</span>
+    {#if index > -1}
+    <sup>[{index + 1}]</sup>
+    {/if}
+  </div>
 
   <div class="box">
     {#each cells as cell, index (index)}
@@ -104,5 +110,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
+
+    > sup {
+      font-size: 12px;
+    }
   }
 </style>
