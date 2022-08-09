@@ -1,5 +1,5 @@
 const build = [
-  "/static-poke-dex/_app/immutable/start-fab33dfc.js",
+  "/static-poke-dex/_app/immutable/start-356a5cf3.js",
   "/static-poke-dex/_app/immutable/pages/__layout.svelte-96ed4647.js",
   "/static-poke-dex/_app/immutable/assets/pages/__layout.svelte-b80a8c80.css",
   "/static-poke-dex/_app/immutable/error.svelte-336dfe63.js",
@@ -2330,19 +2330,14 @@ const files = [
   "/static-poke-dex/sprites/905.png",
   "/static-poke-dex/touch-icon.png"
 ];
-const version = "1660047371065";
+const version = "1660048509215";
 const worker = self;
 const VERSION = `cache${version}`;
 const cacheFiles = build.concat(files);
-worker.addEventListener("install", (ev) => {
+const staticAssets = new Set(cacheFiles);
+worker.addEventListener("install", () => {
   console.log("Start install");
-  ev.waitUntil(caches.open(VERSION).then((cache) => {
-    console.log("Opened cache");
-    return cache.addAll(cacheFiles);
-  }).then(() => {
-    console.log("Cache downloaded");
-    worker.skipWaiting();
-  }));
+  worker.skipWaiting();
 });
 worker.addEventListener("activate", (ev) => {
   console.log("Activated, remove old cached...");
@@ -2356,14 +2351,26 @@ worker.addEventListener("activate", (ev) => {
   }));
 });
 worker.addEventListener("fetch", function(event) {
-  console.log("On fetch", event.request.url);
-  event.respondWith(caches.match(event.request, {
-    ignoreSearch: true
-  }).then(function(response) {
-    if (response) {
-      return response;
-    }
-    console.log("cache miss", event.request.url);
+  if (event.request.method !== "GET" || event.request.headers.has("range"))
+    return;
+  const url = new URL(event.request.url);
+  console.log("On fetch", event.request.url, url.pathname);
+  if (staticAssets.has(url.pathname)) {
+    event.respondWith(caches.match(event.request, {
+      ignoreSearch: true
+    }).then(function(cached) {
+      if (cached) {
+        return cached;
+      }
+      console.log("No cached, create", event.request.url);
+      return fetch(event.request);
+    }).then((response) => {
+      return caches.open(VERSION).then((cache) => {
+        cache.put(event.request.url, response.clone());
+        return response;
+      });
+    }));
+  } else {
     return fetch(event.request);
-  }));
+  }
 });
