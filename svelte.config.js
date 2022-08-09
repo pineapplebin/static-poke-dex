@@ -11,6 +11,11 @@ const config = {
   preprocess: preprocess(),
 
   kit: {
+    serviceWorker: {
+      register: true,
+      files: (filepath) => !/\.DS_Store/.test(filepath) && !/\.nojekyll/.test(filepath)
+    },
+
     adapter: adapter({
       pages: 'build',
       assets: 'build',
