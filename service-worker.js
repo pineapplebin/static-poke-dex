@@ -1,59 +1,61 @@
 const build = [
-  "/static-poke-dex/_app/immutable/start-59606f63.js",
-  "/static-poke-dex/_app/immutable/pages/__layout.svelte-96ed4647.js",
+  "/static-poke-dex/_app/immutable/start-191d51de.js",
+  "/static-poke-dex/_app/immutable/pages/__layout.svelte-06ed2d82.js",
   "/static-poke-dex/_app/immutable/assets/pages/__layout.svelte-b80a8c80.css",
-  "/static-poke-dex/_app/immutable/error.svelte-336dfe63.js",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AvailableItem.svelte-1d87edd9.js",
+  "/static-poke-dex/_app/immutable/error.svelte-47559f9e.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AvailableItem.svelte-58c4dfa6.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/AvailableItem.svelte-58ff4ff3.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AvailableTable.svelte-6de79724.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AvailableTable.svelte-24ea75d2.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/AvailableTable.svelte-5e212240.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/EvoChain.svelte-8e543fb5.js",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/FormDetail.svelte-b5fae0c5.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/EvoChain.svelte-1ad12af5.js",
+  "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/EvoChain.svelte-bbbd26ae.css",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/EvoChainNode.svelte-2891d2cf.js",
+  "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/EvoChainNode.svelte-807f402e.css",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/FormDetail.svelte-d3363abc.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/FormDetail.svelte-a8719bb4.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/TitleTag.svelte-c96f4810.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/TitleTag.svelte-16967224.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/TitleTag.svelte-b3135e2a.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/TypeChart.svelte-c1879068.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/TypeChart.svelte-0680a77d.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/TypeChart.svelte-f6173c1b.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/TranslateHelper.svelte-ffee6fba.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/TranslateHelper.svelte-db329cbf.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/TranslateHelper.svelte-466bcae5.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/index.svelte-76a5e2f0.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/index.svelte-3363adcc.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/index.svelte-32b9f48c.css",
-  "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/index.svelte-8f22fa56.js",
+  "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/index.svelte-f6fbca0e.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/IndexMagicButton/index.svelte-d4698860.css",
-  "/static-poke-dex/_app/immutable/pages/components/PokeBox/index.svelte-3961bb0e.js",
+  "/static-poke-dex/_app/immutable/pages/components/PokeBox/index.svelte-32ddcb46.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/PokeBox/index.svelte-3554eb8b.css",
-  "/static-poke-dex/_app/immutable/pages/index.svelte-a4717d2d.js",
+  "/static-poke-dex/_app/immutable/pages/index.svelte-3773ad28.js",
   "/static-poke-dex/_app/immutable/assets/pages/index.svelte-53a7ae5c.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AttackTypeDialog.svelte-17c45ddb.js",
-  "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/components/FilterDialog.svelte-eb789d51.js",
-  "/static-poke-dex/_app/immutable/chunks/index-a1512193.js",
-  "/static-poke-dex/_app/immutable/chunks/index-db44a7a4.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AttackTypeDialog.svelte-9eb7ae28.js",
+  "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/components/FilterDialog.svelte-96409a60.js",
+  "/static-poke-dex/_app/immutable/chunks/index-3bc5192d.js",
+  "/static-poke-dex/_app/immutable/chunks/index-0b82803d.js",
   "/static-poke-dex/_app/immutable/chunks/paths-c0fc83a9.js",
   "/static-poke-dex/_app/immutable/chunks/preload-helper-936e422d.js",
-  "/static-poke-dex/_app/immutable/chunks/AttackTypeDialog-eb9fe048.js",
+  "/static-poke-dex/_app/immutable/chunks/AttackTypeDialog-46ae0cc1.js",
   "/static-poke-dex/_app/immutable/assets/AttackTypeDialog-5fc50001.css",
-  "/static-poke-dex/_app/immutable/chunks/Ripple-4e42e3fb.js",
-  "/static-poke-dex/_app/immutable/chunks/index-e7bbd0d1.js",
-  "/static-poke-dex/_app/immutable/chunks/type-chart-calc-7219e8a7.js",
+  "/static-poke-dex/_app/immutable/chunks/Ripple-9d2b0f42.js",
+  "/static-poke-dex/_app/immutable/chunks/index-f0729384.js",
+  "/static-poke-dex/_app/immutable/chunks/type-chart-calc-2ad9be3c.js",
   "/static-poke-dex/_app/immutable/assets/type-chart-calc-b509f884.css",
   "/static-poke-dex/_app/immutable/chunks/index-1a6731ea.js",
   "/static-poke-dex/_app/immutable/chunks/tslib-2c74db2e.js",
   "/static-poke-dex/_app/immutable/chunks/_commonjsHelpers-850449cf.js",
-  "/static-poke-dex/_app/immutable/chunks/SelectedArrow-277a1198.js",
+  "/static-poke-dex/_app/immutable/chunks/SelectedArrow-2608e346.js",
   "/static-poke-dex/_app/immutable/assets/SelectedArrow-7b4838ff.css",
-  "/static-poke-dex/_app/immutable/chunks/fetch-c004f49e.js",
-  "/static-poke-dex/_app/immutable/chunks/functional-2a297cb6.js",
-  "/static-poke-dex/_app/immutable/chunks/index-3b993099.js",
-  "/static-poke-dex/_app/immutable/chunks/index-e70ef76b.js",
+  "/static-poke-dex/_app/immutable/chunks/index-e864ac84.js",
   "/static-poke-dex/_app/immutable/assets/index-dac1dde1.css",
   "/static-poke-dex/_app/immutable/assets/pokesprite-pokemon-gen8-a864de23.png",
+  "/static-poke-dex/_app/immutable/chunks/fetch-0131095a.js",
+  "/static-poke-dex/_app/immutable/chunks/index-85496082.js",
   "/static-poke-dex/_app/immutable/chunks/_arrayMap-2f79ae2a.js",
   "/static-poke-dex/_app/immutable/chunks/isObjectLike-8567252c.js",
   "/static-poke-dex/_app/immutable/chunks/isObject-4e76745d.js",
   "/static-poke-dex/_app/immutable/chunks/styles-58aceedb.js",
   "/static-poke-dex/_app/immutable/chunks/isSymbol-cc5748dc.js",
   "/static-poke-dex/_app/immutable/chunks/draggable-d90d0b70.js",
-  "/static-poke-dex/_app/immutable/chunks/FilterDialog-5cb2c712.js",
+  "/static-poke-dex/_app/immutable/chunks/FilterDialog-3291a6cc.js",
   "/static-poke-dex/_app/immutable/chunks/001-49ff5d45.js",
   "/static-poke-dex/_app/immutable/chunks/002-2b74dba0.js",
   "/static-poke-dex/_app/immutable/chunks/003-8a087b83.js",
@@ -2330,7 +2332,7 @@ const files = [
   "/static-poke-dex/sprites/905.png",
   "/static-poke-dex/touch-icon.png"
 ];
-const version = "1660048750631";
+const version = "1660134802812";
 const worker = self;
 const VERSION = `cache${version}`;
 const cacheFiles = build.concat(files);
@@ -2347,7 +2349,6 @@ worker.addEventListener("activate", (ev) => {
         return caches.delete(key);
       }
     }));
-    worker.clients.claim();
   }));
 });
 worker.addEventListener("fetch", function(event) {
@@ -2362,13 +2363,10 @@ worker.addEventListener("fetch", function(event) {
         return cached;
       }
       return fetch(event.request);
-    }).then((response) => {
-      return caches.open(VERSION).then((cache) => {
-        cache.put(event.request.url, response.clone());
-        return response;
-      });
+    }).then(async (response) => {
+      const cache = await caches.open(VERSION);
+      cache.put(event.request.url, response.clone());
+      return response;
     }));
-  } else {
-    return fetch(event.request);
   }
 });
