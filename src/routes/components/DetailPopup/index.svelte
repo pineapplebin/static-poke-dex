@@ -125,7 +125,7 @@
   .detail {
     position: relative;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
   }
 
   .sprite {

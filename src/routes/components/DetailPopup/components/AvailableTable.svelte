@@ -14,7 +14,7 @@
         (form && staticInfo.formsAvailable && form in staticInfo.formsAvailable
           ? staticInfo.formsAvailable[form]
           : staticInfo.available) || [];
-      availableList = list.reverse();
+      availableList = list.slice().reverse();
     } else {
       availableList = [];
     }

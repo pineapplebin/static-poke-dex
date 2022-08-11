@@ -1,6 +1,7 @@
 import type { EvolutionChain, ChainLink, EvolutionDetail } from 'pokenode-ts';
 import { utilClient } from '../fetch';
 import { fillNo } from '@/utils/functional';
+import type { PromiseResolved } from '@/utils/type-utils';
 
 interface TFetchEvoChainData {
   no: string | number | null;
@@ -59,6 +60,38 @@ export async function fetchEvoChain(data: TFetchEvoChainData) {
   } while (queue.length);
 
   return { nodes, edges };
+}
+
+type TEvoChainData = PromiseResolved<ReturnType<typeof fetchEvoChain>>;
+
+export type TEvoGraphNode = {
+  detail: EvolutionDetail | null;
+  node: TEvoChainNode;
+  next?: TEvoGraphNode[];
+};
+
+export function constructEvoGraph(data: TEvoChainData): TEvoGraphNode {
+  const root = data.nodes.find((n) => n.root);
+  if (!root) {
+    throw new Error('invalid target to build evolution graph');
+  }
+
+  const next: TEvoGraphNode[] = data.edges
+    .filter((e) => e.from === root.id)
+    .map((edge) => buildGraphNode(edge, data));
+
+  return { detail: null, node: root, next };
+}
+
+function buildGraphNode(edge: TEvoChainEdge, data: TEvoChainData): TEvoGraphNode {
+  const node = data.nodes.find((n) => n.id === edge.to);
+  if (!node) {
+    throw new Error('invalid target to build graph node');
+  }
+  const next = data.edges
+    .filter((e) => e.from === node.id)
+    .map((edge) => buildGraphNode(edge, data));
+  return { node, detail: edge.detail, next: next.length ? next : undefined };
 }
 
 function extractNoFromResourceUrl(url: string) {

@@ -27,7 +27,6 @@ worker.addEventListener('activate', (ev) => {
           }
         })
       );
-      worker.clients.claim();
     })
   );
 });
@@ -52,14 +51,11 @@ worker.addEventListener('fetch', function (event) {
           // console.log('No cached, create', event.request.url);
           return fetch(event.request);
         })
-        .then((response) => {
-          return caches.open(VERSION).then((cache) => {
-            cache.put(event.request.url, response.clone());
-            return response;
-          });
+        .then(async (response) => {
+          const cache = await caches.open(VERSION);
+          cache.put(event.request.url, response.clone());
+          return response;
         })
     );
-  } else {
-    return fetch(event.request);
   }
 });

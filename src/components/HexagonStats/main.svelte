@@ -30,6 +30,10 @@
     padding: 40px 0 26px 0;
   }
 
+  :global(.container > svg) {
+    pointer-events: none;
+  }
+
   .text {
     position: absolute;
     transform: translateX(-50%);
