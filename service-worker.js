@@ -1,5 +1,5 @@
 const build = [
-  "/static-poke-dex/_app/immutable/start-358000e2.js",
+  "/static-poke-dex/_app/immutable/start-91d59dc0.js",
   "/static-poke-dex/_app/immutable/pages/__layout.svelte-a50b6333.js",
   "/static-poke-dex/_app/immutable/assets/pages/__layout.svelte-b80a8c80.css",
   "/static-poke-dex/_app/immutable/error.svelte-78d3f321.js",
@@ -21,14 +21,14 @@ const build = [
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/TranslateHelper.svelte-466bcae5.css",
   "/static-poke-dex/_app/immutable/pages/components/DetailPopup/index.svelte-c69b686d.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/index.svelte-79d35d2f.css",
-  "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/index.svelte-a06bb8c5.js",
-  "/static-poke-dex/_app/immutable/assets/pages/components/IndexMagicButton/index.svelte-d4698860.css",
-  "/static-poke-dex/_app/immutable/pages/components/PokeBox/index.svelte-9ba9bded.js",
-  "/static-poke-dex/_app/immutable/assets/pages/components/PokeBox/index.svelte-3554eb8b.css",
-  "/static-poke-dex/_app/immutable/pages/index.svelte-70cd6f0b.js",
+  "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/index.svelte-1eff475c.js",
+  "/static-poke-dex/_app/immutable/assets/pages/components/IndexMagicButton/index.svelte-65cb8cc4.css",
+  "/static-poke-dex/_app/immutable/pages/components/PokeBox/index.svelte-5095acb7.js",
+  "/static-poke-dex/_app/immutable/assets/pages/components/PokeBox/index.svelte-6523b523.css",
+  "/static-poke-dex/_app/immutable/pages/index.svelte-4a661472.js",
   "/static-poke-dex/_app/immutable/assets/pages/index.svelte-53a7ae5c.css",
   "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AttackTypeDialog.svelte-b607e517.js",
-  "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/components/FilterDialog.svelte-4c12d3d8.js",
+  "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/components/FilterDialog.svelte-a8010343.js",
   "/static-poke-dex/_app/immutable/chunks/index-b677f905.js",
   "/static-poke-dex/_app/immutable/chunks/index-5af352b9.js",
   "/static-poke-dex/_app/immutable/chunks/paths-c0fc83a9.js",
@@ -55,7 +55,9 @@ const build = [
   "/static-poke-dex/_app/immutable/chunks/index-71d09209.js",
   "/static-poke-dex/_app/immutable/chunks/isObject-4e76745d.js",
   "/static-poke-dex/_app/immutable/chunks/draggable-d90d0b70.js",
-  "/static-poke-dex/_app/immutable/chunks/FilterDialog-2c2d6f42.js",
+  "/static-poke-dex/_app/immutable/chunks/FilterDialog-727d2caf.js",
+  "/static-poke-dex/_app/immutable/chunks/memoryData-259d91a4.js",
+  "/static-poke-dex/_app/immutable/chunks/magicButtonData-1d11839b.js",
   "/static-poke-dex/_app/immutable/chunks/001-49ff5d45.js",
   "/static-poke-dex/_app/immutable/chunks/002-2b74dba0.js",
   "/static-poke-dex/_app/immutable/chunks/003-8a087b83.js",
@@ -2332,7 +2334,7 @@ const files = [
   "/static-poke-dex/sprites/905.png",
   "/static-poke-dex/touch-icon.png"
 ];
-const version = "1660198315056";
+const version = "1661157805255";
 const worker = self;
 const VERSION = `cache${version}`;
 const cacheFiles = build.concat(files);
