@@ -2,8 +2,10 @@
   import { createEventDispatcher } from 'svelte';
   import { scale } from 'svelte/transition';
   import { flip } from 'svelte/animate';
-  import PokeIcon from '@/components/PokeIcon/index.svelte';
   import { parseRule, type TParsedItem } from './utils';
+  import PokeIcon from '@/components/PokeIcon/index.svelte';
+  import { magicButtonData } from '@/shared/magicButtonData';
+  import { memoryData } from '@/shared/memoryData';
 
   const dispatch = createEventDispatcher<{ detail: TParsedItem }>();
 
@@ -39,7 +41,13 @@
 
   function handleDetail(cell: TParsedItem) {
     setTimeout(() => {
-      dispatch('detail', cell);
+      // 处理选中
+      if ($magicButtonData.mode === 'select') {
+        const key = `${cell.no}-${cell.form}`;
+        $memoryData.selectedPoke[key] = !$memoryData.selectedPoke[key];
+      } else {
+        dispatch('detail', cell);
+      }
     }, 100);
   }
 </script>
@@ -48,7 +56,7 @@
   <div class="title">
     <span>{title}</span>
     {#if index > -1}
-    <sup>[{index + 1}]</sup>
+      <sup>[{index + 1}]</sup>
     {/if}
   </div>
 
@@ -64,6 +72,12 @@
         }}
       >
         <PokeIcon no={cell.no} form={cell.icon ?? cell.form} />
+        {#if $memoryData.selectedPoke[`${cell.no}-${cell.form}`]}
+          <div class="temp-mark top-left" />
+          <div class="temp-mark top-right" />
+          <div class="temp-mark bottom-left" />
+          <div class="temp-mark bottom-right" />
+        {/if}
       </div>
     {/each}
   </div>
@@ -73,17 +87,18 @@
   .box {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: 50px;
+    grid-auto-rows: 55px;
     grid-gap: 8px 0;
-    min-height: 290px;
+    min-height: 310px;
   }
 
   .box-cell {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 60px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.6);
     margin: 0 auto;
@@ -114,6 +129,24 @@
 
     > sup {
       font-size: 12px;
+    }
+  }
+
+  .temp-mark {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+
+    @each $p1 in 'top', 'bottom' {
+      @each $p2 in 'left', 'right' {
+        &.#{$p1}-#{$p2} {
+          border-#{$p1}: 4px solid rgba(36, 127, 17, 0.3);
+          border-#{$p2}: 4px solid rgba(36, 127, 17, 0.3);
+          border-#{$p1}-#{$p2}-radius: 10px;
+          #{$p1}: 0;
+          #{$p2}: 0;
+        }
+      }
     }
   }
 </style>
