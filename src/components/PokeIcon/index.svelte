@@ -1,5 +1,5 @@
 <script lang="ts">
-  import './pokesprite-pokemon-gen8.css';
+  import './pokemon-icon.css';
   import MAPPING from './mapping.json';
   import { fillNo } from '@/utils/functional';
 
