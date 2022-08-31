@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-2f63a272.js",
+    "file": "start-4921765e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -76,15 +76,15 @@
     ]
   },
   "src/routes/components/DetailPopup/components/EvoChain.svelte": {
-    "file": "pages/components/DetailPopup/components/EvoChain.svelte-e8dc4ae3.js",
+    "file": "pages/components/DetailPopup/components/EvoChain.svelte-2b95f8ba.js",
     "src": "src/routes/components/DetailPopup/components/EvoChain.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b677f905.js",
       "src/routes/components/DetailPopup/components/EvoChainNode.svelte",
-      "_fetch-2dec8569.js",
-      "_index-98cd31b4.js",
+      "_fetch-6db92947.js",
+      "_index-2e728f01.js",
       "_styles-b21c726b.js",
       "_isObjectLike-a1b535b6.js",
       "__commonjsHelpers-850449cf.js",
@@ -99,14 +99,14 @@
     ]
   },
   "src/routes/components/DetailPopup/components/EvoChainNode.svelte": {
-    "file": "pages/components/DetailPopup/components/EvoChainNode.svelte-ed5f9bd3.js",
+    "file": "pages/components/DetailPopup/components/EvoChainNode.svelte-0858bde0.js",
     "src": "src/routes/components/DetailPopup/components/EvoChainNode.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b677f905.js",
-      "_index-98cd31b4.js",
-      "_fetch-2dec8569.js",
+      "_index-2e728f01.js",
+      "_fetch-6db92947.js",
       "_styles-b21c726b.js",
       "_index-1a6731ea.js",
       "_tslib-2c74db2e.js",
@@ -121,17 +121,17 @@
     ]
   },
   "src/routes/components/DetailPopup/components/FormDetail.svelte": {
-    "file": "pages/components/DetailPopup/components/FormDetail.svelte-9bca9d7e.js",
+    "file": "pages/components/DetailPopup/components/FormDetail.svelte-a86ed2bb.js",
     "src": "src/routes/components/DetailPopup/components/FormDetail.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b677f905.js",
       "_index-71d09209.js",
-      "_index-98cd31b4.js",
+      "_index-2e728f01.js",
       "_type-chart-calc-da0b8f05.js",
       "_SelectedArrow-727caf0e.js",
-      "_fetch-2dec8569.js",
+      "_fetch-6db92947.js",
       "src/routes/components/DetailPopup/components/TitleTag.svelte",
       "src/routes/components/DetailPopup/components/TypeChart.svelte",
       "_isObjectLike-a1b535b6.js",
@@ -192,7 +192,7 @@
     ]
   },
   "src/routes/components/DetailPopup/index.svelte": {
-    "file": "pages/components/DetailPopup/index.svelte-e1865d9a.js",
+    "file": "pages/components/DetailPopup/index.svelte-9b9b974d.js",
     "src": "src/routes/components/DetailPopup/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -203,8 +203,8 @@
       "_AttackTypeDialog-31420bdc.js",
       "_index-17cc84e7.js",
       "_index-5af352b9.js",
-      "_fetch-2dec8569.js",
-      "_index-98cd31b4.js",
+      "_fetch-6db92947.js",
+      "_index-2e728f01.js",
       "_tslib-2c74db2e.js",
       "_index-71d09209.js",
       "_draggable-d90d0b70.js",
@@ -258,14 +258,14 @@
     ]
   },
   "src/routes/components/PokeBox/index.svelte": {
-    "file": "pages/components/PokeBox/index.svelte-0e409b56.js",
+    "file": "pages/components/PokeBox/index.svelte-a9c3be3c.js",
     "src": "src/routes/components/PokeBox/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-b677f905.js",
       "_index-71d09209.js",
-      "_index-98cd31b4.js",
+      "_index-2e728f01.js",
       "_magicButtonData-1d11839b.js",
       "_memoryData-259d91a4.js",
       "_index-5af352b9.js",
@@ -279,7 +279,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-dcba5765.js",
+    "file": "pages/index.svelte-0ef98c75.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -303,12 +303,12 @@
       "_styles-b21c726b.js",
       "__arrayMap-2f79ae2a.js",
       "_magicButtonData-1d11839b.js",
-      "_index-98cd31b4.js",
+      "_index-2e728f01.js",
       "_paths-c0fc83a9.js",
       "_AttackTypeDialog-31420bdc.js",
       "_type-chart-calc-da0b8f05.js",
       "_index-1a6731ea.js",
-      "_fetch-2dec8569.js",
+      "_fetch-6db92947.js",
       "_preload-helper-936e422d.js",
       "src/routes/components/DetailPopup/components/FormDetail.svelte",
       "_SelectedArrow-727caf0e.js",
@@ -433,16 +433,16 @@
       "assets/SelectedArrow-7b4838ff.css"
     ]
   },
-  "_index-98cd31b4.js": {
-    "file": "chunks/index-98cd31b4.js",
+  "_index-2e728f01.js": {
+    "file": "chunks/index-2e728f01.js",
     "imports": [
       "_index-b677f905.js"
     ],
     "css": [
-      "assets/index-a777ee20.css"
+      "assets/index-1381b7f6.css"
     ],
     "assets": [
-      "assets/pokemon-icon.min-7ae68d86.png"
+      "assets/pokemon-icon.min-f272ba2b.png"
     ]
   },
   "_styles-b21c726b.js": {
@@ -453,12 +453,12 @@
       "_isSymbol-fd7712af.js"
     ]
   },
-  "_fetch-2dec8569.js": {
-    "file": "chunks/fetch-2dec8569.js",
+  "_fetch-6db92947.js": {
+    "file": "chunks/fetch-6db92947.js",
     "imports": [
       "_index-1a6731ea.js",
       "_preload-helper-936e422d.js",
-      "_index-98cd31b4.js"
+      "_index-2e728f01.js"
     ],
     "dynamicImports": [
       "src/data/static-json/001.json",

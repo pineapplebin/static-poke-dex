@@ -1,5 +1,5 @@
 const build = [
-  "/static-poke-dex/_app/immutable/start-2f63a272.js",
+  "/static-poke-dex/_app/immutable/start-4921765e.js",
   "/static-poke-dex/_app/immutable/pages/__layout.svelte-a50b6333.js",
   "/static-poke-dex/_app/immutable/assets/pages/__layout.svelte-b80a8c80.css",
   "/static-poke-dex/_app/immutable/error.svelte-78d3f321.js",
@@ -7,11 +7,11 @@ const build = [
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/AvailableItem.svelte-58ff4ff3.css",
   "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AvailableTable.svelte-56f62d11.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/AvailableTable.svelte-5e212240.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/EvoChain.svelte-e8dc4ae3.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/EvoChain.svelte-2b95f8ba.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/EvoChain.svelte-bbbd26ae.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/EvoChainNode.svelte-ed5f9bd3.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/EvoChainNode.svelte-0858bde0.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/EvoChainNode.svelte-81dd7520.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/FormDetail.svelte-9bca9d7e.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/FormDetail.svelte-a86ed2bb.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/FormDetail.svelte-d7e0390f.css",
   "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/TitleTag.svelte-5d42efdc.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/TitleTag.svelte-b3135e2a.css",
@@ -19,13 +19,13 @@ const build = [
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/TypeChart.svelte-f6173c1b.css",
   "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/TranslateHelper.svelte-7aba81c1.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/components/TranslateHelper.svelte-466bcae5.css",
-  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/index.svelte-e1865d9a.js",
+  "/static-poke-dex/_app/immutable/pages/components/DetailPopup/index.svelte-9b9b974d.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/DetailPopup/index.svelte-79d35d2f.css",
   "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/index.svelte-1eff475c.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/IndexMagicButton/index.svelte-65cb8cc4.css",
-  "/static-poke-dex/_app/immutable/pages/components/PokeBox/index.svelte-0e409b56.js",
+  "/static-poke-dex/_app/immutable/pages/components/PokeBox/index.svelte-a9c3be3c.js",
   "/static-poke-dex/_app/immutable/assets/pages/components/PokeBox/index.svelte-6523b523.css",
-  "/static-poke-dex/_app/immutable/pages/index.svelte-dcba5765.js",
+  "/static-poke-dex/_app/immutable/pages/index.svelte-0ef98c75.js",
   "/static-poke-dex/_app/immutable/assets/pages/index.svelte-53a7ae5c.css",
   "/static-poke-dex/_app/immutable/pages/components/DetailPopup/components/AttackTypeDialog.svelte-b607e517.js",
   "/static-poke-dex/_app/immutable/pages/components/IndexMagicButton/components/FilterDialog.svelte-a8010343.js",
@@ -44,11 +44,11 @@ const build = [
   "/static-poke-dex/_app/immutable/chunks/_commonjsHelpers-850449cf.js",
   "/static-poke-dex/_app/immutable/chunks/SelectedArrow-727caf0e.js",
   "/static-poke-dex/_app/immutable/assets/SelectedArrow-7b4838ff.css",
-  "/static-poke-dex/_app/immutable/chunks/index-98cd31b4.js",
-  "/static-poke-dex/_app/immutable/assets/index-a777ee20.css",
-  "/static-poke-dex/_app/immutable/assets/pokemon-icon.min-7ae68d86.png",
+  "/static-poke-dex/_app/immutable/chunks/index-2e728f01.js",
+  "/static-poke-dex/_app/immutable/assets/index-1381b7f6.css",
+  "/static-poke-dex/_app/immutable/assets/pokemon-icon.min-f272ba2b.png",
   "/static-poke-dex/_app/immutable/chunks/styles-b21c726b.js",
-  "/static-poke-dex/_app/immutable/chunks/fetch-2dec8569.js",
+  "/static-poke-dex/_app/immutable/chunks/fetch-6db92947.js",
   "/static-poke-dex/_app/immutable/chunks/isObjectLike-a1b535b6.js",
   "/static-poke-dex/_app/immutable/chunks/_arrayMap-2f79ae2a.js",
   "/static-poke-dex/_app/immutable/chunks/isSymbol-fd7712af.js",
@@ -2334,7 +2334,7 @@ const files = [
   "/static-poke-dex/sprites/905.png",
   "/static-poke-dex/touch-icon.png"
 ];
-const version = "1661939217824";
+const version = "1661958863464";
 const worker = self;
 const VERSION = `cache${version}`;
 const cacheFiles = build.concat(files);
