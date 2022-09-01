@@ -1,1 +1,0 @@
-const a="733",t=733,n={jpn:"\u30C9\u30C7\u30AB\u30D0\u30B7",chs:"\u94F3\u5634\u5927\u9E1F"},s="toucannon",o=[{generation:"VII",games:["s","m","us","um"],available:["E","E","C","C"]}],e=[];var l={no:a,idx:733,name:n,slug:s,available:o,forms:e};export{o as available,l as default,e as forms,t as idx,n as name,a as no,s as slug};

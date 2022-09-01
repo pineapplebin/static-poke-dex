@@ -1,1 +1,0 @@
-const a="904",l=904,n={jpn:"\u30CF\u30EA\u30FC\u30DE\u30F3",chs:"\u842C\u91DD\u9B5A"},o="overqwil",s=[{generation:"VIII",games:["la"],available:["C"]}],e=[];var t={no:a,idx:904,name:n,slug:o,available:s,forms:e};export{s as available,t as default,e as forms,l as idx,n as name,a as no,o as slug};
