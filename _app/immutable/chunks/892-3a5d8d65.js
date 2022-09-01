@@ -1,0 +1,1 @@
+const a="892",o=892,s={jpn:"\u30A6\u30FC\u30E9\u30AA\u30B9",chs:"\u6B66\u9053\u718A\u5E2B"},n="urshifu",e=[{generation:"VIII",games:["sw","sh"],available:["ED","ED"]}],i=["gmax","rapid-strike-gmax","single-strike-gmax"];var t={no:a,idx:892,name:s,slug:n,available:e,forms:i};export{e as available,t as default,i as forms,o as idx,s as name,a as no,n as slug};

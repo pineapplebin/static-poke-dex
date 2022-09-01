@@ -1,0 +1,1 @@
+const a="814",t=814,s={jpn:"\u30E9\u30D3\u30D5\u30C3\u30C8",chs:"\u817E\u8E74\u5C0F\u5C06"},o="raboot",n=[{generation:"VIII",games:["sw","sh"],available:["E","E"]}],e=[];var l={no:a,idx:814,name:s,slug:o,available:n,forms:e};export{n as available,l as default,e as forms,t as idx,s as name,a as no,o as slug};
