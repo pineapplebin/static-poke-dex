@@ -120,7 +120,7 @@ export const BOX_LIST = [
   ),
   {
     title: 'Hisui 1',
-    rule: '899-905,905|therian'
+    rule: '899-902,902|female,903-905,905|therian'
   },
   {
     title: 'Hisui Forms',
