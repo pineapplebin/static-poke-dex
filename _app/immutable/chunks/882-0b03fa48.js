@@ -1,0 +1,1 @@
+const a="882",l=882,s={jpn:"\u30A6\u30AA\u30CE\u30E9\u30B4\u30F3",chs:"\u9CC3\u9C7C\u9F99"},n="dracovish",o=[{generation:"VIII",games:["sw","sh"],available:["R","R"]}],e=[];var t={no:a,idx:882,name:s,slug:n,available:o,forms:e};export{o as available,t as default,e as forms,l as idx,s as name,a as no,n as slug};

@@ -1,0 +1,1 @@
+const a="877",e=877,s={jpn:"\u30E2\u30EB\u30DA\u30B3",chs:"\u83AB\u9C81\u8D1D\u53EF"},n="morpeko",o=[{generation:"VIII",games:["sw","sh"],available:["C","C"]}],l=["full-belly","hangry"];var t={no:a,idx:877,name:s,slug:n,available:o,forms:l};export{o as available,t as default,l as forms,e as idx,s as name,a as no,n as slug};

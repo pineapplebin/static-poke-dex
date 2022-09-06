@@ -1,0 +1,1 @@
+const a="809",o=809,e={jpn:"\u30E1\u30EB\u30E1\u30BF\u30EB",chs:"\u7F8E\u5F55\u6885\u5854"},s="melmetal",l=[{generation:"VII",games:["lp","le"],available:["T","T"]},{generation:"VIII",games:["sw","sh"],available:["T","T"]}],n=["gmax"];var t={no:a,idx:809,name:e,slug:s,available:l,forms:n};export{l as available,t as default,n as forms,o as idx,e as name,a as no,s as slug};
