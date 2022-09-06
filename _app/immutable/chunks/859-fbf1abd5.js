@@ -1,1 +1,0 @@
-const a="859",i=859,s={jpn:"\u30D9\u30ED\u30D0\u30FC",chs:"\u6363\u86CB\u5C0F\u5996"},n="impidimp",o=[{generation:"VIII",games:["sw","sh"],available:["C","C"]}],e=[];var l={no:a,idx:859,name:s,slug:n,available:o,forms:e};export{o as available,l as default,e as forms,i as idx,s as name,a as no,n as slug};
